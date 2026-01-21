@@ -1,8 +1,8 @@
-# 🇫🇷 French vACC vATIS Profiles
+# 🇫🇷 French vATIS Profiles
 
 ## ✈️ About
 
-This repository contains the **official vATIS profiles** used by **French vACC controllers** on VATSIM.
+This repository contains **my personal vATIS profiles** used on VATSIM.
 
 > ⚠️ **Compatibility Notice**  
 > These profiles are **only compatible with vATIS `4.1.0-beta.19` and later** (cross-platform).  
@@ -18,28 +18,6 @@ This repository contains the **official vATIS profiles** used by **French vACC c
 ---
 
 ## 🗺️ Supported Airports
-
-### 🟦 LFBB — Bordeaux FIR
-- **LFBD** — Bordeaux  
-- **LFBE** — Bergerac  
-- **LFBH** — La Rochelle  
-- **LFBI** — Poitiers  
-- **LFMK** — Carcassonne  
-- **LFBL** — Limoges  
-- **LFBO** — Toulouse  
-- **LFBP** — Pau  
-- **LFBT** — Tarbes  
-- **LFBZ** — Biarritz  
-
----
-
-### 🟩 LFEE — Reims FIR
-- **LFGA** — Colmar  
-- **LFJL** — Metz  
-- **LFSB** — Basel-Mulhouse  
-- **LFST** — Strasbourg  
-
----
 
 ### 🟥 LFFF — Paris FIR
 - **LFAT** — Le Touquet  
@@ -95,16 +73,6 @@ This repository contains the **official vATIS profiles** used by **French vACC c
 
 #### TMA Saint-Yan
 - **LFLN** — Saint-Yan
-
----
-
-### 🟪 LFRR — Brest FIR
-- **LFRB** — Brest  
-- **LFRD** — Dinard  
-- **LFRG** — Rennes  
-- **LFRK** — Caen  
-- **LFRN** — Rennes  
-- **LFRS** — Nantes  
 
 ---
 

@@ -1,6 +1,8 @@
 {
-  "name": "Paris (LFFF) - 06 NOV 25",
+  "name": "FIR LFFF (21/01/2026)",
   "id": "85edadc3-0f54-45f0-bdc9-3c4b5af7363d",
+    "updateUrl": "https://raw.githubusercontent.com/DedpewlControl/vatis-profiles/refs/heads/main/FIR%20LFFF%20Paris.json",
+  "updateSerial": 2026012101,
   "stations": [
     {
       "id": "674f7554-a919-4595-b692-86f1d2f5ed3f",

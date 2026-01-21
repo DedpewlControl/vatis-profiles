@@ -1,74 +1,115 @@
-# French vACC vATIS Profiles
+# 🇫🇷 French vACC vATIS Profiles
 
-## About
+## ✈️ About
 
-This repository contains the vATIS Profiles used by French vACC Controllers.
+This repository contains the **official vATIS profiles** used by **French vACC controllers** on VATSIM.
 
-> [!CAUTION]
-> The profiles are now only compatible with vATIS 4.1.0 and above (X-Platform) available here: https://vatis.app.
+> ⚠️ **Compatibility Notice**  
+> These profiles are **only compatible with vATIS `4.1.0-beta.19` and later** (cross-platform).  
+> 👉 Download vATIS here: https://vatis.app
 
-## Download
+> 💡 **Automatic Updates Enabled**  
+> Profiles only need to be imported **once**.  
+> All future updates are delivered **automatically**.  
+>  
+> You can verify your profile version by checking the **date displayed next to the profile name** in vATIS  
+> (e.g. `FIR LFMM (21/01/2026)`).
 
-[![Release](https://img.shields.io/github/v/release/vaccfr/vatis-profiles?style=for-the-badge&color=green)][1]
+---
 
-[1]: https://github.com/vaccfr/vatis-profiles/releases/latest
+## 🗺️ Supported Airports
 
-## Supported Airports
+### 🟦 LFBB — Bordeaux FIR
+- **LFBD** — Bordeaux  
+- **LFBE** — Bergerac  
+- **LFBH** — La Rochelle  
+- **LFBI** — Poitiers  
+- **LFMK** — Carcassonne  
+- **LFBL** — Limoges  
+- **LFBO** — Toulouse  
+- **LFBP** — Pau  
+- **LFBT** — Tarbes  
+- **LFBZ** — Biarritz  
 
-### LFBB
+---
 
-- LFBD: Bordeaux
-- LFBE: Bergerac
-- LFBH: La Rochelle
-- LFBI: Poitiers
-- LFMK: Carcasonne
-- LFBL: Limoges
-- LFBO: Toulouse
-- LFBP: Pau
-- LFBT: Tarbes
-- LFBZ: Biarritz
+### 🟩 LFEE — Reims FIR
+- **LFGA** — Colmar  
+- **LFJL** — Metz  
+- **LFSB** — Basel-Mulhouse  
+- **LFST** — Strasbourg  
 
-### LFEE
+---
 
-- LFGA: Colmar
-- LFJL: Metz
-- LFSB: Bale
-- LFST: Strasbourg
+### 🟥 LFFF — Paris FIR
+- **LFAT** — Le Touquet  
+- **LFOB** — Beauvais  
+- **LFPB** — Paris Le Bourget  
+- **LFPG** — Paris Charles de Gaulle  
+- **LFPO** — Paris Orly  
+- **LFPN** — Paris-Saclay-Versailles  
+- **LFQQ** — Lille  
 
-### LFFF
+---
 
-- LFAT: Le Touquet
-- LFOB: Beauvais
-- LFPB: Paris Le Bourget
-- LFPG: Paris CDG
-- LFPO: Paris Orly
-- LFPN: Paris-Saclay-Versailles
-- LFQQ: Lille
+### 🟨 LFMM — Marseille FIR
 
-### LFMM
+#### TMA Ajaccio
+- **LFKF** — Figari
+- **LFKJ** — Ajaccio
 
-- LFKB: Bastia
-- LFKC: Calvi
-- LFKF: Figari
-- LFKJ: Ajaccio
-- LFLB: Chambery
-- LFLC: Clermont-Ferrand
-- LFLL: Lyon
-- LFLS: Grenoble
-- LFLY: Bron
-- LFMD: Cannes
-- LFML: Marseille
-- LFMN: Nice
-- LFMP: Perpignan
-- LFMT: Montpellier
-- LFMU: Beziers
-- LFTW: Nimes
+#### TMA Bastia
+- **LFKB** — Bastia
+- **LFKC** — Calvi
 
-### LFRR
+#### TMA Chambéry
+- **LFLB** — Chambéry
 
-- LFRB: Brest
-- LFRD: Dinard
-- LFRG: Rennes
-- LFRK: Caen
-- LFRN: Rennes
-- LFRS: Nantes
+#### TMA Clermont
+- **LFCR** — Rodez
+- **LFLC** — Clermont-Ferrand
+
+#### TMA Lyon
+- **LFLG** — Grenoble Le Versoud
+- **LFLL** — Lyon Saint-Exupery *D-ATIS*
+- **LFLS** — Grenoble Alpes Isere
+- **LFLY** — Lyon Bron
+- **LFMH** — Saint Etienne
+
+#### TMA Marseille
+- **LFMA** — Aix
+- **LFML** — Provence
+- **LFMV** — Avignon
+
+#### TMA Montpellier
+- **LFMP** — Perpignan
+- **LFMT** — Montpellier
+- **LFMU** — Béziers
+- **LFTW** — Nimes
+
+#### TMA Nice
+- **LFMC** — Le Luc *WIP*
+- **LFMD** — Cannes
+- **LFMN** — Nice *D-ATIS*
+- **LFTH** — Hyeres
+
+#### TMA Saint-Yan
+- **LFLN** — Saint-Yan
+
+---
+
+### 🟪 LFRR — Brest FIR
+- **LFRB** — Brest  
+- **LFRD** — Dinard  
+- **LFRG** — Rennes  
+- **LFRK** — Caen  
+- **LFRN** — Rennes  
+- **LFRS** — Nantes  
+
+---
+
+## 🤝 Contributing
+Contributions, fixes, and enhancements are welcome.  
+Please ensure profiles remain **standardized** and **vATIS-compatible**.
+
+---

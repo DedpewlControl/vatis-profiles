@@ -2072,11 +2072,6 @@
           "voice": "FIGAARY"
         },
         {
-          "variableName": "FGI",
-          "text": "FGI",
-          "voice": "FIGAARY"
-        },
-        {
           "variableName": "RNP_Z",
           "text": "RNP Z",
           "voice": "RNP ZULU"
@@ -2085,12 +2080,17 @@
           "variableName": "RNP_Y",
           "text": "RNP Y",
           "voice": "RNP YANKEE"
+        },
+        {
+          "variableName": "LOCDME",
+          "text": "LOC/DME",
+          "voice": "LOCALIZER DME"
         }
       ],
       "airportConditionDefinitions": [],
       "notamDefinitions": [
         {
-          "text": "LOC/DME UNSERVICEABLE.",
+          "text": "LOCDME UNSERVICEABLE.",
           "ordinal": 1,
           "enabled": false
         },
@@ -4256,11 +4256,6 @@
           "voice": "UHZHAKSEEOW"
         },
         {
-          "variableName": "AJO",
-          "text": "AJO",
-          "voice": "UHZHAKSEEOW"
-        },
-        {
           "variableName": "ILS_Z",
           "text": "ILS Z",
           "voice": "ILS ZULU"
@@ -4289,6 +4284,11 @@
           "variableName": "VPT_B",
           "text": "VPT B",
           "voice": "VPT BRAVO"
+        },
+        {
+          "variableName": "LOCDME",
+          "text": "LOC/DME",
+          "voice": "LOCALIZER DME"
         }
       ],
       "airportConditionDefinitions": [
@@ -4298,14 +4298,19 @@
           "enabled": false
         },
         {
+          "text": "AEROBATIC ACTIVITIES IN THE VICINITY.",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
           "text": "AEROMODELISM ACTIVITIES IN THE VICINITY.",
-          "ordinal": 2,
+          "ordinal": 3,
           "enabled": false
         }
       ],
       "notamDefinitions": [
         {
-          "text": "LOC/DME UNSERVICEABLE.",
+          "text": "LOCDME UNSERVICEABLE.",
           "ordinal": 1,
           "enabled": false
         },
@@ -6416,11 +6421,6 @@
           "voice": "BASTIA"
         },
         {
-          "variableName": "BTA",
-          "text": "BTA",
-          "voice": "BASTIA"
-        },
-        {
           "variableName": "ILS_Z",
           "text": "ILS Z",
           "voice": "ILS ZULU"
@@ -6454,6 +6454,11 @@
           "variableName": "2R",
           "text": "2R",
           "voice": "TWO ROMEO"
+        },
+        {
+          "variableName": "LOCDME",
+          "text": "LOC/DME",
+          "voice": "LOCALIZER DME"
         }
       ],
       "airportConditionDefinitions": [
@@ -6461,11 +6466,16 @@
           "text": "PARACHUTING ACTIVITIES IN THE VICINITY.",
           "ordinal": 1,
           "enabled": false
+        },
+        {
+          "text": "AEROBATIC ACTIVITIES IN THE VICINITY.",
+          "ordinal": 2,
+          "enabled": false
         }
       ],
       "notamDefinitions": [
         {
-          "text": "LOC/DME UNSERVICEABLE.",
+          "text": "LOCDME UNSERVICEABLE.",
           "ordinal": 1,
           "enabled": false
         },
@@ -8577,11 +8587,6 @@
           "voice": "CALVI"
         },
         {
-          "variableName": "CV",
-          "text": "CV",
-          "voice": "CALVI"
-        },
-        {
           "variableName": "RNP_Z",
           "text": "RNP Z",
           "voice": "RNP ZULU"
@@ -8595,6 +8600,11 @@
           "variableName": "RNP_W",
           "text": "RNP W",
           "voice": "RNP WHISKEY"
+        },
+        {
+          "variableName": "LOCDME",
+          "text": "LOC/DME",
+          "voice": "LOCALIZER DME"
         }
       ],
       "airportConditionDefinitions": [
@@ -8636,7 +8646,7 @@
       ],
       "notamDefinitions": [
         {
-          "text": "LOC/DME UNSERVICEABLE.",
+          "text": "LOCDME UNSERVICEABLE.",
           "ordinal": 1,
           "enabled": false
         },
@@ -10727,16 +10737,6 @@
           "voice": "CHAMBERY"
         },
         {
-          "variableName": "CH",
-          "text": "CH",
-          "voice": "CHAMBERY"
-        },
-        {
-          "variableName": "CBY",
-          "text": "CBY",
-          "voice": "CHAMBERY"
-        },
-        {
           "variableName": "ILS_Z",
           "text": "ILS Z",
           "voice": "ILS ZULU"
@@ -10755,6 +10755,11 @@
           "variableName": "RNP_Y",
           "text": "RNP Y",
           "voice": "RNP YANKEE"
+        },
+        {
+          "variableName": "LOCDME",
+          "text": "LOC/DME",
+          "voice": "LOCALIZER DME"
         }
       ],
       "airportConditionDefinitions": [
@@ -10776,7 +10781,7 @@
       ],
       "notamDefinitions": [
         {
-          "text": "LOC/DME UNSERVICEABLE.",
+          "text": "LOCDME UNSERVICEABLE.",
           "ordinal": 1,
           "enabled": false
         },
@@ -10787,7 +10792,7 @@
         },
         {
           "text": "CBY VOR UNSERVICEABLE.",
-          "ordinal": 2,
+          "ordinal": 3,
           "enabled": false
         },
         {
@@ -12845,6 +12850,11 @@
           "variableName": "RODEZ",
           "text": "RODEZ",
           "voice": "RODEZ"
+        },
+        {
+          "variableName": "LOCDME",
+          "text": "LOC/DME",
+          "voice": "LOCALIZER DME"
         }
       ],
       "airportConditionDefinitions": [
@@ -12856,7 +12866,7 @@
       ],
       "notamDefinitions": [
         {
-          "text": "LOC/DME UNSERVICEABLE.",
+          "text": "LOCDME UNSERVICEABLE.",
           "ordinal": 1,
           "enabled": false
         },
@@ -14806,12 +14816,12 @@
             {
               "low": 1013,
               "high": 1050,
-              "altitude": 60
+              "altitude": 70
             },
             {
               "low": 940,
               "high": 1012,
-              "altitude": 70
+              "altitude": 80
             }
           ],
           "template": {
@@ -14846,9 +14856,9 @@
       "presets": [
         {
           "id": "62112e1c-1996-4d89-a50f-dd5726b4d893",
-          "name": "[LFCR] RWY 13 | APP RNP",
+          "name": "[LFLC] RWY 08 | APP ILS RWY 26 -> CTL RWY 08",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS RODEZ INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT RNP RUNWAY 13. RUNWAY IN USE 13. RUNWAY CONDITION 666 DRY. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] IN CASE OF METEOROLOGICAL EVOLUTIONS THIS WILL BE GIVEN ON THE FREQUENCY. [ARPT_COND] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS CLERMONT FERRAND INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APPROACH ILS RUNWAY 26 FOLLOWED BY CIRCLING RUNWAY 08. RUNWAY CONDITION 666 DRY. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [ARPT_COND] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -14860,10 +14870,10 @@
           }
         },
         {
-          "id": "601b9030-7da8-41d5-8c00-cd53bc9bb45a",
-          "name": "[LFCR] RWY 36 | APP ILS",
+          "id": "ac5d3039-a701-4e40-8c6d-870fb0ae24ed",
+          "name": "[LFLC] RWY 08 | APP RNP Z RWY 26 -> CTL RWY 08",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS RODEZ INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT ILS RUNWAY 31. RUNWAY IN USE 31. RUNWAY CONDITION 666 DRY. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] IN CASE OF METEOROLOGICAL EVOLUTIONS THIS WILL BE GIVEN ON THE FREQUENCY. [ARPT_COND] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS CLERMONT FERRAND INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APPROACH RNP_Z RUNWAY 26 FOLLOWED BY CIRCLING RUNWAY 08. RUNWAY CONDITION 666 DRY. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [ARPT_COND] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -14875,10 +14885,10 @@
           }
         },
         {
-          "id": "25bade50-6b31-4b21-8fe0-e1831d7929d5",
-          "name": "[LFCR] RWY 36 | APP RNP",
+          "id": "172c4d84-4f14-4755-a952-7a480a51a152",
+          "name": "[LFLC] RWY 08 | APP RNP Y RWY 26 -> CTL RWY 08",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS RODEZ INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT RNP RUNWAY 31. RUNWAY IN USE 31. RUNWAY CONDITION 666 DRY. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] IN CASE OF METEOROLOGICAL EVOLUTIONS THIS WILL BE GIVEN ON THE FREQUENCY. [ARPT_COND] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS CLERMONT FERRAND INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APPROACH RNP_Y RUNWAY 26 FOLLOWED BY CIRCLING RUNWAY 08. RUNWAY CONDITION 666 DRY. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [ARPT_COND] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -14890,10 +14900,55 @@
           }
         },
         {
-          "id": "d92fa604-2533-4a51-a096-695a6a149a77",
-          "name": "[LFCR] RWY 36 | APP RNP RWY 31 -> VPT RWY 13",
+          "id": "77e192d0-9d45-455e-b69d-783c833afb20",
+          "name": "[LFLC] RWY 26 | APP ILS",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS RODEZ INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT RNP RUNWAY 31 FOLLOWED BY VPT RUNWAY 13. RUNWAY IN USE 13. RUNWAY CONDITION 666 DRY. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] IN CASE OF METEOROLOGICAL EVOLUTIONS THIS WILL BE GIVEN ON THE FREQUENCY. [ARPT_COND] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS CLERMONT FERRAND INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APPROACH ILS RUNWAY 26. RUNWAY CONDITION 666 DRY. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [ARPT_COND] [NOTAMS] [CLOSING]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "5d6d5ac2-f320-48ed-a096-39eae11fa7e6",
+          "name": "[LFLC] RWY 26 | APP RNP Z",
+          "airportConditions": "",
+          "template": "BONJOUR THIS IS CLERMONT FERRAND INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APPROACH RNP_Z RUNWAY 26. RUNWAY CONDITION 666 DRY. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [ARPT_COND] [NOTAMS] [CLOSING]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "5a20f1c1-30b8-44e4-9415-dab4ba2f3799",
+          "name": "[LFLC] RWY 26 | APP RNP Y",
+          "airportConditions": "",
+          "template": "BONJOUR THIS IS CLERMONT FERRAND INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APPROACH RNP_Y RUNWAY 26. RUNWAY CONDITION 666 DRY. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [ARPT_COND] [NOTAMS] [CLOSING]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "97fa542b-9e28-4930-9279-363e1409842d",
+          "name": "[LFLC] RWY 26 | APP VOR",
+          "airportConditions": "",
+          "template": "BONJOUR THIS IS CLERMONT FERRAND INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APPROACH VOR RUNWAY 26. RUNWAY CONDITION 666 DRY. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [ARPT_COND] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -14912,14 +14967,9 @@
           "voice": "BON-JUR"
         },
         {
-          "variableName": "CLERMONT",
-          "text": "CLERMONT",
-          "voice": "CLERMONT"
-        },
-        {
-          "variableName": "CFA",
-          "text": "CFA",
-          "voice": "CLERMONT"
+          "variableName": "CLERMONT_FERRAND",
+          "text": "CLERMONT FERRAND",
+          "voice": "CLERMONT FERRAND"
         },
         {
           "variableName": "RNP_Z",
@@ -14930,6 +14980,11 @@
           "variableName": "RNP_Y",
           "text": "RNP Y",
           "voice": "RNP YANKEE"
+        },
+        {
+          "variableName": "LOCDME",
+          "text": "LOC/DME",
+          "voice": "LOCALIZER DME"
         }
       ],
       "airportConditionDefinitions": [
@@ -14941,7 +14996,7 @@
       ],
       "notamDefinitions": [
         {
-          "text": "LOC/DME UNSERVICEABLE.",
+          "text": "LOCDME UNSERVICEABLE.",
           "ordinal": 1,
           "enabled": false
         },
@@ -16977,57 +17032,28 @@
           "voice": "LE VERSOUD"
         },
         {
-          "variableName": "ILS_Z",
-          "text": "ILS Z",
-          "voice": "ILS ZULU"
-        },
-        {
-          "variableName": "ILS_Y",
-          "text": "ILS Y",
-          "voice": "ILS YANKEE"
-        },
-        {
-          "variableName": "RNP_Z",
-          "text": "RNP Z",
-          "voice": "RNP ZULU"
-        },
-        {
-          "variableName": "RNP_Y",
-          "text": "RNP Y",
-          "voice": "RNP YANKEE"
-        },
-        {
-          "variableName": "VPT_A",
-          "text": "VPT A",
-          "voice": "VPT ALPHA"
-        },
-        {
-          "variableName": "VPT_B",
-          "text": "VPT B",
-          "voice": "VPT BRAVO"
-        },
-        {
-          "variableName": "VOR_A",
-          "text": "VOR A",
-          "voice": "VOR ALPHA"
-        },
-        {
-          "variableName": "ILS_X",
-          "text": "ILS X",
-          "voice": "ILS XRAY"
-        },
-        {
-          "variableName": "RNP_X",
-          "text": "RNP X",
-          "voice": "RNP XRAY"
-        },
-        {
-          "variableName": "RNP_W",
-          "text": "RNP W",
-          "voice": "RNP WHISKEY"
+          "variableName": "LOCDME",
+          "text": "LOC/DME",
+          "voice": "LOCALIZER DME"
         }
       ],
-      "airportConditionDefinitions": [],
+      "airportConditionDefinitions": [
+        {
+          "text": "GLIDING ACTIVITIES IN THE VICINITY.",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "AEROBATIC ACTIVITIES IN THE VICINITY.",
+          "ordinal": 2,
+          "enabled": false
+        },
+        {
+          "text": "AEROMODELISM ACTIVITIES IN THE VICINITY.",
+          "ordinal": 3,
+          "enabled": false
+        }
+      ],
       "notamDefinitions": []
     },
     {
@@ -19116,56 +19142,6 @@
           "voice": "LYON"
         },
         {
-          "variableName": "ILS_Z",
-          "text": "ILS Z",
-          "voice": "ILS ZULU"
-        },
-        {
-          "variableName": "ILS_Y",
-          "text": "ILS Y",
-          "voice": "ILS YANKEE"
-        },
-        {
-          "variableName": "RNP_Z",
-          "text": "RNP Z",
-          "voice": "RNP ZULU"
-        },
-        {
-          "variableName": "RNP_Y",
-          "text": "RNP Y",
-          "voice": "RNP YANKEE"
-        },
-        {
-          "variableName": "VPT_A",
-          "text": "VPT A",
-          "voice": "VPT ALPHA"
-        },
-        {
-          "variableName": "VPT_B",
-          "text": "VPT B",
-          "voice": "VPT BRAVO"
-        },
-        {
-          "variableName": "VOR_A",
-          "text": "VOR A",
-          "voice": "VOR ALPHA"
-        },
-        {
-          "variableName": "ILS_X",
-          "text": "ILS X",
-          "voice": "ILS XRAY"
-        },
-        {
-          "variableName": "RNP_X",
-          "text": "RNP X",
-          "voice": "RNP XRAY"
-        },
-        {
-          "variableName": "RNP_W",
-          "text": "RNP W",
-          "voice": "RNP WHISKEY"
-        },
-        {
           "variableName": "TOBT",
           "text": "TOBT",
           "voice": "TEE-O-BEE-TEE"
@@ -19174,21 +19150,6 @@
           "variableName": "CDMURL",
           "text": "CDM.VATSIM.FR",
           "voice": "CDM DOT VATSIM DOR FR"
-        },
-        {
-          "variableName": "8N",
-          "text": "8N",
-          "voice": "EIGHT NOVEMBER"
-        },
-        {
-          "variableName": "8S",
-          "text": "8S",
-          "voice": "EIGHT SIERRA"
-        },
-        {
-          "variableName": "3N",
-          "text": "3N",
-          "voice": "TREE NOVEMBER"
         },
         {
           "variableName": "CK",
@@ -19201,9 +19162,9 @@
           "voice": "YOUR"
         },
         {
-          "variableName": "3S",
-          "text": "3S",
-          "voice": "TREE SIERRA"
+          "variableName": "LOCDME",
+          "text": "LOC/DME",
+          "voice": "LOCALIZER DME"
         }
       ],
       "airportConditionDefinitions": [
@@ -19223,7 +19184,23 @@
           "enabled": false
         }
       ],
-      "notamDefinitions": []
+      "notamDefinitions": [
+        {
+          "text": "LOCDME UNSERVICEABLE.",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "ILS UNSERVICEABLE.",
+          "ordinal": 2,
+          "enabled": false
+        },
+        {
+          "text": "LSE VOR UNSERVICEABLE.",
+          "ordinal": 3,
+          "enabled": false
+        }
+      ]
     },
     {
       "id": "b1be053e-13ae-427e-9d61-7a0178695035",
@@ -21290,6 +21267,16 @@
           "voice": "GRENOBLE"
         },
         {
+          "variableName": "ILS_Z",
+          "text": "ILS Z",
+          "voice": "ILS ZULU"
+        },
+        {
+          "variableName": "ILS_Y",
+          "text": "ILS Y",
+          "voice": "ILS YANKEE"
+        },
+        {
           "variableName": "RNP_Z",
           "text": "RNP Z",
           "voice": "RNP ZULU"
@@ -21298,10 +21285,42 @@
           "variableName": "RNP_Y",
           "text": "RNP Y",
           "voice": "RNP YANKEE"
+        },
+        {
+          "variableName": "LOCDME",
+          "text": "LOC/DME",
+          "voice": "LOCALIZER DME"
         }
       ],
-      "airportConditionDefinitions": [],
-      "notamDefinitions": []
+      "airportConditionDefinitions": [
+        {
+          "text": "PARACHUTING ACTIVITIES IN THE VICINITY.",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "AEROBATIC ACTIVITIES IN THE VICINITY.",
+          "ordinal": 2,
+          "enabled": false
+        },
+        {
+          "text": "R220 A ACTIVE.",
+          "ordinal": 3,
+          "enabled": false
+        }
+      ],
+      "notamDefinitions": [
+        {
+          "text": "LOCDME UNSERVICEABLE.",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "ILS UNSERVICEABLE.",
+          "ordinal": 2,
+          "enabled": false
+        }
+      ]
     },
     {
       "id": "5c3898fb-7a3f-43d1-add8-40bf3a1b6a57",
@@ -23331,9 +23350,35 @@
           "variableName": "RNP_Y",
           "text": "RNP Y",
           "voice": "RNP YANKEE"
+        },
+        {
+          "variableName": "LOCDME",
+          "text": "LOC/DME",
+          "voice": "LOCALIZER DME"
         }
       ],
-      "airportConditionDefinitions": [],
+      "airportConditionDefinitions": [
+        {
+          "text": "AEROMODELISM ACTIVITIES IN THE VICINITY.",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "R3201 A ACTIVE.",
+          "ordinal": 2,
+          "enabled": false
+        },
+        {
+          "text": "R3202 ACTIVE.",
+          "ordinal": 3,
+          "enabled": false
+        },
+        {
+          "text": "R3204 A ACTIVE.",
+          "ordinal": 4,
+          "enabled": false
+        }
+      ],
       "notamDefinitions": []
     },
     {
@@ -25364,9 +25409,25 @@
           "variableName": "RNP_Y",
           "text": "RNP Y",
           "voice": "RNP YANKEE"
+        },
+        {
+          "variableName": "LOCDME",
+          "text": "LOC/DME",
+          "voice": "LOCALIZER DME"
         }
       ],
-      "airportConditionDefinitions": [],
+      "airportConditionDefinitions": [
+        {
+          "text": "PARACHUTING ACTIVITIES IN THE VICINITY.",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "AEROBATIC ACTIVITIES IN THE VICINITY.",
+          "ordinal": 2,
+          "enabled": false
+        }
+      ],
       "notamDefinitions": []
     },
     {
@@ -27387,20 +27448,32 @@
           "variableName": "AIX",
           "text": "AIX",
           "voice": "AIX"
-        },
-        {
-          "variableName": "RNP_Z",
-          "text": "RNP Z",
-          "voice": "RNP ZULU"
-        },
-        {
-          "variableName": "RNP_Y",
-          "text": "RNP Y",
-          "voice": "RNP YANKEE"
         }
       ],
-      "airportConditionDefinitions": [],
-      "notamDefinitions": []
+      "airportConditionDefinitions": [
+        {
+          "text": "PARACHUTING ACTIVITIES IN THE VICINITY.",
+          "ordinal": 1,
+          "enabled": false
+        }
+      ],
+      "notamDefinitions": [
+        {
+          "text": "ALM NDB UNSERVICEABLE.",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "MAR NDB UNSERVICEABLE.",
+          "ordinal": 2,
+          "enabled": false
+        },
+        {
+          "text": "MRM VOR UNSERVICEABLE.",
+          "ordinal": 3,
+          "enabled": false
+        }
+      ]
     },
     {
       "id": "43b973fc-eb4b-4305-9a43-6120604d2a44",
@@ -29530,10 +29603,77 @@
           "variableName": "ILS_Y",
           "text": "ILS Y",
           "voice": "ILS YANKEE"
+        },
+        {
+          "variableName": "LOCDME",
+          "text": "LOC/DME",
+          "voice": "LOCALIZER DME"
         }
       ],
-      "airportConditionDefinitions": [],
-      "notamDefinitions": []
+      "airportConditionDefinitions": [
+        {
+          "text": "PARACHUTING ACTIVITIES IN THE VICINITY.",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "AEROMODELISM ACTIVITIES IN THE VICINITY.",
+          "ordinal": 2,
+          "enabled": false
+        },
+        {
+          "text": "R404 ACTIVE.",
+          "ordinal": 3,
+          "enabled": false
+        },
+        {
+          "text": "R186 ACTIVE.",
+          "ordinal": 4,
+          "enabled": false
+        },
+        {
+          "text": "R303 ACTIVE.",
+          "ordinal": 5,
+          "enabled": false
+        },
+        {
+          "text": "R88 ACTIVE.",
+          "ordinal": 6,
+          "enabled": false
+        }
+      ],
+      "notamDefinitions": [
+        {
+          "text": "LOCDME UNSERVICEABLE.",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "ILS UNSERVICEABLE.",
+          "ordinal": 2,
+          "enabled": false
+        },
+        {
+          "text": "AVN VOR UNSERVICEABLE.",
+          "ordinal": 3,
+          "enabled": false
+        },
+        {
+          "text": "MRM VOR UNSERVICEABLE.",
+          "ordinal": 4,
+          "enabled": false
+        },
+        {
+          "text": "MTG VOR UNSERVICEABLE.",
+          "ordinal": 5,
+          "enabled": false
+        },
+        {
+          "text": "MAR NDB UNSERVICEABLE.",
+          "ordinal": 6,
+          "enabled": false
+        }
+      ]
     },
     {
       "id": "e959edfe-08b6-49a2-95f2-3c24676f1bc2",
@@ -31630,8 +31770,30 @@
           "voice": "RNP XRAY"
         }
       ],
-      "airportConditionDefinitions": [],
-      "notamDefinitions": []
+      "airportConditionDefinitions": [
+        {
+          "text": "AEROBATIC ACTIVITIES IN THE VICINITY.",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "AEROMODELISM ACTIVITIES IN THE VICINITY.",
+          "ordinal": 2,
+          "enabled": false
+        },
+        {
+          "text": "R71 C ACTIVE.",
+          "ordinal": 3,
+          "enabled": false
+        }
+      ],
+      "notamDefinitions": [
+        {
+          "text": "AVN VOR UNSERVICEABLE.",
+          "ordinal": 1,
+          "enabled": false
+        }
+      ]
     },
     {
       "id": "b8be4ce1-badb-433f-90be-f838d41c8fdf",
@@ -33771,10 +33933,52 @@
           "variableName": "RNP_X",
           "text": "RNP X",
           "voice": "RNP XRAY"
+        },
+        {
+          "variableName": "LOCDME",
+          "text": "LOC/DME",
+          "voice": "LOCALIZER DME"
         }
       ],
-      "airportConditionDefinitions": [],
-      "notamDefinitions": []
+      "airportConditionDefinitions": [
+        {
+          "text": "PARACHUTING ACTIVITIES IN THE VICINITY.",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "AEROBATIC ACTIVITIES IN THE VICINITY.",
+          "ordinal": 2,
+          "enabled": false
+        },
+        {
+          "text": "AEROMODELISM ACTIVITIES IN THE VICINITY.",
+          "ordinal": 3,
+          "enabled": false
+        },
+        {
+          "text": "R89 ACTIVE.",
+          "ordinal": 4,
+          "enabled": false
+        }
+      ],
+      "notamDefinitions": [
+        {
+          "text": "LOCDME UNSERVICEABLE.",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "ILS UNSERVICEABLE.",
+          "ordinal": 2,
+          "enabled": false
+        },
+        {
+          "text": "PPG VOR UNSERVICEABLE.",
+          "ordinal": 3,
+          "enabled": false
+        }
+      ]
     },
     {
       "id": "00322874-fb3e-4bba-9811-11f0aef02c7f",
@@ -35904,10 +36108,57 @@
           "variableName": "ILS_Y",
           "text": "ILS Y",
           "voice": "ILS YANKEE"
+        },
+        {
+          "variableName": "LOCDME",
+          "text": "LOC/DME",
+          "voice": "LOCALIZER DME"
         }
       ],
-      "airportConditionDefinitions": [],
-      "notamDefinitions": []
+      "airportConditionDefinitions": [
+        {
+          "text": "AEROBATIC ACTIVITIES IN THE VICINITY.",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "AEROMODELISM ACTIVITIES IN THE VICINITY.",
+          "ordinal": 2,
+          "enabled": false
+        },
+        {
+          "text": "R109 C ACTIVE.",
+          "ordinal": 3,
+          "enabled": false
+        },
+        {
+          "text": "R108 E1 ACTIVE.",
+          "ordinal": 4,
+          "enabled": false
+        }
+      ],
+      "notamDefinitions": [
+        {
+          "text": "LOCDME UNSERVICEABLE.",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "ILS UNSERVICEABLE.",
+          "ordinal": 2,
+          "enabled": false
+        },
+        {
+          "text": "FJR VOR UNSERVICEABLE.",
+          "ordinal": 3,
+          "enabled": false
+        },
+        {
+          "text": "FG NDB UNSERVICEABLE.",
+          "ordinal": 4,
+          "enabled": false
+        }
+      ]
     },
     {
       "id": "47218f32-4772-4de1-9da9-7b0b5bf8e63b",
@@ -40045,45 +40296,57 @@
           "variableName": "NIMES",
           "text": "NIMES",
           "voice": "NIMES"
-        },
-        {
-          "variableName": "RNP_Z",
-          "text": "RNP Z",
-          "voice": "RNP ZULU"
-        },
-        {
-          "variableName": "RNP_Y",
-          "text": "RNP Y",
-          "voice": "RNP YANKEE"
-        },
-        {
-          "variableName": "RNP_X",
-          "text": "RNP X",
-          "voice": "RNP XRAY"
-        },
-        {
-          "variableName": "VOR_Z",
-          "text": "VOR Z",
-          "voice": "VOR ZULU"
-        },
-        {
-          "variableName": "VOR_Y",
-          "text": "VOR Y",
-          "voice": "VOR YANKEE"
-        },
-        {
-          "variableName": "ILS_Z",
-          "text": "ILS Z",
-          "voice": "ILS ZULU"
-        },
-        {
-          "variableName": "ILS_Y",
-          "text": "ILS Y",
-          "voice": "ILS YANKEE"
         }
       ],
-      "airportConditionDefinitions": [],
-      "notamDefinitions": []
+      "airportConditionDefinitions": [
+        {
+          "text": "AEROBATIC ACTIVITIES IN THE VICINITY.",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "AEROMODELISM ACTIVITIES IN THE VICINITY.",
+          "ordinal": 2,
+          "enabled": false
+        },
+        {
+          "text": "R190 ACTIVE.",
+          "ordinal": 3,
+          "enabled": false
+        },
+        {
+          "text": "R8 ACTIVE.",
+          "ordinal": 4,
+          "enabled": false
+        },
+        {
+          "text": "R108 B ACTIVE.",
+          "ordinal": 5,
+          "enabled": false
+        },
+        {
+          "text": "R108 A ACTIVE.",
+          "ordinal": 6,
+          "enabled": false
+        },
+        {
+          "text": "R271 ACTIVE.",
+          "ordinal": 7,
+          "enabled": false
+        },
+        {
+          "text": "R271 1.1 ACTIVE.",
+          "ordinal": 8,
+          "enabled": false
+        }
+      ],
+      "notamDefinitions": [
+        {
+          "text": "NG NDB UNSERVICEABLE.",
+          "ordinal": 1,
+          "enabled": false
+        }
+      ]
     },
     {
       "id": "0ca078ec-e17d-47a1-a526-b0d09a44fa8d",
@@ -42150,41 +42413,6 @@
           "voice": "CANNES"
         },
         {
-          "variableName": "RNP_Z",
-          "text": "RNP Z",
-          "voice": "RNP ZULU"
-        },
-        {
-          "variableName": "RNP_Y",
-          "text": "RNP Y",
-          "voice": "RNP YANKEE"
-        },
-        {
-          "variableName": "RNP_X",
-          "text": "RNP X",
-          "voice": "RNP XRAY"
-        },
-        {
-          "variableName": "VOR_Z",
-          "text": "VOR Z",
-          "voice": "VOR ZULU"
-        },
-        {
-          "variableName": "VOR_Y",
-          "text": "VOR Y",
-          "voice": "VOR YANKEE"
-        },
-        {
-          "variableName": "ILS_Z",
-          "text": "ILS Z",
-          "voice": "ILS ZULU"
-        },
-        {
-          "variableName": "ILS_Y",
-          "text": "ILS Y",
-          "voice": "ILS YANKEE"
-        },
-        {
           "variableName": "LOC_A",
           "text": "LOC A",
           "voice": "LOCALIZER ALPHA"
@@ -42198,10 +42426,67 @@
           "variableName": "RNP_A",
           "text": "RNP A",
           "voice": "RNP ALPHA"
+        },
+        {
+          "variableName": "RNP_Z",
+          "text": "RNP Z",
+          "voice": "RNP ZULU"
+        },
+        {
+          "variableName": "RNP_Y",
+          "text": "RNP Y",
+          "voice": "RNP YANKEE"
+        },
+        {
+          "variableName": "VPT_A",
+          "text": "VPT A",
+          "voice": "VPT ALPHA"
+        },
+        {
+          "variableName": "LOCDME",
+          "text": "LOC/DME",
+          "voice": "LOCALIZER DME"
         }
       ],
-      "airportConditionDefinitions": [],
-      "notamDefinitions": []
+      "airportConditionDefinitions": [
+        {
+          "text": "AEROBATIC ACTIVITIES IN THE VICINITY.",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "AEROMODELISM ACTIVITIES IN THE VICINITY.",
+          "ordinal": 2,
+          "enabled": false
+        },
+        {
+          "text": "R225 ACTIVE.",
+          "ordinal": 3,
+          "enabled": false
+        }
+      ],
+      "notamDefinitions": [
+        {
+          "text": "LOCDME UNSERVICEABLE.",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "AZR VOR UNSERVICEABLE.",
+          "ordinal": 2,
+          "enabled": false
+        },
+        {
+          "text": "STP VOR UNSERVICEABLE.",
+          "ordinal": 3,
+          "enabled": false
+        },
+        {
+          "text": "LUC VOR UNSERVICEABLE.",
+          "ordinal": 4,
+          "enabled": false
+        }
+      ]
     },
     {
       "id": "1d95c18d-0870-448a-a7fc-a46bfb330139",
@@ -44343,16 +44628,6 @@
           "voice": "CDM DOT VATSIM DOR FR"
         },
         {
-          "variableName": "CK",
-          "text": "CK",
-          "voice": "CHECK"
-        },
-        {
-          "variableName": "YR",
-          "text": "YR",
-          "voice": "YOUR"
-        },
-        {
           "variableName": "HEL",
           "text": "HEL",
           "voice": "HELICOPTER"
@@ -44436,16 +44711,57 @@
           "variableName": "RNP_D",
           "text": "RNP D",
           "voice": "RNP DELTA"
+        },
+        {
+          "variableName": "LOCDME",
+          "text": "LOC/DME",
+          "voice": "LOCALIZER DME"
         }
       ],
       "airportConditionDefinitions": [
         {
-          "text": "SUBMIT YOUR TOBT AT CDMURL.",
+          "text": "AEROMODELISM ACTIVITIES IN THE VICINITY.",
           "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "SUBMIT YOUR TOBT AT CDMURL.",
+          "ordinal": 2,
+          "enabled": false
+        },
+        {
+          "text": "R106 ACTIVE.",
+          "ordinal": 2,
           "enabled": false
         }
       ],
-      "notamDefinitions": []
+      "notamDefinitions": [
+        {
+          "text": "LOCDME UNSERVICEABLE.",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "ILS UNSERVICEABLE.",
+          "ordinal": 2,
+          "enabled": false
+        },
+        {
+          "text": "RWY 04L/22R CLSD.",
+          "ordinal": 3,
+          "enabled": false
+        },
+        {
+          "text": "RWY 04R/22L CLSD.",
+          "ordinal": 4,
+          "enabled": false
+        },
+        {
+          "text": "AZR VOR UNSERVICEABLE.",
+          "ordinal": 5,
+          "enabled": false
+        }
+      ]
     },
     {
       "id": "577d3d79-ed7d-4c10-8fca-62fcc4192a6d",
@@ -46610,10 +46926,67 @@
           "variableName": "PAR",
           "text": "PAR",
           "voice": "PRECISION APPROACH RADAR"
+        },
+        {
+          "variableName": "LOCDME",
+          "text": "LOC/DME",
+          "voice": "LOCALIZER DME"
         }
       ],
-      "airportConditionDefinitions": [],
-      "notamDefinitions": []
+      "airportConditionDefinitions": [
+        {
+          "text": "AEROBATIC ACTIVITIES IN THE VICINITY.",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "AEROMODELISM ACTIVITIES IN THE VICINITY.\r\n",
+          "ordinal": 2,
+          "enabled": false
+        },
+        {
+          "text": "R46 C ACTIVE.",
+          "ordinal": 3,
+          "enabled": false
+        },
+        {
+          "text": "R46 B ACTIVE.",
+          "ordinal": 4,
+          "enabled": false
+        },
+        {
+          "text": "R49 B ACTIVE.",
+          "ordinal": 5,
+          "enabled": false
+        }
+      ],
+      "notamDefinitions": [
+        {
+          "text": "LOCDME UNSERVICEABLE.",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "ILS UNSERVICEABLE.",
+          "ordinal": 2,
+          "enabled": false
+        },
+        {
+          "text": "HYE VOR UNSERVICEABLE.",
+          "ordinal": 3,
+          "enabled": false
+        },
+        {
+          "text": "HYE TACAN UNSERVICEABLE.",
+          "ordinal": 4,
+          "enabled": false
+        },
+        {
+          "text": "TLN NDB UNSERVICEABLE.",
+          "ordinal": 5,
+          "enabled": false
+        }
+      ]
     },
     {
       "id": "7ae2c38f-58ff-49d0-a696-1e1194ca02ef",
@@ -48718,6 +49091,11 @@
           "variableName": "NDB_Y",
           "text": "NDB Y",
           "voice": "NDB YANKEE"
+        },
+        {
+          "variableName": "LOCDME",
+          "text": "LOC/DME",
+          "voice": "LOCALIZER DME"
         }
       ],
       "airportConditionDefinitions": [
@@ -48739,8 +49117,8 @@
       ],
       "notamDefinitions": [
         {
-          "text": "LOC/DME UNSERVICEABLE.",
-          "ordinal": 0,
+          "text": "LOCDME UNSERVICEABLE.",
+          "ordinal": 1,
           "enabled": false
         },
         {

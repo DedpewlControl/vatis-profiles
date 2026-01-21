@@ -1,5 +1,5 @@
 {
-  "name": "FIR LFMM (18/01/2026)",
+  "name": "FIR LFMM (21/01/2026)",
   "id": "03b8414d-d2b4-4f52-a89c-f77dc2c72aba",
   "stations": [
     {
@@ -18,7 +18,7 @@
             0
           ],
           "template": {
-            "text": "{time}z",
+            "text": "{time}Z",
             "voice": "{time} UTC"
           }
         },
@@ -30,25 +30,25 @@
           },
           "standard": {
             "template": {
-              "text": "{wind_dir}{wind_spd}KT.",
+              "text": "WIND {wind_dir}/{wind_spd}KT.",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} {wind_unit}"
             }
           },
           "standardGust": {
             "template": {
-              "text": "{wind_dir}{wind_spd}G{wind_gust}KT.",
+              "text": "WIND {wind_dir}/{wind_spd}G{wind_gust}KT.",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} {wind_unit} GUSTING {wind_gust} {wind_unit}"
             }
           },
           "variable": {
             "template": {
-              "text": "VRB{wind_spd}KT.",
+              "text": "WIND VRB/{wind_spd}KT.",
               "voice": "WIND VARIABLE {wind_spd} {wind_unit}"
             }
           },
           "variableGust": {
             "template": {
-              "text": "VRB{wind_spd}G{wind_gust}KT.",
+              "text": "WIND VRB/{wind_spd}G{wind_gust}KT.",
               "voice": "WIND VARIABLE {wind_spd} {wind_unit} GUSTING {wind_gust} {wind_unit}"
             }
           },
@@ -61,7 +61,7 @@
           "calm": {
             "calmWindSpeed": 4,
             "template": {
-              "text": "{wind}.",
+              "text": "WIND {wind}.",
               "voice": "WIND CALM"
             }
           }
@@ -80,7 +80,7 @@
           "includeVisibilitySuffix": true,
           "metersCutoff": 5000,
           "template": {
-            "text": "{visibility}.",
+            "text": "VISIBILITY {visibility} METERS.",
             "voice": "VISIBILITY {visibility}"
           }
         },
@@ -1893,23 +1893,23 @@
             "TCU": "towering cumulus"
           },
           "template": {
-            "text": "{clouds}.",
-            "voice": "{clouds}"
+            "text": "CEILING {clouds}.",
+            "voice": "CEILING {clouds}"
           }
         },
         "temperature": {
-          "usePlusPrefix": false,
+          "usePlusPrefix": true,
           "speakLeadingZero": false,
           "template": {
-            "text": "TEMPERATURE {temp}.",
+            "text": "TEMPERATURE {prefix_symbol}{temp}.",
             "voice": "TEMPERATURE {temp}"
           }
         },
         "dewpoint": {
-          "usePlusPrefix": false,
+          "usePlusPrefix": true,
           "speakLeadingZero": false,
           "template": {
-            "text": "DEWPOINT {dewpoint}.",
+            "text": "DEWPOINT {prefix_symbol}{dewpoint}.",
             "voice": "DEWPOINT {dewpoint}"
           }
         },
@@ -1956,8 +1956,8 @@
         },
         "notams": {
           "template": {
-            "text": "NOTAMS {notams}.",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "text": "{notams}.",
+            "voice": "{notams}"
           }
         },
         "closingStatement": {
@@ -2072,6 +2072,11 @@
           "voice": "FIGAARY"
         },
         {
+          "variableName": "FGI",
+          "text": "FGI",
+          "voice": "FIGAARY"
+        },
+        {
           "variableName": "RNP_Z",
           "text": "RNP Z",
           "voice": "RNP ZULU"
@@ -2083,7 +2088,23 @@
         }
       ],
       "airportConditionDefinitions": [],
-      "notamDefinitions": []
+      "notamDefinitions": [
+        {
+          "text": "LOC/DME UNSERVICEABLE.",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "ILS UNSERVICEABLE.",
+          "ordinal": 2,
+          "enabled": false
+        },
+        {
+          "text": "FGI VOR UNSERVICEABLE.",
+          "ordinal": 3,
+          "enabled": false
+        }
+      ]
     },
     {
       "id": "c06260e9-60a5-4273-bef5-e58e697ca0ce",
@@ -2113,25 +2134,25 @@
           },
           "standard": {
             "template": {
-              "text": "WIND {wind_dir}/{wind_spd} KT",
+              "text": "WIND {wind_dir}/{wind_spd}KT.",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} {wind_unit}"
             }
           },
           "standardGust": {
             "template": {
-              "text": "WIND {wind_dir}/{wind_spd}G{wind_gust} KT.",
+              "text": "WIND {wind_dir}/{wind_spd}G{wind_gust}KT.",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} {wind_unit} GUSTING {wind_gust} {wind_unit}"
             }
           },
           "variable": {
             "template": {
-              "text": "VRB{wind_spd} KT.",
+              "text": "WIND VRB/{wind_spd}KT.",
               "voice": "WIND VARIABLE {wind_spd} {wind_unit}"
             }
           },
           "variableGust": {
             "template": {
-              "text": "VRB{wind_spd}G{wind_gust} KT.",
+              "text": "WIND VRB/{wind_spd}G{wind_gust}KT.",
               "voice": "WIND VARIABLE {wind_spd} {wind_unit} GUSTING {wind_gust} {wind_unit}"
             }
           },
@@ -2163,7 +2184,7 @@
           "includeVisibilitySuffix": true,
           "metersCutoff": 5000,
           "template": {
-            "text": "/ VIS {visibility} M",
+            "text": "VISIBILITY {visibility} METERS.",
             "voice": "VISIBILITY {visibility}"
           }
         },
@@ -3976,30 +3997,30 @@
             "TCU": "towering cumulus"
           },
           "template": {
-            "text": "/ CLD :\r\n{clouds}.",
-            "voice": "{clouds}"
+            "text": "CEILING {clouds}.",
+            "voice": "CEILING {clouds}"
           }
         },
         "temperature": {
-          "usePlusPrefix": false,
+          "usePlusPrefix": true,
           "speakLeadingZero": false,
           "template": {
-            "text": "T{temp} ",
+            "text": "TEMPERATURE {prefix_symbol}{temp}.",
             "voice": "TEMPERATURE {temp}"
           }
         },
         "dewpoint": {
-          "usePlusPrefix": false,
+          "usePlusPrefix": true,
           "speakLeadingZero": false,
           "template": {
-            "text": "/DP{dewpoint}",
+            "text": "DEWPOINT {prefix_symbol}{dewpoint}.",
             "voice": "DEWPOINT {dewpoint}"
           }
         },
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
-            "text": "QNH {altimeter}",
+            "text": "QNH {altimeter}.",
             "voice": "QNH {altimeter}."
           }
         },
@@ -4033,7 +4054,7 @@
             }
           ],
           "template": {
-            "text": "TRL {trl}",
+            "text": "TRANSITION LEVEL {trl}.",
             "voice": "TRANSITION LEVEL {trl}."
           }
         },
@@ -4235,6 +4256,11 @@
           "voice": "UHZHAKSEEOW"
         },
         {
+          "variableName": "AJO",
+          "text": "AJO",
+          "voice": "UHZHAKSEEOW"
+        },
+        {
           "variableName": "ILS_Z",
           "text": "ILS Z",
           "voice": "ILS ZULU"
@@ -4265,8 +4291,35 @@
           "voice": "VPT BRAVO"
         }
       ],
-      "airportConditionDefinitions": [],
-      "notamDefinitions": []
+      "airportConditionDefinitions": [
+        {
+          "text": "PARACHUTING ACTIVITIES IN THE VICINITY.",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "AEROMODELISM ACTIVITIES IN THE VICINITY.",
+          "ordinal": 2,
+          "enabled": false
+        }
+      ],
+      "notamDefinitions": [
+        {
+          "text": "LOC/DME UNSERVICEABLE.",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "ILS UNSERVICEABLE.",
+          "ordinal": 2,
+          "enabled": false
+        },
+        {
+          "text": "AJO VOR UNSERVICEABLE.",
+          "ordinal": 3,
+          "enabled": false
+        }
+      ]
     },
     {
       "id": "51e8a660-cf51-4384-98ba-b162c178d544",
@@ -4296,25 +4349,25 @@
           },
           "standard": {
             "template": {
-              "text": "WIND {wind_dir}/{wind_spd} KT",
+              "text": "WIND {wind_dir}/{wind_spd}KT.",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} {wind_unit}"
             }
           },
           "standardGust": {
             "template": {
-              "text": "WIND {wind_dir}/{wind_spd}G{wind_gust} KT.",
+              "text": "WIND {wind_dir}/{wind_spd}G{wind_gust}KT.",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} {wind_unit} GUSTING {wind_gust} {wind_unit}"
             }
           },
           "variable": {
             "template": {
-              "text": "VRB{wind_spd} KT.",
+              "text": "WIND VRB/{wind_spd}KT.",
               "voice": "WIND VARIABLE {wind_spd} {wind_unit}"
             }
           },
           "variableGust": {
             "template": {
-              "text": "VRB{wind_spd}G{wind_gust} KT.",
+              "text": "WIND VRB/{wind_spd}G{wind_gust}KT.",
               "voice": "WIND VARIABLE {wind_spd} {wind_unit} GUSTING {wind_gust} {wind_unit}"
             }
           },
@@ -4346,7 +4399,7 @@
           "includeVisibilitySuffix": true,
           "metersCutoff": 5000,
           "template": {
-            "text": "/ VIS {visibility} M",
+            "text": "VISIBILITY {visibility} METERS.",
             "voice": "VISIBILITY {visibility}"
           }
         },
@@ -6159,30 +6212,30 @@
             "TCU": "towering cumulus"
           },
           "template": {
-            "text": "/ CLD :\r\n{clouds}.",
-            "voice": "{clouds}"
+            "text": "CEILING {clouds}.",
+            "voice": "CEILING {clouds}"
           }
         },
         "temperature": {
-          "usePlusPrefix": false,
+          "usePlusPrefix": true,
           "speakLeadingZero": false,
           "template": {
-            "text": "T{temp} ",
+            "text": "TEMPERATURE {prefix_symbol}{temp}.",
             "voice": "TEMPERATURE {temp}"
           }
         },
         "dewpoint": {
-          "usePlusPrefix": false,
+          "usePlusPrefix": true,
           "speakLeadingZero": false,
           "template": {
-            "text": "/DP{dewpoint}",
+            "text": "DEWPOINT {prefix_symbol}{dewpoint}.",
             "voice": "DEWPOINT {dewpoint}"
           }
         },
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
-            "text": "QNH {altimeter}",
+            "text": "QNH {altimeter}.",
             "voice": "QNH {altimeter}."
           }
         },
@@ -6207,16 +6260,16 @@
             {
               "low": 1013,
               "high": 1050,
-              "altitude": 60
+              "altitude": 70
             },
             {
               "low": 940,
               "high": 1012,
-              "altitude": 70
+              "altitude": 80
             }
           ],
           "template": {
-            "text": "TRL {trl}",
+            "text": "TRANSITION LEVEL {trl}.",
             "voice": "TRANSITION LEVEL {trl}."
           }
         },
@@ -6363,24 +6416,24 @@
           "voice": "BASTIA"
         },
         {
+          "variableName": "BTA",
+          "text": "BTA",
+          "voice": "BASTIA"
+        },
+        {
           "variableName": "ILS_Z",
           "text": "ILS Z",
           "voice": "ILS ZULU"
         },
         {
-          "variableName": "ILS_Y",
-          "text": "ILS Y",
-          "voice": "ILS YANKEE"
+          "variableName": "ILS_X",
+          "text": "ILS X",
+          "voice": "ILS XRAY"
         },
         {
-          "variableName": "RNP_Z",
-          "text": "RNP Z",
-          "voice": "RNP ZULU"
-        },
-        {
-          "variableName": "RNP_Y",
-          "text": "RNP Y",
-          "voice": "RNP YANKEE"
+          "variableName": "VOR_A",
+          "text": "VOR A",
+          "voice": "VOR ALPHA"
         },
         {
           "variableName": "VPT_A",
@@ -6393,23 +6446,40 @@
           "voice": "VPT BRAVO"
         },
         {
-          "variableName": "VOR_A",
-          "text": "VOR A",
-          "voice": "VOR ALPHA"
-        },
-        {
-          "variableName": "ILS_X",
-          "text": "ILS X",
-          "voice": "ILS XRAY"
-        },
-        {
           "variableName": "2V",
           "text": "2V",
           "voice": "TWO VICTOR"
+        },
+        {
+          "variableName": "2R",
+          "text": "2R",
+          "voice": "TWO ROMEO"
         }
       ],
-      "airportConditionDefinitions": [],
-      "notamDefinitions": []
+      "airportConditionDefinitions": [
+        {
+          "text": "PARACHUTING ACTIVITIES IN THE VICINITY.",
+          "ordinal": 1,
+          "enabled": false
+        }
+      ],
+      "notamDefinitions": [
+        {
+          "text": "LOC/DME UNSERVICEABLE.",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "ILS UNSERVICEABLE.",
+          "ordinal": 2,
+          "enabled": false
+        },
+        {
+          "text": "BTA VOR UNSERVICEABLE.",
+          "ordinal": 3,
+          "enabled": false
+        }
+      ]
     },
     {
       "id": "57c77380-32f7-4f7e-a1a4-63adb0334b0c",
@@ -6439,25 +6509,25 @@
           },
           "standard": {
             "template": {
-              "text": "WIND {wind_dir}/{wind_spd} KT",
+              "text": "WIND {wind_dir}/{wind_spd}KT.",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} {wind_unit}"
             }
           },
           "standardGust": {
             "template": {
-              "text": "WIND {wind_dir}/{wind_spd}G{wind_gust} KT.",
+              "text": "WIND {wind_dir}/{wind_spd}G{wind_gust}KT.",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} {wind_unit} GUSTING {wind_gust} {wind_unit}"
             }
           },
           "variable": {
             "template": {
-              "text": "VRB{wind_spd} KT.",
+              "text": "WIND VRB/{wind_spd}KT.",
               "voice": "WIND VARIABLE {wind_spd} {wind_unit}"
             }
           },
           "variableGust": {
             "template": {
-              "text": "VRB{wind_spd}G{wind_gust} KT.",
+              "text": "WIND VRB/{wind_spd}G{wind_gust}KT.",
               "voice": "WIND VARIABLE {wind_spd} {wind_unit} GUSTING {wind_gust} {wind_unit}"
             }
           },
@@ -6489,7 +6559,7 @@
           "includeVisibilitySuffix": true,
           "metersCutoff": 5000,
           "template": {
-            "text": "/ VIS {visibility} M",
+            "text": "VISIBILITY {visibility} METERS.",
             "voice": "VISIBILITY {visibility}"
           }
         },
@@ -8302,30 +8372,30 @@
             "TCU": "towering cumulus"
           },
           "template": {
-            "text": "/ CLD :\r\n{clouds}.",
-            "voice": "{clouds}"
+            "text": "CEILING {clouds}.",
+            "voice": "CEILING {clouds}"
           }
         },
         "temperature": {
-          "usePlusPrefix": false,
+          "usePlusPrefix": true,
           "speakLeadingZero": false,
           "template": {
-            "text": "T{temp} ",
+            "text": "TEMPERATURE {prefix_symbol}{temp}.",
             "voice": "TEMPERATURE {temp}"
           }
         },
         "dewpoint": {
-          "usePlusPrefix": false,
+          "usePlusPrefix": true,
           "speakLeadingZero": false,
           "template": {
-            "text": "/DP{dewpoint}",
+            "text": "DEWPOINT {prefix_symbol}{dewpoint}.",
             "voice": "DEWPOINT {dewpoint}"
           }
         },
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
-            "text": "QNH {altimeter}",
+            "text": "QNH {altimeter}.",
             "voice": "QNH {altimeter}."
           }
         },
@@ -8359,7 +8429,7 @@
             }
           ],
           "template": {
-            "text": "TRL {trl}",
+            "text": "TRANSITION LEVEL {trl}.",
             "voice": "TRANSITION LEVEL {trl}."
           }
         },
@@ -8392,7 +8462,7 @@
           "id": "e89bdda7-5c65-4637-9891-23f4af8e65a8",
           "name": "[LFKC] RWY 18 | APP LOC",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS CALVI INFORMATION [ATIS_CODE] RECORDED AT [TIME]. IFR PROCEDURE LOC RUNWAY 18. RUNWAY CONDITION 666 DRY [TIME]. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [ARPT_COND] [NOTAMS] [CLOSING]",
+          "template": "",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -8507,14 +8577,9 @@
           "voice": "CALVI"
         },
         {
-          "variableName": "ILS_Z",
-          "text": "ILS Z",
-          "voice": "ILS ZULU"
-        },
-        {
-          "variableName": "ILS_Y",
-          "text": "ILS Y",
-          "voice": "ILS YANKEE"
+          "variableName": "CV",
+          "text": "CV",
+          "voice": "CALVI"
         },
         {
           "variableName": "RNP_Z",
@@ -8525,31 +8590,6 @@
           "variableName": "RNP_Y",
           "text": "RNP Y",
           "voice": "RNP YANKEE"
-        },
-        {
-          "variableName": "VPT_A",
-          "text": "VPT A",
-          "voice": "VPT ALPHA"
-        },
-        {
-          "variableName": "VPT_B",
-          "text": "VPT B",
-          "voice": "VPT BRAVO"
-        },
-        {
-          "variableName": "VOR_A",
-          "text": "VOR A",
-          "voice": "VOR ALPHA"
-        },
-        {
-          "variableName": "ILS_X",
-          "text": "ILS X",
-          "voice": "ILS XRAY"
-        },
-        {
-          "variableName": "RNP_X",
-          "text": "RNP X",
-          "voice": "RNP XRAY"
         },
         {
           "variableName": "RNP_W",
@@ -8577,12 +8617,32 @@
           "text": "FOR START-UP REQUEST CONTACT MARSEILLE CONTROL 123.900.",
           "ordinal": 4,
           "enabled": false
+        },
+        {
+          "text": "PARACHUTING ACTIVITIES IN THE VICINITY.",
+          "ordinal": 5,
+          "enabled": false
+        },
+        {
+          "text": "R335 ACTIVE.",
+          "ordinal": 6,
+          "enabled": false
+        },
+        {
+          "text": "R282 ACTIVE.",
+          "ordinal": 7,
+          "enabled": false
         }
       ],
       "notamDefinitions": [
         {
-          "text": "LOC/DME UNSERVICEABLE",
+          "text": "LOC/DME UNSERVICEABLE.",
           "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "CV NDB UNSERVICEABLE.",
+          "ordinal": 2,
           "enabled": false
         }
       ]
@@ -8615,25 +8675,25 @@
           },
           "standard": {
             "template": {
-              "text": "WIND {wind_dir}/{wind_spd} KT",
+              "text": "WIND {wind_dir}/{wind_spd}KT.",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} {wind_unit}"
             }
           },
           "standardGust": {
             "template": {
-              "text": "WIND {wind_dir}/{wind_spd}G{wind_gust} KT.",
+              "text": "WIND {wind_dir}/{wind_spd}G{wind_gust}KT.",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} {wind_unit} GUSTING {wind_gust} {wind_unit}"
             }
           },
           "variable": {
             "template": {
-              "text": "VRB{wind_spd} KT.",
+              "text": "WIND VRB/{wind_spd}KT.",
               "voice": "WIND VARIABLE {wind_spd} {wind_unit}"
             }
           },
           "variableGust": {
             "template": {
-              "text": "VRB{wind_spd}G{wind_gust} KT.",
+              "text": "WIND VRB/{wind_spd}G{wind_gust}KT.",
               "voice": "WIND VARIABLE {wind_spd} {wind_unit} GUSTING {wind_gust} {wind_unit}"
             }
           },
@@ -8665,7 +8725,7 @@
           "includeVisibilitySuffix": true,
           "metersCutoff": 5000,
           "template": {
-            "text": "/ VIS {visibility} M",
+            "text": "VISIBILITY {visibility} METERS.",
             "voice": "VISIBILITY {visibility}"
           }
         },
@@ -10478,30 +10538,30 @@
             "TCU": "towering cumulus"
           },
           "template": {
-            "text": "/ CLD :\r\n{clouds}.",
-            "voice": "{clouds}"
+            "text": "CEILING {clouds}.",
+            "voice": "CEILING {clouds}"
           }
         },
         "temperature": {
-          "usePlusPrefix": false,
+          "usePlusPrefix": true,
           "speakLeadingZero": false,
           "template": {
-            "text": "T{temp} ",
+            "text": "TEMPERATURE {prefix_symbol}{temp}.",
             "voice": "TEMPERATURE {temp}"
           }
         },
         "dewpoint": {
-          "usePlusPrefix": false,
+          "usePlusPrefix": true,
           "speakLeadingZero": false,
           "template": {
-            "text": "/DP{dewpoint}",
+            "text": "DEWPOINT {prefix_symbol}{dewpoint}.",
             "voice": "DEWPOINT {dewpoint}"
           }
         },
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
-            "text": "QNH {altimeter}",
+            "text": "QNH {altimeter}.",
             "voice": "QNH {altimeter}."
           }
         },
@@ -10526,16 +10586,16 @@
             {
               "low": 1013,
               "high": 1050,
-              "altitude": 60
+              "altitude": 70
             },
             {
               "low": 940,
               "high": 1012,
-              "altitude": 70
+              "altitude": 80
             }
           ],
           "template": {
-            "text": "TRL {trl}",
+            "text": "TRANSITION LEVEL {trl}.",
             "voice": "TRANSITION LEVEL {trl}."
           }
         },
@@ -10667,6 +10727,16 @@
           "voice": "CHAMBERY"
         },
         {
+          "variableName": "CH",
+          "text": "CH",
+          "voice": "CHAMBERY"
+        },
+        {
+          "variableName": "CBY",
+          "text": "CBY",
+          "voice": "CHAMBERY"
+        },
+        {
           "variableName": "ILS_Z",
           "text": "ILS Z",
           "voice": "ILS ZULU"
@@ -10685,40 +10755,47 @@
           "variableName": "RNP_Y",
           "text": "RNP Y",
           "voice": "RNP YANKEE"
-        },
-        {
-          "variableName": "VPT_A",
-          "text": "VPT A",
-          "voice": "VPT ALPHA"
-        },
-        {
-          "variableName": "VPT_B",
-          "text": "VPT B",
-          "voice": "VPT BRAVO"
-        },
-        {
-          "variableName": "VOR_A",
-          "text": "VOR A",
-          "voice": "VOR ALPHA"
-        },
-        {
-          "variableName": "ILS_X",
-          "text": "ILS X",
-          "voice": "ILS XRAY"
-        },
-        {
-          "variableName": "RNP_X",
-          "text": "RNP X",
-          "voice": "RNP XRAY"
-        },
-        {
-          "variableName": "RNP_W",
-          "text": "RNP W",
-          "voice": "RNP WHISKEY"
         }
       ],
-      "airportConditionDefinitions": [],
-      "notamDefinitions": []
+      "airportConditionDefinitions": [
+        {
+          "text": "PARACHUTING ACTIVITIES IN THE VICINITY.",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "AEROMODELISM ACTIVITIES IN THE VICINITY.",
+          "ordinal": 2,
+          "enabled": false
+        },
+        {
+          "text": "R48 ACTIVE.",
+          "ordinal": 3,
+          "enabled": false
+        }
+      ],
+      "notamDefinitions": [
+        {
+          "text": "LOC/DME UNSERVICEABLE.",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "ILS UNSERVICEABLE.",
+          "ordinal": 2,
+          "enabled": false
+        },
+        {
+          "text": "CBY VOR UNSERVICEABLE.",
+          "ordinal": 2,
+          "enabled": false
+        },
+        {
+          "text": "CH NDB UNSERVICEABLE.",
+          "ordinal": 4,
+          "enabled": false
+        }
+      ]
     },
     {
       "id": "17465142-82ef-43c1-a170-2849747b4927",
@@ -10748,25 +10825,25 @@
           },
           "standard": {
             "template": {
-              "text": "WIND {wind_dir}/{wind_spd} KT",
+              "text": "WIND {wind_dir}/{wind_spd}KT.",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} {wind_unit}"
             }
           },
           "standardGust": {
             "template": {
-              "text": "WIND {wind_dir}/{wind_spd}G{wind_gust} KT.",
+              "text": "WIND {wind_dir}/{wind_spd}G{wind_gust}KT.",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} {wind_unit} GUSTING {wind_gust} {wind_unit}"
             }
           },
           "variable": {
             "template": {
-              "text": "VRB{wind_spd} KT.",
+              "text": "WIND VRB/{wind_spd}KT.",
               "voice": "WIND VARIABLE {wind_spd} {wind_unit}"
             }
           },
           "variableGust": {
             "template": {
-              "text": "VRB{wind_spd}G{wind_gust} KT.",
+              "text": "WIND VRB/{wind_spd}G{wind_gust}KT.",
               "voice": "WIND VARIABLE {wind_spd} {wind_unit} GUSTING {wind_gust} {wind_unit}"
             }
           },
@@ -10798,7 +10875,7 @@
           "includeVisibilitySuffix": true,
           "metersCutoff": 5000,
           "template": {
-            "text": "/ VIS {visibility} M",
+            "text": "VISIBILITY {visibility} METERS.",
             "voice": "VISIBILITY {visibility}"
           }
         },
@@ -12611,30 +12688,30 @@
             "TCU": "towering cumulus"
           },
           "template": {
-            "text": "/ CLD :\r\n{clouds}.",
-            "voice": "{clouds}"
+            "text": "CEILING {clouds}.",
+            "voice": "CEILING {clouds}"
           }
         },
         "temperature": {
-          "usePlusPrefix": false,
+          "usePlusPrefix": true,
           "speakLeadingZero": false,
           "template": {
-            "text": "T{temp} ",
+            "text": "TEMPERATURE {prefix_symbol}{temp}.",
             "voice": "TEMPERATURE {temp}"
           }
         },
         "dewpoint": {
-          "usePlusPrefix": false,
+          "usePlusPrefix": true,
           "speakLeadingZero": false,
           "template": {
-            "text": "/DP{dewpoint}",
+            "text": "DEWPOINT {prefix_symbol}{dewpoint}.",
             "voice": "DEWPOINT {dewpoint}"
           }
         },
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
-            "text": "QNH {altimeter}",
+            "text": "QNH {altimeter}.",
             "voice": "QNH {altimeter}."
           }
         },
@@ -12659,16 +12736,16 @@
             {
               "low": 1013,
               "high": 1050,
-              "altitude": 60
+              "altitude": 70
             },
             {
               "low": 940,
               "high": 1012,
-              "altitude": 70
+              "altitude": 80
             }
           ],
           "template": {
-            "text": "TRL {trl}",
+            "text": "TRANSITION LEVEL {trl}.",
             "voice": "TRANSITION LEVEL {trl}."
           }
         },
@@ -12768,60 +12845,27 @@
           "variableName": "RODEZ",
           "text": "RODEZ",
           "voice": "RODEZ"
-        },
-        {
-          "variableName": "ILS_Z",
-          "text": "ILS Z",
-          "voice": "ILS ZULU"
-        },
-        {
-          "variableName": "ILS_Y",
-          "text": "ILS Y",
-          "voice": "ILS YANKEE"
-        },
-        {
-          "variableName": "RNP_Z",
-          "text": "RNP Z",
-          "voice": "RNP ZULU"
-        },
-        {
-          "variableName": "RNP_Y",
-          "text": "RNP Y",
-          "voice": "RNP YANKEE"
-        },
-        {
-          "variableName": "VPT_A",
-          "text": "VPT A",
-          "voice": "VPT ALPHA"
-        },
-        {
-          "variableName": "VPT_B",
-          "text": "VPT B",
-          "voice": "VPT BRAVO"
-        },
-        {
-          "variableName": "VOR_A",
-          "text": "VOR A",
-          "voice": "VOR ALPHA"
-        },
-        {
-          "variableName": "ILS_X",
-          "text": "ILS X",
-          "voice": "ILS XRAY"
-        },
-        {
-          "variableName": "RNP_X",
-          "text": "RNP X",
-          "voice": "RNP XRAY"
-        },
-        {
-          "variableName": "RNP_W",
-          "text": "RNP W",
-          "voice": "RNP WHISKEY"
         }
       ],
-      "airportConditionDefinitions": [],
-      "notamDefinitions": []
+      "airportConditionDefinitions": [
+        {
+          "text": "AEROMODELISM ACTIVITIES IN THE VICINITY.",
+          "ordinal": 1,
+          "enabled": false
+        }
+      ],
+      "notamDefinitions": [
+        {
+          "text": "LOC/DME UNSERVICEABLE.",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "ILS UNSERVICEABLE.",
+          "ordinal": 2,
+          "enabled": false
+        }
+      ]
     },
     {
       "id": "abdadd73-2d81-4b0c-bf54-a00f3f1064fd",
@@ -12851,25 +12895,25 @@
           },
           "standard": {
             "template": {
-              "text": "WIND {wind_dir}/{wind_spd} KT",
+              "text": "WIND {wind_dir}/{wind_spd}KT.",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} {wind_unit}"
             }
           },
           "standardGust": {
             "template": {
-              "text": "WIND {wind_dir}/{wind_spd}G{wind_gust} KT.",
+              "text": "WIND {wind_dir}/{wind_spd}G{wind_gust}KT.",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} {wind_unit} GUSTING {wind_gust} {wind_unit}"
             }
           },
           "variable": {
             "template": {
-              "text": "VRB{wind_spd} KT.",
+              "text": "WIND VRB/{wind_spd}KT.",
               "voice": "WIND VARIABLE {wind_spd} {wind_unit}"
             }
           },
           "variableGust": {
             "template": {
-              "text": "VRB{wind_spd}G{wind_gust} KT.",
+              "text": "WIND VRB/{wind_spd}G{wind_gust}KT.",
               "voice": "WIND VARIABLE {wind_spd} {wind_unit} GUSTING {wind_gust} {wind_unit}"
             }
           },
@@ -12901,7 +12945,7 @@
           "includeVisibilitySuffix": true,
           "metersCutoff": 5000,
           "template": {
-            "text": "/ VIS {visibility} M",
+            "text": "VISIBILITY {visibility} METERS.",
             "voice": "VISIBILITY {visibility}"
           }
         },
@@ -14714,30 +14758,30 @@
             "TCU": "towering cumulus"
           },
           "template": {
-            "text": "/ CLD :\r\n{clouds}.",
-            "voice": "{clouds}"
+            "text": "CEILING {clouds}.",
+            "voice": "CEILING {clouds}"
           }
         },
         "temperature": {
-          "usePlusPrefix": false,
+          "usePlusPrefix": true,
           "speakLeadingZero": false,
           "template": {
-            "text": "T{temp} ",
+            "text": "TEMPERATURE {prefix_symbol}{temp}.",
             "voice": "TEMPERATURE {temp}"
           }
         },
         "dewpoint": {
-          "usePlusPrefix": false,
+          "usePlusPrefix": true,
           "speakLeadingZero": false,
           "template": {
-            "text": "/DP{dewpoint}",
+            "text": "DEWPOINT {prefix_symbol}{dewpoint}.",
             "voice": "DEWPOINT {dewpoint}"
           }
         },
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
-            "text": "QNH {altimeter}",
+            "text": "QNH {altimeter}.",
             "voice": "QNH {altimeter}."
           }
         },
@@ -14771,7 +14815,7 @@
             }
           ],
           "template": {
-            "text": "TRL {trl}",
+            "text": "TRANSITION LEVEL {trl}.",
             "voice": "TRANSITION LEVEL {trl}."
           }
         },
@@ -14868,19 +14912,14 @@
           "voice": "BON-JUR"
         },
         {
-          "variableName": "RODEZ",
-          "text": "RODEZ",
-          "voice": "RODEZ"
+          "variableName": "CLERMONT",
+          "text": "CLERMONT",
+          "voice": "CLERMONT"
         },
         {
-          "variableName": "ILS_Z",
-          "text": "ILS Z",
-          "voice": "ILS ZULU"
-        },
-        {
-          "variableName": "ILS_Y",
-          "text": "ILS Y",
-          "voice": "ILS YANKEE"
+          "variableName": "CFA",
+          "text": "CFA",
+          "voice": "CLERMONT"
         },
         {
           "variableName": "RNP_Z",
@@ -14891,40 +14930,32 @@
           "variableName": "RNP_Y",
           "text": "RNP Y",
           "voice": "RNP YANKEE"
-        },
-        {
-          "variableName": "VPT_A",
-          "text": "VPT A",
-          "voice": "VPT ALPHA"
-        },
-        {
-          "variableName": "VPT_B",
-          "text": "VPT B",
-          "voice": "VPT BRAVO"
-        },
-        {
-          "variableName": "VOR_A",
-          "text": "VOR A",
-          "voice": "VOR ALPHA"
-        },
-        {
-          "variableName": "ILS_X",
-          "text": "ILS X",
-          "voice": "ILS XRAY"
-        },
-        {
-          "variableName": "RNP_X",
-          "text": "RNP X",
-          "voice": "RNP XRAY"
-        },
-        {
-          "variableName": "RNP_W",
-          "text": "RNP W",
-          "voice": "RNP WHISKEY"
         }
       ],
-      "airportConditionDefinitions": [],
-      "notamDefinitions": []
+      "airportConditionDefinitions": [
+        {
+          "text": "AEROMODELISM ACTIVITIES IN THE VICINITY.",
+          "ordinal": 1,
+          "enabled": false
+        }
+      ],
+      "notamDefinitions": [
+        {
+          "text": "LOC/DME UNSERVICEABLE.",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "ILS UNSERVICEABLE.",
+          "ordinal": 2,
+          "enabled": false
+        },
+        {
+          "text": "CFA VOR UNSERVICEABLE.",
+          "ordinal": 3,
+          "enabled": false
+        }
+      ]
     },
     {
       "id": "717ddfa4-f0fa-4875-9a8c-7e1f324beb05",
@@ -14954,25 +14985,25 @@
           },
           "standard": {
             "template": {
-              "text": "WIND {wind_dir}/{wind_spd} KT",
+              "text": "WIND {wind_dir}/{wind_spd}KT.",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} {wind_unit}"
             }
           },
           "standardGust": {
             "template": {
-              "text": "WIND {wind_dir}/{wind_spd}G{wind_gust} KT.",
+              "text": "WIND {wind_dir}/{wind_spd}G{wind_gust}KT.",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} {wind_unit} GUSTING {wind_gust} {wind_unit}"
             }
           },
           "variable": {
             "template": {
-              "text": "VRB{wind_spd} KT.",
+              "text": "WIND VRB/{wind_spd}KT.",
               "voice": "WIND VARIABLE {wind_spd} {wind_unit}"
             }
           },
           "variableGust": {
             "template": {
-              "text": "VRB{wind_spd}G{wind_gust} KT.",
+              "text": "WIND VRB/{wind_spd}G{wind_gust}KT.",
               "voice": "WIND VARIABLE {wind_spd} {wind_unit} GUSTING {wind_gust} {wind_unit}"
             }
           },
@@ -15004,7 +15035,7 @@
           "includeVisibilitySuffix": true,
           "metersCutoff": 5000,
           "template": {
-            "text": "/ VIS {visibility} M",
+            "text": "VISIBILITY {visibility} METERS.",
             "voice": "VISIBILITY {visibility}"
           }
         },
@@ -16817,30 +16848,30 @@
             "TCU": "towering cumulus"
           },
           "template": {
-            "text": "/ CLD :\r\n{clouds}.",
-            "voice": "{clouds}"
+            "text": "CEILING {clouds}.",
+            "voice": "CEILING {clouds}"
           }
         },
         "temperature": {
-          "usePlusPrefix": false,
+          "usePlusPrefix": true,
           "speakLeadingZero": false,
           "template": {
-            "text": "T{temp} ",
+            "text": "TEMPERATURE {prefix_symbol}{temp}.",
             "voice": "TEMPERATURE {temp}"
           }
         },
         "dewpoint": {
-          "usePlusPrefix": false,
+          "usePlusPrefix": true,
           "speakLeadingZero": false,
           "template": {
-            "text": "/DP{dewpoint}",
+            "text": "DEWPOINT {prefix_symbol}{dewpoint}.",
             "voice": "DEWPOINT {dewpoint}"
           }
         },
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
-            "text": "QNH {altimeter}",
+            "text": "QNH {altimeter}.",
             "voice": "QNH {altimeter}."
           }
         },
@@ -16874,7 +16905,7 @@
             }
           ],
           "template": {
-            "text": "TRL {trl}",
+            "text": "TRANSITION LEVEL {trl}.",
             "voice": "TRANSITION LEVEL {trl}."
           }
         },
@@ -17045,7 +17076,7 @@
           },
           "variableGust": {
             "template": {
-              "text": "VRB{wind_spd}G{wind_gust} KT.",
+              "text": "WIND VRB/{wind_spd}G{wind_gust} KT",
               "voice": "WIND VARIABLE {wind_spd} {wind_unit} GUSTING {wind_gust} {wind_unit}"
             }
           },
@@ -18891,7 +18922,7 @@
           },
           "template": {
             "text": "/ CLD :\r\n{clouds}.",
-            "voice": "{clouds}"
+            "voice": "CEILING {clouds}"
           }
         },
         "temperature": {
@@ -19210,7 +19241,7 @@
             0
           ],
           "template": {
-            "text": "{time}z",
+            "text": "{time}Z",
             "voice": "{time} UTC"
           }
         },
@@ -19222,25 +19253,25 @@
           },
           "standard": {
             "template": {
-              "text": "{wind_dir}{wind_spd}KT.",
+              "text": "WIND {wind_dir}/{wind_spd}KT.",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} {wind_unit}"
             }
           },
           "standardGust": {
             "template": {
-              "text": "{wind_dir}{wind_spd}G{wind_gust}KT.",
+              "text": "WIND {wind_dir}/{wind_spd}G{wind_gust}KT.",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} {wind_unit} GUSTING {wind_gust} {wind_unit}"
             }
           },
           "variable": {
             "template": {
-              "text": "VRB{wind_spd}KT.",
+              "text": "WIND VRB/{wind_spd}KT.",
               "voice": "WIND VARIABLE {wind_spd} {wind_unit}"
             }
           },
           "variableGust": {
             "template": {
-              "text": "VRB{wind_spd}G{wind_gust}KT.",
+              "text": "WIND VRB/{wind_spd}G{wind_gust}KT.",
               "voice": "WIND VARIABLE {wind_spd} {wind_unit} GUSTING {wind_gust} {wind_unit}"
             }
           },
@@ -19253,7 +19284,7 @@
           "calm": {
             "calmWindSpeed": 4,
             "template": {
-              "text": "{wind}.",
+              "text": "WIND {wind}.",
               "voice": "WIND CALM"
             }
           }
@@ -19272,7 +19303,7 @@
           "includeVisibilitySuffix": true,
           "metersCutoff": 5000,
           "template": {
-            "text": "{visibility}.",
+            "text": "VISIBILITY {visibility} METERS.",
             "voice": "VISIBILITY {visibility}"
           }
         },
@@ -21085,23 +21116,23 @@
             "TCU": "towering cumulus"
           },
           "template": {
-            "text": "{clouds}.",
-            "voice": "{clouds}"
+            "text": "CEILING {clouds}.",
+            "voice": "CEILING {clouds}"
           }
         },
         "temperature": {
-          "usePlusPrefix": false,
+          "usePlusPrefix": true,
           "speakLeadingZero": false,
           "template": {
-            "text": "TEMPERATURE {temp}.",
+            "text": "TEMPERATURE {prefix_symbol}{temp}.",
             "voice": "TEMPERATURE {temp}"
           }
         },
         "dewpoint": {
-          "usePlusPrefix": false,
+          "usePlusPrefix": true,
           "speakLeadingZero": false,
           "template": {
-            "text": "DEWPOINT {dewpoint}.",
+            "text": "DEWPOINT {prefix_symbol}{dewpoint}.",
             "voice": "DEWPOINT {dewpoint}"
           }
         },
@@ -21148,8 +21179,8 @@
         },
         "notams": {
           "template": {
-            "text": "NOTAMS {notams}.",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "text": "{notams}.",
+            "voice": "{notams}"
           }
         },
         "closingStatement": {
@@ -21288,7 +21319,7 @@
             0
           ],
           "template": {
-            "text": "{time}z",
+            "text": "{time}Z",
             "voice": "{time} UTC"
           }
         },
@@ -21300,25 +21331,25 @@
           },
           "standard": {
             "template": {
-              "text": "{wind_dir}{wind_spd}KT.",
+              "text": "WIND {wind_dir}/{wind_spd}KT.",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} {wind_unit}"
             }
           },
           "standardGust": {
             "template": {
-              "text": "{wind_dir}{wind_spd}G{wind_gust}KT.",
+              "text": "WIND {wind_dir}/{wind_spd}G{wind_gust}KT.",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} {wind_unit} GUSTING {wind_gust} {wind_unit}"
             }
           },
           "variable": {
             "template": {
-              "text": "VRB{wind_spd}KT.",
+              "text": "WIND VRB/{wind_spd}KT.",
               "voice": "WIND VARIABLE {wind_spd} {wind_unit}"
             }
           },
           "variableGust": {
             "template": {
-              "text": "VRB{wind_spd}G{wind_gust}KT.",
+              "text": "WIND VRB/{wind_spd}G{wind_gust}KT.",
               "voice": "WIND VARIABLE {wind_spd} {wind_unit} GUSTING {wind_gust} {wind_unit}"
             }
           },
@@ -21331,7 +21362,7 @@
           "calm": {
             "calmWindSpeed": 4,
             "template": {
-              "text": "{wind}.",
+              "text": "WIND {wind}.",
               "voice": "WIND CALM"
             }
           }
@@ -21350,7 +21381,7 @@
           "includeVisibilitySuffix": true,
           "metersCutoff": 5000,
           "template": {
-            "text": "{visibility}.",
+            "text": "VISIBILITY {visibility} METERS.",
             "voice": "VISIBILITY {visibility}"
           }
         },
@@ -23163,23 +23194,23 @@
             "TCU": "towering cumulus"
           },
           "template": {
-            "text": "{clouds}.",
-            "voice": "{clouds}"
+            "text": "CEILING {clouds}.",
+            "voice": "CEILING {clouds}"
           }
         },
         "temperature": {
-          "usePlusPrefix": false,
+          "usePlusPrefix": true,
           "speakLeadingZero": false,
           "template": {
-            "text": "TEMPERATURE {temp}.",
+            "text": "TEMPERATURE {prefix_symbol}{temp}.",
             "voice": "TEMPERATURE {temp}"
           }
         },
         "dewpoint": {
-          "usePlusPrefix": false,
+          "usePlusPrefix": true,
           "speakLeadingZero": false,
           "template": {
-            "text": "DEWPOINT {dewpoint}.",
+            "text": "DEWPOINT {prefix_symbol}{dewpoint}.",
             "voice": "DEWPOINT {dewpoint}"
           }
         },
@@ -23226,8 +23257,8 @@
         },
         "notams": {
           "template": {
-            "text": "NOTAMS {notams}.",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "text": "{notams}.",
+            "voice": "{notams}"
           }
         },
         "closingStatement": {
@@ -23321,7 +23352,7 @@
             0
           ],
           "template": {
-            "text": "{time}z",
+            "text": "{time}Z",
             "voice": "{time} UTC"
           }
         },
@@ -23333,25 +23364,25 @@
           },
           "standard": {
             "template": {
-              "text": "{wind_dir}{wind_spd}KT.",
+              "text": "WIND {wind_dir}/{wind_spd}KT.",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} {wind_unit}"
             }
           },
           "standardGust": {
             "template": {
-              "text": "{wind_dir}{wind_spd}G{wind_gust}KT.",
+              "text": "WIND {wind_dir}/{wind_spd}G{wind_gust}KT.",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} {wind_unit} GUSTING {wind_gust} {wind_unit}"
             }
           },
           "variable": {
             "template": {
-              "text": "VRB{wind_spd}KT.",
+              "text": "WIND VRB/{wind_spd}KT.",
               "voice": "WIND VARIABLE {wind_spd} {wind_unit}"
             }
           },
           "variableGust": {
             "template": {
-              "text": "VRB{wind_spd}G{wind_gust}KT.",
+              "text": "WIND VRB/{wind_spd}G{wind_gust}KT.",
               "voice": "WIND VARIABLE {wind_spd} {wind_unit} GUSTING {wind_gust} {wind_unit}"
             }
           },
@@ -23364,7 +23395,7 @@
           "calm": {
             "calmWindSpeed": 4,
             "template": {
-              "text": "{wind}.",
+              "text": "WIND {wind}.",
               "voice": "WIND CALM"
             }
           }
@@ -23383,7 +23414,7 @@
           "includeVisibilitySuffix": true,
           "metersCutoff": 5000,
           "template": {
-            "text": "{visibility}.",
+            "text": "VISIBILITY {visibility} METERS.",
             "voice": "VISIBILITY {visibility}"
           }
         },
@@ -25196,23 +25227,23 @@
             "TCU": "towering cumulus"
           },
           "template": {
-            "text": "{clouds}.",
-            "voice": "{clouds}"
+            "text": "CEILING {clouds}.",
+            "voice": "CEILING {clouds}"
           }
         },
         "temperature": {
-          "usePlusPrefix": false,
+          "usePlusPrefix": true,
           "speakLeadingZero": false,
           "template": {
-            "text": "TEMPERATURE {temp}.",
+            "text": "TEMPERATURE {prefix_symbol}{temp}.",
             "voice": "TEMPERATURE {temp}"
           }
         },
         "dewpoint": {
-          "usePlusPrefix": false,
+          "usePlusPrefix": true,
           "speakLeadingZero": false,
           "template": {
-            "text": "DEWPOINT {dewpoint}.",
+            "text": "DEWPOINT {prefix_symbol}{dewpoint}.",
             "voice": "DEWPOINT {dewpoint}"
           }
         },
@@ -25259,8 +25290,8 @@
         },
         "notams": {
           "template": {
-            "text": "NOTAMS {notams}.",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "text": "{notams}.",
+            "voice": "{notams}"
           }
         },
         "closingStatement": {
@@ -25354,7 +25385,7 @@
             0
           ],
           "template": {
-            "text": "{time}z",
+            "text": "{time}Z",
             "voice": "{time} UTC"
           }
         },
@@ -25366,25 +25397,25 @@
           },
           "standard": {
             "template": {
-              "text": "{wind_dir}{wind_spd}KT.",
+              "text": "WIND {wind_dir}/{wind_spd}KT.",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} {wind_unit}"
             }
           },
           "standardGust": {
             "template": {
-              "text": "{wind_dir}{wind_spd}G{wind_gust}KT.",
+              "text": "WIND {wind_dir}/{wind_spd}G{wind_gust}KT.",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} {wind_unit} GUSTING {wind_gust} {wind_unit}"
             }
           },
           "variable": {
             "template": {
-              "text": "VRB{wind_spd}KT.",
+              "text": "WIND VRB/{wind_spd}KT.",
               "voice": "WIND VARIABLE {wind_spd} {wind_unit}"
             }
           },
           "variableGust": {
             "template": {
-              "text": "VRB{wind_spd}G{wind_gust}KT.",
+              "text": "WIND VRB/{wind_spd}G{wind_gust}KT.",
               "voice": "WIND VARIABLE {wind_spd} {wind_unit} GUSTING {wind_gust} {wind_unit}"
             }
           },
@@ -25397,7 +25428,7 @@
           "calm": {
             "calmWindSpeed": 4,
             "template": {
-              "text": "{wind}.",
+              "text": "WIND {wind}.",
               "voice": "WIND CALM"
             }
           }
@@ -25416,7 +25447,7 @@
           "includeVisibilitySuffix": true,
           "metersCutoff": 5000,
           "template": {
-            "text": "{visibility}.",
+            "text": "VISIBILITY {visibility} METERS.",
             "voice": "VISIBILITY {visibility}"
           }
         },
@@ -27229,23 +27260,23 @@
             "TCU": "towering cumulus"
           },
           "template": {
-            "text": "{clouds}.",
-            "voice": "{clouds}"
+            "text": "CEILING {clouds}.",
+            "voice": "CEILING {clouds}"
           }
         },
         "temperature": {
-          "usePlusPrefix": false,
+          "usePlusPrefix": true,
           "speakLeadingZero": false,
           "template": {
-            "text": "TEMPERATURE {temp}.",
+            "text": "TEMPERATURE {prefix_symbol}{temp}.",
             "voice": "TEMPERATURE {temp}"
           }
         },
         "dewpoint": {
-          "usePlusPrefix": false,
+          "usePlusPrefix": true,
           "speakLeadingZero": false,
           "template": {
-            "text": "DEWPOINT {dewpoint}.",
+            "text": "DEWPOINT {prefix_symbol}{dewpoint}.",
             "voice": "DEWPOINT {dewpoint}"
           }
         },
@@ -27292,8 +27323,8 @@
         },
         "notams": {
           "template": {
-            "text": "NOTAMS {notams}.",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "text": "{notams}.",
+            "voice": "{notams}"
           }
         },
         "closingStatement": {
@@ -27387,7 +27418,7 @@
             0
           ],
           "template": {
-            "text": "{time}z",
+            "text": "{time}Z",
             "voice": "{time} UTC"
           }
         },
@@ -27399,25 +27430,25 @@
           },
           "standard": {
             "template": {
-              "text": "{wind_dir}{wind_spd}KT.",
+              "text": "WIND {wind_dir}/{wind_spd}KT.",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} {wind_unit}"
             }
           },
           "standardGust": {
             "template": {
-              "text": "{wind_dir}{wind_spd}G{wind_gust}KT.",
+              "text": "WIND {wind_dir}/{wind_spd}G{wind_gust}KT.",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} {wind_unit} GUSTING {wind_gust} {wind_unit}"
             }
           },
           "variable": {
             "template": {
-              "text": "VRB{wind_spd}KT.",
+              "text": "WIND VRB/{wind_spd}KT.",
               "voice": "WIND VARIABLE {wind_spd} {wind_unit}"
             }
           },
           "variableGust": {
             "template": {
-              "text": "VRB{wind_spd}G{wind_gust}KT.",
+              "text": "WIND VRB/{wind_spd}G{wind_gust}KT.",
               "voice": "WIND VARIABLE {wind_spd} {wind_unit} GUSTING {wind_gust} {wind_unit}"
             }
           },
@@ -27430,7 +27461,7 @@
           "calm": {
             "calmWindSpeed": 4,
             "template": {
-              "text": "{wind}.",
+              "text": "WIND {wind}.",
               "voice": "WIND CALM"
             }
           }
@@ -27449,7 +27480,7 @@
           "includeVisibilitySuffix": true,
           "metersCutoff": 5000,
           "template": {
-            "text": "{visibility}.",
+            "text": "VISIBILITY {visibility} METERS.",
             "voice": "VISIBILITY {visibility}"
           }
         },
@@ -29262,23 +29293,23 @@
             "TCU": "towering cumulus"
           },
           "template": {
-            "text": "{clouds}.",
-            "voice": "{clouds}"
+            "text": "CEILING {clouds}.",
+            "voice": "CEILING {clouds}"
           }
         },
         "temperature": {
-          "usePlusPrefix": false,
+          "usePlusPrefix": true,
           "speakLeadingZero": false,
           "template": {
-            "text": "TEMPERATURE {temp}.",
+            "text": "TEMPERATURE {prefix_symbol}{temp}.",
             "voice": "TEMPERATURE {temp}"
           }
         },
         "dewpoint": {
-          "usePlusPrefix": false,
+          "usePlusPrefix": true,
           "speakLeadingZero": false,
           "template": {
-            "text": "DEWPOINT {dewpoint}.",
+            "text": "DEWPOINT {prefix_symbol}{dewpoint}.",
             "voice": "DEWPOINT {dewpoint}"
           }
         },
@@ -29325,8 +29356,8 @@
         },
         "notams": {
           "template": {
-            "text": "NOTAMS {notams}.",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "text": "{notams}.",
+            "voice": "{notams}"
           }
         },
         "closingStatement": {
@@ -29520,7 +29551,7 @@
             0
           ],
           "template": {
-            "text": "{time}z",
+            "text": "{time}Z",
             "voice": "{time} UTC"
           }
         },
@@ -29532,25 +29563,25 @@
           },
           "standard": {
             "template": {
-              "text": "{wind_dir}{wind_spd}KT.",
+              "text": "WIND {wind_dir}/{wind_spd}KT.",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} {wind_unit}"
             }
           },
           "standardGust": {
             "template": {
-              "text": "{wind_dir}{wind_spd}G{wind_gust}KT.",
+              "text": "WIND {wind_dir}/{wind_spd}G{wind_gust}KT.",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} {wind_unit} GUSTING {wind_gust} {wind_unit}"
             }
           },
           "variable": {
             "template": {
-              "text": "VRB{wind_spd}KT.",
+              "text": "WIND VRB/{wind_spd}KT.",
               "voice": "WIND VARIABLE {wind_spd} {wind_unit}"
             }
           },
           "variableGust": {
             "template": {
-              "text": "VRB{wind_spd}G{wind_gust}KT.",
+              "text": "WIND VRB/{wind_spd}G{wind_gust}KT.",
               "voice": "WIND VARIABLE {wind_spd} {wind_unit} GUSTING {wind_gust} {wind_unit}"
             }
           },
@@ -29563,7 +29594,7 @@
           "calm": {
             "calmWindSpeed": 4,
             "template": {
-              "text": "{wind}.",
+              "text": "WIND {wind}.",
               "voice": "WIND CALM"
             }
           }
@@ -29582,7 +29613,7 @@
           "includeVisibilitySuffix": true,
           "metersCutoff": 5000,
           "template": {
-            "text": "{visibility}.",
+            "text": "VISIBILITY {visibility} METERS.",
             "voice": "VISIBILITY {visibility}"
           }
         },
@@ -31395,23 +31426,23 @@
             "TCU": "towering cumulus"
           },
           "template": {
-            "text": "{clouds}.",
-            "voice": "{clouds}"
+            "text": "CEILING {clouds}.",
+            "voice": "CEILING {clouds}"
           }
         },
         "temperature": {
-          "usePlusPrefix": false,
+          "usePlusPrefix": true,
           "speakLeadingZero": false,
           "template": {
-            "text": "TEMPERATURE {temp}.",
+            "text": "TEMPERATURE {prefix_symbol}{temp}.",
             "voice": "TEMPERATURE {temp}"
           }
         },
         "dewpoint": {
-          "usePlusPrefix": false,
+          "usePlusPrefix": true,
           "speakLeadingZero": false,
           "template": {
-            "text": "DEWPOINT {dewpoint}.",
+            "text": "DEWPOINT {prefix_symbol}{dewpoint}.",
             "voice": "DEWPOINT {dewpoint}"
           }
         },
@@ -31458,8 +31489,8 @@
         },
         "notams": {
           "template": {
-            "text": "NOTAMS {notams}.",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "text": "{notams}.",
+            "voice": "{notams}"
           }
         },
         "closingStatement": {
@@ -31618,7 +31649,7 @@
             0
           ],
           "template": {
-            "text": "{time}z",
+            "text": "{time}Z",
             "voice": "{time} UTC"
           }
         },
@@ -31630,25 +31661,25 @@
           },
           "standard": {
             "template": {
-              "text": "{wind_dir}{wind_spd}KT.",
+              "text": "WIND {wind_dir}/{wind_spd}KT.",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} {wind_unit}"
             }
           },
           "standardGust": {
             "template": {
-              "text": "{wind_dir}{wind_spd}G{wind_gust}KT.",
+              "text": "WIND {wind_dir}/{wind_spd}G{wind_gust}KT.",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} {wind_unit} GUSTING {wind_gust} {wind_unit}"
             }
           },
           "variable": {
             "template": {
-              "text": "VRB{wind_spd}KT.",
+              "text": "WIND VRB/{wind_spd}KT.",
               "voice": "WIND VARIABLE {wind_spd} {wind_unit}"
             }
           },
           "variableGust": {
             "template": {
-              "text": "VRB{wind_spd}G{wind_gust}KT.",
+              "text": "WIND VRB/{wind_spd}G{wind_gust}KT.",
               "voice": "WIND VARIABLE {wind_spd} {wind_unit} GUSTING {wind_gust} {wind_unit}"
             }
           },
@@ -31661,7 +31692,7 @@
           "calm": {
             "calmWindSpeed": 4,
             "template": {
-              "text": "{wind}.",
+              "text": "WIND {wind}.",
               "voice": "WIND CALM"
             }
           }
@@ -31680,7 +31711,7 @@
           "includeVisibilitySuffix": true,
           "metersCutoff": 5000,
           "template": {
-            "text": "{visibility}.",
+            "text": "VISIBILITY {visibility} METERS.",
             "voice": "VISIBILITY {visibility}"
           }
         },
@@ -33493,23 +33524,23 @@
             "TCU": "towering cumulus"
           },
           "template": {
-            "text": "{clouds}.",
-            "voice": "{clouds}"
+            "text": "CEILING {clouds}.",
+            "voice": "CEILING {clouds}"
           }
         },
         "temperature": {
-          "usePlusPrefix": false,
+          "usePlusPrefix": true,
           "speakLeadingZero": false,
           "template": {
-            "text": "TEMPERATURE {temp}.",
+            "text": "TEMPERATURE {prefix_symbol}{temp}.",
             "voice": "TEMPERATURE {temp}"
           }
         },
         "dewpoint": {
-          "usePlusPrefix": false,
+          "usePlusPrefix": true,
           "speakLeadingZero": false,
           "template": {
-            "text": "DEWPOINT {dewpoint}.",
+            "text": "DEWPOINT {prefix_symbol}{dewpoint}.",
             "voice": "DEWPOINT {dewpoint}"
           }
         },
@@ -33556,8 +33587,8 @@
         },
         "notams": {
           "template": {
-            "text": "NOTAMS {notams}.",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "text": "{notams}.",
+            "voice": "{notams}"
           }
         },
         "closingStatement": {
@@ -33761,7 +33792,7 @@
             0
           ],
           "template": {
-            "text": "{time}z",
+            "text": "{time}Z",
             "voice": "{time} UTC"
           }
         },
@@ -33773,25 +33804,25 @@
           },
           "standard": {
             "template": {
-              "text": "{wind_dir}{wind_spd}KT.",
+              "text": "WIND {wind_dir}/{wind_spd}KT.",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} {wind_unit}"
             }
           },
           "standardGust": {
             "template": {
-              "text": "{wind_dir}{wind_spd}G{wind_gust}KT.",
+              "text": "WIND {wind_dir}/{wind_spd}G{wind_gust}KT.",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} {wind_unit} GUSTING {wind_gust} {wind_unit}"
             }
           },
           "variable": {
             "template": {
-              "text": "VRB{wind_spd}KT.",
+              "text": "WIND VRB/{wind_spd}KT.",
               "voice": "WIND VARIABLE {wind_spd} {wind_unit}"
             }
           },
           "variableGust": {
             "template": {
-              "text": "VRB{wind_spd}G{wind_gust}KT.",
+              "text": "WIND VRB/{wind_spd}G{wind_gust}KT.",
               "voice": "WIND VARIABLE {wind_spd} {wind_unit} GUSTING {wind_gust} {wind_unit}"
             }
           },
@@ -33804,7 +33835,7 @@
           "calm": {
             "calmWindSpeed": 4,
             "template": {
-              "text": "{wind}.",
+              "text": "WIND {wind}.",
               "voice": "WIND CALM"
             }
           }
@@ -33823,7 +33854,7 @@
           "includeVisibilitySuffix": true,
           "metersCutoff": 5000,
           "template": {
-            "text": "{visibility}.",
+            "text": "VISIBILITY {visibility} METERS.",
             "voice": "VISIBILITY {visibility}"
           }
         },
@@ -35636,23 +35667,23 @@
             "TCU": "towering cumulus"
           },
           "template": {
-            "text": "{clouds}.",
-            "voice": "{clouds}"
+            "text": "CEILING {clouds}.",
+            "voice": "CEILING {clouds}"
           }
         },
         "temperature": {
-          "usePlusPrefix": false,
+          "usePlusPrefix": true,
           "speakLeadingZero": false,
           "template": {
-            "text": "TEMPERATURE {temp}.",
+            "text": "TEMPERATURE {prefix_symbol}{temp}.",
             "voice": "TEMPERATURE {temp}"
           }
         },
         "dewpoint": {
-          "usePlusPrefix": false,
+          "usePlusPrefix": true,
           "speakLeadingZero": false,
           "template": {
-            "text": "DEWPOINT {dewpoint}.",
+            "text": "DEWPOINT {prefix_symbol}{dewpoint}.",
             "voice": "DEWPOINT {dewpoint}"
           }
         },
@@ -35699,8 +35730,8 @@
         },
         "notams": {
           "template": {
-            "text": "NOTAMS {notams}.",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "text": "{notams}.",
+            "voice": "{notams}"
           }
         },
         "closingStatement": {
@@ -35894,7 +35925,7 @@
             0
           ],
           "template": {
-            "text": "{time}z",
+            "text": "{time}Z",
             "voice": "{time} UTC"
           }
         },
@@ -35906,25 +35937,25 @@
           },
           "standard": {
             "template": {
-              "text": "{wind_dir}{wind_spd}KT.",
+              "text": "WIND {wind_dir}/{wind_spd}KT.",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} {wind_unit}"
             }
           },
           "standardGust": {
             "template": {
-              "text": "{wind_dir}{wind_spd}G{wind_gust}KT.",
+              "text": "WIND {wind_dir}/{wind_spd}G{wind_gust}KT.",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} {wind_unit} GUSTING {wind_gust} {wind_unit}"
             }
           },
           "variable": {
             "template": {
-              "text": "VRB{wind_spd}KT.",
+              "text": "WIND VRB/{wind_spd}KT.",
               "voice": "WIND VARIABLE {wind_spd} {wind_unit}"
             }
           },
           "variableGust": {
             "template": {
-              "text": "VRB{wind_spd}G{wind_gust}KT.",
+              "text": "WIND VRB/{wind_spd}G{wind_gust}KT.",
               "voice": "WIND VARIABLE {wind_spd} {wind_unit} GUSTING {wind_gust} {wind_unit}"
             }
           },
@@ -35937,7 +35968,7 @@
           "calm": {
             "calmWindSpeed": 4,
             "template": {
-              "text": "{wind}.",
+              "text": "WIND {wind}.",
               "voice": "WIND CALM"
             }
           }
@@ -35956,7 +35987,7 @@
           "includeVisibilitySuffix": true,
           "metersCutoff": 5000,
           "template": {
-            "text": "{visibility}.",
+            "text": "VISIBILITY {visibility} METERS.",
             "voice": "VISIBILITY {visibility}"
           }
         },
@@ -37769,23 +37800,23 @@
             "TCU": "towering cumulus"
           },
           "template": {
-            "text": "{clouds}.",
-            "voice": "{clouds}"
+            "text": "CEILING {clouds}.",
+            "voice": "CEILING {clouds}"
           }
         },
         "temperature": {
-          "usePlusPrefix": false,
+          "usePlusPrefix": true,
           "speakLeadingZero": false,
           "template": {
-            "text": "TEMPERATURE {temp}.",
+            "text": "TEMPERATURE {prefix_symbol}{temp}.",
             "voice": "TEMPERATURE {temp}"
           }
         },
         "dewpoint": {
-          "usePlusPrefix": false,
+          "usePlusPrefix": true,
           "speakLeadingZero": false,
           "template": {
-            "text": "DEWPOINT {dewpoint}.",
+            "text": "DEWPOINT {prefix_symbol}{dewpoint}.",
             "voice": "DEWPOINT {dewpoint}"
           }
         },
@@ -37832,8 +37863,8 @@
         },
         "notams": {
           "template": {
-            "text": "NOTAMS {notams}.",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "text": "{notams}.",
+            "voice": "{notams}"
           }
         },
         "closingStatement": {
@@ -37982,7 +38013,7 @@
             0
           ],
           "template": {
-            "text": "{time}z",
+            "text": "{time}Z",
             "voice": "{time} UTC"
           }
         },
@@ -37994,25 +38025,25 @@
           },
           "standard": {
             "template": {
-              "text": "{wind_dir}{wind_spd}KT.",
+              "text": "WIND {wind_dir}/{wind_spd}KT.",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} {wind_unit}"
             }
           },
           "standardGust": {
             "template": {
-              "text": "{wind_dir}{wind_spd}G{wind_gust}KT.",
+              "text": "WIND {wind_dir}/{wind_spd}G{wind_gust}KT.",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} {wind_unit} GUSTING {wind_gust} {wind_unit}"
             }
           },
           "variable": {
             "template": {
-              "text": "VRB{wind_spd}KT.",
+              "text": "WIND VRB/{wind_spd}KT.",
               "voice": "WIND VARIABLE {wind_spd} {wind_unit}"
             }
           },
           "variableGust": {
             "template": {
-              "text": "VRB{wind_spd}G{wind_gust}KT.",
+              "text": "WIND VRB/{wind_spd}G{wind_gust}KT.",
               "voice": "WIND VARIABLE {wind_spd} {wind_unit} GUSTING {wind_gust} {wind_unit}"
             }
           },
@@ -38025,7 +38056,7 @@
           "calm": {
             "calmWindSpeed": 4,
             "template": {
-              "text": "{wind}.",
+              "text": "WIND {wind}.",
               "voice": "WIND CALM"
             }
           }
@@ -38044,7 +38075,7 @@
           "includeVisibilitySuffix": true,
           "metersCutoff": 5000,
           "template": {
-            "text": "{visibility}.",
+            "text": "VISIBILITY {visibility} METERS.",
             "voice": "VISIBILITY {visibility}"
           }
         },
@@ -39857,23 +39888,23 @@
             "TCU": "towering cumulus"
           },
           "template": {
-            "text": "{clouds}.",
-            "voice": "{clouds}"
+            "text": "CEILING {clouds}.",
+            "voice": "CEILING {clouds}"
           }
         },
         "temperature": {
-          "usePlusPrefix": false,
+          "usePlusPrefix": true,
           "speakLeadingZero": false,
           "template": {
-            "text": "TEMPERATURE {temp}.",
+            "text": "TEMPERATURE {prefix_symbol}{temp}.",
             "voice": "TEMPERATURE {temp}"
           }
         },
         "dewpoint": {
-          "usePlusPrefix": false,
+          "usePlusPrefix": true,
           "speakLeadingZero": false,
           "template": {
-            "text": "DEWPOINT {dewpoint}.",
+            "text": "DEWPOINT {prefix_symbol}{dewpoint}.",
             "voice": "DEWPOINT {dewpoint}"
           }
         },
@@ -39920,8 +39951,8 @@
         },
         "notams": {
           "template": {
-            "text": "NOTAMS {notams}.",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "text": "{notams}.",
+            "voice": "{notams}"
           }
         },
         "closingStatement": {
@@ -40070,7 +40101,7 @@
             0
           ],
           "template": {
-            "text": "{time}z",
+            "text": "{time}Z",
             "voice": "{time} UTC"
           }
         },
@@ -40082,25 +40113,25 @@
           },
           "standard": {
             "template": {
-              "text": "{wind_dir}{wind_spd}KT.",
+              "text": "WIND {wind_dir}/{wind_spd}KT.",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} {wind_unit}"
             }
           },
           "standardGust": {
             "template": {
-              "text": "{wind_dir}{wind_spd}G{wind_gust}KT.",
+              "text": "WIND {wind_dir}/{wind_spd}G{wind_gust}KT.",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} {wind_unit} GUSTING {wind_gust} {wind_unit}"
             }
           },
           "variable": {
             "template": {
-              "text": "VRB{wind_spd}KT.",
+              "text": "WIND VRB/{wind_spd}KT.",
               "voice": "WIND VARIABLE {wind_spd} {wind_unit}"
             }
           },
           "variableGust": {
             "template": {
-              "text": "VRB{wind_spd}G{wind_gust}KT.",
+              "text": "WIND VRB/{wind_spd}G{wind_gust}KT.",
               "voice": "WIND VARIABLE {wind_spd} {wind_unit} GUSTING {wind_gust} {wind_unit}"
             }
           },
@@ -40113,7 +40144,7 @@
           "calm": {
             "calmWindSpeed": 4,
             "template": {
-              "text": "{wind}.",
+              "text": "WIND {wind}.",
               "voice": "WIND CALM"
             }
           }
@@ -40132,7 +40163,7 @@
           "includeVisibilitySuffix": true,
           "metersCutoff": 5000,
           "template": {
-            "text": "{visibility}.",
+            "text": "VISIBILITY {visibility} METERS.",
             "voice": "VISIBILITY {visibility}"
           }
         },
@@ -41945,23 +41976,23 @@
             "TCU": "towering cumulus"
           },
           "template": {
-            "text": "{clouds}.",
-            "voice": "{clouds}"
+            "text": "CEILING {clouds}.",
+            "voice": "CEILING {clouds}"
           }
         },
         "temperature": {
-          "usePlusPrefix": false,
+          "usePlusPrefix": true,
           "speakLeadingZero": false,
           "template": {
-            "text": "TEMPERATURE {temp}.",
+            "text": "TEMPERATURE {prefix_symbol}{temp}.",
             "voice": "TEMPERATURE {temp}"
           }
         },
         "dewpoint": {
-          "usePlusPrefix": false,
+          "usePlusPrefix": true,
           "speakLeadingZero": false,
           "template": {
-            "text": "DEWPOINT {dewpoint}.",
+            "text": "DEWPOINT {prefix_symbol}{dewpoint}.",
             "voice": "DEWPOINT {dewpoint}"
           }
         },
@@ -42008,8 +42039,8 @@
         },
         "notams": {
           "template": {
-            "text": "NOTAMS {notams}.",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "text": "{notams}.",
+            "voice": "{notams}"
           }
         },
         "closingStatement": {
@@ -42212,13 +42243,13 @@
           },
           "variable": {
             "template": {
-              "text": "VRB{wind_spd} KT.",
+              "text": "WIND VRB/{wind_spd} KT.",
               "voice": "WIND VARIABLE {wind_spd} {wind_unit}"
             }
           },
           "variableGust": {
             "template": {
-              "text": "VRB{wind_spd}G{wind_gust} KT.",
+              "text": "WIND VRB/{wind_spd}G{wind_gust} KT.",
               "voice": "WIND VARIABLE {wind_spd} {wind_unit} GUSTING {wind_gust} {wind_unit}"
             }
           },
@@ -44064,7 +44095,7 @@
           },
           "template": {
             "text": "/ CLD :\r\n{clouds}.",
-            "voice": "{clouds}"
+            "voice": "CEILING {clouds}"
           }
         },
         "temperature": {
@@ -44432,7 +44463,7 @@
             0
           ],
           "template": {
-            "text": "{time}z",
+            "text": "{time}Z",
             "voice": "{time} UTC"
           }
         },
@@ -44444,25 +44475,25 @@
           },
           "standard": {
             "template": {
-              "text": "{wind_dir}{wind_spd}KT.",
+              "text": "WIND {wind_dir}/{wind_spd}KT.",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} {wind_unit}"
             }
           },
           "standardGust": {
             "template": {
-              "text": "{wind_dir}{wind_spd}G{wind_gust}KT.",
+              "text": "WIND {wind_dir}/{wind_spd}G{wind_gust}KT.",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} {wind_unit} GUSTING {wind_gust} {wind_unit}"
             }
           },
           "variable": {
             "template": {
-              "text": "VRB{wind_spd}KT.",
+              "text": "WIND VRB/{wind_spd}KT.",
               "voice": "WIND VARIABLE {wind_spd} {wind_unit}"
             }
           },
           "variableGust": {
             "template": {
-              "text": "VRB{wind_spd}G{wind_gust}KT.",
+              "text": "WIND VRB/{wind_spd}G{wind_gust}KT.",
               "voice": "WIND VARIABLE {wind_spd} {wind_unit} GUSTING {wind_gust} {wind_unit}"
             }
           },
@@ -44475,7 +44506,7 @@
           "calm": {
             "calmWindSpeed": 4,
             "template": {
-              "text": "{wind}.",
+              "text": "WIND {wind}.",
               "voice": "WIND CALM"
             }
           }
@@ -44494,7 +44525,7 @@
           "includeVisibilitySuffix": true,
           "metersCutoff": 5000,
           "template": {
-            "text": "{visibility}.",
+            "text": "VISIBILITY {visibility} METERS.",
             "voice": "VISIBILITY {visibility}"
           }
         },
@@ -46307,23 +46338,23 @@
             "TCU": "towering cumulus"
           },
           "template": {
-            "text": "{clouds}.",
-            "voice": "{clouds}"
+            "text": "CEILING {clouds}.",
+            "voice": "CEILING {clouds}"
           }
         },
         "temperature": {
-          "usePlusPrefix": false,
+          "usePlusPrefix": true,
           "speakLeadingZero": false,
           "template": {
-            "text": "TEMPERATURE {temp}.",
+            "text": "TEMPERATURE {prefix_symbol}{temp}.",
             "voice": "TEMPERATURE {temp}"
           }
         },
         "dewpoint": {
-          "usePlusPrefix": false,
+          "usePlusPrefix": true,
           "speakLeadingZero": false,
           "template": {
-            "text": "DEWPOINT {dewpoint}.",
+            "text": "DEWPOINT {prefix_symbol}{dewpoint}.",
             "voice": "DEWPOINT {dewpoint}"
           }
         },
@@ -46370,8 +46401,8 @@
         },
         "notams": {
           "template": {
-            "text": "NOTAMS {notams}.",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "text": "{notams}.",
+            "voice": "{notams}"
           }
         },
         "closingStatement": {
@@ -46600,7 +46631,7 @@
             0
           ],
           "template": {
-            "text": "{time}z",
+            "text": "{time}Z",
             "voice": "{time} UTC"
           }
         },
@@ -46612,25 +46643,25 @@
           },
           "standard": {
             "template": {
-              "text": "{wind_dir}{wind_spd}KT.",
+              "text": "WIND {wind_dir}/{wind_spd}KT.",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} {wind_unit}"
             }
           },
           "standardGust": {
             "template": {
-              "text": "{wind_dir}{wind_spd}G{wind_gust}KT.",
+              "text": "WIND {wind_dir}/{wind_spd}G{wind_gust}KT.",
               "voice": "WIND {wind_dir} DEGREES {wind_spd} {wind_unit} GUSTING {wind_gust} {wind_unit}"
             }
           },
           "variable": {
             "template": {
-              "text": "VRB{wind_spd}KT.",
+              "text": "WIND VRB/{wind_spd}KT.",
               "voice": "WIND VARIABLE {wind_spd} {wind_unit}"
             }
           },
           "variableGust": {
             "template": {
-              "text": "VRB{wind_spd}G{wind_gust}KT.",
+              "text": "WIND VRB/{wind_spd}G{wind_gust}KT.",
               "voice": "WIND VARIABLE {wind_spd} {wind_unit} GUSTING {wind_gust} {wind_unit}"
             }
           },
@@ -46643,7 +46674,7 @@
           "calm": {
             "calmWindSpeed": 4,
             "template": {
-              "text": "{wind}.",
+              "text": "WIND {wind}.",
               "voice": "WIND CALM"
             }
           }
@@ -46662,7 +46693,7 @@
           "includeVisibilitySuffix": true,
           "metersCutoff": 5000,
           "template": {
-            "text": "{visibility}.",
+            "text": "VISIBILITY {visibility} METERS.",
             "voice": "VISIBILITY {visibility}"
           }
         },
@@ -48475,23 +48506,23 @@
             "TCU": "towering cumulus"
           },
           "template": {
-            "text": "{clouds}.",
-            "voice": "{clouds}"
+            "text": "CEILING {clouds}.",
+            "voice": "CEILING {clouds}"
           }
         },
         "temperature": {
-          "usePlusPrefix": false,
+          "usePlusPrefix": true,
           "speakLeadingZero": false,
           "template": {
-            "text": "TEMPERATURE {temp}.",
-            "voice": "TEMPERATURE {temp}"
+            "text": "TEMPERATURE {prefix_symbol}{temp}.",
+            "voice": "TEMPERATURE {temp}."
           }
         },
         "dewpoint": {
-          "usePlusPrefix": false,
+          "usePlusPrefix": true,
           "speakLeadingZero": false,
           "template": {
-            "text": "DEWPOINT {dewpoint}.",
+            "text": "DEWPOINT {prefix_symbol}{dewpoint}.",
             "voice": "DEWPOINT {dewpoint}"
           }
         },
@@ -48538,8 +48569,8 @@
         },
         "notams": {
           "template": {
-            "text": "NOTAMS {notams}.",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "text": "{notams}.",
+            "voice": "{notams}"
           }
         },
         "closingStatement": {
@@ -48550,8 +48581,8 @@
           }
         }
       },
-      "notamsBeforeFreeText": false,
-      "airportConditionsBeforeFreeText": false,
+      "notamsBeforeFreeText": true,
+      "airportConditionsBeforeFreeText": true,
       "frequency": 132480000,
       "idsEndpoint": "",
       "useDecimalTerminology": true,
@@ -48580,7 +48611,7 @@
           "id": "f4da098e-d51f-4fdc-b7c6-1728e0938f56",
           "name": "[LFLN] RWY 33 | APP ILS Z",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS SAINT-YAN INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT SN ILS Z RUNWAY 33R. RUNWAY IN USE 33. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [ARPT_COND] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS SAINT-YAN INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT SN ILS_Z RUNWAY 33R. RUNWAY IN USE 33. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [ARPT_COND] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -48595,7 +48626,7 @@
           "id": "6318c640-afc3-4784-8066-9b289e48cee6",
           "name": "[LFLN] RWY 33 | APP ILS Y",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS SAINT-YAN INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT SN ILS Y RUNWAY 33R. RUNWAY IN USE 33. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [ARPT_COND] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS SAINT-YAN INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT SN ILS_Y RUNWAY 33R. RUNWAY IN USE 33. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [ARPT_COND] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -48625,7 +48656,7 @@
           "id": "383d8bc8-c062-4c05-a4f0-a9ce651e5ea9",
           "name": "[LFLN] RWY 33 | APP NDB Z",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS SAINT-YAN INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT SN NDB Z RUNWAY 33R. RUNWAY IN USE 33. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [ARPT_COND] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS SAINT-YAN INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT SN NDB_Z RUNWAY 33R. RUNWAY IN USE 33. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [ARPT_COND] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -48640,7 +48671,7 @@
           "id": "92a16841-1d4c-4f28-8bb0-24495d7be076",
           "name": "[LFLN] RWY 33 | APP NDB Y",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS SAINT-YAN INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT SN NDB Y RUNWAY 33R. RUNWAY IN USE 33. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [ARPT_COND] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS SAINT-YAN INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT SN NDB_Y RUNWAY 33R. RUNWAY IN USE 33. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [ARPT_COND] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -48664,29 +48695,9 @@
           "voice": "SAINT-YAN"
         },
         {
-          "variableName": "RNP_Z",
-          "text": "RNP Z",
-          "voice": "RNP ZULU"
-        },
-        {
-          "variableName": "RNP_Y",
-          "text": "RNP Y",
-          "voice": "RNP YANKEE"
-        },
-        {
-          "variableName": "RNP_X",
-          "text": "RNP X",
-          "voice": "RNP XRAY"
-        },
-        {
-          "variableName": "VOR_Z",
-          "text": "VOR Z",
-          "voice": "VOR ZULU"
-        },
-        {
-          "variableName": "VOR_Y",
-          "text": "VOR Y",
-          "voice": "VOR YANKEE"
+          "variableName": "SN",
+          "text": "SN",
+          "voice": "SIERRA NOVEMBER"
         },
         {
           "variableName": "ILS_Z",
@@ -48699,33 +48710,50 @@
           "voice": "ILS YANKEE"
         },
         {
-          "variableName": "LOC_A",
-          "text": "LOC A",
-          "voice": "LOCALIZER ALPHA"
+          "variableName": "NDB_Z",
+          "text": "NDB Z",
+          "voice": "NDB ZULU"
         },
         {
-          "variableName": "LOC_B",
-          "text": "LOC B",
-          "voice": "LOCALIZER BRAVO"
-        },
-        {
-          "variableName": "RNP_A",
-          "text": "RNP A",
-          "voice": "RNP ALPHA"
-        },
-        {
-          "variableName": "PAR",
-          "text": "PAR",
-          "voice": "PRECISION APPROACH RADAR"
-        },
-        {
-          "variableName": "SN",
-          "text": "SN",
-          "voice": "SIERRA NOVEMBER"
+          "variableName": "NDB_Y",
+          "text": "NDB Y",
+          "voice": "NDB YANKEE"
         }
       ],
-      "airportConditionDefinitions": [],
-      "notamDefinitions": []
+      "airportConditionDefinitions": [
+        {
+          "text": "PARACHUTING ACTIVITIES IN THE VICINITY.",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "AEROBATIC ACTIVITIES IN THE VICINITY.",
+          "ordinal": 2,
+          "enabled": false
+        },
+        {
+          "text": "AEROMODELISM ACTIVITIES IN THE VICINITY.",
+          "ordinal": 3,
+          "enabled": false
+        }
+      ],
+      "notamDefinitions": [
+        {
+          "text": "LOC/DME UNSERVICEABLE.",
+          "ordinal": 0,
+          "enabled": false
+        },
+        {
+          "text": "ILS UNSERVICEABLE.",
+          "ordinal": 2,
+          "enabled": false
+        },
+        {
+          "text": "SN NDB UNSERVICEABLE.",
+          "ordinal": 3,
+          "enabled": false
+        }
+      ]
     }
   ],
   "version": 4

@@ -1,8 +1,8 @@
 {
-  "name": "FIR LFMM (02/02/2026)",
+  "name": "FIR LFMM (02.3/02/2026)",
   "id": "03b8414d-d2b4-4f52-a89c-f77dc2c72aba",
   "updateUrl": "https://raw.githubusercontent.com/DedpewlControl/vatis-profiles/refs/heads/main/FIR%20LFMM%20Marseille.json",
-  "updateSerial": 2026020202,
+  "updateSerial": 2026020203,
   "stations": [
     {
       "id": "25a46fe4-1e86-4a82-b742-1c1c8edf5247",
@@ -19040,7 +19040,7 @@
           "ordinal": 1,
           "name": "[LFLL] RWY DEP 17R ARR 17L |  APP ILS",
           "airportConditions": "",
-          "template": "LFLL ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT TRANSITION 3S APP\r\nILS RWY 17L\r\nARR RWY 17L /DEP RWY 17R\r\n/SID 8S\r\n/RSCD :\r\n35R 666 [TIME] DRY-\r\n35L 666 [TIME] DRY-\r\n[TL]\r\n/OPS INFOS :\r\n[ARPT_COND]\r\n[NOTAMS]\r\nBIRD STRIKE RISK UNKNOWN\r\n[WIND]\r\n[VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n/ PHENOMENA : NIL\r\n[CLOSING]",
+          "template": "LFLL ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT TRANSITION 3S APP\r\nILS RWY 17L\r\nARR RWY 17L /DEP RWY 17R\r\n/SID 8S\r\n/RSCD :\r\n17R 666 [TIME] DRY-\r\n17L 666 [TIME] DRY-\r\n[TL]\r\n/OPS INFOS :\r\n[ARPT_COND]\r\n[NOTAMS]\r\nBIRD STRIKE RISK UNKNOWN\r\n[WIND]\r\n[VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n/ PHENOMENA : NIL\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -19056,7 +19056,7 @@
           "ordinal": 2,
           "name": "[LFLL] RWY DEP 17R ARR 17L |  APP RNP",
           "airportConditions": "",
-          "template": "LFLL ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT TRANSITION 3S APP\r\nRNP RWY 17L\r\nARR RWY 17L /DEP RWY 17R\r\n/SID 8S\r\n/RSCD :\r\n35R 666 [TIME] DRY-\r\n35L 666 [TIME] DRY-\r\n[TL]\r\n/OPS INFOS :\r\n[ARPT_COND]\r\n[NOTAMS]\r\nBIRD STRIKE RISK UNKNOWN\r\n[WIND]\r\n[VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n/ PHENOMENA : NIL\r\n[CLOSING]",
+          "template": "LFLL ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT TRANSITION 3S APP\r\nRNP RWY 17L\r\nARR RWY 17L /DEP RWY 17R\r\n/SID 8S\r\n/RSCD :\r\n17R 666 [TIME] DRY-\r\n17L 666 [TIME] DRY-\r\n[TL]\r\n/OPS INFOS :\r\n[ARPT_COND]\r\n[NOTAMS]\r\nBIRD STRIKE RISK UNKNOWN\r\n[WIND]\r\n[VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n/ PHENOMENA : NIL\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -19072,7 +19072,7 @@
           "ordinal": 2,
           "name": "[LFLL] RWY DEP 17R ARR 17L |  APP VOR",
           "airportConditions": "",
-          "template": "LFLL ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT TRANSITION 3S APP\r\nVOR RWY 17L\r\nARR RWY 17L /DEP RWY 17R\r\n/SID 8S\r\n/RSCD :\r\n35R 666 [TIME] DRY-\r\n35L 666 [TIME] DRY-\r\n[TL]\r\n/OPS INFOS :\r\n[ARPT_COND]\r\n[NOTAMS]\r\nBIRD STRIKE RISK UNKNOWN\r\n[WIND]\r\n[VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n/ PHENOMENA : NIL\r\n[CLOSING]",
+          "template": "LFLL ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT TRANSITION 3S APP\r\nVOR RWY 17L\r\nARR RWY 17L /DEP RWY 17R\r\n/SID 8S\r\n/RSCD :\r\n17R 666 [TIME] DRY-\r\n17L 666 [TIME] DRY-\r\n[TL]\r\n/OPS INFOS :\r\n[ARPT_COND]\r\n[NOTAMS]\r\nBIRD STRIKE RISK UNKNOWN\r\n[WIND]\r\n[VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n/ PHENOMENA : NIL\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -19086,7 +19086,7 @@
         {
           "id": "a72db448-b7f6-4b48-9170-853cad2eb3c4",
           "ordinal": 4,
-          "name": "[LFLL] RWY DEP 34L ARR 35R |  APP ILS",
+          "name": "[LFLL] RWY DEP 35L ARR 35R |  APP ILS",
           "airportConditions": "",
           "template": "LFLL ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT TRANSITION 3N APP\r\nILS RWY 35R\r\nARR RWY 35R /DEP RWY 34L\r\n/SID 8N\r\n/RSCD :\r\n35R 666 [TIME] DRY-\r\n35L 666 [TIME] DRY-\r\n[TL]\r\n/OPS INFOS :\r\n[ARPT_COND]\r\n[NOTAMS]\r\nBIRD STRIKE RISK UNKNOWN\r\n[WIND]\r\n[VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n/ PHENOMENA : NIL\r\n[CLOSING]",
           "externalGenerator": {
@@ -19102,7 +19102,7 @@
         {
           "id": "83efdeb8-1a8f-493a-b4d9-04b015bcb67d",
           "ordinal": 5,
-          "name": "[LFLL] RWY DEP 34L ARR 35R |  APP RNP",
+          "name": "[LFLL] RWY DEP 35L ARR 35R |  APP RNP",
           "airportConditions": "",
           "template": "LFLL ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT TRANSITION 3N APP\r\nRNP RWY 35R\r\nARR RWY 35R /DEP RWY 34L\r\n/SID 8N\r\n/RSCD :\r\n35R 666 [TIME] DRY-\r\n35L 666 [TIME] DRY-\r\n[TL]\r\n/OPS INFOS :\r\n[ARPT_COND]\r\n[NOTAMS]\r\nBIRD STRIKE RISK UNKNOWN\r\n[WIND]\r\n[VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n/ PHENOMENA : NIL\r\n[CLOSING]",
           "externalGenerator": {
@@ -19118,7 +19118,7 @@
         {
           "id": "422273e2-b266-4dc3-8c43-f15fef6e916c",
           "ordinal": 6,
-          "name": "[LFLL] RWY DEP 34L ARR 35R |  APP VOR",
+          "name": "[LFLL] RWY DEP 35L ARR 35R |  APP VOR",
           "airportConditions": "",
           "template": "LFLL ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT TRANSITION 3N APP\r\nVOR RWY 35R\r\nARR RWY 35R /DEP RWY 34L\r\n/SID 8N\r\n/RSCD :\r\n35R 666 [TIME] DRY-\r\n35L 666 [TIME] DRY-\r\n[TL]\r\n/OPS INFOS :\r\n[ARPT_COND]\r\n[NOTAMS]\r\nBIRD STRIKE RISK UNKNOWN\r\n[WIND]\r\n[VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n/ PHENOMENA : NIL\r\n[CLOSING]",
           "externalGenerator": {

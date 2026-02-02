@@ -1,8 +1,8 @@
 {
-  "name": "FIR LFMM (24.2/01/2026)",
+  "name": "FIR LFMM (02/02/2026)",
   "id": "03b8414d-d2b4-4f52-a89c-f77dc2c72aba",
   "updateUrl": "https://raw.githubusercontent.com/DedpewlControl/vatis-profiles/refs/heads/main/FIR%20LFMM%20Marseille.json",
-  "updateSerial": 2026020201,
+  "updateSerial": 2026020202,
   "stations": [
     {
       "id": "25a46fe4-1e86-4a82-b742-1c1c8edf5247",

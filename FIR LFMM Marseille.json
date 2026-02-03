@@ -1,8 +1,8 @@
 {
-  "name": "FIR LFMM (02.3/02/2026)",
+  "name": "FIR LFMM (02.1/02/2026)",
   "id": "03b8414d-d2b4-4f52-a89c-f77dc2c72aba",
   "updateUrl": "https://raw.githubusercontent.com/DedpewlControl/vatis-profiles/refs/heads/main/FIR%20LFMM%20Marseille.json",
-  "updateSerial": 2026020203,
+  "updateSerial": 2026020301,
   "stations": [
     {
       "id": "25a46fe4-1e86-4a82-b742-1c1c8edf5247",
@@ -29518,7 +29518,7 @@
           "id": "26d079e2-5d79-4c91-a4e8-b252f226006e",
           "name": "[LFML] RWY 31R | APP RNP Z",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS PROVENCE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APP RNP_Z RUNWAY 31R. TAKE OFF RUNWAY 31R. RUNWAY CONDITION 666 DRY. [TL] SIGNIFICANT BIRD HAZARD. [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [ARPT_COND] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS PROVENCE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APP RNP_Z RUNWAY 31R. RNP_X ON REQUEST. TAKE OFF RUNWAY 31R. RUNWAY CONDITION 666 DRY. [TL] SIGNIFICANT BIRD HAZARD. [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [ARPT_COND] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -29533,7 +29533,7 @@
           "id": "395c8756-0bb6-42ec-a8dc-f7d965b1bd35",
           "name": "[LFML] RWY 31R | APP RNP Y",
           "airportConditions": "",
-          "template": "",
+          "template": "BONJOUR THIS IS PROVENCE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APP RNP_Y RUNWAY 31R. RNP_X ON REQUEST. TAKE OFF RUNWAY 31R. RUNWAY CONDITION 666 DRY. [TL] SIGNIFICANT BIRD HAZARD. [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [ARPT_COND] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -29620,6 +29620,11 @@
           "variableName": "CDMURL",
           "text": "CDM.VATSIM.FR",
           "voice": "CDM DOT VATSIM DOT FR"
+        },
+        {
+          "variableName": "RNP_X",
+          "text": "RNP X",
+          "voice": "RNP XRAY"
         }
       ],
       "airportConditionDefinitions": [

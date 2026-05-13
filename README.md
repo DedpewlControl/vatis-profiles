@@ -1,10 +1,8 @@
-![vACCFR_GitHub_vATIS](https://github.com/user-attachments/assets/a538c195-0f0a-444f-a074-6578386d598f)
-
 # 🇫🇷 French vATIS Profiles
 
 ## ✈️ About
 
-This repository contains the **French vACC vATIS profiles** used on **VATSIM**.
+This repository contains my personal **French vATIS profiles** used on **VATSIM**.
 
 > ⚠️ **Compatibility Notice**  
 > These profiles are **only compatible with vATIS `4.1.0-beta.5` and later** (cross-platform).  
@@ -17,19 +15,11 @@ This repository contains the **French vACC vATIS profiles** used on **VATSIM**.
 > You can verify your profile version by checking the **date displayed next to the profile name** in vATIS  
 > (e.g. `FIR LFMM (21/01/2026)`).
 
-## 📂 Download
-
-[![Release](https://img.shields.io/github/v/release/vaccfr/vatis-profiles?style=for-the-badge&color=green)][1]
-
-[1]: https://github.com/vaccfr/vatis-profiles/releases/latest
-
 ---
 
 ## ⚙️ Airport Conditions & NOTAMs
 
 ### Airport Conditions
-
-![vACCFR_GitHub_vATIS_airport_conditions](https://github.com/user-attachments/assets/ae375a6b-57b2-4e6b-8148-9f056b01220f)
 
 Clicking the **AIRPORT CONDITIONS** label above the free-form text box allows you to select **pre-defined airport conditions**.
 
@@ -40,8 +30,6 @@ It is also possible to **modify the Runway Condition Code (RWYCC)** directly wit
 https://vatis.app/docs/client/airport-conditions
 
 ### NOTAMs
-
-![vACCFR_GitHub_vATIS_notams](https://github.com/user-attachments/assets/54dbcf07-d04c-4a9b-82ff-436c878b8508)
 
 Similarly, clicking the **NOTAMs** label above the free-form text box allows you to **select pre-defined NOTAMs**.
 

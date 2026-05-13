@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "name": "FIR LFMM (16/04/2026)",
+  "name": "FIR LFMM (13/05/2026)",
   "id": "74bf29c6-12b2-41c4-b318-77739a38300d",
-  "updateUrl": "https://raw.githubusercontent.com/vaccfr/vatis-profiles/refs/heads/main/vATIS%20Profile%20-%20LFMM.json",
-  "updateSerial": 2026041601,
+  "updateUrl": "https://raw.githubusercontent.com/DedpewlControl/vatis-profiles/refs/heads/main/vATIS%20Profile%20-%20LFMM.json",
+  "updateSerial": 2026051301,
   "stations": [
     {
       "id": "17465142-82ef-43c1-a170-2849747b4927",
@@ -36072,7 +36072,7 @@
           "name": "[LFMN - D-ATIS] DEP RWY 04R / ARR RWY 04L | RNP A -> VPT A",
           "airportConditions": "04L 666\r\n04R 666",
           "notams": "",
-          "template": "LFMN ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT RNP_A THEN VPT_A\r\nRWY ^04L\r\nARR RWY ^04L /DEP RWY ^04R\r\n/SID 7A, 7B\r\n/RSCD :\r\n[ARPT_COND]\r\n[TL]\r\n/OPS INFOS :\r\n[NOTAMS]\r\nBIRD ACTIVITY REPORTED\r\nHEL TFC ABV THE SEA MAX\r\n500 FT\r\nA1 B1 C1 ARE HLDG\r\nPOINTS OF AN ACTIVE RWY\r\n[WIND]\r\n[VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n/ PHENOMENA : NIL\r\n[CLOSING]",
+          "template": "LFMN ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT RNP_A THEN VPT_A\r\nRWY ^04L\r\nARR RWY ^04L /DEP RWY ^04R\r\n/SID 8A, 8B\r\n/RSCD :\r\n[ARPT_COND]\r\n[TL]\r\n/OPS INFOS :\r\n[NOTAMS]\r\nBIRD ACTIVITY REPORTED\r\nHEL TFC ABV THE SEA MAX\r\n500 FT\r\nA1 B1 C1 ARE HLDG\r\nPOINTS OF AN ACTIVE RWY\r\n[WIND]\r\n[VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n/ PHENOMENA : NIL\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -36089,7 +36089,7 @@
           "name": "[LFMN - D-ATIS] DEP RWY 04R / ARR RWY 04L | ILS Z",
           "airportConditions": "04L 666\r\n04R 666",
           "notams": "",
-          "template": "LFMN ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT ILS_Z\r\nRWY ^04L\r\nARR RWY ^04L /DEP RWY ^04R\r\n/SID 7A, 7B\r\n/RSCD :\r\n[ARPT_COND]\r\n[TL]\r\n/OPS INFOS :\r\n[NOTAMS]\r\nBIRD ACTIVITY REPORTED\r\nHEL TFC ABV THE SEA MAX\r\n500 FT\r\nA1 B1 C1 ARE HLDG\r\nPOINTS OF AN ACTIVE RWY\r\n[WIND]\r\n[VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n/ PHENOMENA : NIL\r\n[CLOSING]",
+          "template": "LFMN ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT ILS_Z\r\nRWY ^04L\r\nARR RWY ^04L /DEP RWY ^04R\r\n/SID 8A, 8B\r\n/RSCD :\r\n[ARPT_COND]\r\n[TL]\r\n/OPS INFOS :\r\n[NOTAMS]\r\nBIRD ACTIVITY REPORTED\r\nHEL TFC ABV THE SEA MAX\r\n500 FT\r\nA1 B1 C1 ARE HLDG\r\nPOINTS OF AN ACTIVE RWY\r\n[WIND]\r\n[VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n/ PHENOMENA : NIL\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -36106,7 +36106,7 @@
           "name": "[LFMN - D-ATIS] DEP RWY 04R / ARR RWY 04L | RNP Z",
           "airportConditions": "04L 666\r\n04R 666",
           "notams": "",
-          "template": "LFMN ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT RNP_Z\r\nRWY ^04L\r\nARR RWY ^04L /DEP RWY ^04R\r\n/SID 7A, 7B\r\n/RSCD :\r\n[ARPT_COND]\r\n[TL]\r\n/OPS INFOS :\r\n[NOTAMS]\r\nBIRD ACTIVITY REPORTED\r\nHEL TFC ABV THE SEA MAX\r\n500 FT\r\nA1 B1 C1 ARE HLDG\r\nPOINTS OF AN ACTIVE RWY\r\n[WIND]\r\n[VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n/ PHENOMENA : NIL\r\n[CLOSING]",
+          "template": "LFMN ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT RNP_Z\r\nRWY ^04L\r\nARR RWY ^04L /DEP RWY ^04R\r\n/SID 8A, 8B\r\n/RSCD :\r\n[ARPT_COND]\r\n[TL]\r\n/OPS INFOS :\r\n[NOTAMS]\r\nBIRD ACTIVITY REPORTED\r\nHEL TFC ABV THE SEA MAX\r\n500 FT\r\nA1 B1 C1 ARE HLDG\r\nPOINTS OF AN ACTIVE RWY\r\n[WIND]\r\n[VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n/ PHENOMENA : NIL\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -36123,7 +36123,7 @@
           "name": "[LFMN - D-ATIS] DEP RWY 04L / ARR RWY 04L | RNP A -> VPT A",
           "airportConditions": "04L 666",
           "notams": "",
-          "template": "LFMN ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT RNP_A THEN VPT_A\r\nRWY ^04L\r\nARR RWY ^04L /DEP RWY ^04L\r\n/SID 7A, 7B\r\n/RSCD :\r\n[ARPT_COND]\r\n[TL]\r\n/OPS INFOS :\r\n[NOTAMS]\r\nBIRD ACTIVITY REPORTED\r\nHEL TFC ABV THE SEA MAX\r\n500 FT\r\nA1 B1 C1 ARE HLDG\r\nPOINTS OF AN ACTIVE RWY\r\n[WIND]\r\n[VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n/ PHENOMENA : NIL\r\n[CLOSING]",
+          "template": "LFMN ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT RNP_A THEN VPT_A\r\nRWY ^04L\r\nARR RWY ^04L /DEP RWY ^04L\r\n/SID 8A, 8B\r\n/RSCD :\r\n[ARPT_COND]\r\n[TL]\r\n/OPS INFOS :\r\n[NOTAMS]\r\nBIRD ACTIVITY REPORTED\r\nHEL TFC ABV THE SEA MAX\r\n500 FT\r\nA1 B1 C1 ARE HLDG\r\nPOINTS OF AN ACTIVE RWY\r\n[WIND]\r\n[VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n/ PHENOMENA : NIL\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -36140,7 +36140,7 @@
           "name": "[LFMN - D-ATIS] DEP RWY 04L / ARR RWY 04L | ILS Z",
           "airportConditions": "04L 666",
           "notams": "",
-          "template": "LFMN ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT ILS_Z\r\nRWY ^04L\r\nARR RWY ^04L /DEP RWY ^04L\r\n/SID 7A, 7B\r\n/RSCD :\r\n[ARPT_COND]\r\n[TL]\r\n/OPS INFOS :\r\n[NOTAMS]\r\nBIRD ACTIVITY REPORTED\r\nHEL TFC ABV THE SEA MAX\r\n500 FT\r\nA1 B1 C1 ARE HLDG\r\nPOINTS OF AN ACTIVE RWY\r\n[WIND]\r\n[VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n/ PHENOMENA : NIL\r\n[CLOSING]",
+          "template": "LFMN ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT ILS_Z\r\nRWY ^04L\r\nARR RWY ^04L /DEP RWY ^04L\r\n/SID 8A, 8B\r\n/RSCD :\r\n[ARPT_COND]\r\n[TL]\r\n/OPS INFOS :\r\n[NOTAMS]\r\nBIRD ACTIVITY REPORTED\r\nHEL TFC ABV THE SEA MAX\r\n500 FT\r\nA1 B1 C1 ARE HLDG\r\nPOINTS OF AN ACTIVE RWY\r\n[WIND]\r\n[VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n/ PHENOMENA : NIL\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -36157,7 +36157,7 @@
           "name": "[LFMN - D-ATIS] DEP RWY 22L / ARR RWY 22R | RNP D -> VPT D",
           "airportConditions": "22L 666\r\n22R 666",
           "notams": "",
-          "template": "LFMN ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT RNP_D THEN VPT_D\r\nRWY ^22R\r\nRNP_Z ON RQST\r\nARR RWY ^22R /DEP RWY ^22L\r\n/SID 7X, 7Y\r\n/RSCD :\r\n[ARPT_COND]\r\n[TL]\r\n/OPS INFOS :\r\n[NOTAMS]\r\nBIRD ACTIVITY REPORTED\r\nHEL TFC ABV THE SEA MAX\r\n500 FT\r\nH1 G1 ARE HLDG\r\nPOINTS OF AN ACTIVE RWY\r\n[WIND]\r\n[VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n/ PHENOMENA : NIL\r\n[CLOSING]",
+          "template": "LFMN ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT RNP_D THEN VPT_D\r\nRWY ^22R\r\nRNP_Z ON RQST\r\nARR RWY ^22R /DEP RWY ^22L\r\n/SID 8X, 8Y\r\n/RSCD :\r\n[ARPT_COND]\r\n[TL]\r\n/OPS INFOS :\r\n[NOTAMS]\r\nBIRD ACTIVITY REPORTED\r\nHEL TFC ABV THE SEA MAX\r\n500 FT\r\nH1 G1 ARE HLDG\r\nPOINTS OF AN ACTIVE RWY\r\n[WIND]\r\n[VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n/ PHENOMENA : NIL\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -36174,7 +36174,7 @@
           "name": "[LFMN - D-ATIS] DEP RWY 22R / ARR RWY 22R | RNP D -> VPT D",
           "airportConditions": "22R 666",
           "notams": "",
-          "template": "LFMN ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT RNP_D THEN VPT_D\r\nRWY ^22R\r\nRNP_Z ON RQST\r\nARR RWY ^22R /DEP RWY ^22R\r\n/SID 7X, 7Y\r\n/RSCD :\r\n[ARPT_COND]\r\n[TL]\r\n/OPS INFOS :\r\n[NOTAMS]\r\nBIRD ACTIVITY REPORTED\r\nHEL TFC ABV THE SEA MAX\r\n500 FT\r\nH1 G1 ARE HLDG\r\nPOINTS OF AN ACTIVE RWY\r\n[WIND]\r\n[VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n/ PHENOMENA : NIL\r\n[CLOSING]",
+          "template": "LFMN ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT RNP_D THEN VPT_D\r\nRWY ^22R\r\nRNP_Z ON RQST\r\nARR RWY ^22R /DEP RWY ^22R\r\n/SID 8X, 8Y\r\n/RSCD :\r\n[ARPT_COND]\r\n[TL]\r\n/OPS INFOS :\r\n[NOTAMS]\r\nBIRD ACTIVITY REPORTED\r\nHEL TFC ABV THE SEA MAX\r\n500 FT\r\nH1 G1 ARE HLDG\r\nPOINTS OF AN ACTIVE RWY\r\n[WIND]\r\n[VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n/ PHENOMENA : NIL\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",

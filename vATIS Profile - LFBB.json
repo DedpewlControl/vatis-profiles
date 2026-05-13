@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "name": "FIR LFBB (16/04/2026)",
+  "name": "FIR LFBB (13/05/2026)",
   "id": "149be2dc-b691-4950-9921-35027760dfcb",
-  "updateUrl": "https://raw.githubusercontent.com/vaccfr/vatis-profiles/refs/heads/main/vATIS%20Profile%20-%20LFBB.json",
-  "updateSerial": 2026041601,
+  "updateUrl": "https://raw.githubusercontent.com/DedpewlControl/vatis-profiles/refs/heads/main/vATIS%20Profile%20-%20LFBB.json",
+  "updateSerial": 2026051301,
   "stations": [
     {
       "id": "eabc1cdf-9f3e-40ad-84c7-0241b7c5201b",

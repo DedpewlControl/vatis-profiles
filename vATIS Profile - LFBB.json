@@ -14977,7 +14977,7 @@
           "west": "to the west",
           "northWest": "to the north-west",
           "unlimitedVisibilityVoice": "Visibility more than 10 kilometers",
-          "unlimitedVisibilityText": "VISIBILITY MORE THAN 10 KILOMETERS.",
+          "unlimitedVisibilityText": "VISIBILITY 10 KM",
           "includeVisibilitySuffix": true,
           "metersCutoff": 5000,
           "template": {
@@ -16807,7 +16807,7 @@
             }
           ],
           "template": {
-            "text": "TRANSITION LEVEL {trl}.",
+            "text": "TRL FL{trl}",
             "voice": "TRANSITION LEVEL {trl}"
           }
         },
@@ -16820,8 +16820,8 @@
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
-            "text": "INFORM ON FIRST CONTACT INFORMATION {letter} RECEIVED.",
-            "voice": "INFORM ON FIRST CONTACT INFORMATION {letter} RECEIVED"
+            "text": "ON FIRST CTC WITH LFBP \r\nRPT RECEIPT OF ATIS {letter}",
+            "voice": "ON FIRST CONTACT WITH PAU REPORT RECEIPT OF ATIS {letter}"
           }
         }
       },
@@ -16836,91 +16836,27 @@
       },
       "presets": [
         {
+          "id": "fee76931-7c87-436c-97c4-1ab07af12b11",
+          "ordinal": 1,
+          "name": "--- Standard Configurations ---",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
           "id": "64a7842c-afd4-4bd0-88af-d448c5a99caa",
-          "name": "[LFBP - D-ATIS] RWY 13 | ILS RWY 31 -> VPT A RWY 13",
+          "ordinal": 2,
+          "name": "RWY 13 (VPT A)",
           "airportConditions": "^13 666",
           "notams": "",
-          "template": "LFBP ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT ILS RWY 31\r\nFOLLOWED BY VPT_A RWY 13\r\nARR RWY 13 /DEP RWY 13\r\n/SID 2D 2E\r\nRSCD\r\n[ARPT_COND]\r\n[TL]\r\n/OPS INFOS :\r\nBIRD HAZARD\r\nYOU TURN ON RWY ONLY FOR\r\nFBL ACFT\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n/ CLD :\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n/PHENOMENA : NIL\r\n[CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "3f111620-5259-408b-bf76-19f61c47e4cf",
-          "name": "[LFBP - D-ATIS] RWY 13 | LOC RWY 31 -> VPT A RWY 13",
-          "airportConditions": "^13 666",
-          "notams": "",
-          "template": "LFBP ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT LOC RWY 31\r\nFOLLOWED BY VPT_A RWY 13\r\nARR RWY 13 /DEP RWY 13\r\n/SID 2D 2E\r\nRSCD\r\n[ARPT_COND]\r\n[TL]\r\n/OPS INFOS :\r\nBIRD HAZARD\r\nYOU TURN ON RWY ONLY FOR\r\nFBL ACFT\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n/ CLD :\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n/PHENOMENA : NIL\r\n[CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "6f601b75-54d4-462e-b36f-e93a4018ca74",
-          "name": "[LFBP - D-ATIS] RWY 13 | RNP RWY 31 -> VPT A RWY 13",
-          "airportConditions": "^13 666",
-          "notams": "",
-          "template": "LFBP ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT RNP RWY 31\r\nFOLLOWED BY VPT_A RWY 13\r\nARR RWY 13 /DEP RWY 13\r\n/SID 2D 2E\r\nRSCD\r\n[ARPT_COND]\r\n[TL]\r\n/OPS INFOS :\r\nBIRD HAZARD\r\nYOU TURN ON RWY ONLY FOR\r\nFBL ACFT\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n/ CLD :\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n/PHENOMENA : NIL\r\n[CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "8c824e30-9b6a-4757-a911-37b77e18683a",
-          "name": "[LFBP - D-ATIS] RWY 13 | NDB Z RWY 31 -> VPT A RWY 13",
-          "airportConditions": "^13 666",
-          "notams": "",
-          "template": "LFBP ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT NDB_Z RWY 31\r\nFOLLOWED BY VPT_A RWY 13\r\nARR RWY 13 /DEP RWY 13\r\n/SID 2D 2E\r\nRSCD\r\n[ARPT_COND]\r\n[TL]\r\n/OPS INFOS :\r\nBIRD HAZARD\r\nYOU TURN ON RWY ONLY FOR\r\nFBL ACFT\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n/ CLD :\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n/PHENOMENA : NIL\r\n[CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "bb98937d-be45-4199-a4ae-fcc9ef2a3619",
-          "name": "[LFBP - D-ATIS] RWY 13 | NDB Y RWY 31 -> VPT A RWY 13",
-          "airportConditions": "^13 666",
-          "notams": "",
-          "template": "LFBP ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT NDB_Y RWY 31\r\nFOLLOWED BY VPT_A RWY 13\r\nARR RWY 13 /DEP RWY 13\r\n/SID 2D 2E\r\nRSCD\r\n[ARPT_COND]\r\n[TL]\r\n/OPS INFOS :\r\nBIRD HAZARD\r\nYOU TURN ON RWY ONLY FOR\r\nFBL ACFT\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n/ CLD :\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n/PHENOMENA : NIL\r\n[CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "4f6e7785-badd-49a5-9034-a740b14b3a62",
-          "name": "[LFBP - D-ATIS] RWY 13 | NDB X RWY 31 -> VPT A RWY 13",
-          "airportConditions": "^13 666",
-          "notams": "",
-          "template": "LFBP ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT NDB_X RWY 31\r\nFOLLOWED BY VPT_A RWY 13\r\nARR RWY 13 /DEP RWY 13\r\n/SID 2D 2E\r\nRSCD\r\n[ARPT_COND]\r\n[TL]\r\n/OPS INFOS :\r\nBIRD HAZARD\r\nYOU TURN ON RWY ONLY FOR\r\nFBL ACFT\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n/ CLD :\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n/PHENOMENA : NIL\r\n[CLOSING]",
+          "template": "LFBP ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT ILS RWY31\r\nFOLLOWED BY VPT_A RWY13\r\nARR RWY13 /DEP RWY13\r\nSID 2D 2E\r\nRSCD\r\n[ARPT_COND]\r\n[TL]\r\nOPS\r\nBIRD HAZARD\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\nCLD\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\nPHENOMENA : NIL\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -16933,10 +16869,11 @@
         },
         {
           "id": "806e25d4-6858-4a89-9638-39746a80e34a",
-          "name": "[LFBP - D-ATIS] RWY 31 | ILS",
+          "ordinal": 2,
+          "name": "RWY 31 (ILS)",
           "airportConditions": "^31 666",
           "notams": "",
-          "template": "LFBP ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT ILS RWY 31\r\nARR RWY 31 /DEP RWY 31\r\n/SID 2V 2W 2Y 2Z\r\nRSCD\r\n[ARPT_COND]\r\n[TL]\r\n/OPS INFOS :\r\nBIRD HAZARD\r\nYOU TURN ON RWY ONLY FOR\r\nFBL ACFT\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n/ CLD :\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n/PHENOMENA : NIL\r\n[CLOSING]",
+          "template": "LFBP ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT ILS RWY31\r\nARR RWY31 /DEP RWY31\r\nSID 2V 2W 2Y 2Z\r\nRSCD\r\n[ARPT_COND]\r\n[TL]\r\nOPS\r\nBIRD HAZARD\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\nCLD\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\nPHENOMENA : NIL\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -16948,11 +16885,10 @@
           }
         },
         {
-          "id": "cf5d04c4-9040-4948-a38e-782a58fc61be",
-          "name": "[LFBP - D-ATIS] RWY 31 | LOC",
-          "airportConditions": "^31 666",
-          "notams": "",
-          "template": "LFBP ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT LOC RWY 31\r\nARR RWY 31 /DEP RWY 31\r\n/SID 2V 2W 2Y 2Z\r\nRSCD\r\n[ARPT_COND]\r\n[TL]\r\n/OPS INFOS :\r\nBIRD HAZARD\r\nYOU TURN ON RWY ONLY FOR\r\nFBL ACFT\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n/ CLD :\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n/PHENOMENA : NIL\r\n[CLOSING]",
+          "id": "98c31f18-9ea2-444c-863e-97f56fc7eaab",
+          "ordinal": 4,
+          "name": "--- Non Standard Configurations ---",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -16965,10 +16901,11 @@
         },
         {
           "id": "159cd060-4bd1-40be-b215-954da9a2f86f",
-          "name": "[LFBP - D-ATIS] RWY 31 | RNP",
+          "ordinal": 11,
+          "name": "RWY 31 (RNP)",
           "airportConditions": "^31 666",
           "notams": "",
-          "template": "LFBP ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT RNP RWY 31\r\nARR RWY 31 /DEP RWY 31\r\n/SID 2V 2W 2Y 2Z\r\nRSCD\r\n[ARPT_COND]\r\n[TL]\r\n/OPS INFOS :\r\nBIRD HAZARD\r\nYOU TURN ON RWY ONLY FOR\r\nFBL ACFT\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n/ CLD :\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n/PHENOMENA : NIL\r\n[CLOSING]",
+          "template": "LFBP ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT RNP RWY31\r\nARR RWY31 /DEP RWY31\r\nSID 2V 2W 2Y 2Z\r\nRSCD\r\n[ARPT_COND]\r\n[TL]\r\nOPS\r\nBIRD HAZARD\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\nCLD\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\nPHENOMENA : NIL\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -16981,10 +16918,11 @@
         },
         {
           "id": "dc1ce32e-491f-4766-aa7f-674e449b222d",
-          "name": "[LFBP - D-ATIS] RWY 31 | NDB Z",
+          "ordinal": 12,
+          "name": "RWY 31 (NDB Z)",
           "airportConditions": "^31 666",
           "notams": "",
-          "template": "LFBP ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT NDB_Z RWY 31\r\nARR RWY 31 /DEP RWY 31\r\n/SID 2V 2W 2Y 2Z\r\nRSCD\r\n[ARPT_COND]\r\n[TL]\r\n/OPS INFOS :\r\nBIRD HAZARD\r\nYOU TURN ON RWY ONLY FOR\r\nFBL ACFT\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n/ CLD :\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n/PHENOMENA : NIL\r\n[CLOSING]",
+          "template": "LFBP ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT NDB_Z RWY31\r\nARR RWY31 /DEP RWY31\r\nSID 2V 2W 2Y 2Z\r\nRSCD\r\n[ARPT_COND]\r\n[TL]\r\nOPS\r\nBIRD HAZARD\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\nCLD\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\nPHENOMENA : NIL\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -16997,10 +16935,11 @@
         },
         {
           "id": "e642cb05-c12f-4be2-9fc9-614546dd124b",
-          "name": "[LFBP - D-ATIS] RWY 31 | NDB Y",
+          "ordinal": 13,
+          "name": "RWY 31 (NDB Y)",
           "airportConditions": "^31 666",
           "notams": "",
-          "template": "LFBP ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT NDB_Y RWY 31\r\nARR RWY 31 /DEP RWY 31\r\n/SID 2V 2W 2Y 2Z\r\nRSCD\r\n[ARPT_COND]\r\n[TL]\r\n/OPS INFOS :\r\nBIRD HAZARD\r\nYOU TURN ON RWY ONLY FOR\r\nFBL ACFT\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n/ CLD :\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n/PHENOMENA : NIL\r\n[CLOSING]",
+          "template": "LFBP ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT NDB_Y RWY31\r\nARR RWY31 /DEP RWY31\r\nSID 2V 2W 2Y 2Z\r\nRSCD\r\n[ARPT_COND]\r\n[TL]\r\nOPS\r\nBIRD HAZARD\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\nCLD\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\nPHENOMENA : NIL\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -17013,10 +16952,11 @@
         },
         {
           "id": "60b5b0c8-3bde-4028-a68b-b1aa4111700a",
-          "name": "[LFBP - D-ATIS] RWY 31 | NDB X",
+          "ordinal": 14,
+          "name": "RWY 31 (NDB X)",
           "airportConditions": "^31 666",
           "notams": "",
-          "template": "LFBP ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT NDB_X RWY 31\r\nARR RWY 31 /DEP RWY 31\r\n/SID 2V 2W 2Y 2Z\r\nRSCD\r\n[ARPT_COND]\r\n[TL]\r\n/OPS INFOS :\r\nBIRD HAZARD\r\nYOU TURN ON RWY ONLY FOR\r\nFBL ACFT\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n/ CLD :\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n/PHENOMENA : NIL\r\n[CLOSING]",
+          "template": "LFBP ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT NDB_X RWY31\r\nARR RWY31 /DEP RWY31\r\nSID 2V 2W 2Y 2Z\r\nRSCD\r\n[ARPT_COND]\r\n[TL]\r\nOPS\r\nBIRD HAZARD\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\nCLD\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\nPHENOMENA : NIL\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -17035,24 +16975,14 @@
           "voice": "BON-JUR"
         },
         {
-          "variableName": "RWY1",
-          "text": "RWY 1",
-          "voice": "RUNWAY 1"
+          "variableName": "RWY13",
+          "text": "RWY 13",
+          "voice": "RUNWAY ONE TREE"
         },
         {
-          "variableName": "RWY2",
-          "text": "RWY 2",
-          "voice": "RUNWAY 2"
-        },
-        {
-          "variableName": "RWY3",
-          "text": "RWY 3",
-          "voice": "RUNWAY 3"
-        },
-        {
-          "variableName": "RWY4",
-          "text": "RWY 4",
-          "voice": "RUNWAY 4"
+          "variableName": "RWY31",
+          "text": "RWY 31",
+          "voice": "RUNWAY TREE ONE"
         },
         {
           "variableName": "NDB_X",
@@ -17070,54 +17000,9 @@
           "voice": "NDB ZULU"
         },
         {
-          "variableName": "VOR_X",
-          "text": "VOR X",
-          "voice": "VOR X-RAY"
-        },
-        {
-          "variableName": "VOR_Y",
-          "text": "VOR Y",
-          "voice": "VOR YANKEE"
-        },
-        {
-          "variableName": "VOR_Z",
-          "text": "VOR Z",
-          "voice": "VOR ZULU"
-        },
-        {
-          "variableName": "RNP_X",
-          "text": "RNP X",
-          "voice": "RNP X-RAY"
-        },
-        {
-          "variableName": "RNP_Y",
-          "text": "RNP Y",
-          "voice": "RNP YANKEE"
-        },
-        {
-          "variableName": "RNP_Z",
-          "text": "RNP Z",
-          "voice": "RNP ZULU"
-        },
-        {
-          "variableName": "ILS_X",
-          "text": "ILS X",
-          "voice": "ILS X-RAY"
-        },
-        {
-          "variableName": "ILS_Y",
-          "text": "ILS Y",
-          "voice": "ILS YANKEE"
-        },
-        {
-          "variableName": "ILS_Z",
-          "text": "ILS Z",
-          "voice": "ILS ZULU"
-        },
-        {
-          "variableName": "VORDME",
-          "text": "VOR/DME",
-          "voice": "VOR DME"
+          "variableName": "VPT_A",
+          "text": "VPT A",
+          "voice": "VPT ALPHA"
         },
         {
           "variableName": "LVP_ENFORCE",
@@ -17125,14 +17010,64 @@
           "voice": "LOW VISIBILITY PROCEDURES ENFORCE"
         },
         {
-          "variableName": "PDC_ACTIVE",
-          "text": "DATALINK CLEARANCE AVAILABLE LFXX.",
-          "voice": "DATALINK CLEARANCE AVAILABLE CODE"
+          "variableName": "2D",
+          "text": "2D",
+          "voice": "TWO DELTA"
         },
         {
-          "variableName": "CDM_ACTIVE",
-          "text": "CDM OPERATIONS ACTIVE. SUBMIT TOBT AT CDM.VATISM.FR.",
-          "voice": "CDM OPERATIONS ACTIVE. SUBMIT TARGET OFF BLOCK TIME AT CDM DOT VATSIM DOT FR"
+          "variableName": "2E",
+          "text": "2E",
+          "voice": "TWO ECHO"
+        },
+        {
+          "variableName": "2V",
+          "text": "2V",
+          "voice": "TWO VICTOR"
+        },
+        {
+          "variableName": "2W",
+          "text": "2W",
+          "voice": "TWO WHISKEY"
+        },
+        {
+          "variableName": "2Y",
+          "text": "2Y",
+          "voice": "TWO YANKEE"
+        },
+        {
+          "variableName": "2Z",
+          "text": "2Z",
+          "voice": "TWO ZULU"
+        },
+        {
+          "variableName": "OPS",
+          "text": "/OPS INFOS :",
+          "voice": "OPERATIONAL INFO"
+        },
+        {
+          "variableName": "FBL",
+          "text": "FBL",
+          "voice": "FAVOURABLE"
+        },
+        {
+          "variableName": "SID",
+          "text": "/SID",
+          "voice": "SID"
+        },
+        {
+          "variableName": "RSCD",
+          "text": "RSCD",
+          "voice": "RUNWAY SURFACE CONDITION CODE"
+        },
+        {
+          "variableName": "CLD",
+          "text": "/ CLD :",
+          "voice": "CLOUDS"
+        },
+        {
+          "variableName": "PHENOMENA",
+          "text": "/PHENOMENA",
+          "voice": "PHENOMENA"
         }
       ],
       "airportConditionDefinitions": [

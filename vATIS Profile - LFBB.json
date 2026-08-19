@@ -8236,7 +8236,7 @@
           "id": "a91850c5-50c6-4a0f-9f8c-14631a431c68",
           "ordinal": 2,
           "name": "[LFBH] RWY 09 | RNP",
-          "airportConditions": "RUNWAY CONDITION 666 DRY.",
+          "airportConditions": "",
           "notams": "",
           "template": "BONJOUR THIS IS LA ROCHELLE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP APP RWY09. RWY09 IN USE. [ARPT_COND] [TL] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
@@ -8253,7 +8253,7 @@
           "id": "cbd060ee-9485-4ca1-907d-2f0e4a995ee1",
           "ordinal": 3,
           "name": "[LFBH] RWY 27 | ILS",
-          "airportConditions": "RUNWAY CONDITION 666 DRY.",
+          "airportConditions": "",
           "notams": "",
           "template": "BONJOUR THIS IS LA ROCHELLE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. ILS APP RWY27. RWY27 IN USE. [ARPT_COND] [TL] [NOTAMS] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
           "externalGenerator": {
@@ -8285,7 +8285,7 @@
           "id": "5d4eb57c-6468-42d6-9959-82500f37a900",
           "ordinal": 5,
           "name": "[LFBH] RWY 27 | RNP",
-          "airportConditions": "RUNWAY CONDITION 666 DRY.",
+          "airportConditions": "",
           "notams": "",
           "template": "BONJOUR THIS IS LA ROCHELLE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP APP RWY27. RWY27 IN USE. [ARPT_COND] [TL] [NOTAMS] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
           "externalGenerator": {
@@ -8302,7 +8302,7 @@
           "id": "f62f6af9-e6e4-4f4a-9e7a-aa9edd4f8169",
           "ordinal": 6,
           "name": "[LFBH] RWY 27 | NDB Z",
-          "airportConditions": "RUNWAY CONDITION 666 DRY.",
+          "airportConditions": "",
           "notams": "",
           "template": "BONJOUR THIS IS LA ROCHELLE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. NDB_Z APP RWY27. RWY27 IN USE. [ARPT_COND] [TL] [NOTAMS] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
           "externalGenerator": {
@@ -8319,7 +8319,7 @@
           "id": "06576c82-5091-4266-801d-1646eb5865ab",
           "ordinal": 7,
           "name": "[LFBH] RWY 27 | NDB Y",
-          "airportConditions": "RUNWAY CONDITION 666 DRY.",
+          "airportConditions": "",
           "notams": "",
           "template": "BONJOUR THIS IS LA ROCHELLE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. NDB_Y APP RWY27. RWY27 IN USE. [ARPT_COND] [TL] [NOTAMS] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
           "externalGenerator": {
@@ -8372,23 +8372,7 @@
           "enabled": false
         }
       ],
-      "notamDefinitions": [
-        {
-          "text": "LVP_ENFORCE",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "PDC_ACTIVE",
-          "ordinal": 2,
-          "enabled": false
-        },
-        {
-          "text": "CDM_ACTIVE",
-          "ordinal": 3,
-          "enabled": false
-        }
-      ]
+      "notamDefinitions": []
     },
     {
       "id": "26d7d49b-e9f3-4e5a-97eb-5e5b93707374",

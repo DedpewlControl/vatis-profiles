@@ -19030,9 +19030,55 @@
       },
       "presets": [
         {
+          "id": "0f4ce282-faa2-4be4-a048-8bdfb7267294",
+          "ordinal": 1,
+          "name": "--- Standard Configurations ---",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
           "id": "2a1521a9-3f75-4b2b-a2d8-3867732ea27c",
-          "name": "[LFBR] RWY 12 | RNP",
-          "template": "BONJOUR THIS IS MURET INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APP IFR RNP. RWY 12 IN USE. [ARPT_COND] [TL] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "ordinal": 2,
+          "name": "RWY 12 (RNP)",
+          "template": "BONJOUR THIS IS MURET INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APP IFR RNP. RWY12 IN USE. [ARPT_COND] [TL] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "48289199-0f81-4e9e-a38f-be98ec71f402",
+          "ordinal": 2,
+          "name": "RWY 30 (Circle to Land)",
+          "template": "BONJOUR THIS IS MURET INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APP IFR RNP RWY12 FOLLOWED BY CIRCLING RWY30. RWY30 IN USE. [ARPT_COND] [TL] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "2bd06c8d-7746-473a-b54c-1776011ebd1f",
+          "ordinal": 4,
+          "name": "--- Non Standard Configurations ---",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -19045,36 +19091,9 @@
         },
         {
           "id": "1208f091-fdc1-4358-b6e6-6d1ee879a113",
-          "name": "[LFBR] RWY 12 | NDB",
-          "template": "BONJOUR THIS IS MURET INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APP IFR NDB. RWY 12 IN USE. [ARPT_COND] [TL] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "44036068-2583-4573-8932-3cd793a7e475",
-          "name": "[LFBR] RWY 30 | RNP RWY 12 -> CTL RWY 30",
-          "template": "BONJOUR THIS IS MURET INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APP IFR RNP RWY 12 FOLLOWED BY CIRCLING RWY 12. RWY 12 IN USE. [ARPT_COND] [TL] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "e5ba710c-99af-4e03-a7ef-7b83a3bd4ef4",
-          "name": "[LFBR] RWY 30 | NDB RWY 12 -> CTL RWY 30",
-          "template": "BONJOUR THIS IS MURET INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APP NDB RNP RWY 12 FOLLOWED BY CIRCLING RWY 12. RWY 12 IN USE. [ARPT_COND] [TL] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "ordinal": 5,
+          "name": "RWY 12 (NDB)",
+          "template": "BONJOUR THIS IS MURET INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APP IFR NDB. RWY12 IN USE. [ARPT_COND] [TL] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -19093,104 +19112,14 @@
           "voice": "BON-JUR"
         },
         {
-          "variableName": "RWY1",
-          "text": "RWY 1",
-          "voice": "RUNWAY 1"
+          "variableName": "RWY12",
+          "text": "RWY 12",
+          "voice": "RUNWAY 12"
         },
         {
-          "variableName": "RWY2",
-          "text": "RWY 2",
-          "voice": "RUNWAY 2"
-        },
-        {
-          "variableName": "RWY3",
-          "text": "RWY 3",
-          "voice": "RUNWAY 3"
-        },
-        {
-          "variableName": "RWY4",
-          "text": "RWY 4",
-          "voice": "RUNWAY 4"
-        },
-        {
-          "variableName": "NDB_X",
-          "text": "NDB X",
-          "voice": "NDB X-RAY"
-        },
-        {
-          "variableName": "NDB_Y",
-          "text": "NDB Y",
-          "voice": "NDB YANKEE"
-        },
-        {
-          "variableName": "NDB_Z",
-          "text": "NDB Z",
-          "voice": "NDB ZULU"
-        },
-        {
-          "variableName": "VOR_X",
-          "text": "VOR X",
-          "voice": "VOR X-RAY"
-        },
-        {
-          "variableName": "VOR_Y",
-          "text": "VOR Y",
-          "voice": "VOR YANKEE"
-        },
-        {
-          "variableName": "VOR_Z",
-          "text": "VOR Z",
-          "voice": "VOR ZULU"
-        },
-        {
-          "variableName": "RNP_X",
-          "text": "RNP X",
-          "voice": "RNP X-RAY"
-        },
-        {
-          "variableName": "RNP_Y",
-          "text": "RNP Y",
-          "voice": "RNP YANKEE"
-        },
-        {
-          "variableName": "RNP_Z",
-          "text": "RNP Z",
-          "voice": "RNP ZULU"
-        },
-        {
-          "variableName": "ILS_X",
-          "text": "ILS X",
-          "voice": "ILS X-RAY"
-        },
-        {
-          "variableName": "ILS_Y",
-          "text": "ILS Y",
-          "voice": "ILS YANKEE"
-        },
-        {
-          "variableName": "ILS_Z",
-          "text": "ILS Z",
-          "voice": "ILS ZULU"
-        },
-        {
-          "variableName": "VORDME",
-          "text": "VOR/DME",
-          "voice": "VOR DME"
-        },
-        {
-          "variableName": "LVP_ENFORCE",
-          "text": "LOW VISIBILITY PROCEDURES ENFORCE.",
-          "voice": "LOW VISIBILITY PROCEDURES ENFORCE"
-        },
-        {
-          "variableName": "PDC_ACTIVE",
-          "text": "DATALINK CLEARANCE AVAILABLE LFXX.",
-          "voice": "DATALINK CLEARANCE AVAILABLE CODE"
-        },
-        {
-          "variableName": "CDM_ACTIVE",
-          "text": "CDM OPERATIONS ACTIVE. SUBMIT TOBT AT CDM.VATISM.FR.",
-          "voice": "CDM OPERATIONS ACTIVE. SUBMIT TARGET OFF BLOCK TIME AT CDM DOT VATSIM DOT FR"
+          "variableName": "RWY30",
+          "text": "RWY 30",
+          "voice": "RUNWAY 30"
         }
       ],
       "airportConditionDefinitions": [

@@ -17072,12 +17072,12 @@
       ],
       "airportConditionDefinitions": [
         {
-          "text": "RUNWAY CONDITION 666.",
+          "text": "^13 6 6 6",
           "ordinal": 1,
           "enabled": false
         },
         {
-          "text": "RUNWAY CONDITION 555.",
+          "text": "^31 6 6 6",
           "ordinal": 2,
           "enabled": false
         }
@@ -19134,23 +19134,7 @@
           "enabled": false
         }
       ],
-      "notamDefinitions": [
-        {
-          "text": "LVP_ENFORCE",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "PDC_ACTIVE",
-          "ordinal": 2,
-          "enabled": false
-        },
-        {
-          "text": "CDM_ACTIVE",
-          "ordinal": 3,
-          "enabled": false
-        }
-      ]
+      "notamDefinitions": []
     },
     {
       "id": "0fc4497e-4f35-4b62-8851-277b81fc58c1",
@@ -21082,75 +21066,27 @@
       },
       "presets": [
         {
+          "id": "e8ec9278-6366-47d9-b590-36c80ad6f4f3",
+          "ordinal": 1,
+          "name": "--- Standard Configurations ---",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
           "id": "e940f68e-ad52-4e8c-a236-ba667677b049",
-          "name": "[LFBT] RWY 02 | ILS Z RWY 20 -> VPT RWY 02",
-          "airportConditions": "RUNWAY CONDITION 666 DRY.",
+          "ordinal": 2,
+          "name": "RWY 02 (VPT)",
+          "airportConditions": "",
           "notams": "",
-          "template": "BONJOUR THIS IS LOURDES INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APP ILZ_Z RWY 20 FOLLOWED BY VPT RWY 02. RWY 02 IN USE. [ARPT_COND] [TL] [NOTAMS] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "85fd7071-2ee9-4b51-b266-a38ceea3203c",
-          "name": "[LFBT] RWY 02 | ILS Y RWY 20 -> VPT RWY 02",
-          "airportConditions": "RUNWAY CONDITION 666 DRY.",
-          "notams": "",
-          "template": "BONJOUR THIS IS LOURDES INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APP ILZ_Y RWY 20 FOLLOWED BY VPT RWY 02. RWY 02 IN USE. [ARPT_COND] [TL] [NOTAMS] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "bf0a5328-47c8-4624-a55f-d01f68a12a30",
-          "name": "[LFBT] RWY 02 | RNP RWY 20 -> VPT RWY 02",
-          "airportConditions": "RUNWAY CONDITION 666 DRY.",
-          "notams": "",
-          "template": "BONJOUR THIS IS LOURDES INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APP RNP RWY 20 FOLLOWED BY VPT RWY 02. RWY 02 IN USE. [ARPT_COND] [TL] [NOTAMS] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "8728e580-8d19-4191-99a3-a6263feab7fc",
-          "name": "[LFBT] RWY 02 | NDB Z RWY 20 -> VPT RWY 02",
-          "airportConditions": "RUNWAY CONDITION 666 DRY.",
-          "notams": "",
-          "template": "BONJOUR THIS IS LOURDES INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APP NDB_Z RWY 20 FOLLOWED BY VPT RWY 02. RWY 02 IN USE. [ARPT_COND] [TL] [NOTAMS] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "4937faea-6431-44ed-8975-4c4229e38a73",
-          "name": "[LFBT] RWY 02 | NDB Y RWY 20 -> VPT RWY 02",
-          "airportConditions": "RUNWAY CONDITION 666 DRY.",
-          "notams": "",
-          "template": "BONJOUR THIS IS LOURDES INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APP NDB_Y RWY 20 FOLLOWED BY VPT RWY 02. RWY 02 IN USE. [ARPT_COND] [TL] [NOTAMS] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
+          "template": "BONJOUR THIS IS LOURDES INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APP ILZ_Z RWY20 FOLLOWED BY VPT RWY02. RWY02 IN USE. [ARPT_COND] [TL] [NOTAMS] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -21163,10 +21099,26 @@
         },
         {
           "id": "eaffc806-be68-42a0-a6ce-19f146849dc4",
-          "name": "[LFBT] RWY 20 | ILS Z",
-          "airportConditions": "RUNWAY CONDITION 666 DRY.",
+          "ordinal": 2,
+          "name": "RWY 20  (ILS Z)",
+          "airportConditions": "",
           "notams": "",
-          "template": "BONJOUR THIS IS LOURDES INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APP ILS_Z. RWY 20 IN USE. [ARPT_COND] [TL] [NOTAMS] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
+          "template": "BONJOUR THIS IS LOURDES INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APP ILS_Z. RWY20 IN USE. [ARPT_COND] [TL] [NOTAMS] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "71e8a33a-d850-466c-8bff-c713acaecc1d",
+          "ordinal": 4,
+          "name": "--- Non Standard Configurations ---",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -21179,10 +21131,11 @@
         },
         {
           "id": "6368d63b-e61f-46c8-bde7-4f046257b9f5",
-          "name": "[LFBT] RWY 20 | ILS Y",
-          "airportConditions": "RUNWAY CONDITION 666 DRY.",
+          "ordinal": 9,
+          "name": "RWY 20 (ILS Y)",
+          "airportConditions": "",
           "notams": "",
-          "template": "BONJOUR THIS IS LOURDES INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APP ILS_Y. RWY 20 IN USE. [ARPT_COND] [TL] [NOTAMS] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
+          "template": "BONJOUR THIS IS LOURDES INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APP ILS_Y. RWY20 IN USE. [ARPT_COND] [TL] [NOTAMS] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -21195,10 +21148,11 @@
         },
         {
           "id": "d7a3616e-ce8f-497c-8d47-ac8ca8d04577",
-          "name": "[LFBT] RWY 20 | RNP",
-          "airportConditions": "RUNWAY CONDITION 666 DRY.",
+          "ordinal": 10,
+          "name": "RWY 20 (RNP)",
+          "airportConditions": "",
           "notams": "",
-          "template": "BONJOUR THIS IS LOURDES INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APP RNP. RWY 20 IN USE. [ARPT_COND] [TL] [NOTAMS] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
+          "template": "BONJOUR THIS IS LOURDES INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APP RNP. RWY20 IN USE. [ARPT_COND] [TL] [NOTAMS] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -21211,10 +21165,11 @@
         },
         {
           "id": "645fec4b-5d57-4dc1-8c1d-e5f43a063f98",
-          "name": "[LFBT] RWY 20 | NDB Z",
-          "airportConditions": "RUNWAY CONDITION 666 DRY.",
+          "ordinal": 11,
+          "name": "RWY 20 (NDB Z)",
+          "airportConditions": "",
           "notams": "",
-          "template": "BONJOUR THIS IS LOURDES INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APP NDB_Z. RWY 20 IN USE. [ARPT_COND] [TL] [NOTAMS] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
+          "template": "BONJOUR THIS IS LOURDES INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APP NDB_Z. RWY20 IN USE. [ARPT_COND] [TL] [NOTAMS] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -21227,10 +21182,11 @@
         },
         {
           "id": "40176143-afce-4e22-9a23-fc5a08ca4c14",
-          "name": "[LFBT] RWY 20 | NDB Y",
-          "airportConditions": "RUNWAY CONDITION 666 DRY.",
+          "ordinal": 12,
+          "name": "RWY 20 (NDB Y)",
+          "airportConditions": "",
           "notams": "",
-          "template": "BONJOUR THIS IS LOURDES INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APP NDB_Y. RWY 20 IN USE. [ARPT_COND] [TL] [NOTAMS] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
+          "template": "BONJOUR THIS IS LOURDES INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APP NDB_Y. RWY20 IN USE. [ARPT_COND] [TL] [NOTAMS] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -21249,29 +21205,14 @@
           "voice": "BON-JUR"
         },
         {
-          "variableName": "RWY1",
-          "text": "RWY 1",
-          "voice": "RUNWAY 1"
+          "variableName": "RWY02",
+          "text": "RWY 02",
+          "voice": "RUNWAY 02"
         },
         {
-          "variableName": "RWY2",
-          "text": "RWY 2",
-          "voice": "RUNWAY 2"
-        },
-        {
-          "variableName": "RWY3",
-          "text": "RWY 3",
-          "voice": "RUNWAY 3"
-        },
-        {
-          "variableName": "RWY4",
-          "text": "RWY 4",
-          "voice": "RUNWAY 4"
-        },
-        {
-          "variableName": "NDB_X",
-          "text": "NDB X",
-          "voice": "NDB X-RAY"
+          "variableName": "RWY20",
+          "text": "RWY 20",
+          "voice": "RUNWAY 20"
         },
         {
           "variableName": "NDB_Y",
@@ -21284,41 +21225,6 @@
           "voice": "NDB ZULU"
         },
         {
-          "variableName": "VOR_X",
-          "text": "VOR X",
-          "voice": "VOR X-RAY"
-        },
-        {
-          "variableName": "VOR_Y",
-          "text": "VOR Y",
-          "voice": "VOR YANKEE"
-        },
-        {
-          "variableName": "VOR_Z",
-          "text": "VOR Z",
-          "voice": "VOR ZULU"
-        },
-        {
-          "variableName": "RNP_X",
-          "text": "RNP X",
-          "voice": "RNP X-RAY"
-        },
-        {
-          "variableName": "RNP_Y",
-          "text": "RNP Y",
-          "voice": "RNP YANKEE"
-        },
-        {
-          "variableName": "RNP_Z",
-          "text": "RNP Z",
-          "voice": "RNP ZULU"
-        },
-        {
-          "variableName": "ILS_X",
-          "text": "ILS X",
-          "voice": "ILS X-RAY"
-        },
-        {
           "variableName": "ILS_Y",
           "text": "ILS Y",
           "voice": "ILS YANKEE"
@@ -21327,26 +21233,6 @@
           "variableName": "ILS_Z",
           "text": "ILS Z",
           "voice": "ILS ZULU"
-        },
-        {
-          "variableName": "VORDME",
-          "text": "VOR/DME",
-          "voice": "VOR DME"
-        },
-        {
-          "variableName": "LVP_ENFORCE",
-          "text": "LOW VISIBILITY PROCEDURES ENFORCE.",
-          "voice": "LOW VISIBILITY PROCEDURES ENFORCE"
-        },
-        {
-          "variableName": "PDC_ACTIVE",
-          "text": "DATALINK CLEARANCE AVAILABLE LFXX.",
-          "voice": "DATALINK CLEARANCE AVAILABLE CODE"
-        },
-        {
-          "variableName": "CDM_ACTIVE",
-          "text": "CDM OPERATIONS ACTIVE. SUBMIT TOBT AT CDM.VATISM.FR.",
-          "voice": "CDM OPERATIONS ACTIVE. SUBMIT TARGET OFF BLOCK TIME AT CDM DOT VATSIM DOT FR"
         }
       ],
       "airportConditionDefinitions": [
@@ -21361,23 +21247,7 @@
           "enabled": false
         }
       ],
-      "notamDefinitions": [
-        {
-          "text": "LVP_ENFORCE",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "PDC_ACTIVE",
-          "ordinal": 2,
-          "enabled": false
-        },
-        {
-          "text": "CDM_ACTIVE",
-          "ordinal": 3,
-          "enabled": false
-        }
-      ]
+      "notamDefinitions": []
     },
     {
       "id": "fad9426f-33a5-4441-a559-9a074743b916",

@@ -14453,12 +14453,10 @@
       },
       "presets": [
         {
-          "id": "534ce5fd-f2f7-40b4-9684-c7cbdef9f092",
+          "id": "703de15f-6396-4197-90fc-179fbcb1c319",
           "ordinal": 1,
-          "name": "[LFBO] DEP RWY 14L + 14R / ARR RWY 14R | ILS",
-          "airportConditions": "RUNWAY CONDITION 666 DRY.",
-          "notams": "",
-          "template": "BONJOUR THIS IS BLAGNAC INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT ILS APP RWY 14R. RWY IN USE ^14L AND ^14R. SID 7A 7H. [ARPT_COND] [TL] EXPECT DEPARTURE RWY 14L. [NOTAMS] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
+          "name": "--- Standard Configurations ---",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -14470,29 +14468,12 @@
           }
         },
         {
-          "id": "fb0c60b6-e582-48f2-9174-557a808a31db",
+          "id": "534ce5fd-f2f7-40b4-9684-c7cbdef9f092",
           "ordinal": 2,
-          "name": "[LFBO] DEP RWY 14L + 14R / ARR RWY 14R | LOC",
-          "airportConditions": "RUNWAY CONDITION 666 DRY.",
+          "name": "DEP RWY 14L/R | ARR RWY 14R (ILS Z)",
+          "airportConditions": "",
           "notams": "",
-          "template": "BONJOUR THIS IS BLAGNAC INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT LOC APP RWY 14R. RWY IN USE ^14L AND ^14R. SID 7A 7H. [ARPT_COND] [TL] EXPECT DEPARTURE RWY 14L. [NOTAMS] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "6804c8ff-bcb1-4580-8baf-51d0a75e64b9",
-          "ordinal": 3,
-          "name": "[LFBO] DEP RWY 14L + 14R / ARR RWY 14R | RNP",
-          "airportConditions": "RUNWAY CONDITION 666 DRY.",
-          "notams": "",
-          "template": "BONJOUR THIS IS BLAGNAC INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT RNP APP RWY 14R. RWY IN USE 14L AND 14R. SID 7A 7H. [ARPT_COND] [TL] EXPECT DEPARTURE RWY 14L. [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS BLAGNAC INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT ILS_Z APP RWY 14R. RWY IN USE ^14L AND ^14R. SID 7A 7H. [ARPT_COND] [TL] EXPECT DEPARTURE RWY14L. [NOTAMS] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -14505,11 +14486,11 @@
         },
         {
           "id": "b18fe9ff-9499-46ea-8b8b-895f44dd5e40",
-          "ordinal": 4,
-          "name": "[LFBO] DEP RWY 32L + 32R / ARR RWY 32L | ILS",
-          "airportConditions": "RUNWAY CONDITION 666 DRY.",
+          "ordinal": 3,
+          "name": "DEP RWY 32L/R | ARR RWY 32L (ILS Z)",
+          "airportConditions": "",
           "notams": "",
-          "template": "BONJOUR THIS IS BLAGNAC INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT ILS APP RWY 32L. RWY IN USE 32L AND 32R. SID 7B. [ARPT_COND] [TL] EXPECT DEPARTURE RWY 32R. [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS BLAGNAC INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT ILS_Z APP RWY32L. RWY IN USE ^32L AND ^32R. SID 7B. [ARPT_COND] [TL] EXPECT DEPARTURE RWY32R. [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -14521,12 +14502,61 @@
           }
         },
         {
-          "id": "2bf09126-c68a-45e6-9944-bff412c745e5",
+          "id": "6095464a-93aa-4a19-b4fa-1fb54b8dd00f",
+          "ordinal": 4,
+          "name": "--- Non Standard Configurations ---",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "51168e59-67dd-428f-822a-648836037c26",
           "ordinal": 5,
-          "name": "[LFBO] DEP RWY 32L + 32R / ARR RWY 32L | LOC",
-          "airportConditions": "RUNWAY CONDITION 666 DRY.",
+          "name": "DEP RWY 14L/R | ARR RWY 14R (ILS Y)",
+          "airportConditions": "",
           "notams": "",
-          "template": "BONJOUR THIS IS BLAGNAC INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT LOC APP RWY 32L. RWY IN USE 32L AND 32R. SID 7B. [ARPT_COND] [TL] EXPECT DEPARTURE RWY 32R. [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS BLAGNAC INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT ILS_Y APP RWY 14R. RWY IN USE ^14L AND ^14R. SID 7A 7H. [ARPT_COND] [TL] EXPECT DEPARTURE RWY14L. [NOTAMS] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "e646a6b3-dfa6-433c-a1b8-545166b41687",
+          "ordinal": 6,
+          "name": "DEP RWY 32L/R | ARR RWY 32L (ILS Y)",
+          "airportConditions": "",
+          "notams": "",
+          "template": "BONJOUR THIS IS BLAGNAC INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT ILS_Y APP RWY32L. RWY IN USE ^32L AND ^32R. SID 7B. [ARPT_COND] [TL] EXPECT DEPARTURE RWY32R. [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "6804c8ff-bcb1-4580-8baf-51d0a75e64b9",
+          "ordinal": 7,
+          "name": "DEP RWY 14L/R | ARR RWY 14R (RNP)",
+          "airportConditions": "",
+          "notams": "",
+          "template": "BONJOUR THIS IS BLAGNAC INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT RNP APP RWY14R. RWY IN USE ^14L AND ^14R. SID 7A 7H. [ARPT_COND] [TL] EXPECT DEPARTURE RWY14L. [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -14539,11 +14569,26 @@
         },
         {
           "id": "4d631213-8ec2-4102-a63b-c275a2ab0de2",
-          "ordinal": 6,
-          "name": "[LFBO] DEP RWY 32L + 32R / ARR RWY 32L | RNP",
-          "airportConditions": "RUNWAY CONDITION 666 DRY.",
+          "ordinal": 8,
+          "name": "DEP RWY 32L/R | ARR RWY 32L (RNP)",
+          "airportConditions": "",
           "notams": "",
-          "template": "BONJOUR THIS IS BLAGNAC INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT RNP APP RWY 32L. RWY IN USE 32L AND 32R. SID 7B. [ARPT_COND] [TL] EXPECT DEPARTURE RWY 32R. [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS BLAGNAC INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT RNP APP RWY32L. RWY IN USE ^32L AND ^32R. SID 7B. [ARPT_COND] [TL] EXPECT DEPARTURE RWY32R. [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "007ef521-c4a2-48a2-9ed5-aeb57626ad10",
+          "ordinal": 9,
+          "name": "--- Single Runway Configurations ---",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -14556,11 +14601,11 @@
         },
         {
           "id": "58d88df7-7d33-48ad-bf55-f2a074761b52",
-          "ordinal": 7,
-          "name": "[LFBO] RWY 14L | ILS",
-          "airportConditions": "RUNWAY CONDITION 666 DRY.",
+          "ordinal": 10,
+          "name": "RWY 14L (ILS Z)",
+          "airportConditions": "",
           "notams": "",
-          "template": "BONJOUR THIS IS BLAGNAC INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT ILS APP RWY 14L. RWY IN USE 14L. SID 7A 7H. [ARPT_COND] [TL] EXPECT DEPARTURE RWY 14L. [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS BLAGNAC INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT ILS_Z APP RWY14L. RWY IN USE ^14L. SID 7A 7H. [ARPT_COND] [TL] EXPECT DEPARTURE RWY14L. [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -14572,12 +14617,12 @@
           }
         },
         {
-          "id": "7e5fbf4c-9746-408d-ad3e-4e5ceafee99f",
-          "ordinal": 8,
-          "name": "[LFBO] RWY 14L | LOC",
-          "airportConditions": "RUNWAY CONDITION 666 DRY.",
+          "id": "1bd2be87-6bb2-420d-97fb-526832ebc4c0",
+          "ordinal": 11,
+          "name": "RWY 14L (ILS Y)",
+          "airportConditions": "",
           "notams": "",
-          "template": "BONJOUR THIS IS BLAGNAC INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT LOC APP RWY 14L. RWY IN USE 14L. SID 7A 7H. [ARPT_COND] [TL] EXPECT DEPARTURE RWY 14L. [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS BLAGNAC INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT ILS_Y APP RWY14L. RWY IN USE ^14L. SID 7A 7H. [ARPT_COND] [TL] EXPECT DEPARTURE RWY14L. [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -14590,11 +14635,11 @@
         },
         {
           "id": "86d0f86d-1a9a-40b0-8354-b3fbc16cea01",
-          "ordinal": 9,
-          "name": "[LFBO] RWY 14L | RNP",
-          "airportConditions": "RUNWAY CONDITION 666 DRY.",
+          "ordinal": 12,
+          "name": "RWY 14L (RNP)",
+          "airportConditions": "",
           "notams": "",
-          "template": "BONJOUR THIS IS BLAGNAC INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT RNP APP RWY 14L. RWY IN USE 14L. SID 7A 7H. [ARPT_COND] [TL] EXPECT DEPARTURE RWY 14L. [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS BLAGNAC INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT RNP APP RWY14L. RWY IN USE ^14L. SID 7A 7H. [ARPT_COND] [TL] EXPECT DEPARTURE RWY14L. [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -14607,11 +14652,11 @@
         },
         {
           "id": "0736949c-a7be-4696-81ed-1a2828e80880",
-          "ordinal": 10,
-          "name": "[LFBO] RWY 14R | ILS",
-          "airportConditions": "RUNWAY CONDITION 666 DRY.",
+          "ordinal": 13,
+          "name": "RWY 14R (ILS Z)",
+          "airportConditions": "",
           "notams": "",
-          "template": "BONJOUR THIS IS BLAGNAC INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT ILS APP RWY 14R. RWY IN USE 14R. SID 7A 7H. [ARPT_COND] [TL] EXPECT DEPARTURE RWY 14R. [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS BLAGNAC INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT ILS_Z APP RWY14R. RWY IN USE ^14R. SID 7A 7H. [ARPT_COND] [TL] EXPECT DEPARTURE RWY14R. [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -14623,12 +14668,12 @@
           }
         },
         {
-          "id": "bb0f5cf0-3843-4f92-a2d6-623967903354",
-          "ordinal": 11,
-          "name": "[LFBO] RWY 14R | LOC",
-          "airportConditions": "RUNWAY CONDITION 666 DRY.",
+          "id": "cb491be1-9ea1-4f6d-99c0-a40f0f4f2e2d",
+          "ordinal": 14,
+          "name": "RWY 14R (ILS Y)",
+          "airportConditions": "",
           "notams": "",
-          "template": "BONJOUR THIS IS BLAGNAC INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT LOC APP RWY 14R. RWY IN USE 14R. SID 7A 7H. [ARPT_COND] [TL] EXPECT DEPARTURE RWY 14R. [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS BLAGNAC INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT ILS_Y APP RWY14R. RWY IN USE ^14R. SID 7A 7H. [ARPT_COND] [TL] EXPECT DEPARTURE RWY14R. [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -14641,11 +14686,11 @@
         },
         {
           "id": "d00c6964-5ff6-459a-9c52-3a17262f8b52",
-          "ordinal": 12,
-          "name": "[LFBO] RWY 14R | RNP",
-          "airportConditions": "RUNWAY CONDITION 666 DRY.",
+          "ordinal": 15,
+          "name": "RWY 14R (RNP)",
+          "airportConditions": "",
           "notams": "",
-          "template": "BONJOUR THIS IS BLAGNAC INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT RNP APP RWY 14R. RWY IN USE 14R. SID 7A 7H. [ARPT_COND] [TL] EXPECT DEPARTURE RWY 14R. [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS BLAGNAC INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT RNP APP RWY14R. RWY IN USE ^^14R. SID 7A 7H. [ARPT_COND] [TL] EXPECT DEPARTURE RWY14R. [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -14658,11 +14703,11 @@
         },
         {
           "id": "f5f355f3-4f8e-4922-b080-22d189e7ee59",
-          "ordinal": 13,
-          "name": "[LFBO] RWY 32L | ILS",
-          "airportConditions": "RUNWAY CONDITION 666 DRY.",
+          "ordinal": 16,
+          "name": "RWY 32L (ILS Z)",
+          "airportConditions": "",
           "notams": "",
-          "template": "BONJOUR THIS IS BLAGNAC INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT ILS APP RWY 32L. RWY IN USE 32L. SID 7B. [ARPT_COND] [TL] EXPECT DEPARTURE RWY 32L. [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS BLAGNAC INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT ILS_Z APP RWY32L. RWY IN USE ^32L. SID 7B. [ARPT_COND] [TL] EXPECT DEPARTURE RWY32L. [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -14674,12 +14719,12 @@
           }
         },
         {
-          "id": "f3406652-06eb-4eec-a30b-9df6fc177161",
-          "ordinal": 14,
-          "name": "[LFBO] RWY 32L | LOC",
-          "airportConditions": "RUNWAY CONDITION 666 DRY.",
+          "id": "1e65e8e1-1b37-45cc-8f02-2575843b3542",
+          "ordinal": 17,
+          "name": "RWY 32L (ILS Y)",
+          "airportConditions": "",
           "notams": "",
-          "template": "BONJOUR THIS IS BLAGNAC INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT LOC APP RWY 32L. RWY IN USE 32L. SID 7B. [ARPT_COND] [TL] EXPECT DEPARTURE RWY 32L. [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS BLAGNAC INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT ILS_Y APP RWY32L. RWY IN USE ^32L. SID 7B. [ARPT_COND] [TL] EXPECT DEPARTURE RWY32L. [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -14692,11 +14737,11 @@
         },
         {
           "id": "fee21b8a-43b6-4535-8f76-99c3961c56d1",
-          "ordinal": 15,
-          "name": "[LFBO] RWY 32L | RNP",
-          "airportConditions": "RUNWAY CONDITION 666 DRY.",
+          "ordinal": 18,
+          "name": "RWY 32L (RNP)",
+          "airportConditions": "",
           "notams": "",
-          "template": "BONJOUR THIS IS BLAGNAC INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT RNP APP RWY 32L. RWY IN USE 32L. SID 7B. [ARPT_COND] [TL] EXPECT DEPARTURE RWY 32L. [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS BLAGNAC INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT RNP APP RWY32L. RWY IN USE ^32L. SID 7B. [ARPT_COND] [TL] EXPECT DEPARTURE RWY32L. [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -14709,11 +14754,11 @@
         },
         {
           "id": "6fe4dc7e-c400-46f2-a363-c263e9417185",
-          "ordinal": 16,
-          "name": "[LFBO] RWY 32R | ILS",
-          "airportConditions": "RUNWAY CONDITION 666 DRY.",
+          "ordinal": 19,
+          "name": "RWY 32R (ILS Z)",
+          "airportConditions": "",
           "notams": "",
-          "template": "BONJOUR THIS IS BLAGNAC INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT ILS APP RWY 32R. RWY IN USE 32R. SID 7B. [ARPT_COND] [TL] EXPECT DEPARTURE RWY 32R. [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS BLAGNAC INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT ILS_Z APP RWY32R. RWY IN USE ^32R. SID 7B. [ARPT_COND] [TL] EXPECT DEPARTURE RWY32R. [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -14725,12 +14770,12 @@
           }
         },
         {
-          "id": "dd7ef0fa-f160-4105-ab71-91a43dd8f548",
-          "ordinal": 16,
-          "name": "[LFBO] RWY 32R | LOC",
-          "airportConditions": "RUNWAY CONDITION 666 DRY.",
+          "id": "a5cdcf0a-508c-4717-8da9-af7ec7c33ada",
+          "ordinal": 19,
+          "name": "RWY 32R (ILS Y)",
+          "airportConditions": "",
           "notams": "",
-          "template": "BONJOUR THIS IS BLAGNAC INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT LOC APP RWY 32R. RWY IN USE 32R. SID 7B. [ARPT_COND] [TL] EXPECT DEPARTURE RWY 32R. [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS BLAGNAC INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT ILS_Y APP RWY32R. RWY IN USE ^32R. SID 7B. [ARPT_COND] [TL] EXPECT DEPARTURE RWY32R. [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -14742,12 +14787,12 @@
           }
         },
         {
-          "id": "f737d6d0-a1fd-4f9d-a61c-a185f521aed5",
-          "ordinal": 18,
-          "name": "[LFBO] RWY 32R | RNP",
-          "airportConditions": "RUNWAY CONDITION 666 DRY.",
+          "id": "d24e0424-b4a2-4fac-a6e4-7417c1cf906b",
+          "ordinal": 22,
+          "name": "RWY 32R (RNP)",
+          "airportConditions": "",
           "notams": "",
-          "template": "BONJOUR THIS IS BLAGNAC INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT RNP APP RWY 32R. RWY IN USE 32R. SID 7B. [ARPT_COND] [TL] EXPECT DEPARTURE RWY 32R. [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS BLAGNAC INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT RNP APP RWY32R. RWY IN USE ^32R. SID 7B. [ARPT_COND] [TL] EXPECT DEPARTURE RWY32R. [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -14766,74 +14811,24 @@
           "voice": "BON-JUR"
         },
         {
-          "variableName": "RWY1",
-          "text": "RWY 1",
-          "voice": "RUNWAY 1"
+          "variableName": "RWY14L",
+          "text": "RWY 14L",
+          "voice": "RUNWAY ONE FOUR LEFT"
         },
         {
-          "variableName": "RWY2",
-          "text": "RWY 2",
-          "voice": "RUNWAY 2"
+          "variableName": "RWY14R",
+          "text": "RWY 14R",
+          "voice": "RUNWAY ONE FOUR RIGHT"
         },
         {
-          "variableName": "RWY3",
-          "text": "RWY 3",
-          "voice": "RUNWAY 3"
+          "variableName": "RWY32L",
+          "text": "RWY 32L",
+          "voice": "RUNWAY TREE TWO LEFT"
         },
         {
-          "variableName": "RWY4",
-          "text": "RWY 4",
-          "voice": "RUNWAY 4"
-        },
-        {
-          "variableName": "NDB_X",
-          "text": "NDB X",
-          "voice": "NDB X-RAY"
-        },
-        {
-          "variableName": "NDB_Y",
-          "text": "NDB Y",
-          "voice": "NDB YANKEE"
-        },
-        {
-          "variableName": "NDB_Z",
-          "text": "NDB Z",
-          "voice": "NDB ZULU"
-        },
-        {
-          "variableName": "VOR_X",
-          "text": "VOR X",
-          "voice": "VOR X-RAY"
-        },
-        {
-          "variableName": "VOR_Y",
-          "text": "VOR Y",
-          "voice": "VOR YANKEE"
-        },
-        {
-          "variableName": "VOR_Z",
-          "text": "VOR Z",
-          "voice": "VOR ZULU"
-        },
-        {
-          "variableName": "RNP_X",
-          "text": "RNP X",
-          "voice": "RNP X-RAY"
-        },
-        {
-          "variableName": "RNP_Y",
-          "text": "RNP Y",
-          "voice": "RNP YANKEE"
-        },
-        {
-          "variableName": "RNP_Z",
-          "text": "RNP Z",
-          "voice": "RNP ZULU"
-        },
-        {
-          "variableName": "ILS_X",
-          "text": "ILS X",
-          "voice": "ILS X-RAY"
+          "variableName": "RWY32R",
+          "text": "RWY 32R",
+          "voice": "RUNWAY TREE TWO RIGHT"
         },
         {
           "variableName": "ILS_Y",
@@ -14857,13 +14852,28 @@
         },
         {
           "variableName": "PDC_ACTIVE",
-          "text": "DATALINK CLEARANCE AVAILABLE LFXX.",
-          "voice": "DATALINK CLEARANCE AVAILABLE CODE"
+          "text": "DATALINK CLEARANCE AVAILABLE LFBO",
+          "voice": "DATALINK CLEARANCE AVAILABLE LFBO"
         },
         {
           "variableName": "CDM_ACTIVE",
           "text": "CDM OPERATIONS ACTIVE. SUBMIT TOBT AT CDM.VATISM.FR.",
           "voice": "CDM OPERATIONS ACTIVE. SUBMIT TARGET OFF BLOCK TIME AT CDM DOT VATSIM DOT FR"
+        },
+        {
+          "variableName": "7A",
+          "text": "7A",
+          "voice": "SEVEN ALPHA"
+        },
+        {
+          "variableName": "7B",
+          "text": "7B",
+          "voice": "SEVEN BRAVO"
+        },
+        {
+          "variableName": "7H",
+          "text": "7H",
+          "voice": "SEVEN HOTEL"
         }
       ],
       "airportConditionDefinitions": [

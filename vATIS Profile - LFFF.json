@@ -853,6 +853,46 @@
           "externalGenerator": {
             "enabled": false
           }
+        },
+        {
+          "id": "0c6fa667-b19a-4def-a167-6d5a330ca8f8",
+          "name": "LFPO 20/25 WL - 24 CLOSED",
+          "airportConditions": "EXPECT 1W ILS 25. ARR RWY 25, DEP RWY 20. SID 2Y.",
+          "notams": "RWY 06/24 CLSD. ",
+          "template": "BONJOUR. [FACILITY] ATIS [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND] [NOTAMS] [TL]. [FULL_WX_STRING]. ",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "bdb0ab47-6fa0-4803-b984-856bd66397e9",
+          "name": "LFPO 20/25 IPOW - 24 CLOSED",
+          "airportConditions": "EXPECT 1W ILS 25. ARR RWY 25, DEP RWY 20. SID 2S.",
+          "notams": "RWY 06/24 CLSD. ",
+          "template": "BONJOUR. [FACILITY] ATIS [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND] [NOTAMS] [TL]. [FULL_WX_STRING]. ",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "59d33953-ceb1-4678-84f1-03a2a13a1bd9",
+          "name": "LFPO 07/02 EL - 26 CLOSED",
+          "airportConditions": "EXPECT 1E ILS 02. ARR RWY 02, DEP RWY 07. SID 2E.",
+          "notams": "RWY 06/24 CLSD. ",
+          "template": "BONJOUR. [FACILITY] ATIS [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND] [NOTAMS] [TL]. [FULL_WX_STRING]. ",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "7be05da3-3954-4f08-825c-80964fd0d9ba",
+          "name": "LFPO 07/02 IPGW - 06 CLOSED",
+          "airportConditions": "EXPECT 1E 1S 1Y ILS 02. ARR RWY 02, DEP RWY 07. SID 2G.",
+          "notams": "RWY 06/24 CLSD. ",
+          "template": "BONJOUR. [FACILITY] ATIS [ATIS_CODE] RECORDED AT [OBS_TIME]. [ARPT_COND] [NOTAMS] [TL]. [FULL_WX_STRING]. ",
+          "externalGenerator": {
+            "enabled": false
+          }
         }
       ],
       "contractions": [

@@ -6147,7 +6147,7 @@
         {
           "id": "3d814b81-8e6b-4d78-af46-fbcfce933211",
           "ordinal": 0,
-          "name": "[LFOK] RWY 10 | ILS Z",
+          "name": "RWY 10 (ILS Z)",
           "airportConditions": "",
           "notams": "",
           "template": "BONJOUR THIS IS VATRY INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RWY IN USE ^10. ILS_Z APP. [ARPT_COND] [ARPT_COND] [NOTAMS] [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
@@ -6164,7 +6164,7 @@
         {
           "id": "0661e4ff-235f-4428-8fda-ae13fc248cc4",
           "ordinal": 1,
-          "name": "[LFOK] RWY 10 | ILS Y",
+          "name": "RWY 10 (ILS Y)",
           "airportConditions": "",
           "notams": "",
           "template": "BONJOUR THIS IS VATRY INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RWY IN USE ^10. ILS_Y APP. [ARPT_COND] [ARPT_COND] [NOTAMS] [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
@@ -6179,43 +6179,9 @@
           }
         },
         {
-          "id": "3ace5e5f-a681-408b-8902-66f6dd262653",
-          "ordinal": 2,
-          "name": "[LFOK] RWY 10 | LOC Z",
-          "airportConditions": "",
-          "notams": "",
-          "template": "BONJOUR THIS IS VATRY INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RWY IN USE ^10. LOC_Z APP. [ARPT_COND] [ARPT_COND] [NOTAMS] [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "d592fc47-fba9-4cf7-bedc-663e5c29e033",
-          "ordinal": 3,
-          "name": "[LFOK] RWY 10 | LOC Y",
-          "airportConditions": "",
-          "notams": "",
-          "template": "BONJOUR THIS IS VATRY INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RWY IN USE ^10. LOC_Y APP. [ARPT_COND] [ARPT_COND] [NOTAMS] [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
           "id": "6c593bfd-ad23-4ebf-bf6d-69786950ff0f",
           "ordinal": 4,
-          "name": "[LFOK] RWY 10 | RNP",
+          "name": "RWY 10 (RNP)",
           "airportConditions": "",
           "notams": "",
           "template": "BONJOUR THIS IS VATRY INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RWY IN USE ^10. RNP APP. [ARPT_COND] [ARPT_COND] [NOTAMS] [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
@@ -6232,10 +6198,10 @@
         {
           "id": "34f2ec43-32a4-4e78-84e3-0f5d710f9af4",
           "ordinal": 5,
-          "name": "[LFOK] RWY 10 | VOR",
+          "name": "RWY 10 (VOR)",
           "airportConditions": "",
           "notams": "",
-          "template": "BONJOUR THIS IS VATRY INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RWY IN USE ^10. VOR APP. [ARPT_COND] [ARPT_COND] [NOTAMS] [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
+          "template": "BONJOUR THIS IS VATRY INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RWY IN USE ^10. VORDME APP. [ARPT_COND] [ARPT_COND] [NOTAMS] [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -6249,7 +6215,7 @@
         {
           "id": "ca775073-a6da-417f-9ce1-2d5ee7187637",
           "ordinal": 6,
-          "name": "[LFOK] RWY 28 | ILS",
+          "name": "RWY 28 (ILS)",
           "airportConditions": "",
           "notams": "",
           "template": "BONJOUR THIS IS VATRY INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RWY IN USE ^28. ILS APP. [ARPT_COND] [ARPT_COND] [NOTAMS] [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
@@ -6264,26 +6230,9 @@
           }
         },
         {
-          "id": "d4a326a2-8cd7-4379-bd4f-f57c4e831d77",
-          "ordinal": 7,
-          "name": "[LFOK] RWY 28 | LOC",
-          "airportConditions": "",
-          "notams": "",
-          "template": "BONJOUR THIS IS VATRY INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RWY IN USE ^28. LOC APP. [ARPT_COND] [ARPT_COND] [NOTAMS] [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
           "id": "3482936c-2e89-482a-8dda-e8e6a30b1ba2",
           "ordinal": 8,
-          "name": "[LFOK] RWY 28 | RNP",
+          "name": "RWY 28 (RNP)",
           "airportConditions": "",
           "notams": "",
           "template": "BONJOUR THIS IS VATRY INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RWY IN USE ^28. RNP APP. [ARPT_COND] [ARPT_COND] [NOTAMS] [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
@@ -6300,10 +6249,10 @@
         {
           "id": "40d90a2e-aba0-4714-b7e7-aa230475651e",
           "ordinal": 9,
-          "name": "[LFOK] RWY 28 | VOR",
+          "name": "RWY 28 (VOR)",
           "airportConditions": "",
           "notams": "",
-          "template": "BONJOUR THIS IS VATRY INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RWY IN USE ^28. VOR APP. [ARPT_COND] [ARPT_COND] [NOTAMS] [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
+          "template": "BONJOUR THIS IS VATRY INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RWY IN USE ^28. VORDME APP. [ARPT_COND] [ARPT_COND] [NOTAMS] [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -6317,7 +6266,7 @@
         {
           "id": "320f178c-4867-499e-a880-579a270e9d5c",
           "ordinal": 10,
-          "name": "[LFOK] RWY 28 | NDB",
+          "name": "RWY 28 (NDB)",
           "airportConditions": "",
           "notams": "",
           "template": "BONJOUR THIS IS VATRY INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RWY IN USE ^28. NDB APP. [ARPT_COND] [ARPT_COND] [NOTAMS] [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
@@ -6339,74 +6288,14 @@
           "voice": "BON-JUR"
         },
         {
-          "variableName": "RWY1",
-          "text": "RWY 1",
-          "voice": "RUNWAY 1"
+          "variableName": "RWY10",
+          "text": "RWY 10",
+          "voice": "RUNWAY ONE ZERO"
         },
         {
-          "variableName": "RWY2",
-          "text": "RWY 2",
-          "voice": "RUNWAY 2"
-        },
-        {
-          "variableName": "RWY3",
-          "text": "RWY 3",
-          "voice": "RUNWAY 3"
-        },
-        {
-          "variableName": "RWY4",
-          "text": "RWY 4",
-          "voice": "RUNWAY 4"
-        },
-        {
-          "variableName": "NDB_X",
-          "text": "NDB X",
-          "voice": "NDB X-RAY"
-        },
-        {
-          "variableName": "NDB_Y",
-          "text": "NDB Y",
-          "voice": "NDB YANKEE"
-        },
-        {
-          "variableName": "NDB_Z",
-          "text": "NDB Z",
-          "voice": "NDB ZULU"
-        },
-        {
-          "variableName": "VOR_X",
-          "text": "VOR X",
-          "voice": "VOR X-RAY"
-        },
-        {
-          "variableName": "VOR_Y",
-          "text": "VOR Y",
-          "voice": "VOR YANKEE"
-        },
-        {
-          "variableName": "VOR_Z",
-          "text": "VOR Z",
-          "voice": "VOR ZULU"
-        },
-        {
-          "variableName": "RNP_X",
-          "text": "RNP X",
-          "voice": "RNP X-RAY"
-        },
-        {
-          "variableName": "RNP_Y",
-          "text": "RNP Y",
-          "voice": "RNP YANKEE"
-        },
-        {
-          "variableName": "RNP_Z",
-          "text": "RNP Z",
-          "voice": "RNP ZULU"
-        },
-        {
-          "variableName": "ILS_X",
-          "text": "ILS X",
-          "voice": "ILS X-RAY"
+          "variableName": "RWY28",
+          "text": "RWY 28",
+          "voice": "RUNWAY TWO EIGHT"
         },
         {
           "variableName": "ILS_Y",
@@ -6427,16 +6316,6 @@
           "variableName": "LVP_ENFORCE",
           "text": "LOW VISIBILITY PROCEDURES ENFORCE.",
           "voice": "LOW VISIBILITY PROCEDURES ENFORCE"
-        },
-        {
-          "variableName": "PDC_ACTIVE",
-          "text": "DATALINK CLEARANCE AVAILABLE LFXX.",
-          "voice": "DATALINK CLEARANCE AVAILABLE CODE"
-        },
-        {
-          "variableName": "CDM_ACTIVE",
-          "text": "CDM OPERATIONS ACTIVE. SUBMIT TOBT AT CDM.VATISM.FR.",
-          "voice": "CDM OPERATIONS ACTIVE. SUBMIT TARGET OFF BLOCK TIME AT CDM DOT VATSIM DOT FR"
         }
       ],
       "airportConditionDefinitions": [
@@ -6455,16 +6334,6 @@
         {
           "text": "LVP_ENFORCE",
           "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "PDC_ACTIVE",
-          "ordinal": 2,
-          "enabled": false
-        },
-        {
-          "text": "CDM_ACTIVE",
-          "ordinal": 3,
           "enabled": false
         }
       ]

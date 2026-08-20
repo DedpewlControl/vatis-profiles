@@ -1,6 +1,6 @@
 {
-    "name": "LFFF Paris FIR",
-  "id": "5b2ef6b9-21e9-4774-a8fc-27111ec75969",
+  "name": "LFFF Paris FIR",
+  "id": "c78295c5-6456-44d1-9533-4e86104125f1",
   "updateUrl": "",
   "updateSerial": 2026051301,
   "stations": [
@@ -1926,7 +1926,7 @@
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
       "frequency": 123130000,
-      "useDecimalTerminology": false,
+      "useDecimalTerminology": true,
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "UK Female",
@@ -1934,12 +1934,10 @@
       },
       "presets": [
         {
-          "id": "eb8a4e6c-b53b-4a88-a1fe-b55f22a46f5f",
-          "ordinal": 0,
-          "name": "RWY 13 (ILS)",
-          "airportConditions": "",
-          "notams": "",
-          "template": "BONJOUR THIS IS LE TOUQUET INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RWY IN USE ^13. ILS APP. [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [ARPT_COND] [NOTAMS] [CLOSING]",
+          "id": "24d2de1d-f436-46ca-af73-a97c29eb493e",
+          "ordinal": 1,
+          "name": "--- Standard Configurations ---",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -1951,12 +1949,12 @@
           }
         },
         {
-          "id": "f4366b2f-9b08-4a13-9183-4bac6125990d",
-          "ordinal": 1,
-          "name": "RWY 13 (RNP)",
+          "id": "eb8a4e6c-b53b-4a88-a1fe-b55f22a46f5f",
+          "ordinal": 2,
+          "name": "RWY 13 (ILS)",
           "airportConditions": "",
           "notams": "",
-          "template": "BONJOUR THIS IS LE TOUQUET INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RWY IN USE ^13. RNP APP. [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [ARPT_COND] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS LE TOUQUET INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RWY IN USE ^13. ILS APP. [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [ARPT_COND] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -1974,6 +1972,38 @@
           "airportConditions": "",
           "notams": "",
           "template": "BONJOUR THIS IS LE TOUQUET INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RWY IN USE ^31. RNP APP. [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [ARPT_COND] [NOTAMS] [CLOSING]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "c5217fac-cf42-4546-8755-505a25589789",
+          "ordinal": 4,
+          "name": "--- Non Standard Configurations ---",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "f4366b2f-9b08-4a13-9183-4bac6125990d",
+          "ordinal": 5,
+          "name": "RWY 13 (RNP)",
+          "airportConditions": "",
+          "notams": "",
+          "template": "BONJOUR THIS IS LE TOUQUET INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RWY IN USE ^13. RNP APP. [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [ARPT_COND] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -3938,7 +3968,7 @@
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
       "frequency": 118380000,
-      "useDecimalTerminology": false,
+      "useDecimalTerminology": true,
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "UK Female",
@@ -3946,8 +3976,23 @@
       },
       "presets": [
         {
-          "id": "9ddc1c5c-a134-4779-ba59-8c707c898373",
+          "id": "2f339309-dea6-46bc-aa39-8d0cad0d0264",
           "ordinal": 1,
+          "name": "--- EL Standard Configurations ---",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "9ddc1c5c-a134-4779-ba59-8c707c898373",
+          "ordinal": 2,
           "name": "RWY 12 (EL / ILS Z)",
           "airportConditions": "",
           "notams": "",
@@ -3963,8 +4008,55 @@
           }
         },
         {
+          "id": "43eac765-858d-47c8-90b7-dac92c5b0562",
+          "ordinal": 3,
+          "name": "--- WL Standard Configurations ---",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "c4c778bd-c0ee-442b-aa8f-47664a21b85b",
+          "ordinal": 4,
+          "name": "RWY 30 (WL / ILS)",
+          "airportConditions": "",
+          "notams": "",
+          "template": "BONJOUR THIS IS PARIS-BEAUVAIS INFORMATION [ATIS_CODE] AT TIME [TIME]. EXPECT RADAR VECTORS ILS RWY30. RWY IN USE ^30. RWY04 AVAILABLE FOR LIGHT AIRCRAFT. EXPECT 1W 1N DEPARTURES. [TL] [ARPT_COND] [NOTAMS] [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "9ad50e20-0199-4a8c-bcac-ebcdc6ee4045",
+          "ordinal": 5,
+          "name": "--- EL Non Standard Configurations ---",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
           "id": "2476aa7c-a061-42e9-8e93-0ae292a857e0",
-          "ordinal": 2,
+          "ordinal": 6,
           "name": "RWY 12 (EL / ILS Y)",
           "airportConditions": "",
           "notams": "",
@@ -3981,7 +4073,7 @@
         },
         {
           "id": "0bf23365-deb4-4261-aa90-ef3ec75c0276",
-          "ordinal": 5,
+          "ordinal": 7,
           "name": "RWY 12 (EL / RNP)",
           "airportConditions": "",
           "notams": "",
@@ -3998,7 +4090,7 @@
         },
         {
           "id": "e0a97598-5545-4423-908e-0ae872e37fee",
-          "ordinal": 6,
+          "ordinal": 8,
           "name": "RWY 12 (EL / VOR Z)",
           "airportConditions": "",
           "notams": "",
@@ -4015,7 +4107,7 @@
         },
         {
           "id": "f5837af2-86c7-406f-bd0a-a9f5e0d3704e",
-          "ordinal": 7,
+          "ordinal": 9,
           "name": "RWY 12 (EL / VOR Y)",
           "airportConditions": "",
           "notams": "",
@@ -4032,7 +4124,7 @@
         },
         {
           "id": "a80cb4cd-1cd7-45e2-9a5c-ee99d94b3a2d",
-          "ordinal": 8,
+          "ordinal": 10,
           "name": "RWY 12 (EL / VOR X)",
           "airportConditions": "",
           "notams": "",
@@ -4049,7 +4141,7 @@
         },
         {
           "id": "b27dd15f-c470-4da1-bce6-3ee00c01daf5",
-          "ordinal": 9,
+          "ordinal": 11,
           "name": "RWY 12 (EL / NDB)",
           "airportConditions": "",
           "notams": "",
@@ -4065,12 +4157,10 @@
           }
         },
         {
-          "id": "c4c778bd-c0ee-442b-aa8f-47664a21b85b",
-          "ordinal": 14,
-          "name": "RWY 30 (WL / ILS)",
-          "airportConditions": "",
-          "notams": "",
-          "template": "BONJOUR THIS IS PARIS-BEAUVAIS INFORMATION [ATIS_CODE] AT TIME [TIME]. EXPECT RADAR VECTORS ILS RWY30. RWY IN USE ^30. RWY04 AVAILABLE FOR LIGHT AIRCRAFT. EXPECT 1W 1N DEPARTURES. [TL] [ARPT_COND] [NOTAMS] [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
+          "id": "feef6234-53d7-40d1-ad64-7041e5491d32",
+          "ordinal": 11,
+          "name": "--- WL Non Standard Configurations ---",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4083,7 +4173,7 @@
         },
         {
           "id": "e1ae8549-fb74-43a8-845f-7d77f5e65ff5",
-          "ordinal": 16,
+          "ordinal": 13,
           "name": "RWY 30 (WL / RNP)",
           "airportConditions": "",
           "notams": "",
@@ -4100,7 +4190,7 @@
         },
         {
           "id": "9cd7b02f-2c90-4d2e-9dd5-4ddaacbbc466",
-          "ordinal": 17,
+          "ordinal": 14,
           "name": "RWY 30 (WL / VOR Z)",
           "airportConditions": "",
           "notams": "",
@@ -4117,7 +4207,7 @@
         },
         {
           "id": "d4314738-f678-4175-a353-2f8fca12866c",
-          "ordinal": 18,
+          "ordinal": 15,
           "name": "RWY 30 (WL / VOR Y)",
           "airportConditions": "",
           "notams": "",
@@ -6137,7 +6227,7 @@
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
       "frequency": 136380000,
-      "useDecimalTerminology": false,
+      "useDecimalTerminology": true,
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "UK Female",
@@ -6145,8 +6235,23 @@
       },
       "presets": [
         {
+          "id": "4ae76c48-0aa2-401b-b8c0-3288a5f3b55f",
+          "ordinal": 1,
+          "name": "--- Standard Configurations ---",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
           "id": "3d814b81-8e6b-4d78-af46-fbcfce933211",
-          "ordinal": 0,
+          "ordinal": 2,
           "name": "RWY 10 (ILS Z)",
           "airportConditions": "",
           "notams": "",
@@ -6162,8 +6267,40 @@
           }
         },
         {
+          "id": "ca775073-a6da-417f-9ce1-2d5ee7187637",
+          "ordinal": 2,
+          "name": "RWY 28 (ILS)",
+          "airportConditions": "",
+          "notams": "",
+          "template": "BONJOUR THIS IS VATRY INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RWY IN USE ^28. ILS APP. [ARPT_COND] [ARPT_COND] [NOTAMS] [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "7c2aad9e-0a64-411c-9e47-cd7ddbab9a2c",
+          "ordinal": 4,
+          "name": "--- Non Standard Configurations ---",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
           "id": "0661e4ff-235f-4428-8fda-ae13fc248cc4",
-          "ordinal": 1,
+          "ordinal": 5,
           "name": "RWY 10 (ILS Y)",
           "airportConditions": "",
           "notams": "",
@@ -6180,7 +6317,7 @@
         },
         {
           "id": "6c593bfd-ad23-4ebf-bf6d-69786950ff0f",
-          "ordinal": 4,
+          "ordinal": 6,
           "name": "RWY 10 (RNP)",
           "airportConditions": "",
           "notams": "",
@@ -6197,28 +6334,11 @@
         },
         {
           "id": "34f2ec43-32a4-4e78-84e3-0f5d710f9af4",
-          "ordinal": 5,
+          "ordinal": 7,
           "name": "RWY 10 (VOR)",
           "airportConditions": "",
           "notams": "",
           "template": "BONJOUR THIS IS VATRY INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RWY IN USE ^10. VORDME APP. [ARPT_COND] [ARPT_COND] [NOTAMS] [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "ca775073-a6da-417f-9ce1-2d5ee7187637",
-          "ordinal": 6,
-          "name": "RWY 28 (ILS)",
-          "airportConditions": "",
-          "notams": "",
-          "template": "BONJOUR THIS IS VATRY INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RWY IN USE ^28. ILS APP. [ARPT_COND] [ARPT_COND] [NOTAMS] [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -8260,7 +8380,7 @@
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
       "frequency": 120730000,
-      "useDecimalTerminology": false,
+      "useDecimalTerminology": true,
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "UK Female",
@@ -8268,8 +8388,23 @@
       },
       "presets": [
         {
+          "id": "a7d9e16c-db9a-4f4d-afde-3d5f756f84e0",
+          "ordinal": 1,
+          "name": "--- Standard Configurations ---",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
           "id": "0e700877-aebd-479d-a432-e8e577b05dee",
-          "ordinal": 0,
+          "ordinal": 2,
           "name": "RWY 04 (RNP)",
           "airportConditions": "",
           "notams": "",
@@ -8286,7 +8421,7 @@
         },
         {
           "id": "7440a1f9-80b0-40bd-8686-d792415288a2",
-          "ordinal": 1,
+          "ordinal": 2,
           "name": "RWY 22 (ILS Z)",
           "airportConditions": "",
           "notams": "",
@@ -8302,8 +8437,23 @@
           }
         },
         {
+          "id": "7f75afe4-14de-45d0-88fa-f42c83272774",
+          "ordinal": 4,
+          "name": "--- Non Standard Configurations ---",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
           "id": "58d5b7ef-49a4-4ed0-8b1e-0a4920eca569",
-          "ordinal": 2,
+          "ordinal": 5,
           "name": "RWY 22 (ILS Y)",
           "airportConditions": "",
           "notams": "",
@@ -8320,7 +8470,7 @@
         },
         {
           "id": "25916e74-4aac-4dce-b71c-1dabd5b15be8",
-          "ordinal": 5,
+          "ordinal": 6,
           "name": "RWY 22 (RNP)",
           "airportConditions": "",
           "notams": "",
@@ -8337,7 +8487,7 @@
         },
         {
           "id": "68b9b5c4-3cf5-4094-af46-76efddfc912a",
-          "ordinal": 6,
+          "ordinal": 7,
           "name": "RWY 22 (VOR)",
           "airportConditions": "",
           "notams": "",
@@ -14730,7 +14880,7 @@
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
       "frequency": 125030000,
-      "useDecimalTerminology": false,
+      "useDecimalTerminology": true,
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "UK Female",
@@ -14738,8 +14888,23 @@
       },
       "presets": [
         {
-          "id": "24131271-3181-44d5-a7d7-3ad6eccbb191",
+          "id": "855dbb58-a836-4dc8-8f59-7e618eabb3fd",
           "ordinal": 0,
+          "name": "--- Standard Configurations ---",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "24131271-3181-44d5-a7d7-3ad6eccbb191",
+          "ordinal": 2,
           "name": "RWY 08",
           "airportConditions": "",
           "notams": "",
@@ -14756,7 +14921,7 @@
         },
         {
           "id": "1fab7f91-ee9d-4dd3-ae3c-1eea26ed563f",
-          "ordinal": 1,
+          "ordinal": 3,
           "name": "RWY 26",
           "airportConditions": "",
           "notams": "",
@@ -16815,7 +16980,7 @@
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
       "frequency": 127480000,
-      "useDecimalTerminology": false,
+      "useDecimalTerminology": true,
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "UK Female",
@@ -16823,8 +16988,23 @@
       },
       "presets": [
         {
-          "id": "e466d32c-19aa-4909-96d3-fee4c2de3ce3",
+          "id": "162332a0-524e-425e-a0df-e96ed44a04ce",
           "ordinal": 1,
+          "name": "--- EL Standard Configurations ---",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "e466d32c-19aa-4909-96d3-fee4c2de3ce3",
+          "ordinal": 2,
           "name": "RWY 07L (EL / RNP)",
           "airportConditions": "RUNWAY CONDITION 07L AND 07R 666 DRY.",
           "notams": "",
@@ -16840,8 +17020,55 @@
           }
         },
         {
+          "id": "f8cf7d1b-e932-4b6f-acc1-d6f8cf3a0d3b",
+          "ordinal": 3,
+          "name": "--- WL Standard Configurations ---",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "0882e26c-ac39-42a8-9199-593ef01d42ab",
+          "ordinal": 4,
+          "name": "RWY 25R (WL / ILS)",
+          "airportConditions": "RUNWAY CONDITION 25L AND 25R 666 DRY.",
+          "notams": "",
+          "template": "THIS IS TOUSSUS INFORMATION [ATIS_CODE] AT TIME [TIME]. ILS ^25R. RWY IN USE ^25R. EXPECT IFR DEPARTURE SID 2P. [TL] [ARPT_COND] [NOTAMS] [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [CLOSING]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "32bd890c-3423-4ce7-b919-3db48484c07e",
+          "ordinal": 5,
+          "name": "--- EL Non Standard Configurations ---",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
           "id": "4d71451b-220a-4d95-bfde-1fa76c56dd6c",
-          "ordinal": 2,
+          "ordinal": 6,
           "name": "RWY 07L (EL / VOR Z)",
           "airportConditions": "RUNWAY CONDITION 07L AND 07R 666 DRY.",
           "notams": "",
@@ -16857,12 +17084,10 @@
           }
         },
         {
-          "id": "0882e26c-ac39-42a8-9199-593ef01d42ab",
-          "ordinal": 7,
-          "name": "RWY 25R (WL / ILS)",
-          "airportConditions": "RUNWAY CONDITION 25L AND 25R 666 DRY.",
-          "notams": "",
-          "template": "THIS IS TOUSSUS INFORMATION [ATIS_CODE] AT TIME [TIME]. ILS ^25R. RWY IN USE ^25R. EXPECT IFR DEPARTURE SID 2P. [TL] [ARPT_COND] [NOTAMS] [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [CLOSING]",
+          "id": "4831f8ca-e891-40ed-bf3f-ddbd94f50895",
+          "ordinal": 6,
+          "name": "--- WL Non Standard Configurations ---",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -21193,7 +21418,7 @@
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
       "frequency": 119330000,
-      "useDecimalTerminology": false,
+      "useDecimalTerminology": true,
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "UK Female",
@@ -21201,9 +21426,24 @@
       },
       "presets": [
         {
+          "id": "d4e18b0c-39c5-4d3c-97d4-4877a91d3c83",
+          "ordinal": 1,
+          "name": "--- Standard Configurations ---",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
           "id": "f30cbd89-ddb6-4525-83d6-3d8f5d010708",
-          "ordinal": 0,
-          "name": "[LFQQ] RWY 08 | RNP Z",
+          "ordinal": 2,
+          "name": "RWY 08 (RNP Z)",
           "airportConditions": "",
           "notams": "",
           "template": "BONJOUR LILLE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APP RNP_Z. RWY ^08 IN USE. SID 6R. [ARPT_COND] [TL] BIRD STRIKE HAZARD, [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
@@ -21218,9 +21458,41 @@
           }
         },
         {
+          "id": "4d353074-87ac-4516-a22c-4b3045a7317d",
+          "ordinal": 2,
+          "name": "RWY 26 (ILS Z)",
+          "airportConditions": "",
+          "notams": "",
+          "template": "BONJOUR LILLE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APP ILS_Z. RWY ^26 IN USE. SID 6K 6L. [ARPT_COND] [TL] BIRD STRIKE HAZARD, [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "7143e659-0a28-4e9b-94a4-c09484eaeaf9",
+          "ordinal": 4,
+          "name": "--- Non Standard Configurations ---",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
           "id": "bf4e3520-3073-40b1-ac0d-ec608e3a11da",
-          "ordinal": 1,
-          "name": "[LFQQ] RWY 08 | RNP Y",
+          "ordinal": 5,
+          "name": "RWY 08 (RNP Y)",
           "airportConditions": "",
           "notams": "",
           "template": "BONJOUR LILLE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APP RNP_Y. RWY ^08 IN USE. SID 6R. [ARPT_COND] [TL] BIRD STRIKE HAZARD, [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
@@ -21236,8 +21508,8 @@
         },
         {
           "id": "11a95824-f296-445e-bddb-0c36e8a1de9f",
-          "ordinal": 2,
-          "name": "[LFQQ] RWY 08 | VOR Z",
+          "ordinal": 6,
+          "name": "RWY 08 (VOR Z)",
           "airportConditions": "",
           "notams": "",
           "template": "BONJOUR LILLE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APP VOR_Z. RWY ^08 IN USE. SID 6R. [ARPT_COND] [TL] BIRD STRIKE HAZARD, [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
@@ -21253,8 +21525,8 @@
         },
         {
           "id": "ef216a3f-58be-4f18-89ce-6cbe64da44ca",
-          "ordinal": 3,
-          "name": "[LFQQ] RWY 08 | VOR Y",
+          "ordinal": 7,
+          "name": "RWY 08 (VOR Y)",
           "airportConditions": "",
           "notams": "",
           "template": "BONJOUR LILLE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APP VOR_Y. RWY ^08 IN USE. SID 6R. [ARPT_COND] [TL] BIRD STRIKE HAZARD, [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
@@ -21269,114 +21541,12 @@
           }
         },
         {
-          "id": "50dce168-3636-48b8-9080-62ab188e2804",
-          "ordinal": 4,
-          "name": "[LFQQ] RWY 08 | ILS Z RWY 26 -> VPT RWY 08",
-          "airportConditions": "",
-          "notams": "",
-          "template": "BONJOUR LILLE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APP ILS_Z RWY 26 FOLLOWED BY VPT RWY 08. RWY ^08 IN USE. SID 6R. [ARPT_COND] [TL] BIRD STRIKE HAZARD, [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "ae7dac82-d036-473f-815d-4c793bb982f0",
-          "ordinal": 5,
-          "name": "[LFQQ] RWY 08 | ILS Y RWY 26 -> VPT RWY 08",
-          "airportConditions": "",
-          "notams": "",
-          "template": "BONJOUR LILLE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APP ILS_Y RWY 26 FOLLOWED BY VPT RWY 08. RWY ^08 IN USE. SID 6R. [ARPT_COND] [TL] BIRD STRIKE HAZARD, [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "b5a5ca32-88dc-4081-9ce8-98b21f8ee888",
-          "ordinal": 6,
-          "name": "[LFQQ] RWY 08 | LOC Z RWY 26 -> VPT RWY 08",
-          "airportConditions": "",
-          "notams": "",
-          "template": "BONJOUR LILLE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APP LOC_Z RWY 26 FOLLOWED BY VPT RWY 08. RWY ^08 IN USE. SID 6R. [ARPT_COND] [TL] BIRD STRIKE HAZARD, [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "d1ce9741-5bd9-42a6-945b-b0bfd9621363",
-          "ordinal": 7,
-          "name": "[LFQQ] RWY 08 | LOC Y RWY 26 -> VPT RWY 08",
-          "airportConditions": "",
-          "notams": "",
-          "template": "BONJOUR LILLE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APP LOC_Y RWY 26 FOLLOWED BY VPT RWY 08. RWY ^08 IN USE. SID 6R. [ARPT_COND] [TL] BIRD STRIKE HAZARD, [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "bb58de49-42d7-4321-a0ae-bb935d4c66dd",
+          "id": "127747ab-6723-4be2-be99-1376c9085df9",
           "ordinal": 8,
-          "name": "[LFQQ] RWY 08 | RNP RWY 26 -> VPT RWY 08",
+          "name": "RWY 08 (VPT)",
           "airportConditions": "",
           "notams": "",
-          "template": "BONJOUR LILLE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APP RNP RWY 26 FOLLOWED BY VPT RWY 08. RWY ^08 IN USE. SID 6R. [ARPT_COND] [TL] BIRD STRIKE HAZARD, [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "41b68baa-75c3-48ca-bcc7-fa7ee1eaf9c3",
-          "ordinal": 9,
-          "name": "[LFQQ] RWY 08 | VOR RWY 26 -> VPT RWY 08",
-          "airportConditions": "",
-          "notams": "",
-          "template": "BONJOUR LILLE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. VOR RNP RWY 26 FOLLOWED BY VPT RWY 08. RWY ^08 IN USE. SID 6R. [ARPT_COND] [TL] BIRD STRIKE HAZARD, [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "4d353074-87ac-4516-a22c-4b3045a7317d",
-          "ordinal": 10,
-          "name": "[LFQQ] RWY 26 | ILS Z",
-          "airportConditions": "",
-          "notams": "",
-          "template": "BONJOUR LILLE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APP ILS_Z. RWY ^26 IN USE. SID 6K 6L. [ARPT_COND] [TL] BIRD STRIKE HAZARD, [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR LILLE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APP ILS_Z RWY26 FOLLOWED BY VPT RWY08. RWY ^08 IN USE. SID 6R. [ARPT_COND] [TL] BIRD STRIKE HAZARD, [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -21389,8 +21559,8 @@
         },
         {
           "id": "2bf8f612-734e-4ad7-b7c9-01f55f55f1a6",
-          "ordinal": 11,
-          "name": "[LFQQ] RWY 26 | ILS Y",
+          "ordinal": 9,
+          "name": "RWY 26 (ILS Y)",
           "airportConditions": "",
           "notams": "",
           "template": "BONJOUR LILLE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APP ILS_Y. RWY ^26 IN USE. SID 6K 6L. [ARPT_COND] [TL] BIRD STRIKE HAZARD, [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
@@ -21405,43 +21575,9 @@
           }
         },
         {
-          "id": "eaef8d96-84cc-48e5-bbf7-2e7e39daf63f",
-          "ordinal": 12,
-          "name": "[LFQQ] RWY 26 | LOC Z",
-          "airportConditions": "",
-          "notams": "",
-          "template": "BONJOUR LILLE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APP LOC_Z. RWY ^26 IN USE. SID 6K 6L. [ARPT_COND] [TL] BIRD STRIKE HAZARD, [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "23af133d-04dc-4e0b-a286-c56c49cb44c7",
-          "ordinal": 13,
-          "name": "[LFQQ] RWY 26 | LOC Y",
-          "airportConditions": "",
-          "notams": "",
-          "template": "BONJOUR LILLE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APP LOC_Y. RWY ^26 IN USE. SID 6K 6L. [ARPT_COND] [TL] BIRD STRIKE HAZARD, [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
           "id": "875cce3f-15b4-468b-97a4-3f546440dd0a",
-          "ordinal": 14,
-          "name": "[LFQQ] RWY 26 | RNP",
+          "ordinal": 10,
+          "name": "RWY 26 (RNP)",
           "airportConditions": "",
           "notams": "",
           "template": "BONJOUR LILLE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APP RNP. RWY ^26 IN USE. SID 6K 6L. [ARPT_COND] [TL] BIRD STRIKE HAZARD, [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
@@ -21457,11 +21593,11 @@
         },
         {
           "id": "e58e855d-65d5-4139-abdf-60a3bf02b950",
-          "ordinal": 15,
-          "name": "[LFQQ] RWY 26 | VOR",
+          "ordinal": 11,
+          "name": "RWY 26 (VOR)",
           "airportConditions": "",
           "notams": "",
-          "template": "BONJOUR LILLE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APP VOR. RWY ^26 IN USE. SID 6K 6L. [ARPT_COND] [TL] BIRD STRIKE HAZARD, [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR LILLE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APP VORDME. RWY ^26 IN USE. SID 6K 6L. [ARPT_COND] [TL] BIRD STRIKE HAZARD, [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -21480,44 +21616,14 @@
           "voice": "BON-JUR"
         },
         {
-          "variableName": "RWY1",
-          "text": "RWY 1",
-          "voice": "RUNWAY 1"
+          "variableName": "RWY08",
+          "text": "RWY 08",
+          "voice": "RUNWAY ZERO RIGHT"
         },
         {
-          "variableName": "RWY2",
-          "text": "RWY 2",
-          "voice": "RUNWAY 2"
-        },
-        {
-          "variableName": "RWY3",
-          "text": "RWY 3",
-          "voice": "RUNWAY 3"
-        },
-        {
-          "variableName": "RWY4",
-          "text": "RWY 4",
-          "voice": "RUNWAY 4"
-        },
-        {
-          "variableName": "NDB_X",
-          "text": "NDB X",
-          "voice": "NDB X-RAY"
-        },
-        {
-          "variableName": "NDB_Y",
-          "text": "NDB Y",
-          "voice": "NDB YANKEE"
-        },
-        {
-          "variableName": "NDB_Z",
-          "text": "NDB Z",
-          "voice": "NDB ZULU"
-        },
-        {
-          "variableName": "VOR_X",
-          "text": "VOR X",
-          "voice": "VOR X-RAY"
+          "variableName": "RWY26",
+          "text": "RWY 26",
+          "voice": "RUNWAY TWO SIX"
         },
         {
           "variableName": "VOR_Y",
@@ -21530,11 +21636,6 @@
           "voice": "VOR ZULU"
         },
         {
-          "variableName": "RNP_X",
-          "text": "RNP X",
-          "voice": "RNP X-RAY"
-        },
-        {
           "variableName": "RNP_Y",
           "text": "RNP Y",
           "voice": "RNP YANKEE"
@@ -21543,11 +21644,6 @@
           "variableName": "RNP_Z",
           "text": "RNP Z",
           "voice": "RNP ZULU"
-        },
-        {
-          "variableName": "ILS_X",
-          "text": "ILS X",
-          "voice": "ILS X-RAY"
         },
         {
           "variableName": "ILS_Y",
@@ -21568,16 +21664,6 @@
           "variableName": "LVP_ENFORCE",
           "text": "LOW VISIBILITY PROCEDURES ENFORCE.",
           "voice": "LOW VISIBILITY PROCEDURES ENFORCE"
-        },
-        {
-          "variableName": "PDC_ACTIVE",
-          "text": "DATALINK CLEARANCE AVAILABLE LFXX.",
-          "voice": "DATALINK CLEARANCE AVAILABLE CODE"
-        },
-        {
-          "variableName": "CDM_ACTIVE",
-          "text": "CDM OPERATIONS ACTIVE. SUBMIT TOBT AT CDM.VATISM.FR.",
-          "voice": "CDM OPERATIONS ACTIVE. SUBMIT TARGET OFF BLOCK TIME AT CDM DOT VATSIM DOT FR"
         }
       ],
       "airportConditionDefinitions": [
@@ -21596,16 +21682,6 @@
         {
           "text": "LVP_ENFORCE",
           "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "PDC_ACTIVE",
-          "ordinal": 2,
-          "enabled": false
-        },
-        {
-          "text": "CDM_ACTIVE",
-          "ordinal": 3,
           "enabled": false
         }
       ]

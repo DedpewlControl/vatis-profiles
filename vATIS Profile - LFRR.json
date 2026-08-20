@@ -1,6 +1,6 @@
 {
   "name": "LFRR Brest FIR",
-  "id": "6617a422-00e6-4239-8e91-b27d3af6ef1f",
+  "id": "1b1fb6d5-3f84-4dbe-a954-0c5ae7e5323b",
   "updateUrl": "",
   "updateSerial": 2026082001,
   "stations": [
@@ -1848,8 +1848,8 @@
             "TCU": "towering cumulus"
           },
           "template": {
-            "text": "CEILING {clouds}.",
-            "voice": "CEILING {clouds}"
+            "text": "CLOUDS {clouds}.",
+            "voice": "CLOUDS {clouds}"
           }
         },
         "temperature": {
@@ -3912,8 +3912,8 @@
             "TCU": "towering cumulus"
           },
           "template": {
-            "text": "CEILING {clouds}.",
-            "voice": "CEILING {clouds}"
+            "text": "CLOUDS {clouds}.",
+            "voice": "CLOUDS {clouds}"
           }
         },
         "temperature": {
@@ -6030,8 +6030,8 @@
             "TCU": "towering cumulus"
           },
           "template": {
-            "text": "CEILING {clouds}.",
-            "voice": "CEILING {clouds}"
+            "text": "CLOUDS {clouds}.",
+            "voice": "CLOUDS {clouds}"
           }
         },
         "temperature": {
@@ -8160,8 +8160,8 @@
             "TCU": "towering cumulus"
           },
           "template": {
-            "text": "CEILING {clouds}.",
-            "voice": "CEILING {clouds}"
+            "text": "CLOUDS {clouds}.",
+            "voice": "CLOUDS {clouds}"
           }
         },
         "temperature": {
@@ -10219,8 +10219,8 @@
             "TCU": "towering cumulus"
           },
           "template": {
-            "text": "CEILING {clouds}.",
-            "voice": "CEILING {clouds}"
+            "text": "CLOUDS {clouds}.",
+            "voice": "CLOUDS {clouds}"
           }
         },
         "temperature": {
@@ -12300,8 +12300,8 @@
             "TCU": "towering cumulus"
           },
           "template": {
-            "text": "CEILING {clouds}.",
-            "voice": "CEILING {clouds}"
+            "text": "CLOUDS {clouds}.",
+            "voice": "CLOUDS {clouds}"
           }
         },
         "temperature": {
@@ -14429,8 +14429,8 @@
             "TCU": "towering cumulus"
           },
           "template": {
-            "text": "CEILING {clouds}.",
-            "voice": "CEILING {clouds}"
+            "text": "CLOUDS {clouds}.",
+            "voice": "CLOUDS {clouds}"
           }
         },
         "temperature": {

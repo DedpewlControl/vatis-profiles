@@ -25195,11 +25195,10 @@
       },
       "presets": [
         {
-          "id": "36c1597c-22dc-4d32-9376-40b136ab1a12",
-          "name": "[LFBZ] RWY 09 | RNP",
-          "airportConditions": "RUNWAY CONDITION 666 DRY.",
-          "notams": "",
-          "template": "BONJOUR THIS IS BIARRITZ INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APP RNP RWY 09. RWY 09 IN USE. [TL] [ARPT_COND] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING] ",
+          "id": "ceab57e2-0e6e-4215-9866-0bd090f2a79a",
+          "ordinal": 1,
+          "name": "--- Standard Configurations ---",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -25211,11 +25210,12 @@
           }
         },
         {
-          "id": "3956c2f6-0319-4e44-9a88-888fb0851764",
-          "name": "[LFBZ] RWY 09 | VOR",
-          "airportConditions": "RUNWAY CONDITION 666 DRY.",
+          "id": "36c1597c-22dc-4d32-9376-40b136ab1a12",
+          "ordinal": 2,
+          "name": "RWY 09 (RNP)",
+          "airportConditions": "",
           "notams": "",
-          "template": "BONJOUR THIS IS BIARRITZ INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APP VOR RWY 09. RWY 09 IN USE. [TL] [ARPT_COND] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING] ",
+          "template": "BONJOUR THIS IS BIARRITZ INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APP RNP RWY09. RWY09 IN USE. [TL] [ARPT_COND] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING] ",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -25228,10 +25228,43 @@
         },
         {
           "id": "d67139b9-ac7b-4795-9a11-cb2d0bef6f6e",
-          "name": "[LFBZ] RWY 27 | ILS Z",
-          "airportConditions": "RUNWAY CONDITION 666 DRY.",
+          "ordinal": 2,
+          "name": "RWY 27 (ILS Z)",
+          "airportConditions": "",
           "notams": "",
-          "template": "BONJOUR THIS IS BIARRITZ INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APP ILS_Z RWY 27. RWY 27 IN USE. [TL] [ARPT_COND] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING] ",
+          "template": "BONJOUR THIS IS BIARRITZ INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APP ILS_Z RWY27. RWY27 IN USE. [TL] [ARPT_COND] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING] ",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "8ca9fb04-0431-480a-b734-0a989b34cf55",
+          "ordinal": 4,
+          "name": "--- Non Standard Configurations ---",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "3956c2f6-0319-4e44-9a88-888fb0851764",
+          "ordinal": 5,
+          "name": "RWY 09 (VOR)",
+          "airportConditions": "",
+          "notams": "",
+          "template": "BONJOUR THIS IS BIARRITZ INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APP VORDME RWY09. RWY09 IN USE. [TL] [ARPT_COND] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING] ",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -25244,10 +25277,11 @@
         },
         {
           "id": "928706c7-605a-4fbf-adf6-b85ea4ea5ea5",
-          "name": "[LFBZ] RWY 27 | ILS Y",
-          "airportConditions": "RUNWAY CONDITION 666 DRY.",
+          "ordinal": 6,
+          "name": "RWY 27 (ILS Y)",
+          "airportConditions": "",
           "notams": "",
-          "template": "BONJOUR THIS IS BIARRITZ INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APP ILS_Y RWY 27. RWY 27 IN USE. [TL] [ARPT_COND] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING] ",
+          "template": "BONJOUR THIS IS BIARRITZ INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APP ILS_Y RWY27. RWY27 IN USE. [TL] [ARPT_COND] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING] ",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -25260,10 +25294,11 @@
         },
         {
           "id": "b15ad744-521e-49fb-a511-ce8b5f809741",
-          "name": "[LFBZ] RWY 27 | RNP",
-          "airportConditions": "RUNWAY CONDITION 666 DRY.",
+          "ordinal": 7,
+          "name": "RWY 27 (RNP)",
+          "airportConditions": "",
           "notams": "",
-          "template": "BONJOUR THIS IS BIARRITZ INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APP RNP RWY 27. RWY 27 IN USE. [TL] [ARPT_COND] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING] ",
+          "template": "BONJOUR THIS IS BIARRITZ INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APP RNP RWY27. RWY27 IN USE. [TL] [ARPT_COND] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING] ",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -25276,10 +25311,11 @@
         },
         {
           "id": "ea3acd9f-3101-419e-bc69-489b5f784d58",
-          "name": "[LFBZ] RWY 27 | VOR",
-          "airportConditions": "RUNWAY CONDITION 666 DRY.",
+          "ordinal": 8,
+          "name": "RWY 27 (VOR)",
+          "airportConditions": "",
           "notams": "",
-          "template": "BONJOUR THIS IS BIARRITZ INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APP VOR RWY 27. RWY 27 IN USE. [TL] [ARPT_COND] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING] ",
+          "template": "BONJOUR THIS IS BIARRITZ INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APP VORDME RWY27. RWY27 IN USE. [TL] [ARPT_COND] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING] ",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -25298,74 +25334,14 @@
           "voice": "BON-JUR"
         },
         {
-          "variableName": "RWY1",
-          "text": "RWY 1",
-          "voice": "RUNWAY 1"
+          "variableName": "RWY09",
+          "text": "RWY 09",
+          "voice": "RUNWAY ZERO NINER"
         },
         {
-          "variableName": "RWY2",
-          "text": "RWY 2",
-          "voice": "RUNWAY 2"
-        },
-        {
-          "variableName": "RWY3",
-          "text": "RWY 3",
-          "voice": "RUNWAY 3"
-        },
-        {
-          "variableName": "RWY4",
-          "text": "RWY 4",
-          "voice": "RUNWAY 4"
-        },
-        {
-          "variableName": "NDB_X",
-          "text": "NDB X",
-          "voice": "NDB X-RAY"
-        },
-        {
-          "variableName": "NDB_Y",
-          "text": "NDB Y",
-          "voice": "NDB YANKEE"
-        },
-        {
-          "variableName": "NDB_Z",
-          "text": "NDB Z",
-          "voice": "NDB ZULU"
-        },
-        {
-          "variableName": "VOR_X",
-          "text": "VOR X",
-          "voice": "VOR X-RAY"
-        },
-        {
-          "variableName": "VOR_Y",
-          "text": "VOR Y",
-          "voice": "VOR YANKEE"
-        },
-        {
-          "variableName": "VOR_Z",
-          "text": "VOR Z",
-          "voice": "VOR ZULU"
-        },
-        {
-          "variableName": "RNP_X",
-          "text": "RNP X",
-          "voice": "RNP X-RAY"
-        },
-        {
-          "variableName": "RNP_Y",
-          "text": "RNP Y",
-          "voice": "RNP YANKEE"
-        },
-        {
-          "variableName": "RNP_Z",
-          "text": "RNP Z",
-          "voice": "RNP ZULU"
-        },
-        {
-          "variableName": "ILS_X",
-          "text": "ILS X",
-          "voice": "ILS X-RAY"
+          "variableName": "RWY27",
+          "text": "RWY 27",
+          "voice": "RUNWAY TWO SEVEN"
         },
         {
           "variableName": "ILS_Y",
@@ -25381,21 +25357,6 @@
           "variableName": "VORDME",
           "text": "VOR/DME",
           "voice": "VOR DME"
-        },
-        {
-          "variableName": "LVP_ENFORCE",
-          "text": "LOW VISIBILITY PROCEDURES ENFORCE.",
-          "voice": "LOW VISIBILITY PROCEDURES ENFORCE"
-        },
-        {
-          "variableName": "PDC_ACTIVE",
-          "text": "DATALINK CLEARANCE AVAILABLE LFXX.",
-          "voice": "DATALINK CLEARANCE AVAILABLE CODE"
-        },
-        {
-          "variableName": "CDM_ACTIVE",
-          "text": "CDM OPERATIONS ACTIVE. SUBMIT TOBT AT CDM.VATISM.FR.",
-          "voice": "CDM OPERATIONS ACTIVE. SUBMIT TARGET OFF BLOCK TIME AT CDM DOT VATSIM DOT FR"
         }
       ],
       "airportConditionDefinitions": [
@@ -25410,23 +25371,7 @@
           "enabled": false
         }
       ],
-      "notamDefinitions": [
-        {
-          "text": "LVP_ENFORCE",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "PDC_ACTIVE",
-          "ordinal": 2,
-          "enabled": false
-        },
-        {
-          "text": "CDM_ACTIVE",
-          "ordinal": 3,
-          "enabled": false
-        }
-      ]
+      "notamDefinitions": []
     },
     {
       "id": "a3898ece-1b0f-4ad6-8f25-fbf90330f25e",
@@ -27358,9 +27303,25 @@
       },
       "presets": [
         {
+          "id": "62204a01-cfa7-4e99-b516-551748aa2b3d",
+          "ordinal": 0,
+          "name": "--- Standard Configurations ---",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
           "id": "c7735c84-b8a6-4e86-aa20-4b03a219c059",
-          "name": "[LFCL] RWY 15",
-          "template": "BONJOUR THIS IS LASBORDES INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RWY 15 IN USE. CAUTION ANIMAL HAZARD. [ARPT_COND] [TL] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING] ",
+          "ordinal": 2,
+          "name": "RWY 15",
+          "template": "BONJOUR THIS IS LASBORDES INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RWY15 IN USE. CAUTION ANIMAL HAZARD. [ARPT_COND] [TL] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING] ",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -27373,8 +27334,9 @@
         },
         {
           "id": "95a2e71d-4cb3-4f4e-8b70-7ce07de98274",
-          "name": "[LFCL] RWY 33",
-          "template": "BONJOUR THIS IS LASBORDES INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RWY 33 IN USE. CAUTION ANIMAL HAZARD. [ARPT_COND] [TL] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING] ",
+          "ordinal": 3,
+          "name": "RWY 33",
+          "template": "BONJOUR THIS IS LASBORDES INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RWY33 IN USE. CAUTION ANIMAL HAZARD. [ARPT_COND] [TL] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING] ",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -27393,104 +27355,14 @@
           "voice": "BON-JUR"
         },
         {
-          "variableName": "RWY1",
+          "variableName": "RWY15",
           "text": "RWY 1",
           "voice": "RUNWAY 1"
         },
         {
-          "variableName": "RWY2",
+          "variableName": "RWY33",
           "text": "RWY 2",
           "voice": "RUNWAY 2"
-        },
-        {
-          "variableName": "RWY3",
-          "text": "RWY 3",
-          "voice": "RUNWAY 3"
-        },
-        {
-          "variableName": "RWY4",
-          "text": "RWY 4",
-          "voice": "RUNWAY 4"
-        },
-        {
-          "variableName": "NDB_X",
-          "text": "NDB X",
-          "voice": "NDB X-RAY"
-        },
-        {
-          "variableName": "NDB_Y",
-          "text": "NDB Y",
-          "voice": "NDB YANKEE"
-        },
-        {
-          "variableName": "NDB_Z",
-          "text": "NDB Z",
-          "voice": "NDB ZULU"
-        },
-        {
-          "variableName": "VOR_X",
-          "text": "VOR X",
-          "voice": "VOR X-RAY"
-        },
-        {
-          "variableName": "VOR_Y",
-          "text": "VOR Y",
-          "voice": "VOR YANKEE"
-        },
-        {
-          "variableName": "VOR_Z",
-          "text": "VOR Z",
-          "voice": "VOR ZULU"
-        },
-        {
-          "variableName": "RNP_X",
-          "text": "RNP X",
-          "voice": "RNP X-RAY"
-        },
-        {
-          "variableName": "RNP_Y",
-          "text": "RNP Y",
-          "voice": "RNP YANKEE"
-        },
-        {
-          "variableName": "RNP_Z",
-          "text": "RNP Z",
-          "voice": "RNP ZULU"
-        },
-        {
-          "variableName": "ILS_X",
-          "text": "ILS X",
-          "voice": "ILS X-RAY"
-        },
-        {
-          "variableName": "ILS_Y",
-          "text": "ILS Y",
-          "voice": "ILS YANKEE"
-        },
-        {
-          "variableName": "ILS_Z",
-          "text": "ILS Z",
-          "voice": "ILS ZULU"
-        },
-        {
-          "variableName": "VORDME",
-          "text": "VOR/DME",
-          "voice": "VOR DME"
-        },
-        {
-          "variableName": "LVP_ENFORCE",
-          "text": "LOW VISIBILITY PROCEDURES ENFORCE.",
-          "voice": "LOW VISIBILITY PROCEDURES ENFORCE"
-        },
-        {
-          "variableName": "PDC_ACTIVE",
-          "text": "DATALINK CLEARANCE AVAILABLE LFXX.",
-          "voice": "DATALINK CLEARANCE AVAILABLE CODE"
-        },
-        {
-          "variableName": "CDM_ACTIVE",
-          "text": "CDM OPERATIONS ACTIVE. SUBMIT TOBT AT CDM.VATISM.FR.",
-          "voice": "CDM OPERATIONS ACTIVE. SUBMIT TARGET OFF BLOCK TIME AT CDM DOT VATSIM DOT FR"
         }
       ],
       "airportConditionDefinitions": [
@@ -29453,11 +29325,27 @@
       },
       "presets": [
         {
+          "id": "0563a32a-f988-42a5-b9e0-fb7941da4d4e",
+          "ordinal": 0,
+          "name": "--- Standard Configurations ---",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
           "id": "b3556667-8910-4cd3-a2ee-bd030c9c664b",
-          "name": "[LFMK] RWY 09 | RNP",
+          "ordinal": 2,
+          "name": "RWY 09 (RNP)",
           "airportConditions": "RUNWAY CONDITION 666 DRY.",
           "notams": "",
-          "template": "BONJOUR THIS IS CARCASONNE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP APP RWY 09. RWY 09 IN USE. [TL] [ARPT_COND] [NOTAMS] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING] ",
+          "template": "BONJOUR THIS IS CARCASONNE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP APP RWY09. RWY09 IN USE. [TL] [ARPT_COND] [NOTAMS] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING] ",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -29470,10 +29358,11 @@
         },
         {
           "id": "32d7e5bf-a058-4be9-a0fa-a63aab29d034",
-          "name": "[LFMK] RWY 27 | RNP",
+          "ordinal": 3,
+          "name": "RWY 27 (RNP)",
           "airportConditions": "RUNWAY CONDITION 666 DRY.",
           "notams": "",
-          "template": "BONJOUR THIS IS CARCASONNE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP APP RWY 27. RWY 27 IN USE. [TL] [ARPT_COND] [NOTAMS] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING] ",
+          "template": "BONJOUR THIS IS CARCASONNE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP APP RWY27. RWY27 IN USE. [TL] [ARPT_COND] [NOTAMS] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [CLOSING] ",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -29492,104 +29381,14 @@
           "voice": "BON-JUR"
         },
         {
-          "variableName": "RWY1",
-          "text": "RWY 1",
-          "voice": "RUNWAY 1"
+          "variableName": "RWY09",
+          "text": "RWY 09",
+          "voice": "RUNWAY 09"
         },
         {
-          "variableName": "RWY2",
-          "text": "RWY 2",
-          "voice": "RUNWAY 2"
-        },
-        {
-          "variableName": "RWY3",
-          "text": "RWY 3",
-          "voice": "RUNWAY 3"
-        },
-        {
-          "variableName": "RWY4",
-          "text": "RWY 4",
-          "voice": "RUNWAY 4"
-        },
-        {
-          "variableName": "NDB_X",
-          "text": "NDB X",
-          "voice": "NDB X-RAY"
-        },
-        {
-          "variableName": "NDB_Y",
-          "text": "NDB Y",
-          "voice": "NDB YANKEE"
-        },
-        {
-          "variableName": "NDB_Z",
-          "text": "NDB Z",
-          "voice": "NDB ZULU"
-        },
-        {
-          "variableName": "VOR_X",
-          "text": "VOR X",
-          "voice": "VOR X-RAY"
-        },
-        {
-          "variableName": "VOR_Y",
-          "text": "VOR Y",
-          "voice": "VOR YANKEE"
-        },
-        {
-          "variableName": "VOR_Z",
-          "text": "VOR Z",
-          "voice": "VOR ZULU"
-        },
-        {
-          "variableName": "RNP_X",
-          "text": "RNP X",
-          "voice": "RNP X-RAY"
-        },
-        {
-          "variableName": "RNP_Y",
-          "text": "RNP Y",
-          "voice": "RNP YANKEE"
-        },
-        {
-          "variableName": "RNP_Z",
-          "text": "RNP Z",
-          "voice": "RNP ZULU"
-        },
-        {
-          "variableName": "ILS_X",
-          "text": "ILS X",
-          "voice": "ILS X-RAY"
-        },
-        {
-          "variableName": "ILS_Y",
-          "text": "ILS Y",
-          "voice": "ILS YANKEE"
-        },
-        {
-          "variableName": "ILS_Z",
-          "text": "ILS Z",
-          "voice": "ILS ZULU"
-        },
-        {
-          "variableName": "VORDME",
-          "text": "VOR/DME",
-          "voice": "VOR DME"
-        },
-        {
-          "variableName": "LVP_ENFORCE",
-          "text": "LOW VISIBILITY PROCEDURES ENFORCE.",
-          "voice": "LOW VISIBILITY PROCEDURES ENFORCE"
-        },
-        {
-          "variableName": "PDC_ACTIVE",
-          "text": "DATALINK CLEARANCE AVAILABLE LFXX.",
-          "voice": "DATALINK CLEARANCE AVAILABLE CODE"
-        },
-        {
-          "variableName": "CDM_ACTIVE",
-          "text": "CDM OPERATIONS ACTIVE. SUBMIT TOBT AT CDM.VATISM.FR.",
-          "voice": "CDM OPERATIONS ACTIVE. SUBMIT TARGET OFF BLOCK TIME AT CDM DOT VATSIM DOT FR"
+          "variableName": "RWY27",
+          "text": "RWY 27",
+          "voice": "RUNWAY 27"
         }
       ],
       "airportConditionDefinitions": [

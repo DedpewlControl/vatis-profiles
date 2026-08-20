@@ -1929,7 +1929,7 @@
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "Default",
+        "voice": "UK Female",
         "speechRate": 180
       },
       "presets": [
@@ -3941,7 +3941,7 @@
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "Default",
+        "voice": "UK Female",
         "speechRate": 180
       },
       "presets": [
@@ -6140,7 +6140,7 @@
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "Default",
+        "voice": "UK Female",
         "speechRate": 180
       },
       "presets": [
@@ -8263,17 +8263,17 @@
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "Default",
+        "voice": "UK Female",
         "speechRate": 180
       },
       "presets": [
         {
           "id": "0e700877-aebd-479d-a432-e8e577b05dee",
           "ordinal": 0,
-          "name": "[LFOP] RWY 04 | RNP",
+          "name": "RWY 04 (RNP)",
           "airportConditions": "",
           "notams": "",
-          "template": "BONJOUR THIS IS ROUEN INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP APP RWY 04. [TL] [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [ARPT_COND] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS ROUEN INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP APP RWY04. [TL] [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [ARPT_COND] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -8287,10 +8287,10 @@
         {
           "id": "7440a1f9-80b0-40bd-8686-d792415288a2",
           "ordinal": 1,
-          "name": "[LFOP] RWY 22 | ILS Z",
+          "name": "RWY 22 (ILS Z)",
           "airportConditions": "",
           "notams": "",
-          "template": "BONJOUR THIS IS ROUEN INFORMATION [ATIS_CODE] RECORDED AT [TIME]. ILS_Z APP RWY 22. [TL] [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [ARPT_COND] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS ROUEN INFORMATION [ATIS_CODE] RECORDED AT [TIME]. ILS_Z APP RWY22. [TL] [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [ARPT_COND] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -8304,44 +8304,10 @@
         {
           "id": "58d5b7ef-49a4-4ed0-8b1e-0a4920eca569",
           "ordinal": 2,
-          "name": "[LFOP] RWY 22 | ILS Y",
+          "name": "RWY 22 (ILS Y)",
           "airportConditions": "",
           "notams": "",
-          "template": "BONJOUR THIS IS ROUEN INFORMATION [ATIS_CODE] RECORDED AT [TIME]. ILS_Y APP RWY 22. [TL] [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [ARPT_COND] [NOTAMS] [CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "12bcc2b4-0d63-4f0d-aba0-46784eb05be5",
-          "ordinal": 3,
-          "name": "[LFOP] RWY 22 | LOC Z",
-          "airportConditions": "",
-          "notams": "",
-          "template": "BONJOUR THIS IS ROUEN INFORMATION [ATIS_CODE] RECORDED AT [TIME]. LOC_Z APP RWY 22. [TL] [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [ARPT_COND] [NOTAMS] [CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "618f0653-1112-497a-9ec4-a7a25fddb40c",
-          "ordinal": 4,
-          "name": "[LFOP] RWY 22 | LOC Y",
-          "airportConditions": "",
-          "notams": "",
-          "template": "BONJOUR THIS IS ROUEN INFORMATION [ATIS_CODE] RECORDED AT [TIME]. LOC_Y APP RWY 22. [TL] [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [ARPT_COND] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS ROUEN INFORMATION [ATIS_CODE] RECORDED AT [TIME]. ILS_Y APP RWY22. [TL] [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [ARPT_COND] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -8355,10 +8321,10 @@
         {
           "id": "25916e74-4aac-4dce-b71c-1dabd5b15be8",
           "ordinal": 5,
-          "name": "[LFOP] RWY 22 | RNP",
+          "name": "RWY 22 (RNP)",
           "airportConditions": "",
           "notams": "",
-          "template": "BONJOUR THIS IS ROUEN INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP APP RWY 22. [TL] [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [ARPT_COND] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS ROUEN INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP APP RWY22. [TL] [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [ARPT_COND] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -8372,10 +8338,10 @@
         {
           "id": "68b9b5c4-3cf5-4094-af46-76efddfc912a",
           "ordinal": 6,
-          "name": "[LFOP] RWY 22 | VOR",
+          "name": "RWY 22 (VOR)",
           "airportConditions": "",
           "notams": "",
-          "template": "BONJOUR THIS IS ROUEN INFORMATION [ATIS_CODE] RECORDED AT [TIME]. VOR APP RWY 22. [TL] [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [ARPT_COND] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS ROUEN INFORMATION [ATIS_CODE] RECORDED AT [TIME]. VORDME APP RWY22. [TL] [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [ARPT_COND] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -8394,74 +8360,14 @@
           "voice": "BON-JUR"
         },
         {
-          "variableName": "RWY1",
-          "text": "RWY 1",
-          "voice": "RUNWAY 1"
+          "variableName": "RWY04",
+          "text": "RWY 04",
+          "voice": "RUNWAY ZERO FOUR"
         },
         {
-          "variableName": "RWY2",
-          "text": "RWY 2",
-          "voice": "RUNWAY 2"
-        },
-        {
-          "variableName": "RWY3",
-          "text": "RWY 3",
-          "voice": "RUNWAY 3"
-        },
-        {
-          "variableName": "RWY4",
-          "text": "RWY 4",
-          "voice": "RUNWAY 4"
-        },
-        {
-          "variableName": "NDB_X",
-          "text": "NDB X",
-          "voice": "NDB X-RAY"
-        },
-        {
-          "variableName": "NDB_Y",
-          "text": "NDB Y",
-          "voice": "NDB YANKEE"
-        },
-        {
-          "variableName": "NDB_Z",
-          "text": "NDB Z",
-          "voice": "NDB ZULU"
-        },
-        {
-          "variableName": "VOR_X",
-          "text": "VOR X",
-          "voice": "VOR X-RAY"
-        },
-        {
-          "variableName": "VOR_Y",
-          "text": "VOR Y",
-          "voice": "VOR YANKEE"
-        },
-        {
-          "variableName": "VOR_Z",
-          "text": "VOR Z",
-          "voice": "VOR ZULU"
-        },
-        {
-          "variableName": "RNP_X",
-          "text": "RNP X",
-          "voice": "RNP X-RAY"
-        },
-        {
-          "variableName": "RNP_Y",
-          "text": "RNP Y",
-          "voice": "RNP YANKEE"
-        },
-        {
-          "variableName": "RNP_Z",
-          "text": "RNP Z",
-          "voice": "RNP ZULU"
-        },
-        {
-          "variableName": "ILS_X",
-          "text": "ILS X",
-          "voice": "ILS X-RAY"
+          "variableName": "RWY22",
+          "text": "RWY 22",
+          "voice": "RUNWAY TWO TWO"
         },
         {
           "variableName": "ILS_Y",
@@ -8477,21 +8383,6 @@
           "variableName": "VORDME",
           "text": "VOR/DME",
           "voice": "VOR DME"
-        },
-        {
-          "variableName": "LVP_ENFORCE",
-          "text": "LOW VISIBILITY PROCEDURES ENFORCE.",
-          "voice": "LOW VISIBILITY PROCEDURES ENFORCE"
-        },
-        {
-          "variableName": "PDC_ACTIVE",
-          "text": "DATALINK CLEARANCE AVAILABLE LFXX.",
-          "voice": "DATALINK CLEARANCE AVAILABLE CODE"
-        },
-        {
-          "variableName": "CDM_ACTIVE",
-          "text": "CDM OPERATIONS ACTIVE. SUBMIT TOBT AT CDM.VATISM.FR.",
-          "voice": "CDM OPERATIONS ACTIVE. SUBMIT TARGET OFF BLOCK TIME AT CDM DOT VATSIM DOT FR"
         }
       ],
       "airportConditionDefinitions": [
@@ -8506,23 +8397,7 @@
           "enabled": false
         }
       ],
-      "notamDefinitions": [
-        {
-          "text": "LVP_ENFORCE",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "PDC_ACTIVE",
-          "ordinal": 2,
-          "enabled": false
-        },
-        {
-          "text": "CDM_ACTIVE",
-          "ordinal": 3,
-          "enabled": false
-        }
-      ]
+      "notamDefinitions": []
     },
     {
       "id": "09919fe5-b2ca-4ec1-8eff-cbf9a40c4170",
@@ -14858,17 +14733,17 @@
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "Default",
+        "voice": "UK Female",
         "speechRate": 180
       },
       "presets": [
         {
           "id": "24131271-3181-44d5-a7d7-3ad6eccbb191",
           "ordinal": 0,
-          "name": "[LFPL] RWY 08",
+          "name": "RWY 08",
           "airportConditions": "",
           "notams": "",
-          "template": "THIS IS LOGNES INFORMATION [ATIS_CODE] AT TIME [TIME]. RWY IN USE 08. CAUTION BIRD HAZARD. [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [ARPT_COND] [NOTAMS] [CLOSING]",
+          "template": "THIS IS LOGNES INFORMATION [ATIS_CODE] AT TIME [TIME]. RWY IN USE ^08. CAUTION BIRD HAZARD. [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [ARPT_COND] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -14882,10 +14757,10 @@
         {
           "id": "1fab7f91-ee9d-4dd3-ae3c-1eea26ed563f",
           "ordinal": 1,
-          "name": "[LFPL] RWY 26",
+          "name": "RWY 26",
           "airportConditions": "",
           "notams": "",
-          "template": "THIS IS LOGNES INFORMATION [ATIS_CODE] AT TIME [TIME]. RWY IN USE 26. CAUTION BIRD HAZARD. [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [ARPT_COND] [NOTAMS] [CLOSING]",
+          "template": "THIS IS LOGNES INFORMATION [ATIS_CODE] AT TIME [TIME]. RWY IN USE ^26. CAUTION BIRD HAZARD. [WIND] [VIS] [CLOUDS] [TEMP] [DEW] [PRESSURE] [ARPT_COND] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -15016,23 +14891,7 @@
           "enabled": false
         }
       ],
-      "notamDefinitions": [
-        {
-          "text": "LVP_ENFORCE",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "PDC_ACTIVE",
-          "ordinal": 2,
-          "enabled": false
-        },
-        {
-          "text": "CDM_ACTIVE",
-          "ordinal": 3,
-          "enabled": false
-        }
-      ]
+      "notamDefinitions": []
     },
     {
       "id": "2db6ce25-3fb9-48fd-8eb6-4bafae00132b",
@@ -16959,14 +16818,14 @@
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "Default",
+        "voice": "UK Female",
         "speechRate": 180
       },
       "presets": [
         {
           "id": "e466d32c-19aa-4909-96d3-fee4c2de3ce3",
           "ordinal": 1,
-          "name": "[LFPN - EL]  RWY 07L | RNP",
+          "name": "RWY 07L (EL / RNP)",
           "airportConditions": "RUNWAY CONDITION 07L AND 07R 666 DRY.",
           "notams": "",
           "template": "THIS IS TOUSSUS INFORMATION [ATIS_CODE] AT TIME [TIME]. RNP ^07L. RWY IN USE ^07. EXPECT IFR DEPARTURE SID 2A. [TL] [ARPT_COND] [NOTAMS] [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [CLOSING]",
@@ -16983,7 +16842,7 @@
         {
           "id": "4d71451b-220a-4d95-bfde-1fa76c56dd6c",
           "ordinal": 2,
-          "name": "[LFPN - EL]  RWY 07L | VOR Z",
+          "name": "RWY 07L (EL / VOR Z)",
           "airportConditions": "RUNWAY CONDITION 07L AND 07R 666 DRY.",
           "notams": "",
           "template": "THIS IS TOUSSUS INFORMATION [ATIS_CODE] AT TIME [TIME]. VOR_Z ^07L. RWY IN USE ^07. EXPECT IFR DEPARTURE SID 2A. [TL] [ARPT_COND] [NOTAMS] [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [CLOSING]",
@@ -16998,77 +16857,9 @@
           }
         },
         {
-          "id": "e4971c21-40d5-4222-aae3-add45432bef8",
-          "ordinal": 3,
-          "name": "[LFPN - EL]  RWY 07L | ILS 25R -> CTL 07L",
-          "airportConditions": "RUNWAY CONDITION 07L AND 07R 666 DRY.",
-          "notams": "",
-          "template": "THIS IS TOUSSUS INFORMATION [ATIS_CODE] AT TIME [TIME]. ILS ^25R FOLLOWED BY VISUAL CIRCLING MANOUVER. RUNWAY IN USE ^07. RIGHT HAND CIRCUIT. EXPECT IFR DEPARTURE SID 2A. [TL] [ARPT_COND] [NOTAMS] [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "e250333f-8a48-405b-b579-8c4e19a419ca",
-          "ordinal": 4,
-          "name": "[LFPN - EL]  RWY 07L | LOC 25R -> CTL 07L",
-          "airportConditions": "RUNWAY CONDITION 07L AND 07R 666 DRY.",
-          "notams": "",
-          "template": "THIS IS TOUSSUS INFORMATION [ATIS_CODE] AT TIME [TIME]. LOC ^25R FOLLOWED BY VISUAL CIRCLING MANOUVER. RUNWAY IN USE ^07. RIGHT HAND CIRCUIT. EXPECT IFR DEPARTURE SID 2A. [TL] [ARPT_COND] [NOTAMS] [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "81dff06f-5160-41eb-9376-84389679e555",
-          "ordinal": 5,
-          "name": "[LFPN - EL]  RWY 07L | RNP 25R -> CTL 07L",
-          "airportConditions": "RUNWAY CONDITION 07L AND 07R 666 DRY.",
-          "notams": "",
-          "template": "THIS IS TOUSSUS INFORMATION [ATIS_CODE] AT TIME [TIME]. RNP ^25R FOLLOWED BY VISUAL CIRCLING MANOUVER. RUNWAY IN USE ^07. RIGHT HAND CIRCUIT. EXPECT IFR DEPARTURE SID 2A. [TL] [ARPT_COND] [NOTAMS] [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "aa479461-ed32-45c0-a802-54f3a1f4f7e4",
-          "ordinal": 5,
-          "name": "[LFPN - EL]  RWY 07L | VOR Z 25R -> CTL 07L",
-          "airportConditions": "RUNWAY CONDITION 07L AND 07R 666 DRY.",
-          "notams": "",
-          "template": "THIS IS TOUSSUS INFORMATION [ATIS_CODE] AT TIME [TIME]. VOR_Z ^25R FOLLOWED BY VISUAL CIRCLING MANOUVER. RUNWAY IN USE ^07. RIGHT HAND CIRCUIT. EXPECT IFR DEPARTURE SID 2A. [TL] [ARPT_COND] [NOTAMS] [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
           "id": "0882e26c-ac39-42a8-9199-593ef01d42ab",
           "ordinal": 7,
-          "name": "[LFPN - WL]  RWY 25R | ILS",
+          "name": "RWY 25R (WL / ILS)",
           "airportConditions": "RUNWAY CONDITION 25L AND 25R 666 DRY.",
           "notams": "",
           "template": "THIS IS TOUSSUS INFORMATION [ATIS_CODE] AT TIME [TIME]. ILS ^25R. RWY IN USE ^25R. EXPECT IFR DEPARTURE SID 2P. [TL] [ARPT_COND] [NOTAMS] [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [CLOSING]",
@@ -17085,7 +16876,7 @@
         {
           "id": "8d81b437-18da-4c27-9868-156c75fb59d7",
           "ordinal": 8,
-          "name": "[LFPN - WL]  RWY 25R | RNP",
+          "name": "RWY 25R (WL / RNP)",
           "airportConditions": "RUNWAY CONDITION 25L AND 25R 666 DRY.",
           "notams": "",
           "template": "THIS IS TOUSSUS INFORMATION [ATIS_CODE] AT TIME [TIME]. RNP ^25R. RWY IN USE ^25R. EXPECT IFR DEPARTURE SID 2P. [TL] [ARPT_COND] [NOTAMS] [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [CLOSING]",
@@ -17102,44 +16893,10 @@
         {
           "id": "569e9492-09f9-4a23-8ce9-fe7b8f6781dd",
           "ordinal": 9,
-          "name": "[LFPN - WL]  RWY 25R | VOR Z",
+          "name": "RWY 25R (WL / VOR Z)",
           "airportConditions": "RUNWAY CONDITION 25L AND 25R 666 DRY.",
           "notams": "",
           "template": "THIS IS TOUSSUS INFORMATION [ATIS_CODE] AT TIME [TIME]. VOR_Z ^25R. RWY IN USE ^25R. EXPECT IFR DEPARTURE SID 2P. [TL] [ARPT_COND] [NOTAMS] [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "984b9252-f0f8-4876-a79b-425bca6da126",
-          "ordinal": 10,
-          "name": "[LFPN - WL]  RWY 25R | RNP 07L -> CTL 25R",
-          "airportConditions": "RUNWAY CONDITION 07L AND 07R 666 DRY.",
-          "notams": "",
-          "template": "THIS IS TOUSSUS INFORMATION [ATIS_CODE] AT TIME [TIME]. RNP ^07L FOLLOWED BY VISUAL CIRCLING MANOUVER. RUNWAY IN USE ^25R. LEFT HAND CIRCUIT. EXPECT IFR DEPARTURE SID 2P. [TL] [ARPT_COND] [NOTAMS] [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "63e7fded-72ff-4abc-b102-48c99c641c77",
-          "ordinal": 11,
-          "name": "[LFPN - WL]  RWY 25R | VOR Z 07L -> CTL 25R",
-          "airportConditions": "RUNWAY CONDITION 07L AND 07R 666 DRY.",
-          "notams": "",
-          "template": "THIS IS TOUSSUS INFORMATION [ATIS_CODE] AT TIME [TIME]. VOR_Z ^07L FOLLOWED BY VISUAL CIRCLING MANOUVER. RUNWAY IN USE ^25R. LEFT HAND CIRCUIT. EXPECT IFR DEPARTURE SID 2P. [TL] [ARPT_COND] [NOTAMS] [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -17260,13 +17017,23 @@
       ],
       "airportConditionDefinitions": [
         {
-          "text": "RUNWAY CONDITION 666.",
+          "text": "RUNWAY CONDITION 07L AND 07R 6 6 6 DRY.",
           "ordinal": 1,
           "enabled": false
         },
         {
-          "text": "RUNWAY CONDITION 555.",
+          "text": "RUNWAY CONDITION 07L AND 07R 5 5 5 DRY.",
           "ordinal": 2,
+          "enabled": false
+        },
+        {
+          "text": "RUNWAY CONDITION 25L AND 25R 6 6 6 DRY.",
+          "ordinal": 3,
+          "enabled": false
+        },
+        {
+          "text": "RUNWAY CONDITION 25L AND 25R 5 5 5 DRY.",
+          "ordinal": 3,
           "enabled": false
         }
       ],
@@ -17274,16 +17041,6 @@
         {
           "text": "LVP_ENFORCE",
           "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "PDC_ACTIVE",
-          "ordinal": 2,
-          "enabled": false
-        },
-        {
-          "text": "CDM_ACTIVE",
-          "ordinal": 3,
           "enabled": false
         }
       ]
@@ -21439,7 +21196,7 @@
       "useDecimalTerminology": false,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "Default",
+        "voice": "UK Female",
         "speechRate": 180
       },
       "presets": [

@@ -33127,9 +33127,9 @@
       "presets": [
         {
           "id": "5226a036-eceb-43b0-808f-68897a5f9ea8",
-          "name": "[LFML] RWY 13L | ILS Z",
+          "name": "RWY 13L (ILS Z)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS PROVENCE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. ILS_Z RUNWAY 13L. TAKE OFF RUNWAY 13L. [ARPT_COND] [TL] SIGNIFICANT BIRD HAZARD. [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS PROVENCE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. ILS_Z RWY13L. TAKE OFF RWY13L. [ARPT_COND] [TL] SIGNIFICANT BIRD HAZARD. [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -33142,9 +33142,9 @@
         },
         {
           "id": "a11a7e96-10fe-4788-aff5-f24d318dd682",
-          "name": "[LFML] RWY 13L | ILS Y",
+          "name": "RWY 13L (ILS Y)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS PROVENCE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. ILS_Y RUNWAY 13L. TAKE OFF RUNWAY 13L. [ARPT_COND] [TL] SIGNIFICANT BIRD HAZARD. [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS PROVENCE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. ILS_Y RWY13L. TAKE OFF RWY13L. [ARPT_COND] [TL] SIGNIFICANT BIRD HAZARD. [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -33157,9 +33157,9 @@
         },
         {
           "id": "a0f53d51-3d81-4549-b4d3-8044c90f1186",
-          "name": "[LFML] RWY 13L | RNP Z",
+          "name": "RWY 13L (RNP Z)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS PROVENCE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP_Z RUNWAY 13L. TAKE OFF RUNWAY 13L. [ARPT_COND] [TL] SIGNIFICANT BIRD HAZARD. [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS PROVENCE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP_Z RWY13L. TAKE OFF RWY13L. [ARPT_COND] [TL] SIGNIFICANT BIRD HAZARD. [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -33172,9 +33172,9 @@
         },
         {
           "id": "36367f3f-7c29-4276-a8ab-beadf1063066",
-          "name": "[LFML] RWY 31R | ILS Z",
+          "name": "RWY 31R (ILS Z)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS PROVENCE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. ILS_Z RUNWAY 31R. TAKE OFF RUNWAY 31R. [ARPT_COND] [TL] SIGNIFICANT BIRD HAZARD. [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS PROVENCE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. ILS_Z RWY31R. TAKE OFF RWY31R. [ARPT_COND] [TL] SIGNIFICANT BIRD HAZARD. [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -33187,9 +33187,9 @@
         },
         {
           "id": "26d079e2-5d79-4c91-a4e8-b252f226006e",
-          "name": "[LFML] RWY 31R | RNP Z",
+          "name": "RWY 31R (RNP Z)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS PROVENCE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP_Z RUNWAY 31R. RNP_X ON REQUEST. TAKE OFF RUNWAY 31R. [ARPT_COND] [TL] SIGNIFICANT BIRD HAZARD. [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS PROVENCE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP_Z RWY31R. RNP_X ON REQUEST. TAKE OFF RWY31R. [ARPT_COND] [TL] SIGNIFICANT BIRD HAZARD. [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -33202,9 +33202,9 @@
         },
         {
           "id": "395c8756-0bb6-42ec-a8dc-f7d965b1bd35",
-          "name": "[LFML] RWY 31R | RNP Y",
+          "name": "RWY 31R (RNP Y)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS PROVENCE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP_Y RUNWAY 31R. RNP_X ON REQUEST. TAKE OFF RUNWAY 31R. [ARPT_COND] [TL] SIGNIFICANT BIRD HAZARD. [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS PROVENCE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP_Y RWY31R. RNP_X ON REQUEST. TAKE OFF RWY31R. [ARPT_COND] [TL] SIGNIFICANT BIRD HAZARD. [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -33217,9 +33217,9 @@
         },
         {
           "id": "8c9e3f2d-9786-4d0b-878a-71e6bc1e4c3a",
-          "name": "[LFML] RWY DEP 31R + ARR 13L | ILS Z",
+          "name": "DEP RWY 31R | ARR RWY 13L (ILS Z)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS PROVENCE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. ILS_Z RUNWAY 13L. TAKE OFF RUNWAY 31R. [ARPT_COND] [TL] SIGNIFICANT BIRD HAZARD. [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS PROVENCE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. ILS_Z RWY13L. TAKE OFF RWY31R. [ARPT_COND] [TL] SIGNIFICANT BIRD HAZARD. [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -33232,9 +33232,9 @@
         },
         {
           "id": "440224c8-b4ad-4d34-bee0-77127bd154a3",
-          "name": "[LFML] RWY DEP 31R + ARR 13L | RNP Z",
+          "name": "DEP RWY 31R | ARR RWY 13L (RNP Z)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS PROVENCE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP_Z RUNWAY 13L. TAKE OFF RUNWAY 31R. [ARPT_COND] [TL] SIGNIFICANT BIRD HAZARD. [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS PROVENCE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP_Z RWY13L. TAKE OFF RWY31R. [ARPT_COND] [TL] SIGNIFICANT BIRD HAZARD. [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -33253,14 +33253,29 @@
           "voice": "BON-JUR"
         },
         {
-          "variableName": "PROVENCE",
-          "text": "PROVENCE",
-          "voice": "PROVENCE"
+          "variableName": "RWY13L",
+          "text": "RWY 13L",
+          "voice": "RUNWAY ONE TREE LEFT"
         },
         {
-          "variableName": "RNP_Z",
-          "text": "RNP Z",
-          "voice": "RNP ZULU"
+          "variableName": "RWY13R",
+          "text": "RWY 13R",
+          "voice": "RUNWAY ONE TREE RIGHT"
+        },
+        {
+          "variableName": "RWY31L",
+          "text": "RWY 31L",
+          "voice": "RUNWAY TREE ONE LEFT"
+        },
+        {
+          "variableName": "RWY31R",
+          "text": "RWY 31R",
+          "voice": "RUNWAY TREE ONE RIGHT"
+        },
+        {
+          "variableName": "RNP_X",
+          "text": "RNP X",
+          "voice": "RNP X-RAY"
         },
         {
           "variableName": "RNP_Y",
@@ -33268,9 +33283,9 @@
           "voice": "RNP YANKEE"
         },
         {
-          "variableName": "ILS_Z",
-          "text": "ILS Z",
-          "voice": "ILS ZULU"
+          "variableName": "RNP_Z",
+          "text": "RNP Z",
+          "voice": "RNP ZULU"
         },
         {
           "variableName": "ILS_Y",
@@ -33278,107 +33293,57 @@
           "voice": "ILS YANKEE"
         },
         {
-          "variableName": "LOCDME",
-          "text": "LOC/DME",
-          "voice": "LOCALIZER DME"
+          "variableName": "ILS_Z",
+          "text": "ILS Z",
+          "voice": "ILS ZULU"
         },
         {
-          "variableName": "TOBT",
-          "text": "TOBT",
-          "voice": "TARGET OFF BLOCK TIME"
+          "variableName": "VORDME",
+          "text": "VOR/DME",
+          "voice": "VOR DME"
         },
         {
-          "variableName": "CDMURL",
-          "text": "CDM.VATSIM.FR",
-          "voice": "CDM DOT VATSIM DOT FR"
+          "variableName": "LVP_ENFORCE",
+          "text": "LOW VISIBILITY PROCEDURES ENFORCE.",
+          "voice": "LOW VISIBILITY PROCEDURES ENFORCE"
         },
         {
-          "variableName": "RNP_X",
-          "text": "RNP X",
-          "voice": "RNP XRAY"
+          "variableName": "PDC_ACTIVE",
+          "text": "DATALINK CLEARANCE AVAILABLE LFML.",
+          "voice": "DATALINK CLEARANCE AVAILABLE LFML"
+        },
+        {
+          "variableName": "CDM_ACTIVE",
+          "text": "CDM OPERATIONS ACTIVE. SUBMIT TOBT AT CDM.VATISM.FR.",
+          "voice": "CDM OPERATIONS ACTIVE. SUBMIT TARGET OFF BLOCK TIME AT CDM DOT VATSIM DOT FR"
         }
       ],
       "airportConditionDefinitions": [
         {
-          "text": "R 88 ACTIVE.",
-          "ordinal": 0,
+          "text": "RUNWAY CONDITION 666.",
+          "ordinal": 1,
           "enabled": false
         },
         {
-          "text": "R 186 ACTIVE.",
+          "text": "RUNWAY CONDITION 555.",
           "ordinal": 2,
-          "enabled": false
-        },
-        {
-          "text": "R 269 ACTIVE.",
-          "ordinal": 3,
-          "enabled": false
-        },
-        {
-          "text": "R 303 ACTIVE.",
-          "ordinal": 4,
-          "enabled": false
-        },
-        {
-          "text": "R 404 ACTIVE.",
-          "ordinal": 5,
-          "enabled": false
-        },
-        {
-          "text": "AEROBATIC ACTIVITY IN THE VICINITY.",
-          "ordinal": 6,
-          "enabled": false
-        },
-        {
-          "text": "PARACHUTING ACTIVITY IN THE VICINITY.",
-          "ordinal": 7,
-          "enabled": false
-        },
-        {
-          "text": "R88 ACTIVE.",
-          "ordinal": 8,
-          "enabled": false
-        },
-        {
-          "text": "SUBMIT YOUR TOBT AT CDMURL.",
-          "ordinal": 9,
           "enabled": false
         }
       ],
       "notamDefinitions": [
         {
-          "text": "PAPI UNSERVICEABLE.",
+          "text": "LVP_ENFORCE",
           "ordinal": 1,
           "enabled": false
         },
         {
-          "text": "LOCDME UNSERVICEABLE.",
+          "text": "PDC_ACTIVE",
           "ordinal": 2,
           "enabled": false
         },
         {
-          "text": "ILS UNSERVICEABLE.",
+          "text": "CDM_ACTIVE",
           "ordinal": 3,
-          "enabled": false
-        },
-        {
-          "text": "VOR AVN UNSERVICEABLE.",
-          "ordinal": 4,
-          "enabled": false
-        },
-        {
-          "text": "VOR MRM UNSERVICEABLE.",
-          "ordinal": 5,
-          "enabled": false
-        },
-        {
-          "text": "VOR MTG UNSERVICEABLE.",
-          "ordinal": 6,
-          "enabled": false
-        },
-        {
-          "text": "NDB MAR UNSERVICEABLE.",
-          "ordinal": 7,
           "enabled": false
         }
       ]

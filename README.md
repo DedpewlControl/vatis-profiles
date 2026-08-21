@@ -1,74 +1,55 @@
 # French vACC vATIS Profiles
 
-## About
+Welcome to the official collaborative repository for the **French vACC vATIS Profiles**.
 
-This repository contains the vATIS Profiles used by French vACC Controllers.
+This repository contains a collection of **59 realistic ATIS formats**, based on real-world references gathered from publicly available **telephone ATIS services** and **Digital ATIS sources**.
 
-> [!CAUTION]
-> The profiles are now only compatible with vATIS 4.1.0 and above (X-Platform) available here: https://vatis.app.
+The project is designed to provide controllers with airport-specific vATIS configurations that closely reproduce the phraseology, structure, sequencing, and presentation used at their real-world counterparts.
 
-## Download
+It also serves as the central location for **collaboration, maintenance, and issue tracking** for the French vACC vATIS profiles.
 
-[![Release](https://img.shields.io/github/v/release/vaccfr/vatis-profiles?style=for-the-badge&color=green)][1]
+---
 
-[1]: https://github.com/vaccfr/vatis-profiles/releases/latest
+> ⚠️ **Important:**  
+> These profiles are intended for use within the **French vACC** environment and are based on available real-world references.
+>
+> Real-world ATIS formats may change over time. Profiles are therefore maintained and updated whenever newer or more accurate references become available.
 
-## Supported Airports
+---
 
-### LFBB
+## 📡 ATIS Profiles
 
-- LFBD: Bordeaux
-- LFBE: Bergerac
-- LFBH: La Rochelle
-- LFBI: Poitiers
-- LFMK: Carcasonne
-- LFBL: Limoges
-- LFBO: Toulouse
-- LFBP: Pau
-- LFBT: Tarbes
-- LFBZ: Biarritz
+The repository currently contains **59 airport-specific vATIS formats**.
 
-### LFEE
+Where possible, each profile has been reproduced using references from:
 
-- LFGA: Colmar
-- LFJL: Metz
-- LFSB: Bale
-- LFST: Strasbourg
+- Real-world telephone ATIS recordings
+- Digital ATIS messages
+- Published operational references
+- Other publicly available aviation sources
 
-### LFFF
+The objective is to reproduce each airport's real-world ATIS format as accurately as practical while remaining compatible with **vATIS** and the French vACC controller environment.
 
-- LFAT: Le Touquet
-- LFOB: Beauvais
-- LFPB: Paris Le Bourget
-- LFPG: Paris CDG
-- LFPO: Paris Orly
-- LFPN: Paris-Saclay-Versailles
-- LFQQ: Lille
+---
 
-### LFMM
+## 📥 Download
 
-- LFKB: Bastia
-- LFKC: Calvi
-- LFKF: Figari
-- LFKJ: Ajaccio
-- LFLB: Chambery
-- LFLC: Clermont-Ferrand
-- LFLL: Lyon
-- LFLS: Grenoble
-- LFLY: Bron
-- LFMD: Cannes
-- LFML: Marseille
-- LFMN: Nice
-- LFMP: Perpignan
-- LFMT: Montpellier
-- LFMU: Beziers
-- LFTW: Nimes
+The latest release of the French vACC vATIS profiles can be downloaded here:
 
-### LFRR
+[https://github.com/vaccfr/vatis-profiles/releases/latest](https://github.com/vaccfr/vatis-profiles/releases/latest)
 
-- LFRB: Brest
-- LFRD: Dinard
-- LFRG: Rennes
-- LFRK: Caen
-- LFRN: Rennes
-- LFRS: Nantes
+---
+
+## 🐞 Bug Reporting
+
+Did you spot an issue?
+
+- Incorrect or outdated phraseology
+- Missing or incorrectly ordered information
+- Formatting or configuration errors
+- Differences compared with the real-world ATIS
+- General improvements or suggestions
+
+Please open an issue and provide as much detail as possible, including a real-world reference where available.
+
+Clear and detailed reports help us verify the information and keep the profiles as realistic and accurate as possible.

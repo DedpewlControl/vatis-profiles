@@ -6119,7 +6119,7 @@
           "id": "90fbe588-82d3-4e3a-9b9b-cb1b9be889fd",
           "name": "[LFKC] RWY 18 | RNP Z",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS CALVI INFORMATION [ATIS_CODE] RECORDED AT [TIME]. IFR PROCEDURE RNP_Z RUNWAY 18. RUNWAY CONDITION 666 DRY [TIME]. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS CALVI INFORMATION [ATIS_CODE] RECORDED AT [TIME]. IFR PROCEDURE RNP_Z RWY18. RUNWAY CONDITION 666 DRY [TIME]. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -6134,7 +6134,7 @@
           "id": "622f1ce5-06d1-4770-a63e-3d7b15461790",
           "name": "[LFKC] RWY 18 | RNP Y",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS CALVI INFORMATION [ATIS_CODE] RECORDED AT [TIME]. IFR PROCEDURE RNP_Y RUNWAY 18. RUNWAY CONDITION 666 DRY [TIME]. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS CALVI INFORMATION [ATIS_CODE] RECORDED AT [TIME]. IFR PROCEDURE RNP_Y RWY18. RUNWAY CONDITION 666 DRY [TIME]. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -6149,7 +6149,7 @@
           "id": "1baee9d6-8a33-4379-aac3-304e45019d20",
           "name": "[LFKC] RWY 18 | RNP X",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS CALVI INFORMATION [ATIS_CODE] RECORDED AT [TIME]. IFR PROCEDURE RNP_X RUNWAY 18. RUNWAY CONDITION 666 DRY [TIME]. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS CALVI INFORMATION [ATIS_CODE] RECORDED AT [TIME]. IFR PROCEDURE RNP_X RWY18. RUNWAY CONDITION 666 DRY [TIME]. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -6164,7 +6164,7 @@
           "id": "e44d67dd-8ef9-4f9a-97d5-2f65ee90f256",
           "name": "[LFKC] RWY 18 | RNP W",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS CALVI INFORMATION [ATIS_CODE] RECORDED AT [TIME]. IFR PROCEDURE RNP_W RUNWAY 18. RUNWAY CONDITION 666 DRY [TIME]. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS CALVI INFORMATION [ATIS_CODE] RECORDED AT [TIME]. IFR PROCEDURE RNP_W RWY18. RUNWAY CONDITION 666 DRY [TIME]. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -6179,7 +6179,7 @@
           "id": "55262635-b06d-4ecb-ad9b-17e246e704f3",
           "name": "[LFKC] RWY 36 | LOC RWY 18 -> CTL RWY 36",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS CALVI INFORMATION [ATIS_CODE] RECORDED AT [TIME]. IFR PROCEDURE LOC RUNWAY 18 FOLLOWED BY CIRCLING RUNWAY 36. RUNWAY CONDITION 666 DRY [TIME]. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS CALVI INFORMATION [ATIS_CODE] RECORDED AT [TIME]. IFR PROCEDURE LOC RWY18 FOLLOWED BY CIRCLING RWY36. RUNWAY CONDITION 666 DRY [TIME]. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -6195,7 +6195,7 @@
           "name": "[LFKC] RWY 36 | RNP Z RWY 18 -> CTL RWY 36",
           "airportConditions": "",
           "notams": "",
-          "template": "BONJOUR THIS IS CALVI INFORMATION [ATIS_CODE] RECORDED AT [TIME]. IFR PROCEDURE RNP_Z RUNWAY 18 FOLLOWED BY CIRCLING RWY34. RUNWAY CONDITION 666 DRY [TIME]. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS CALVI INFORMATION [ATIS_CODE] RECORDED AT [TIME]. IFR PROCEDURE RNP_Z RWY18 FOLLOWED BY CIRCLING RWY34. RUNWAY CONDITION 666 DRY [TIME]. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -12467,9 +12467,9 @@
       "presets": [
         {
           "id": "b1e85389-8155-4ad9-b128-e535c313d62b",
-          "name": "[LFLB] RWY 18 | ILS Z",
+          "name": "RWY 18 (ILS Z)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS CHAMBERY INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT ILS_Z RUNWAY 18 OR OWN ATC CLEARANCE. RUNWAY 18/36 CONDITION 666 DRY. [TL] GRASS RUNWAY RESERVED FOR HELICOPTERS WITHOUT TOUCHING THE GROUND. TMA ECHO AIRSPACE. BIRD HAZARD LOW. [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS CHAMBERY INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT ILS_Z RWY18 OR OWN ATC CLEARANCE. [TL] GRASS RUNWAY RESERVED FOR HELICOPTERS WITHOUT TOUCHING THE GROUND. TMA ECHO AIRSPACE. BIRD HAZARD LOW. [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -12482,9 +12482,9 @@
         },
         {
           "id": "0bad4871-4b9f-4ddb-8e2b-0ea332293477",
-          "name": "[LFLB] RWY 18 | ILS Y",
+          "name": "RWY 18 (ILS Y)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS CHAMBERY INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT ILS_Y RUNWAY 18 OR OWN ATC CLEARANCE. RUNWAY 18/36 CONDITION 666 DRY. [TL] GRASS RUNWAY RESERVED FOR HELICOPTERS WITHOUT TOUCHING THE GROUND. TMA ECHO AIRSPACE. BIRD HAZARD LOW. [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS CHAMBERY INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT ILS_Y RWY18 OR OWN ATC CLEARANCE. [TL] GRASS RUNWAY RESERVED FOR HELICOPTERS WITHOUT TOUCHING THE GROUND. TMA ECHO AIRSPACE. BIRD HAZARD LOW. [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -12497,9 +12497,9 @@
         },
         {
           "id": "698d7794-842d-4d59-9840-2a3212fdb38b",
-          "name": "[LFLB] RWY 18 | RNP Z",
+          "name": "RWY 18 (RNP Z)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS CHAMBERY INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT RNP_Z RUNWAY 18 OR OWN ATC CLEARANCE. RUNWAY 18/36 CONDITION 666 DRY. [TL] GRASS RUNWAY RESERVED FOR HELICOPTERS WITHOUT TOUCHING THE GROUND. TMA ECHO AIRSPACE. BIRD HAZARD LOW. [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS CHAMBERY INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT RNP_Z RWY18 OR OWN ATC CLEARANCE. [TL] GRASS RUNWAY RESERVED FOR HELICOPTERS WITHOUT TOUCHING THE GROUND. TMA ECHO AIRSPACE. BIRD HAZARD LOW. [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -12512,39 +12512,9 @@
         },
         {
           "id": "81175802-b9f6-42d7-b40d-e606e96a1815",
-          "name": "[LFLB] RWY 36 | ILS Z RWY 18 -> CTL RWY 36",
+          "name": "RWY 36 (VPT)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS CHAMBERY INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT ILS_Z RUNWAY 18 FOLLOWED BY VPT RUNWAY 36 OR OWN ATC CLEARANCE. RUNWAY 18/36 CONDITION 666 DRY. [TL] GRASS RUNWAY RESERVED FOR HELICOPTERS WITHOUT TOUCHING THE GROUND. TMA ECHO AIRSPACE. BIRD HAZARD LOW. [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "e3fa9bd6-a3de-4570-bd8d-3611a7397ba9",
-          "name": "[LFLB] RWY 36 | ILS Y RWY 18 -> CTL RWY 36",
-          "airportConditions": "",
-          "template": "BONJOUR THIS IS CHAMBERY INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT ILS_Y RUNWAY 18 FOLLOWED BY VPT RUNWAY 36 OR OWN ATC CLEARANCE. RUNWAY 18/36 CONDITION 666 DRY. [TL] GRASS RUNWAY RESERVED FOR HELICOPTERS WITHOUT TOUCHING THE GROUND. TMA ECHO AIRSPACE. BIRD HAZARD LOW. [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "65808a48-cdab-4976-8766-9759a66c18dc",
-          "name": "[LFLB] RWY 36 | RNP Z RWY 18 -> CTL RWY 36",
-          "airportConditions": "",
-          "template": "BONJOUR THIS IS CHAMBERY INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT RNP_Z RUNWAY 18 FOLLOWED BY VPT RUNWAY 36 OR OWN ATC CLEARANCE. RUNWAY 18/36 CONDITION 666 DRY. [TL] GRASS RUNWAY RESERVED FOR HELICOPTERS WITHOUT TOUCHING THE GROUND. TMA ECHO AIRSPACE. BIRD HAZARD LOW. [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS CHAMBERY INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT ILS_Z RWY18 FOLLOWED BY VPT RWY36 OR OWN ATC CLEARANCE. [TL] GRASS RUNWAY RESERVED FOR HELICOPTERS WITHOUT TOUCHING THE GROUND. TMA ECHO AIRSPACE. BIRD HAZARD LOW. [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -12563,24 +12533,14 @@
           "voice": "BON-JUR"
         },
         {
-          "variableName": "CHAMBERY",
-          "text": "CHAMBERY",
-          "voice": "CHAMBERY"
+          "variableName": "RWY18",
+          "text": "RWY 18",
+          "voice": "RUNWAY ONE EIGHT"
         },
         {
-          "variableName": "ILS_Z",
-          "text": "ILS Z",
-          "voice": "ILS ZULU"
-        },
-        {
-          "variableName": "ILS_Y",
-          "text": "ILS Y",
-          "voice": "ILS YANKEE"
-        },
-        {
-          "variableName": "RNP_Z",
-          "text": "RNP Z",
-          "voice": "RNP ZULU"
+          "variableName": "RWY36",
+          "text": "RWY 36",
+          "voice": "RUNWAY TREE SIX"
         },
         {
           "variableName": "RNP_Y",
@@ -12588,50 +12548,22 @@
           "voice": "RNP YANKEE"
         },
         {
-          "variableName": "LOCDME",
-          "text": "LOC/DME",
-          "voice": "LOCALIZER DME"
+          "variableName": "RNP_Z",
+          "text": "RNP Z",
+          "voice": "RNP ZULU"
+        },
+        {
+          "variableName": "ILS_Y",
+          "text": "ILS Y",
+          "voice": "ILS YANKEE"
+        },
+        {
+          "variableName": "ILS_Z",
+          "text": "ILS Z",
+          "voice": "ILS ZULU"
         }
       ],
-      "airportConditionDefinitions": [
-        {
-          "text": "R 48 ACTIVE.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "PARACHUTING ACTIVITY IN THE VICINITY.",
-          "ordinal": 2,
-          "enabled": false
-        }
-      ],
-      "notamDefinitions": [
-        {
-          "text": "PAPI UNSERVICEABLE.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "LOCDME UNSERVICEABLE.",
-          "ordinal": 2,
-          "enabled": false
-        },
-        {
-          "text": "ILS UNSERVICEABLE.",
-          "ordinal": 3,
-          "enabled": false
-        },
-        {
-          "text": "VOR CBY UNSERVICEABLE.",
-          "ordinal": 4,
-          "enabled": false
-        },
-        {
-          "text": "NDB CH UNSERVICEABLE.",
-          "ordinal": 5,
-          "enabled": false
-        }
-      ]
+      "airportConditionDefinitions": []
     },
     {
       "id": "abdadd73-2d81-4b0c-bf54-a00f3f1064fd",

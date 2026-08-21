@@ -1,3 +1,5 @@
+![alt text](https://raw.githubusercontent.com/DedpewlControl/vatis-profiles/refs/heads/main/.github/img/vaccfr_vatis_banner.jpg "French vACC vATIS Project Banner")
+
 # French vACC vATIS Profiles
 
 Welcome to the official collaborative repository for the **French vACC vATIS Profiles**.

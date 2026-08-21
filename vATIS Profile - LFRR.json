@@ -1,6 +1,6 @@
 {
   "name": "LFRR Brest FIR",
-  "id": "1b1fb6d5-3f84-4dbe-a954-0c5ae7e5323b",
+  "id": "3f6b1fa5-ef7d-491e-bede-b4b5e63986b4",
   "updateUrl": "",
   "updateSerial": 2026082001,
   "stations": [
@@ -12419,7 +12419,7 @@
         },
         {
           "id": "c0be334f-07c1-4d06-971d-131714e30cf8",
-          "ordinal": 6,
+          "ordinal": 3,
           "name": "RWY 21 (RNP Y)",
           "airportConditions": "",
           "notams": "",
@@ -12451,7 +12451,7 @@
         },
         {
           "id": "83fa35e1-0dad-49f6-bfba-f60f40c1433f",
-          "ordinal": 5,
+          "ordinal": 4,
           "name": "RWY 03 (ILS Y)",
           "airportConditions": "",
           "notams": "",
@@ -12485,7 +12485,7 @@
         },
         {
           "id": "6bb557de-97e7-4df8-8e81-0fd28531b8d6",
-          "ordinal": 3,
+          "ordinal": 7,
           "name": "RWY 21 (RNP Z)",
           "airportConditions": "",
           "notams": "",

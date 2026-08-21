@@ -27024,9 +27024,9 @@
       "presets": [
         {
           "id": "9d212311-4321-4431-bf2c-9619a5ca3f99",
-          "name": "[LFMA] RWY 14",
+          "name": "RWY 14",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS AIX INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RUNWAY IN USE 14. IFR PROCEDURE IN USE VISUALROACH RUNWAY 14. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS AIX INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RWY IN USE ^14. IFR PROCEDURE IN USE VISUAL APPROACH RWY14. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -27039,9 +27039,9 @@
         },
         {
           "id": "64f4a844-77e8-4076-9c20-bda312d04ae8",
-          "name": "[LFMA] RWY 32",
+          "name": "RWY 32",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS AIX INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RUNWAY IN USE 32. IFR PROCEDURE IN USE VISUALROACH RUNWAY 32. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS AIX INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RWY IN USE ^32. IFR PROCEDURE IN USE VISUAL APPROACH RWY32. [WIND] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -27060,45 +27060,29 @@
           "voice": "BON-JUR"
         },
         {
-          "variableName": "AIX",
-          "text": "AIX",
-          "voice": "AIX"
+          "variableName": "RWY14",
+          "text": "RWY 14",
+          "voice": "RUNWAY ONE FOUR"
+        },
+        {
+          "variableName": "RWY32",
+          "text": "RWY 32",
+          "voice": "RUNWAY TREE TWO"
         }
       ],
       "airportConditionDefinitions": [
         {
-          "text": "R 71 ACTIVE.",
+          "text": "RUNWAY CONDITION 666.",
           "ordinal": 1,
           "enabled": false
         },
         {
-          "text": "R 276 ACTIVE.",
-          "ordinal": 2,
-          "enabled": false
-        },
-        {
-          "text": "PARACHUTING ACTIVITY IN THE VICINITY.",
+          "text": "RUNWAY CONDITION 555.",
           "ordinal": 2,
           "enabled": false
         }
       ],
-      "notamDefinitions": [
-        {
-          "text": "ALM NDB UNSERVICEABLE.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "MAR NDB UNSERVICEABLE.",
-          "ordinal": 2,
-          "enabled": false
-        },
-        {
-          "text": "MRM VOR UNSERVICEABLE.",
-          "ordinal": 3,
-          "enabled": false
-        }
-      ]
+      "notamDefinitions": []
     },
     {
       "id": "0ca078ec-e17d-47a1-a526-b0d09a44fa8d",

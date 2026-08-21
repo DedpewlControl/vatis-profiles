@@ -29034,7 +29034,7 @@
           "id": "136e7eaf-a742-4c57-a2d3-30e276c0838a",
           "name": "[LFMD] RWY 17 | LOC A -> VPT A",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS CANNES INFORMATION [ATIS_CODE] RECORDED AT [TIME]. PROCEDURE LOC_A RUNWAY 17 FOLLOWED BY VPT A RUNWAY 17. RUNWAY 17 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS CANNES INFORMATION [ATIS_CODE] RECORDED AT [TIME]. PROCEDURE LOC_A RWY17 FOLLOWED BY VPT A RWY17. RWY17 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -29049,7 +29049,7 @@
           "id": "0cfdebad-a451-4653-99b1-ca5445d2bd9e",
           "name": "[LFMD] RWY 17 | LOC B -> VPT A",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS CANNES INFORMATION [ATIS_CODE] RECORDED AT [TIME]. PROCEDURE LOC_B RUNWAY 17 FOLLOWED BY VPT A RUNWAY 17. RUNWAY 17 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS CANNES INFORMATION [ATIS_CODE] RECORDED AT [TIME]. PROCEDURE LOC_B RWY17 FOLLOWED BY VPT A RWY17. RWY17 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -29064,7 +29064,7 @@
           "id": "4c792748-369a-47d4-9f1f-92d535301a19",
           "name": "[LFMD] RWY 17 | RNP A -> VPT A",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS CANNES INFORMATION [ATIS_CODE] RECORDED AT [TIME]. PROCEDURE RNP_A RUNWAY 17 FOLLOWED BY VPT A RUNWAY 17. RUNWAY 17 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS CANNES INFORMATION [ATIS_CODE] RECORDED AT [TIME]. PROCEDURE RNP_A RWY17 FOLLOWED BY VPT A RWY17. RWY17 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -29079,7 +29079,7 @@
           "id": "52317fee-73fd-41a4-b29d-eed497f23f16",
           "name": "[LFMD] RWY 35 | RNP Z",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS CANNES INFORMATION [ATIS_CODE] RECORDED AT [TIME]. PROCEDURE RNP_Z RUNWAY 35. RUNWAY 35 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS CANNES INFORMATION [ATIS_CODE] RECORDED AT [TIME]. PROCEDURE RNP_Z RWY35. RWY35 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -29094,7 +29094,7 @@
           "id": "632f3756-c92d-44f0-8d97-674f3b22258b",
           "name": "[LFMD] RWY 35 | RNP Y",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS CANNES INFORMATION [ATIS_CODE] RECORDED AT [TIME]. PROCEDURE RNP_Y RUNWAY 35. RUNWAY 35 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS CANNES INFORMATION [ATIS_CODE] RECORDED AT [TIME]. PROCEDURE RNP_Y RWY35. RWY35 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -31125,9 +31125,9 @@
       "presets": [
         {
           "id": "5c232f5b-f740-4404-a481-f1e042e4da46",
-          "name": "[LFMH] RWY 17",
+          "name": "RWY 17",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS SAINT ETIENNE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RUNWAY 17 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS SAINT ETIENNE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RWY17 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -31140,9 +31140,9 @@
         },
         {
           "id": "38813bc0-8f7c-4e9c-a8ca-04f4a6f9ad9a",
-          "name": "[LFMH] RWY 35",
+          "name": "RWY 35",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS SAINT ETIENNE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RUNWAY 35 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS SAINT ETIENNE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RWY35 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -31161,34 +31161,24 @@
           "voice": "BON-JUR"
         },
         {
-          "variableName": "SAINT_ETIENNE",
-          "text": "SAINT ETIENNE",
-          "voice": "SAINT ETIENNE"
+          "variableName": "RWY17",
+          "text": "RWY 17",
+          "voice": "RUNWAY ONE SEVEN"
         },
         {
-          "variableName": "RNP_Z",
-          "text": "RNP Z",
-          "voice": "RNP ZULU"
-        },
-        {
-          "variableName": "RNP_Y",
-          "text": "RNP Y",
-          "voice": "RNP YANKEE"
-        },
-        {
-          "variableName": "LOCDME",
-          "text": "LOC/DME",
-          "voice": "LOCALIZER DME"
+          "variableName": "RWY35",
+          "text": "RWY 35",
+          "voice": "RUNWAY TREE FIVE"
         }
       ],
       "airportConditionDefinitions": [
         {
-          "text": "AEROBATIC ACTIVITY IN THE VICINITY.",
+          "text": "RUNWAY CONDITION 666.",
           "ordinal": 1,
           "enabled": false
         },
         {
-          "text": "PARACHUTING ACTIVITY IN THE VICINITY.",
+          "text": "RUNWAY CONDITION 555.",
           "ordinal": 2,
           "enabled": false
         }

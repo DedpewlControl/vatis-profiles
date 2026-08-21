@@ -22939,9 +22939,9 @@
       "presets": [
         {
           "id": "1059020b-6ef9-4819-8271-49b531dc9719",
-          "name": "[LFLS] RWY 09 | ILS",
+          "name": "RWY 09 (ILS)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS GRENOBLE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. ILS RUNWAY 09. RUNWAY 09 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS GRENOBLE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. ILS RWY09. RWY09 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -22954,9 +22954,9 @@
         },
         {
           "id": "ae771747-4120-4de0-be93-09637da06863",
-          "name": "[LFLS] RWY 09 | RNP",
+          "name": "RWY 09 (RNP)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS GRENOBLE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP RUNWAY 09. RUNWAY 09 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS GRENOBLE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP RWY09. RWY09 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -22969,9 +22969,9 @@
         },
         {
           "id": "f239df2f-448d-44d7-a839-119611424f95",
-          "name": "[LFLS] RWY 27 | RNP",
+          "name": "RWY 27 (RNP)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS GRENOBLE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP RUNWAY 27. RUNWAY 27 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS GRENOBLE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP RWY27. RWY27 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -22984,24 +22984,9 @@
         },
         {
           "id": "618de626-0b02-4a95-97e6-04d54332b0ca",
-          "name": "[LFLS] RWY 27 | ILS 09 -> VPT RWY 27",
+          "name": "RWY 27 (VPT)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS GRENOBLE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. ILS RUNWAY 09 FOLLOWED BY VPT RUNWAY 27. RUNWAY 27 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "708a1973-9bf2-406b-9cc4-d8488c0e8dfc",
-          "name": "[LFLS] RWY 27 | RNP 09 -> VPT RWY 27",
-          "airportConditions": "",
-          "template": "BONJOUR THIS IS GRENOBLE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP RUNWAY 09 FOLLOWED BY VPT RUNWAY 27. RUNWAY 27 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS GRENOBLE INFORMATION [ATIS_CODE] RECORDED AT [TIME]. ILS RWY09 FOLLOWED BY VPT RWY27. RWY27 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -23020,70 +23005,29 @@
           "voice": "BON-JUR"
         },
         {
-          "variableName": "GRENOBLE",
-          "text": "GRENOBLE",
-          "voice": "GRENOBLE"
+          "variableName": "RWY09",
+          "text": "RWY 09",
+          "voice": "RUNWAY ZERO NINER"
         },
         {
-          "variableName": "ILS_Z",
-          "text": "ILS Z",
-          "voice": "ILS ZULU"
-        },
-        {
-          "variableName": "ILS_Y",
-          "text": "ILS Y",
-          "voice": "ILS YANKEE"
-        },
-        {
-          "variableName": "RNP_Z",
-          "text": "RNP Z",
-          "voice": "RNP ZULU"
-        },
-        {
-          "variableName": "RNP_Y",
-          "text": "RNP Y",
-          "voice": "RNP YANKEE"
-        },
-        {
-          "variableName": "LOCDME",
-          "text": "LOC/DME",
-          "voice": "LOCALIZER DME"
+          "variableName": "RWY27",
+          "text": "RWY 27",
+          "voice": "RUNWAY TWO SEVEN"
         }
       ],
       "airportConditionDefinitions": [
         {
-          "text": "R 220 A ACTIVE.",
+          "text": "RUNWAY CONDITION 666.",
           "ordinal": 1,
           "enabled": false
         },
         {
-          "text": "AEROBATIC ACTIVITY IN THE VICINITY.",
+          "text": "RUNWAY CONDITION 555.",
           "ordinal": 2,
-          "enabled": false
-        },
-        {
-          "text": "PARACHUTING ACTIVITY IN THE VICINITY.",
-          "ordinal": 3,
           "enabled": false
         }
       ],
-      "notamDefinitions": [
-        {
-          "text": "PAPI UNSERVICEABLE.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "LOCDME UNSERVICEABLE.",
-          "ordinal": 2,
-          "enabled": false
-        },
-        {
-          "text": "ILS UNSERVICEABLE.",
-          "ordinal": 3,
-          "enabled": false
-        }
-      ]
+      "notamDefinitions": []
     },
     {
       "id": "5c3898fb-7a3f-43d1-add8-40bf3a1b6a57",

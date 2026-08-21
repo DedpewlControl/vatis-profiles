@@ -43918,9 +43918,9 @@
       "presets": [
         {
           "id": "122cdf40-f7c4-4aac-b0f2-606fbb9c11b6",
-          "name": "[LFMV] RWY 17 | RNP Z",
+          "name": "RWY 17 (RNP Z)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS AVIGNON INFORMATION [ATIS_CODE] RECORDED AT [TIME]. AVIGNON CTR ACTIVE. EXPECT RNP_ZROACH RUNWAY 17. RUNWAY 17 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS AVIGNON INFORMATION [ATIS_CODE] RECORDED AT [TIME]. AVIGNON CTR ACTIVE. EXPECT RNP_Z APPROACH RWY17. RWY17 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -43933,9 +43933,9 @@
         },
         {
           "id": "3046ba8d-aabb-45d9-b7a7-b26cbf620699",
-          "name": "[LFMV] RWY 17 | RNP Y",
+          "name": "RWY 17 (RNP Y)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS AVIGNON INFORMATION [ATIS_CODE] RECORDED AT [TIME]. AVIGNON CTR ACTIVE. EXPECT RNP_YROACH RUNWAY 17. RUNWAY 17 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS AVIGNON INFORMATION [ATIS_CODE] RECORDED AT [TIME]. AVIGNON CTR ACTIVE. EXPECT RNP_Y APPROACH RWY17. RWY17 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -43948,9 +43948,9 @@
         },
         {
           "id": "4d09a904-8954-4abd-ba5d-e701c18c3ba9",
-          "name": "[LFMV] RWY 17 | RNP X",
+          "name": "RWY 17 (RNP X)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS AVIGNON INFORMATION [ATIS_CODE] RECORDED AT [TIME]. AVIGNON CTR ACTIVE. EXPECT RNP_XROACH RUNWAY 17. RUNWAY 17 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS AVIGNON INFORMATION [ATIS_CODE] RECORDED AT [TIME]. AVIGNON CTR ACTIVE. EXPECT RNP_X APPROACH RWY17. RWY17 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -43963,39 +43963,9 @@
         },
         {
           "id": "27339d1c-8f38-4395-aa2b-3c0f895aef56",
-          "name": "[LFMV] RWY 35 | RNP Z -> VPT RWY 35",
+          "name": "RWY 35 (VPT)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS AVIGNON INFORMATION [ATIS_CODE] RECORDED AT [TIME]. AVIGNON CTR ACTIVE. EXPECT RNP_ZROACH RUNWAY 17 FOLLOWED BY VPT FOR RUNWAY 35. RUNWAY 17 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "00175b4d-1c5a-473a-a4d3-09a28a0ccb81",
-          "name": "[LFMV] RWY 35 | RNP Y -> VPT RWY 35",
-          "airportConditions": "",
-          "template": "BONJOUR THIS IS AVIGNON INFORMATION [ATIS_CODE] RECORDED AT [TIME]. AVIGNON CTR ACTIVE. EXPECT RNP_YROACH RUNWAY 17 FOLLOWED BY VPT FOR RUNWAY 35. RUNWAY 17 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "824f4f39-d91f-44a9-8fbf-f66a86406dce",
-          "name": "[LFMV] RWY 35 | RNP X -> VPT RWY 35",
-          "airportConditions": "",
-          "template": "BONJOUR THIS IS AVIGNON INFORMATION [ATIS_CODE] RECORDED AT [TIME]. AVIGNON CTR ACTIVE. EXPECT RNP_XROACH RUNWAY 17 FOLLOWED BY VPT FOR RUNWAY 35. RUNWAY 17 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS AVIGNON INFORMATION [ATIS_CODE] RECORDED AT [TIME]. AVIGNON CTR ACTIVE. EXPECT RNP_Z APPROACH RWY17 FOLLOWED BY VPT RWY35. RWY35 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -44014,14 +43984,19 @@
           "voice": "BON-JUR"
         },
         {
-          "variableName": "AVIGNON",
-          "text": "AVIGNON",
-          "voice": "AVIGNON"
+          "variableName": "RWY17",
+          "text": "RWY 17",
+          "voice": "RUNWAY ONE SEVEN"
         },
         {
-          "variableName": "RNP_Z",
-          "text": "RNP Z",
-          "voice": "RNP ZULU"
+          "variableName": "RWY35",
+          "text": "RWY 35",
+          "voice": "RUNWAY TREE FIVE"
+        },
+        {
+          "variableName": "RNP_X",
+          "text": "RNP X",
+          "voice": "RNP X-RAY"
         },
         {
           "variableName": "RNP_Y",
@@ -44029,40 +44004,24 @@
           "voice": "RNP YANKEE"
         },
         {
-          "variableName": "RNP_X",
-          "text": "RNP X",
-          "voice": "RNP XRAY"
+          "variableName": "RNP_Z",
+          "text": "RNP Z",
+          "voice": "RNP ZULU"
         }
       ],
       "airportConditionDefinitions": [
         {
-          "text": "R 71 C ACTIVE.",
+          "text": "RUNWAY CONDITION 666.",
           "ordinal": 1,
           "enabled": false
         },
         {
-          "text": "AEROBATIC ACTIVITY IN THE VICINITY.",
+          "text": "RUNWAY CONDITION 555.",
           "ordinal": 2,
-          "enabled": false
-        },
-        {
-          "text": "PARAGLIDING ACTIVITY IN THE VICINITY.",
-          "ordinal": 3,
           "enabled": false
         }
       ],
-      "notamDefinitions": [
-        {
-          "text": "PAPI UNSERVICEABLE.",
-          "ordinal": 0,
-          "enabled": false
-        },
-        {
-          "text": "VOR AVN UNSERVICEABLE.",
-          "ordinal": 2,
-          "enabled": false
-        }
-      ]
+      "notamDefinitions": []
     },
     {
       "id": "577d3d79-ed7d-4c10-8fca-62fcc4192a6d",

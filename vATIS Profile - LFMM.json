@@ -1936,9 +1936,9 @@
       "presets": [
         {
           "id": "663e9a6d-056a-4623-af83-46c072f3a5d6",
-          "name": "[LFCR] RWY 13 | RNP",
+          "name": "RWY 13 (RNP)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS RODEZ INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT RNP RUNWAY 13. RUNWAY IN USE 13. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] IN CASE OF METEOROLOGICAL EVOLUTIONS THIS WILL BE GIVEN ON THE FREQUENCY. [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS RODEZ INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT RNP RWY13. RUNWAY IN USE ^13. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] IN CASE OF METEOROLOGICAL EVOLUTIONS THIS WILL BE GIVEN ON THE FREQUENCY. [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -1951,9 +1951,9 @@
         },
         {
           "id": "d5ff9a49-86c3-4746-bc6b-abf5dc78fbf4",
-          "name": "[LFCR] RWY 36 | ILS",
+          "name": "RWY 36 (ILS)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS RODEZ INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT ILS RUNWAY 31. RUNWAY IN USE 31. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] IN CASE OF METEOROLOGICAL EVOLUTIONS THIS WILL BE GIVEN ON THE FREQUENCY. [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS RODEZ INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT ILS RWY31. RUNWAY IN USE ^31. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] IN CASE OF METEOROLOGICAL EVOLUTIONS THIS WILL BE GIVEN ON THE FREQUENCY. [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -1966,24 +1966,9 @@
         },
         {
           "id": "e526019b-5c98-4f12-936c-8d1342e00962",
-          "name": "[LFCR] RWY 36 | RNP",
+          "name": "RWY 36 (RNP)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS RODEZ INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT RNP RUNWAY 31. RUNWAY IN USE 31. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] IN CASE OF METEOROLOGICAL EVOLUTIONS THIS WILL BE GIVEN ON THE FREQUENCY. [NOTAMS] [CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "13a7be92-136e-462b-ba9c-11d9b8928f1f",
-          "name": "[LFCR] RWY 36 | RNP RWY 31 -> VPT RWY 13",
-          "airportConditions": "",
-          "template": "BONJOUR THIS IS RODEZ INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT RNP RUNWAY 31 FOLLOWED BY VPT RUNWAY 13. RUNWAY IN USE 13. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] IN CASE OF METEOROLOGICAL EVOLUTIONS THIS WILL BE GIVEN ON THE FREQUENCY. [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS RODEZ INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT RNP RWY31. RUNWAY IN USE ^31. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] IN CASE OF METEOROLOGICAL EVOLUTIONS THIS WILL BE GIVEN ON THE FREQUENCY. [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -2002,45 +1987,29 @@
           "voice": "BON-JUR"
         },
         {
-          "variableName": "RODEZ",
-          "text": "RODEZ",
-          "voice": "RODEZ"
+          "variableName": "RWY13",
+          "text": "RWY 13",
+          "voice": "RUNWAY ONE TREE"
         },
         {
-          "variableName": "LOCDME",
-          "text": "LOC/DME",
-          "voice": "LOCALIZER DME"
+          "variableName": "RWY31",
+          "text": "RWY 31",
+          "voice": "RUNWAY TREE ONE"
         }
       ],
       "airportConditionDefinitions": [
         {
-          "text": "AEROBATIC ACTIVITY IN THE VICINITY.",
+          "text": "RUNWAY CONDITION 666.",
           "ordinal": 1,
           "enabled": false
         },
         {
-          "text": "PARAGLIDING ACTIVITY IN THE VICINITY.",
+          "text": "RUNWAY CONDITION 555.",
           "ordinal": 2,
           "enabled": false
         }
       ],
-      "notamDefinitions": [
-        {
-          "text": "PAPI UNSERVICEABLE.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "LOCDME UNSERVICEABLE.",
-          "ordinal": 2,
-          "enabled": false
-        },
-        {
-          "text": "ILS UNSERVICEABLE.",
-          "ordinal": 3,
-          "enabled": false
-        }
-      ]
+      "notamDefinitions": []
     },
     {
       "id": "51e8a660-cf51-4384-98ba-b162c178d544",
@@ -3974,9 +3943,9 @@
       "presets": [
         {
           "id": "387395ac-f8ae-4079-ad4a-fe959ebb4a47",
-          "name": "[LFKB] RWY 16 | RNP",
+          "name": "RWY 16 (RNP)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS BASTIA INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT RNP RWY16. RUNWAY IN USE 16. DEPARTURE 2V. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS BASTIA INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT RNP RWY16. RUNWAY IN USE ^16. DEPARTURE 2V. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -3989,9 +3958,9 @@
         },
         {
           "id": "16cf45df-2e3c-4abb-bafa-3ed657e78c75",
-          "name": "[LFKB] RWY 16 | VOR A -> VPT A",
+          "name": "RWY 16 (VPT A)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS BASTIA INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT VOR_A FOLLOWED BY VPT_A RWY16. RUNWAY IN USE 16. DEPARTURE 2V. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS BASTIA INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT VOR_A FOLLOWED BY VPT_A RWY16. RUNWAY IN USE ^16. DEPARTURE 2V. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4004,9 +3973,9 @@
         },
         {
           "id": "0a87e310-f8cd-4d60-8367-862ac7211d98",
-          "name": "[LFKB] RWY 16 | VPT B",
+          "name": "RWY 16 (VPT B)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS BASTIA INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT VPT_B RWY16. RUNWAY IN USE 16. DEPARTURE 2V. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS BASTIA INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT ILS_Z RWY 34 FOLLOWED BY VPT_B RWY16. RUNWAY IN USE ^16. DEPARTURE 2V. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4019,9 +3988,9 @@
         },
         {
           "id": "ae82df66-c82e-4d6c-bc63-decc4846cce1",
-          "name": "[LFKB] RWY 34 | ILS Z",
+          "name": "RWY 34 (ILS Z)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS BASTIA INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT ILS_Z RWY34. RUNWAY IN USE 34. DEPARTURE 2R. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS BASTIA INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT ILS_Z RWY34. RUNWAY IN USE ^34. DEPARTURE 2R. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4034,9 +4003,9 @@
         },
         {
           "id": "d65030a5-a919-4404-855a-855b2a0929dd",
-          "name": "[LFKB] RWY 34 | ILS X",
+          "name": "RWY 34 (ILS X)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS BASTIA INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT ILS_X RWY34. RUNWAY IN USE 34. DEPARTURE 2R. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS BASTIA INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT ILS_X RWY34. RUNWAY IN USE ^34. DEPARTURE 2R. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4049,9 +4018,9 @@
         },
         {
           "id": "e90e55bd-3be7-49da-943a-ddbe47a8b16c",
-          "name": "[LFKB] RWY 34 | RNP",
+          "name": "RWY 34 (RNP)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS BASTIA INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT RNP RWY34. RUNWAY IN USE 34. DEPARTURE 2R. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS BASTIA INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT RNP RWY34. RUNWAY IN USE ^34. DEPARTURE 2R. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4064,9 +4033,9 @@
         },
         {
           "id": "4490f0b0-56fa-4517-8095-1c6c1b0ef435",
-          "name": "[LFKB] RWY 34 | VOR",
+          "name": "RWY 34 (VOR)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS BASTIA INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT VOR RWY34. RUNWAY IN USE 34. DEPARTURE 2R. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS BASTIA INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT VORDME RWY34. RUNWAY IN USE ^34. DEPARTURE 2R. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -4085,19 +4054,14 @@
           "voice": "BON-JUR"
         },
         {
-          "variableName": "BASTIA",
-          "text": "BASTIA",
-          "voice": "BASTIA"
+          "variableName": "RWY16",
+          "text": "RWY 16",
+          "voice": "RUNWAY ONE SIX"
         },
         {
-          "variableName": "ILS_Z",
-          "text": "ILS Z",
-          "voice": "ILS ZULU"
-        },
-        {
-          "variableName": "ILS_X",
-          "text": "ILS X",
-          "voice": "ILS XRAY"
+          "variableName": "RWY34",
+          "text": "RWY 34",
+          "voice": "RUNWAY TREE FOUR"
         },
         {
           "variableName": "VOR_A",
@@ -4105,70 +4069,29 @@
           "voice": "VOR ALPHA"
         },
         {
-          "variableName": "VPT_A",
-          "text": "VPT A",
-          "voice": "VPT ALPHA"
+          "variableName": "ILS_X",
+          "text": "ILS X",
+          "voice": "ILS X-RAY"
         },
         {
-          "variableName": "VPT_B",
-          "text": "VPT B",
-          "voice": "VPT BRAVO"
-        },
-        {
-          "variableName": "2V",
-          "text": "2V",
-          "voice": "TWO VICTOR"
-        },
-        {
-          "variableName": "2R",
-          "text": "2R",
-          "voice": "TWO ROMEO"
-        },
-        {
-          "variableName": "LOCDME",
-          "text": "LOC/DME",
-          "voice": "LOCALIZER DME"
+          "variableName": "ILS_Y",
+          "text": "ILS Y",
+          "voice": "ILS YANKEE"
         }
       ],
       "airportConditionDefinitions": [
         {
-          "text": "R 65 ACTIVE.",
-          "ordinal": 0,
-          "enabled": false
-        },
-        {
-          "text": "AEROBATIC ACTIVITY IN THE VICINITY.",
-          "ordinal": 2,
-          "enabled": false
-        },
-        {
-          "text": "PARACHUTING ACTIVITY IN THE VICINITY.",
-          "ordinal": 3,
-          "enabled": false
-        }
-      ],
-      "notamDefinitions": [
-        {
-          "text": "PAPI UNSERVICEABLE.",
+          "text": "RUNWAY CONDITION 666.",
           "ordinal": 1,
           "enabled": false
         },
         {
-          "text": "LOCDME UNSERVICEABLE.",
+          "text": "RUNWAY CONDITION 555.",
           "ordinal": 2,
           "enabled": false
-        },
-        {
-          "text": "ILS UNSERVICEABLE.",
-          "ordinal": 3,
-          "enabled": false
-        },
-        {
-          "text": "VOR BTA UNSERVICEABLE.",
-          "ordinal": 4,
-          "enabled": false
         }
-      ]
+      ],
+      "notamDefinitions": []
     },
     {
       "id": "57c77380-32f7-4f7e-a1a4-63adb0334b0c",

@@ -41865,9 +41865,9 @@
       "presets": [
         {
           "id": "1512d954-4d7b-4314-9b79-098ea0d87057",
-          "name": "[LFMU] RWY 09 | RNP",
+          "name": "RWY 09 (RNP)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS BEZIERS INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECTROACH RNP RUNWAY 09 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS BEZIERS INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT RNP APP. RWY09 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -41880,9 +41880,9 @@
         },
         {
           "id": "ae6d7055-5336-4dd1-a2cf-f5a83baeb810",
-          "name": "[LFMU] RWY 09 | NDB",
+          "name": "RWY 09 (NDB)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS BEZIERS INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECTROACH NDB RUNWAY 09 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS BEZIERS INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT NDB APP. RWY09 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -41895,9 +41895,9 @@
         },
         {
           "id": "7005e317-4989-4062-87cc-351ae35f6759",
-          "name": "[LFMU] RWY 27 | RNP",
+          "name": "RWY 27 (RNP)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS BEZIERS INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECTROACH RNP RUNWAY 27 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS BEZIERS INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT RNP APP. RWY27 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -41910,9 +41910,9 @@
         },
         {
           "id": "93a93ae1-e2fa-4bb6-a9d9-5f15aa7776f9",
-          "name": "[LFMU] RWY 27 | NDB",
+          "name": "RWY 27 (NDB)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS BEZIERS INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECTROACH NDB RUNWAY 27 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS BEZIERS INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT NDB APP. RWY27 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -41931,60 +41931,29 @@
           "voice": "BON-JUR"
         },
         {
-          "variableName": "BEZIERS",
-          "text": "BEZIERS",
-          "voice": "BEZIERS"
+          "variableName": "RWY09",
+          "text": "RWY 09",
+          "voice": "RUNWAY ZERO NINER"
         },
         {
-          "variableName": "RNP_Z",
-          "text": "RNP Z",
-          "voice": "RNP ZULU"
-        },
-        {
-          "variableName": "RNP_Y",
-          "text": "RNP Y",
-          "voice": "RNP YANKEE"
-        },
-        {
-          "variableName": "RNP_X",
-          "text": "RNP X",
-          "voice": "RNP XRAY"
-        },
-        {
-          "variableName": "VOR_Z",
-          "text": "VOR Z",
-          "voice": "VOR ZULU"
-        },
-        {
-          "variableName": "VOR_Y",
-          "text": "VOR Y",
-          "voice": "VOR YANKEE"
-        },
-        {
-          "variableName": "ILS_Z",
-          "text": "ILS Z",
-          "voice": "ILS ZULU"
-        },
-        {
-          "variableName": "ILS_Y",
-          "text": "ILS Y",
-          "voice": "ILS YANKEE"
+          "variableName": "RWY27",
+          "text": "RWY 27",
+          "voice": "RUNWAY TWO SEVEN"
         }
       ],
       "airportConditionDefinitions": [
         {
-          "text": "R 108 ACTIVE.",
+          "text": "RUNWAY CONDITION 666.",
           "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "RUNWAY CONDITION 555.",
+          "ordinal": 2,
           "enabled": false
         }
       ],
-      "notamDefinitions": [
-        {
-          "text": "PAPI UNSERVICEABLE.",
-          "ordinal": 1,
-          "enabled": false
-        }
-      ]
+      "notamDefinitions": []
     },
     {
       "id": "e959edfe-08b6-49a2-95f2-3c24676f1bc2",

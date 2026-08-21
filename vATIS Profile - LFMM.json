@@ -14565,39 +14565,9 @@
       "presets": [
         {
           "id": "62112e1c-1996-4d89-a50f-dd5726b4d893",
-          "name": "[LFLC] RWY 08 | ILS RWY 26 -> CTL RWY 08",
+          "name": "RWY 08 (Circle to Land)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS CLERMONT FERRAND INFORMATION [ATIS_CODE] RECORDED AT [TIME].ROACH ILS RUNWAY 26 FOLLOWED BY CIRCLING RUNWAY 08. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "ac5d3039-a701-4e40-8c6d-870fb0ae24ed",
-          "name": "[LFLC] RWY 08 | RNP Z RWY 26 -> CTL RWY 08",
-          "airportConditions": "",
-          "template": "BONJOUR THIS IS CLERMONT FERRAND INFORMATION [ATIS_CODE] RECORDED AT [TIME].ROACH RNP_Z RUNWAY 26 FOLLOWED BY CIRCLING RUNWAY 08. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "172c4d84-4f14-4755-a952-7a480a51a152",
-          "name": "[LFLC] RWY 08 | RNP Y RWY 26 -> CTL RWY 08",
-          "airportConditions": "",
-          "template": "BONJOUR THIS IS CLERMONT FERRAND INFORMATION [ATIS_CODE] RECORDED AT [TIME].ROACH RNP_Y RUNWAY 26 FOLLOWED BY CIRCLING RUNWAY 08. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS CLERMONT FERRAND INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APPROACH ILS RWY26 FOLLOWED BY CIRCLING RWY08. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -14610,9 +14580,9 @@
         },
         {
           "id": "77e192d0-9d45-455e-b69d-783c833afb20",
-          "name": "[LFLC] RWY 26 | ILS",
+          "name": "RWY 26 (ILS)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS CLERMONT FERRAND INFORMATION [ATIS_CODE] RECORDED AT [TIME].ROACH ILS RUNWAY 26. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS CLERMONT FERRAND INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APPROACH ILS RWY26. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -14625,9 +14595,9 @@
         },
         {
           "id": "5d6d5ac2-f320-48ed-a096-39eae11fa7e6",
-          "name": "[LFLC] RWY 26 | RNP Z",
+          "name": "RWY 26 (RNP Z)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS CLERMONT FERRAND INFORMATION [ATIS_CODE] RECORDED AT [TIME].ROACH RNP_Z RUNWAY 26. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS CLERMONT FERRAND INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APPROACH RNP_Z RWY26. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -14640,9 +14610,9 @@
         },
         {
           "id": "5a20f1c1-30b8-44e4-9415-dab4ba2f3799",
-          "name": "[LFLC] RWY 26 | RNP Y",
+          "name": "RWY 26 (RNP Y)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS CLERMONT FERRAND INFORMATION [ATIS_CODE] RECORDED AT [TIME].ROACH RNP_Y RUNWAY 26. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS CLERMONT FERRAND INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APPROACH RNP_Y RWY26. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -14655,9 +14625,9 @@
         },
         {
           "id": "97fa542b-9e28-4930-9279-363e1409842d",
-          "name": "[LFLC] RWY 26 | VOR",
+          "name": "RWY 26 (VOR)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS CLERMONT FERRAND INFORMATION [ATIS_CODE] RECORDED AT [TIME].ROACH VOR RUNWAY 26. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS CLERMONT FERRAND INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APPROACH VORDME RWY26. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -14676,14 +14646,14 @@
           "voice": "BON-JUR"
         },
         {
-          "variableName": "CLERMONT_FERRAND",
-          "text": "CLERMONT FERRAND",
-          "voice": "CLERMONT FERRAND"
+          "variableName": "RWY08",
+          "text": "RWY 08",
+          "voice": "RUNWAY ZERO EIGHT"
         },
         {
-          "variableName": "RNP_Z",
-          "text": "RNP Z",
-          "voice": "RNP ZULU"
+          "variableName": "RWY26",
+          "text": "RWY 26",
+          "voice": "RUNWAY TWO SIX"
         },
         {
           "variableName": "RNP_Y",
@@ -14691,37 +14661,32 @@
           "voice": "RNP YANKEE"
         },
         {
-          "variableName": "LOCDME",
-          "text": "LOC/DME",
-          "voice": "LOCALIZER DME"
+          "variableName": "RNP_Z",
+          "text": "RNP Z",
+          "voice": "RNP ZULU"
+        },
+        {
+          "variableName": "LVP_ENFORCE",
+          "text": "LOW VISIBILITY PROCEDURES ENFORCE.",
+          "voice": "LOW VISIBILITY PROCEDURES ENFORCE"
         }
       ],
       "airportConditionDefinitions": [
         {
-          "text": "R 368 ACTIVE.",
+          "text": "RUNWAY CONDITION 666.",
           "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "RUNWAY CONDITION 555.",
+          "ordinal": 2,
           "enabled": false
         }
       ],
       "notamDefinitions": [
         {
-          "text": "PAPI UNSERVICEABLE.",
+          "text": "LVP_ENFORCE",
           "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "LOCDME UNSERVICEABLE.",
-          "ordinal": 2,
-          "enabled": false
-        },
-        {
-          "text": "ILS UNSERVICEABLE.",
-          "ordinal": 3,
-          "enabled": false
-        },
-        {
-          "text": "VOR CFA UNSERVICEABLE.",
-          "ordinal": 4,
           "enabled": false
         }
       ]

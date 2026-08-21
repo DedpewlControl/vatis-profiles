@@ -16658,9 +16658,9 @@
       "presets": [
         {
           "id": "4db8c7ce-9a5f-4fe4-8bc6-b77eab50ffd6",
-          "name": "[LFLG] RWY 04",
+          "name": "RWY 04",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS LE VERSOUD INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RUNWAY IN USE 04. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS LE VERSOUD INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RUNWAY IN USE ^04. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -16673,9 +16673,9 @@
         },
         {
           "id": "d0041f2f-625b-4c42-8c65-2b65940bcb5a",
-          "name": "[LFLG] RWY 22",
+          "name": "RWY 22",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS LE VERSOUD INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RUNWAY IN USE 22. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS LE VERSOUD INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RUNWAY IN USE ^22. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -16694,35 +16694,25 @@
           "voice": "BON-JUR"
         },
         {
-          "variableName": "LE_VERSOUD",
-          "text": "LE VERSOUD",
-          "voice": "LE VERSOUD"
+          "variableName": "RWY04",
+          "text": "RWY 04",
+          "voice": "RUNWAY ZERO FOUR"
         },
         {
-          "variableName": "LOCDME",
-          "text": "LOC/DME",
-          "voice": "LOCALIZER DME"
+          "variableName": "RWY22",
+          "text": "RWY 22",
+          "voice": "RUNWAY TWO TWO"
         }
       ],
       "airportConditionDefinitions": [
         {
-          "text": "GLIDING ACTIVITY IN THE VICINITY.",
+          "text": "RUNWAY CONDITION 666.",
           "ordinal": 1,
           "enabled": false
         },
         {
-          "text": "AEROBATIC ACTIVITY IN THE VICINITY.",
+          "text": "RUNWAY CONDITION 555.",
           "ordinal": 2,
-          "enabled": false
-        },
-        {
-          "text": "PARAGLIDING ACTIVITY IN THE VICINITY.",
-          "ordinal": 3,
-          "enabled": false
-        },
-        {
-          "text": "PARACHUTING ACTIVITY IN THE VICINITY.",
-          "ordinal": 4,
           "enabled": false
         }
       ],

@@ -10295,9 +10295,9 @@
         {
           "id": "c2c398e1-62cb-47de-8e5d-8f3092b660e6",
           "ordinal": 1,
-          "name": "[LFKJ] RWY DEP 20 + ARR 02 | ILS Z",
+          "name": "DEP RWY 20 | ARR RWY 02 (ILS Z)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS AJACCIO INFORMATION [ATIS_CODE] RECORDED AT [TIME]. ILS_Z RUNWAY 02. TAKE OFF RUNWAY 20. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS AJACCIO INFORMATION [ATIS_CODE] RECORDED AT [TIME]. ILS_Z RWY02. TAKE OFF RWY20. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -10311,9 +10311,9 @@
         {
           "id": "28d201c1-6883-4242-8951-6de67aef4540",
           "ordinal": 2,
-          "name": "[LFKJ] RWY DEP 20 + ARR 02 | ILS Y",
+          "name": "DEP RWY 20 | ARR RWY 02 (ILS Y)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS AJACCIO INFORMATION [ATIS_CODE] RECORDED AT [TIME]. ILS_Y RUNWAY 02. TAKE OFF RUNWAY 20. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS AJACCIO INFORMATION [ATIS_CODE] RECORDED AT [TIME]. ILS_Y RWY02. TAKE OFF RWY20. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -10327,9 +10327,9 @@
         {
           "id": "a27c2e2f-69f4-4841-bb1d-74933c67d94d",
           "ordinal": 3,
-          "name": "[LFKJ] RWY DEP 20 + ARR 02 | RNP Z",
+          "name": "DEP RWY 20 | ARR RWY 02 (RNP Z)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS AJACCIO INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP_Z RUNWAY 02. TAKE OFF RUNWAY 20. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS AJACCIO INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP_Z RWY02. TAKE OFF RWY20. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -10343,25 +10343,9 @@
         {
           "id": "fa2c3e93-8538-499e-88d7-ee5b55c52897",
           "ordinal": 4,
-          "name": "[LFKJ] RWY DEP 20 + ARR 02 | RNP Y",
+          "name": "DEP RWY 20 | ARR RWY 02 (RNP Y)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS AJACCIO INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP_Y RUNWAY 02. TAKE OFF RUNWAY 20. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "cd1b3a94-982f-4a3e-b53e-bbf7e3f3440f",
-          "ordinal": 4,
-          "name": "[LFKJ] RWY 20 | RNP",
-          "airportConditions": "",
-          "template": "BONJOUR THIS IS AJACCIO INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP RUNWAY 20. TAKE OFF RUNWAY 20. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS AJACCIO INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP_Y RWY02. TAKE OFF RWY20. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -10375,9 +10359,9 @@
         {
           "id": "91951734-1e87-430c-b7e6-3bd755ae42ef",
           "ordinal": 6,
-          "name": "[LFKJ] RWY 20 | VPT A",
+          "name": "RWY 20 (VPT A)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS AJACCIO INFORMATION [ATIS_CODE] RECORDED AT [TIME]. VPT_A RUNWAY 20. TAKE OFF RUNWAY 20. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS AJACCIO INFORMATION [ATIS_CODE] RECORDED AT [TIME]. ILS_Y RWY 02 FOLLOWED BY VPT_A RWY20. TAKE OFF RWY20. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -10391,57 +10375,9 @@
         {
           "id": "cf5e1ac6-60f6-4c3e-be8a-63adb862971e",
           "ordinal": 7,
-          "name": "[LFKJ] RWY 20 | ILS Z 02 -> VPT B 20",
+          "name": "RWY 20 (VPT B)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS AJACCIO INFORMATION [ATIS_CODE] RECORDED AT [TIME]. ILS_Z RUNWAY 02 FOLLOWED BY VPT_B RUNWAY 20. TAKE OFF RUNWAY 20. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "b6fc026f-7da4-408f-8e8a-3ea38e40cd31",
-          "ordinal": 8,
-          "name": "[LFKJ] RWY 20 | ILS Y 02 -> VPT B 20",
-          "airportConditions": "",
-          "template": "BONJOUR THIS IS AJACCIO INFORMATION [ATIS_CODE] RECORDED AT [TIME]. ILS_Y RUNWAY 02 FOLLOWED BY VPT_B RUNWAY 20. TAKE OFF RUNWAY 20. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "cd0187ec-9cc5-4590-b2f8-e1332f5222bf",
-          "ordinal": 9,
-          "name": "[LFKJ] RWY 20 | RNP Z 02 -> VPT B 20",
-          "airportConditions": "",
-          "template": "BONJOUR THIS IS AJACCIO INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP_Z RUNWAY 02 FOLLOWED BY VPT_B RUNWAY 20. TAKE OFF RUNWAY 20. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "ccc0e350-59f7-4fd3-a6ed-b723aeb34f1a",
-          "ordinal": 10,
-          "name": "[LFKJ] RWY 20 | RNP Y 02 -> VPT B 20",
-          "airportConditions": "",
-          "template": "BONJOUR THIS IS AJACCIO INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP_Y RUNWAY 02 FOLLOWED BY VPT_B RUNWAY 20. TAKE OFF RUNWAY 20. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS AJACCIO INFORMATION [ATIS_CODE] RECORDED AT [TIME]. ILS_Z RWY 02 FOLLOWED BY VPT_B RWY20. TAKE OFF RWY20. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -10460,19 +10396,19 @@
           "voice": "BON-JUR"
         },
         {
-          "variableName": "AJACCIO",
-          "text": "AJACCIO",
-          "voice": "UHZHAKSEEOW"
+          "variableName": "RWY02",
+          "text": "RWY 02",
+          "voice": "RUNWAY ZERO TWO"
         },
         {
-          "variableName": "ILS_Z",
-          "text": "ILS Z",
-          "voice": "ILS ZULU"
+          "variableName": "RWY20",
+          "text": "RWY 20",
+          "voice": "RUNWAY TWO ZERO"
         },
         {
-          "variableName": "ILS_Y",
-          "text": "ILS Y",
-          "voice": "ILS YANKEE"
+          "variableName": "RNP_Y",
+          "text": "RNP Y",
+          "voice": "RNP YANKEE"
         },
         {
           "variableName": "RNP_Z",
@@ -10480,9 +10416,14 @@
           "voice": "RNP ZULU"
         },
         {
-          "variableName": "RNP_Y",
-          "text": "RNP Y",
-          "voice": "RNP YANKEE"
+          "variableName": "ILS_Y",
+          "text": "ILS Y",
+          "voice": "ILS YANKEE"
+        },
+        {
+          "variableName": "ILS_Z",
+          "text": "ILS Z",
+          "voice": "ILS ZULU"
         },
         {
           "variableName": "VPT_A",
@@ -10493,47 +10434,21 @@
           "variableName": "VPT_B",
           "text": "VPT B",
           "voice": "VPT BRAVO"
-        },
-        {
-          "variableName": "LOCDME",
-          "text": "LOC/DME",
-          "voice": "LOCALIZER DME"
         }
       ],
       "airportConditionDefinitions": [
         {
-          "text": "AEROBATIC ACTIVITY IN THE VICINITY.",
+          "text": "RUNWAY CONDITION 666.",
           "ordinal": 1,
           "enabled": false
         },
         {
-          "text": "PARACHUTING ACTIVITY IN THE VICINITY.",
+          "text": "RUNWAY CONDITION 555.",
           "ordinal": 2,
           "enabled": false
         }
       ],
-      "notamDefinitions": [
-        {
-          "text": "PAPI UNSERVICEABLE.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "LOCDME UNSERVICEABLE.",
-          "ordinal": 2,
-          "enabled": false
-        },
-        {
-          "text": "ILS UNSERVICEABLE.",
-          "ordinal": 3,
-          "enabled": false
-        },
-        {
-          "text": "VOR AJO UNSERVICEABLE.",
-          "ordinal": 4,
-          "enabled": false
-        }
-      ]
+      "notamDefinitions": []
     },
     {
       "id": "306a67a1-ffc9-4e25-830f-f4316d9a0e25",

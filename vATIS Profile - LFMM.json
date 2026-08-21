@@ -20833,7 +20833,7 @@
           "id": "4b280729-2416-4778-89f7-7d7819213b47",
           "name": "[LFLN] RWY 15 | RNP",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS SAINT-YAN INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT RNP RUNWAY 15L. RUNWAY IN USE 15. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS SAINT-YAN INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT RNP RWY15L. RUNWAY IN USE 15. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -20848,7 +20848,7 @@
           "id": "f4da098e-d51f-4fdc-b7c6-1728e0938f56",
           "name": "[LFLN] RWY 33 | ILS Z",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS SAINT-YAN INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT SN ILS_Z RUNWAY 33R. RUNWAY IN USE 33. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS SAINT-YAN INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT SN ILS_Z RWY33R. RUNWAY IN USE 33. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -20863,7 +20863,7 @@
           "id": "6318c640-afc3-4784-8066-9b289e48cee6",
           "name": "[LFLN] RWY 33 | ILS Y",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS SAINT-YAN INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT SN ILS_Y RUNWAY 33R. RUNWAY IN USE 33. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS SAINT-YAN INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT SN ILS_Y RWY33R. RUNWAY IN USE 33. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -20878,7 +20878,7 @@
           "id": "a7f4c876-d4e6-4962-a567-986feeaa21cf",
           "name": "[LFLN] RWY 33 | RNP",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS SAINT-YAN INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT RNP RUNWAY 33R. RUNWAY IN USE 33. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS SAINT-YAN INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT RNP RWY33R. RUNWAY IN USE 33. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -20893,7 +20893,7 @@
           "id": "383d8bc8-c062-4c05-a4f0-a9ce651e5ea9",
           "name": "[LFLN] RWY 33 | NDB Z",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS SAINT-YAN INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT SN NDB_Z RUNWAY 33R. RUNWAY IN USE 33. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS SAINT-YAN INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT SN NDB_Z RWY33R. RUNWAY IN USE 33. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -20908,7 +20908,7 @@
           "id": "92a16841-1d4c-4f28-8bb0-24495d7be076",
           "name": "[LFLN] RWY 33 | NDB Y",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS SAINT-YAN INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT SN NDB_Y RUNWAY 33R. RUNWAY IN USE 33. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS SAINT-YAN INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT SN NDB_Y RWY33R. RUNWAY IN USE 33. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -37594,69 +37594,9 @@
       "presets": [
         {
           "id": "ac61011d-e10e-4f54-9b79-7e692785964b",
-          "name": "[LFMP] RWY 15 | RNP",
+          "name": "RWY 15 (RNP)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS PERPIGNAN INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP RUNWAY 15. RUNWAY 15 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "a0b97154-ed08-4fef-af38-7ad867c6e8a5",
-          "name": "[LFMP] RWY 15 | ILS RWY 33 -> VPT RWY 15",
-          "airportConditions": "",
-          "template": "BONJOUR THIS IS PERPIGNAN INFORMATION [ATIS_CODE] RECORDED AT [TIME]. ILS RUNWAY 33 FOLLOWED BY VPT RUNWAY 15. RUNWAY 15 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "2a0e40a5-fb98-4ba0-a05c-d049df150e5a",
-          "name": "[LFMP] RWY 15 | RNP Z RWY 33 -> VPT RWY 15",
-          "airportConditions": "",
-          "template": "BONJOUR THIS IS PERPIGNAN INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP_Z RUNWAY 33 FOLLOWED BY VPT RUNWAY 15. RUNWAY 15 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "a7be9fb8-d7a4-4672-ab10-9097bd97a3e3",
-          "name": "[LFMP] RWY 15 | RNP Y RWY 33 -> VPT RWY 15",
-          "airportConditions": "",
-          "template": "BONJOUR THIS IS PERPIGNAN INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP_Y RUNWAY 33 FOLLOWED BY VPT RUNWAY 15. RUNWAY 15 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "8b50b215-1df1-49d7-bbd2-9d65ee74c91c",
-          "name": "[LFMP] RWY 15 | VOR RWY 33 -> VPT RWY 15",
-          "airportConditions": "",
-          "template": "BONJOUR THIS IS PERPIGNAN INFORMATION [ATIS_CODE] RECORDED AT [TIME]. VOR RUNWAY 33 FOLLOWED BY VPT RUNWAY 15. RUNWAY 15 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS PERPIGNAN INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP RWY15. RWY15 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -37669,9 +37609,9 @@
         },
         {
           "id": "f25e6e0f-c48c-4fd9-9227-74e419313b05",
-          "name": "[LFMP] RWY 33 | ILS",
+          "name": "RWY 33 (ILS)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS PERPIGNAN INFORMATION [ATIS_CODE] RECORDED AT [TIME]. ILS RUNWAY 33. RUNWAY 33 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS PERPIGNAN INFORMATION [ATIS_CODE] RECORDED AT [TIME]. ILS RWY33. RWY33 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -37684,9 +37624,9 @@
         },
         {
           "id": "32326295-a6dd-459d-a08d-c2b31f49ab17",
-          "name": "[LFMP] RWY 33 | RNP Z",
+          "name": "RWY 33 (RNP Z)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS PERPIGNAN INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP_Z RUNWAY 33. RUNWAY 33 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS PERPIGNAN INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP_Z RWY33. RWY33 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -37699,9 +37639,9 @@
         },
         {
           "id": "1c3ddf06-36f1-432e-978d-db7f6e1415e2",
-          "name": "[LFMP] RWY 33 | RNP Y",
+          "name": "RWY 33 (RNP Y)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS PERPIGNAN INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP_Y RUNWAY 33. RUNWAY 33 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS PERPIGNAN INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP_Y RWY33. RWY33 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -37714,9 +37654,9 @@
         },
         {
           "id": "955100ae-51c6-44de-a062-f168ee8d4f2d",
-          "name": "[LFMP] RWY 33 | VOR",
+          "name": "RWY 33 (VOR)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS PERPIGNAN INFORMATION [ATIS_CODE] RECORDED AT [TIME]. VOR RUNWAY 33. RUNWAY 33 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS PERPIGNAN INFORMATION [ATIS_CODE] RECORDED AT [TIME]. VORDME RWY33. RWY33 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -37735,14 +37675,14 @@
           "voice": "BON-JUR"
         },
         {
-          "variableName": "PERPIGNAN",
-          "text": "PERPIGNAN",
-          "voice": "PERPIGNAN"
+          "variableName": "RWY15",
+          "text": "RWY 15",
+          "voice": "RUNWAY ONE FIVE"
         },
         {
-          "variableName": "RNP_Z",
-          "text": "RNP Z",
-          "voice": "RNP ZULU"
+          "variableName": "RWY33",
+          "text": "RWY 33",
+          "voice": "RUNWAY TREE TREE"
         },
         {
           "variableName": "RNP_Y",
@@ -37750,55 +37690,24 @@
           "voice": "RNP YANKEE"
         },
         {
-          "variableName": "RNP_X",
-          "text": "RNP X",
-          "voice": "RNP XRAY"
-        },
-        {
-          "variableName": "LOCDME",
-          "text": "LOC/DME",
-          "voice": "LOCALIZER DME"
+          "variableName": "RNP_Z",
+          "text": "RNP Z",
+          "voice": "RNP ZULU"
         }
       ],
       "airportConditionDefinitions": [
         {
-          "text": "R 89 ACTIVE.",
+          "text": "RUNWAY CONDITION 666.",
           "ordinal": 1,
           "enabled": false
         },
         {
-          "text": "AEROBATIC ACTIVITY IN THE VICINITY.",
+          "text": "RUNWAY CONDITION 555.",
           "ordinal": 2,
-          "enabled": false
-        },
-        {
-          "text": "PARAGLIDING ACTIVITY IN THE VICINITY.",
-          "ordinal": 3,
-          "enabled": false
-        },
-        {
-          "text": "PARACHUTING ACTIVITY IN THE VICINITY.",
-          "ordinal": 4,
           "enabled": false
         }
       ],
-      "notamDefinitions": [
-        {
-          "text": "LOCDME UNSERVICEABLE.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "ILS UNSERVICEABLE.",
-          "ordinal": 2,
-          "enabled": false
-        },
-        {
-          "text": "PPG VOR UNSERVICEABLE.",
-          "ordinal": 3,
-          "enabled": false
-        }
-      ]
+      "notamDefinitions": []
     },
     {
       "id": "00322874-fb3e-4bba-9811-11f0aef02c7f",

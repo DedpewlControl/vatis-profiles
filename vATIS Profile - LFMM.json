@@ -20831,9 +20831,9 @@
       "presets": [
         {
           "id": "4b280729-2416-4778-89f7-7d7819213b47",
-          "name": "[LFLN] RWY 15 | RNP",
+          "name": "RWY 15L (RNP)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS SAINT-YAN INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT RNP RWY15L. RUNWAY IN USE 15. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS SAINT-YAN INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT RNP RWY15L. RUNWAY IN USE ^15L. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -20846,9 +20846,9 @@
         },
         {
           "id": "f4da098e-d51f-4fdc-b7c6-1728e0938f56",
-          "name": "[LFLN] RWY 33 | ILS Z",
+          "name": "RWY 33R (ILS Z)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS SAINT-YAN INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT SN ILS_Z RWY33R. RUNWAY IN USE 33. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS SAINT-YAN INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT SN ILS_Z RWY33R. RUNWAY IN USE ^33R. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -20861,9 +20861,9 @@
         },
         {
           "id": "6318c640-afc3-4784-8066-9b289e48cee6",
-          "name": "[LFLN] RWY 33 | ILS Y",
+          "name": "RWY 33R (ILS Y)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS SAINT-YAN INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT SN ILS_Y RWY33R. RUNWAY IN USE 33. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS SAINT-YAN INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT SN ILS_Y RWY33R. RUNWAY IN USE ^33R. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -20876,9 +20876,9 @@
         },
         {
           "id": "a7f4c876-d4e6-4962-a567-986feeaa21cf",
-          "name": "[LFLN] RWY 33 | RNP",
+          "name": "RWY 33R (RNP)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS SAINT-YAN INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT RNP RWY33R. RUNWAY IN USE 33. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS SAINT-YAN INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT RNP RWY33R. RUNWAY IN USE ^33R. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -20891,9 +20891,9 @@
         },
         {
           "id": "383d8bc8-c062-4c05-a4f0-a9ce651e5ea9",
-          "name": "[LFLN] RWY 33 | NDB Z",
+          "name": "RWY 33R (NDB Z)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS SAINT-YAN INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT SN NDB_Z RWY33R. RUNWAY IN USE 33. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS SAINT-YAN INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT SN NDB_Z RWY33R. RUNWAY IN USE ^33R. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -20906,9 +20906,9 @@
         },
         {
           "id": "92a16841-1d4c-4f28-8bb0-24495d7be076",
-          "name": "[LFLN] RWY 33 | NDB Y",
+          "name": "RWY 33R (NDB Y)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS SAINT-YAN INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT SN NDB_Y RWY33R. RUNWAY IN USE 33. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS SAINT-YAN INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT SN NDB_Y RWY33R. RUNWAY IN USE ^33R. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -20927,29 +20927,24 @@
           "voice": "BON-JUR"
         },
         {
-          "variableName": "SAINT_YAN",
-          "text": "SAINT-YAN",
-          "voice": "SAINT-YAN"
+          "variableName": "RWY15L",
+          "text": "RWY 15L",
+          "voice": "RUNWAY ONE FIVE LEFT"
         },
         {
-          "variableName": "SN",
-          "text": "SN",
-          "voice": "SIERRA NOVEMBER"
+          "variableName": "RWY15R",
+          "text": "RWY 15R",
+          "voice": "RUNWAY ONE FIVE RIGHT"
         },
         {
-          "variableName": "ILS_Z",
-          "text": "ILS Z",
-          "voice": "ILS ZULU"
+          "variableName": "RWY33L",
+          "text": "RWY 33L",
+          "voice": "RUNWAY TREE TREE LEFT"
         },
         {
-          "variableName": "ILS_Y",
-          "text": "ILS Y",
-          "voice": "ILS YANKEE"
-        },
-        {
-          "variableName": "NDB_Z",
-          "text": "NDB Z",
-          "voice": "NDB ZULU"
+          "variableName": "RWY33R",
+          "text": "RWY 33R",
+          "voice": "RUNWAY TREE TREE RIGHT"
         },
         {
           "variableName": "NDB_Y",
@@ -20957,55 +20952,34 @@
           "voice": "NDB YANKEE"
         },
         {
-          "variableName": "LOCDME",
-          "text": "LOC/DME",
-          "voice": "LOCALIZER DME"
+          "variableName": "NDB_Z",
+          "text": "NDB Z",
+          "voice": "NDB ZULU"
+        },
+        {
+          "variableName": "ILS_Y",
+          "text": "ILS Y",
+          "voice": "ILS YANKEE"
+        },
+        {
+          "variableName": "ILS_Z",
+          "text": "ILS Z",
+          "voice": "ILS ZULU"
         }
       ],
       "airportConditionDefinitions": [
         {
-          "text": "R 173 ACTIVE.",
-          "ordinal": 0,
-          "enabled": false
-        },
-        {
-          "text": "AEROBATIC ACTIVITY IN THE VICINITY.",
-          "ordinal": 2,
-          "enabled": false
-        },
-        {
-          "text": "PARAGLIDING ACTIVITY IN THE VICINITY.",
-          "ordinal": 3,
-          "enabled": false
-        },
-        {
-          "text": "PARACHUTING ACTIVITY IN THE VICINITY.",
-          "ordinal": 4,
-          "enabled": false
-        }
-      ],
-      "notamDefinitions": [
-        {
-          "text": "PAPI UNSERVICEABLE.",
+          "text": "RUNWAY CONDITION 666.",
           "ordinal": 1,
           "enabled": false
         },
         {
-          "text": "LOCDME UNSERVICEABLE.",
+          "text": "RUNWAY CONDITION 555.",
           "ordinal": 2,
           "enabled": false
-        },
-        {
-          "text": "ILS UNSERVICEABLE.",
-          "ordinal": 3,
-          "enabled": false
-        },
-        {
-          "text": "NDB SN UNSERVICEABLE.",
-          "ordinal": 4,
-          "enabled": false
         }
-      ]
+      ],
+      "notamDefinitions": []
     },
     {
       "id": "b1be053e-13ae-427e-9d61-7a0178695035",

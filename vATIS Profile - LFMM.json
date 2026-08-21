@@ -45996,9 +45996,9 @@
       "presets": [
         {
           "id": "28643c08-7ad0-4320-8e62-e17a06e23ec2",
-          "name": "[LFTH] RWY 05 | ILS Z",
+          "name": "RWY 05 (ILS Z)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS HYERES INFORMATION [ATIS_CODE] RECORDED AT [TIME]. ILS_Z RUNWAY 05. RUNWAY 05 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS HYERES INFORMATION [ATIS_CODE] RECORDED AT [TIME]. ILS_Z RWY05. RWY05 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -46011,9 +46011,9 @@
         },
         {
           "id": "f3c39206-1752-47ac-9c43-e5afe230dd7c",
-          "name": "[LFTH] RWY 05 | ILS Y",
+          "name": "RWY 05 (ILS Y)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS HYERES INFORMATION [ATIS_CODE] RECORDED AT [TIME]. ILS_Y RUNWAY 05. RUNWAY 05 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS HYERES INFORMATION [ATIS_CODE] RECORDED AT [TIME]. ILS_Y RWY05. RWY05 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -46026,84 +46026,9 @@
         },
         {
           "id": "a0bf562e-3aa7-4ec8-b960-6d5a9b348dfa",
-          "name": "[LFTH] RWY 05 | RNP",
+          "name": "RWY 05 (RNP)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS HYERES INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP RUNWAY 05. RUNWAY 05 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "d129a2cd-7473-4dfa-ace1-417f98c56c1c",
-          "name": "[LFTH] RWY 05 | PAR",
-          "airportConditions": "",
-          "template": "BONJOUR THIS IS HYERES INFORMATION [ATIS_CODE] RECORDED AT [TIME]. PAR RUNWAY 05. RUNWAY 05 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "039bec56-f1ea-4859-9e71-cda19b2a3714",
-          "name": "[LFTH] RWY 23 | ILS Z RWY 05 -> CTL RWY 23",
-          "airportConditions": "",
-          "template": "BONJOUR THIS IS HYERES INFORMATION [ATIS_CODE] RECORDED AT [TIME]. ILS_Z RUNWAY 05 FOLLOWED BY CIRCLING RUNWAY 23. RUNWAY 23 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "8efc3045-35bf-486a-90da-f0a72ef5094a",
-          "name": "[LFTH] RWY 23 | ILS Y RWY 05 -> CTL RWY 23",
-          "airportConditions": "",
-          "template": "BONJOUR THIS IS HYERES INFORMATION [ATIS_CODE] RECORDED AT [TIME]. ILS_Y RUNWAY 05 FOLLOWED BY CIRCLING RUNWAY 23. RUNWAY 23 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "51a73da2-c090-4af8-9598-6f7f1aedd111",
-          "name": "[LFTH] RWY 23 | RNP RWY 05 -> CTL RWY 23",
-          "airportConditions": "",
-          "template": "BONJOUR THIS IS HYERES INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP RUNWAY 05 FOLLOWED BY CIRCLING RUNWAY 23. RUNWAY 23 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "9f1bc881-8d78-4a3c-81e1-8348670ead2b",
-          "name": "[LFTH] RWY 23 | PAR RWY 05 -> CTL RWY 23",
-          "airportConditions": "",
-          "template": "BONJOUR THIS IS HYERES INFORMATION [ATIS_CODE] RECORDED AT [TIME]. PAR RUNWAY 05 FOLLOWED BY CIRCLING RUNWAY 23. RUNWAY 23 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS HYERES INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP RWY05. RWY05 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -46122,39 +46047,14 @@
           "voice": "BON-JUR"
         },
         {
-          "variableName": "HYERES",
-          "text": "HYERES",
-          "voice": "HYERES"
+          "variableName": "RWY05",
+          "text": "RWY 05",
+          "voice": "RUNWAY ZERO FIVE"
         },
         {
-          "variableName": "RNP_Z",
-          "text": "RNP Z",
-          "voice": "RNP ZULU"
-        },
-        {
-          "variableName": "RNP_Y",
-          "text": "RNP Y",
-          "voice": "RNP YANKEE"
-        },
-        {
-          "variableName": "RNP_X",
-          "text": "RNP X",
-          "voice": "RNP XRAY"
-        },
-        {
-          "variableName": "VOR_Z",
-          "text": "VOR Z",
-          "voice": "VOR ZULU"
-        },
-        {
-          "variableName": "VOR_Y",
-          "text": "VOR Y",
-          "voice": "VOR YANKEE"
-        },
-        {
-          "variableName": "ILS_Z",
-          "text": "ILS Z",
-          "voice": "ILS ZULU"
+          "variableName": "ILS_X",
+          "text": "ILS X",
+          "voice": "ILS X-RAY"
         },
         {
           "variableName": "ILS_Y",
@@ -46162,90 +46062,24 @@
           "voice": "ILS YANKEE"
         },
         {
-          "variableName": "LOC_A",
-          "text": "LOC A",
-          "voice": "LOCALIZER ALPHA"
-        },
-        {
-          "variableName": "LOC_B",
-          "text": "LOC B",
-          "voice": "LOCALIZER BRAVO"
-        },
-        {
-          "variableName": "RNP_A",
-          "text": "RNP A",
-          "voice": "RNP ALPHA"
-        },
-        {
-          "variableName": "PAR",
-          "text": "PAR",
-          "voice": "PRECISIONROACH RADAR"
-        },
-        {
-          "variableName": "LOCDME",
-          "text": "LOC/DME",
-          "voice": "LOCALIZER DME"
+          "variableName": "ILS_Z",
+          "text": "ILS Z",
+          "voice": "ILS ZULU"
         }
       ],
       "airportConditionDefinitions": [
         {
-          "text": "R 46 B ACTIVE.",
+          "text": "RUNWAY CONDITION 666.",
           "ordinal": 1,
           "enabled": false
         },
         {
-          "text": "R 46 C ACTIVE.",
+          "text": "RUNWAY CONDITION 555.",
           "ordinal": 2,
-          "enabled": false
-        },
-        {
-          "text": "R 46 B C ACTIVE.",
-          "ordinal": 3,
-          "enabled": false
-        },
-        {
-          "text": "R 49 B ACTIVE.",
-          "ordinal": 4,
-          "enabled": false
-        },
-        {
-          "text": "AEROBATIC ACTIVITY IN THE VICINITY.",
-          "ordinal": 5,
           "enabled": false
         }
       ],
-      "notamDefinitions": [
-        {
-          "text": "PAPI UNSERVICEABLE.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "LOCDME UNSERVICEABLE.",
-          "ordinal": 2,
-          "enabled": false
-        },
-        {
-          "text": "ILS UNSERVICEABLE.",
-          "ordinal": 2,
-          "enabled": false
-        },
-        {
-          "text": "VOR HYE UNSERVICEABLE.",
-          "ordinal": 4,
-          "enabled": false
-        },
-        {
-          "text": "TACAN HYE UNSERVICEABLE.",
-          "ordinal": 5,
-          "enabled": false
-        },
-        {
-          "text": "NDB TLN UNSERVICEABLE.",
-          "ordinal": 6,
-          "enabled": false
-        }
-      ]
+      "notamDefinitions": []
     },
     {
       "id": "49f6d8f8-f4c4-482f-add0-90afe28e99c8",

@@ -8232,10 +8232,10 @@
         {
           "id": "197a587e-c704-43b5-89b6-3a8e84557028",
           "ordinal": 1,
-          "name": "[LFKF] RWY 05 | RNP",
+          "name": "RWY 05 (RNP)",
           "airportConditions": "",
           "notams": "",
-          "template": "BONJOUR THIS IS FIGARI INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP. RUNWAY 05 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS FIGARI INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APPROACH RNP. RWY05 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -8248,10 +8248,10 @@
         },
         {
           "id": "2630c4ea-db71-46ae-b957-4a1866efff8c",
-          "ordinal": 1,
-          "name": "[LFKF] RWY 05 | VOR",
+          "ordinal": 2,
+          "name": "RWY 05 (VOR)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS FIGARI INFORMATION [ATIS_CODE] RECORDED AT [TIME]. VOR. RUNWAY 05 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS FIGARI INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APPROACH VOR. RWY05 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -8264,10 +8264,10 @@
         },
         {
           "id": "46e34559-1b9a-49b1-a72c-b93e9be63771",
-          "ordinal": 2,
-          "name": "[LFKF] RWY 23 | ILS",
+          "ordinal": 3,
+          "name": "RWY 23 (ILS)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS FIGARI INFORMATION [ATIS_CODE] RECORDED AT [TIME]. ILS. RUNWAY 23 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS FIGARI INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APPROACH ILS. RWY23 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -8280,10 +8280,10 @@
         },
         {
           "id": "ebaf0001-376a-4352-98cd-3eed9c520151",
-          "ordinal": 3,
-          "name": "[LFKF] RWY 23 | RNP Z",
+          "ordinal": 4,
+          "name": "RWY 23 (RNP Z)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS FIGARI INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP_Z. RUNWAY 23 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS FIGARI INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APPROACH RNP_Z. RWY23 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -8296,10 +8296,10 @@
         },
         {
           "id": "db476bec-fdda-4966-9214-7cb0cc374ed4",
-          "ordinal": 4,
-          "name": "[LFKF] RWY 23 | RNP Y",
+          "ordinal": 5,
+          "name": "RWY 23 (RNP Y)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS FIGARI INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP_Y. RUNWAY 23 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS FIGARI INFORMATION [ATIS_CODE] RECORDED AT [TIME]. APPROACH RNP_Y. RWY23 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -8318,49 +8318,29 @@
           "voice": "BON-JUR"
         },
         {
-          "variableName": "FIGARI",
-          "text": "FIGARI",
-          "voice": "FIGAARY"
+          "variableName": "RWY05",
+          "text": "RWY 05",
+          "voice": "RUNWAY ZERO FIVE"
         },
         {
-          "variableName": "RNP_Z",
-          "text": "RNP Z",
-          "voice": "RNP ZULU"
-        },
-        {
-          "variableName": "RNP_Y",
-          "text": "RNP Y",
-          "voice": "RNP YANKEE"
-        },
-        {
-          "variableName": "LOCDME",
-          "text": "LOC/DME",
-          "voice": "LOCALIZER DME"
+          "variableName": "RWY23",
+          "text": "RWY 23",
+          "voice": "RUNWAY TWO TREE"
         }
       ],
-      "airportConditionDefinitions": [],
-      "notamDefinitions": [
+      "airportConditionDefinitions": [
         {
-          "text": "PAPI UNSERVICEABLE.",
+          "text": "RUNWAY CONDITION 666.",
           "ordinal": 1,
           "enabled": false
         },
         {
-          "text": "LOCDME UNSERVICEABLE.",
+          "text": "RUNWAY CONDITION 555.",
           "ordinal": 2,
           "enabled": false
-        },
-        {
-          "text": "ILS UNSERVICEABLE.",
-          "ordinal": 3,
-          "enabled": false
-        },
-        {
-          "text": "VOR FGI UNSERVICEABLE.",
-          "ordinal": 4,
-          "enabled": false
         }
-      ]
+      ],
+      "notamDefinitions": []
     },
     {
       "id": "c06260e9-60a5-4273-bef5-e58e697ca0ce",

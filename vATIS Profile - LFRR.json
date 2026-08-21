@@ -12418,12 +12418,12 @@
           }
         },
         {
-          "id": "6bb557de-97e7-4df8-8e81-0fd28531b8d6",
-          "ordinal": 3,
-          "name": "RWY 21 (RNP Z)",
+          "id": "c0be334f-07c1-4d06-971d-131714e30cf8",
+          "ordinal": 6,
+          "name": "RWY 21 (RNP Y)",
           "airportConditions": "",
           "notams": "",
-          "template": "BONJOUR THIS IS NANTES INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT RNP_Z RWY21. RWY21 IN USE. [ARPT_COND] [TL] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING] ",
+          "template": "BONJOUR THIS IS NANTES INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT RNP_Y RWY21. RNP_Z AVAILABLE ON REQUEST. RWY21 IN USE. [ARPT_COND] [TL] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING] ",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -12484,12 +12484,12 @@
           }
         },
         {
-          "id": "c0be334f-07c1-4d06-971d-131714e30cf8",
-          "ordinal": 6,
-          "name": "RWY 21 (RNP Y)",
+          "id": "6bb557de-97e7-4df8-8e81-0fd28531b8d6",
+          "ordinal": 3,
+          "name": "RWY 21 (RNP Z)",
           "airportConditions": "",
           "notams": "",
-          "template": "BONJOUR THIS IS NANTES INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT RNP_Y RWY21. RWY21 IN USE. [ARPT_COND] [TL] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING] ",
+          "template": "BONJOUR THIS IS NANTES INFORMATION [ATIS_CODE] RECORDED AT [TIME]. EXPECT RNP_Z RWY21. RWY21 IN USE. [ARPT_COND] [TL] [WIND] [WS] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING] ",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",

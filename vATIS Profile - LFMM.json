@@ -6102,9 +6102,9 @@
       "presets": [
         {
           "id": "e89bdda7-5c65-4637-9891-23f4af8e65a8",
-          "name": "[LFKC] RWY 18 | LOC",
+          "name": "RWY 18 (LOC)",
           "airportConditions": "",
-          "template": "",
+          "template": "BONJOUR THIS IS CALVI INFORMATION [ATIS_CODE] RECORDED AT [TIME]. IFR PROCEDURE RNP_Z RWY18. [ARPT_COND]. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -6117,9 +6117,9 @@
         },
         {
           "id": "90fbe588-82d3-4e3a-9b9b-cb1b9be889fd",
-          "name": "[LFKC] RWY 18 | RNP Z",
+          "name": "RWY 18 (RNP Z)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS CALVI INFORMATION [ATIS_CODE] RECORDED AT [TIME]. IFR PROCEDURE RNP_Z RWY18. RUNWAY CONDITION 666 DRY [TIME]. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS CALVI INFORMATION [ATIS_CODE] RECORDED AT [TIME]. IFR PROCEDURE RNP_Z RWY18. [ARPT_COND]. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -6132,39 +6132,9 @@
         },
         {
           "id": "622f1ce5-06d1-4770-a63e-3d7b15461790",
-          "name": "[LFKC] RWY 18 | RNP Y",
+          "name": "RWY 18 (RNP Y)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS CALVI INFORMATION [ATIS_CODE] RECORDED AT [TIME]. IFR PROCEDURE RNP_Y RWY18. RUNWAY CONDITION 666 DRY [TIME]. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "1baee9d6-8a33-4379-aac3-304e45019d20",
-          "name": "[LFKC] RWY 18 | RNP X",
-          "airportConditions": "",
-          "template": "BONJOUR THIS IS CALVI INFORMATION [ATIS_CODE] RECORDED AT [TIME]. IFR PROCEDURE RNP_X RWY18. RUNWAY CONDITION 666 DRY [TIME]. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "e44d67dd-8ef9-4f9a-97d5-2f65ee90f256",
-          "name": "[LFKC] RWY 18 | RNP W",
-          "airportConditions": "",
-          "template": "BONJOUR THIS IS CALVI INFORMATION [ATIS_CODE] RECORDED AT [TIME]. IFR PROCEDURE RNP_W RWY18. RUNWAY CONDITION 666 DRY [TIME]. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS CALVI INFORMATION [ATIS_CODE] RECORDED AT [TIME]. IFR PROCEDURE RNP_Y RWY18. [ARPT_COND]. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -6177,25 +6147,9 @@
         },
         {
           "id": "55262635-b06d-4ecb-ad9b-17e246e704f3",
-          "name": "[LFKC] RWY 36 | LOC RWY 18 -> CTL RWY 36",
+          "name": "RWY 36 (Circle to Land)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS CALVI INFORMATION [ATIS_CODE] RECORDED AT [TIME]. IFR PROCEDURE LOC RWY18 FOLLOWED BY CIRCLING RWY36. RUNWAY CONDITION 666 DRY [TIME]. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "496e3eda-b179-4dc4-ae00-68dc6716bb85",
-          "name": "[LFKC] RWY 36 | RNP Z RWY 18 -> CTL RWY 36",
-          "airportConditions": "",
-          "notams": "",
-          "template": "BONJOUR THIS IS CALVI INFORMATION [ATIS_CODE] RECORDED AT [TIME]. IFR PROCEDURE RNP_Z RWY18 FOLLOWED BY CIRCLING RWY34. RUNWAY CONDITION 666 DRY [TIME]. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS CALVI INFORMATION [ATIS_CODE] RECORDED AT [TIME]. IFR PROCEDURE RNP_Z RWY18 FOLLOWED BY CIRCLING RWY36. [ARPT_COND]. [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -6214,19 +6168,14 @@
           "voice": "BON-JUR"
         },
         {
-          "variableName": "CALVI",
-          "text": "CALVI",
-          "voice": "CALVI"
+          "variableName": "RWY18",
+          "text": "RWY 18",
+          "voice": "RUNWAY ONE EIGHT"
         },
         {
-          "variableName": "RNP_Z",
-          "text": "RNP Z",
-          "voice": "RNP ZULU"
-        },
-        {
-          "variableName": "RNP_Y",
-          "text": "RNP Y",
-          "voice": "RNP YANKEE"
+          "variableName": "RWY36",
+          "text": "RWY 36",
+          "voice": "RUNWAY TREE SIX"
         },
         {
           "variableName": "RNP_W",
@@ -6234,66 +6183,46 @@
           "voice": "RNP WHISKEY"
         },
         {
-          "variableName": "LOCDME",
-          "text": "LOC/DME",
-          "voice": "LOCALIZER DME"
+          "variableName": "RNP_X",
+          "text": "RNP X",
+          "voice": "RNP X-RAY"
+        },
+        {
+          "variableName": "RNP_Y",
+          "text": "RNP Y",
+          "voice": "RNP YANKEE"
         }
       ],
       "airportConditionDefinitions": [
         {
-          "text": "R 282 ACTIVE.",
+          "text": "RUNWAY CONDITION 666.",
           "ordinal": 1,
           "enabled": false
         },
         {
-          "text": "R 335 ACTIVE.",
+          "text": "RUNWAY CONDITION 555.",
           "ordinal": 2,
-          "enabled": false
-        },
-        {
-          "text": "FOR START-UP REQUEST CONTACT CALVI GROUND 121.705.",
-          "ordinal": 3,
-          "enabled": false
-        },
-        {
-          "text": "PARAGLIDING ACTIVITY IN THE VICINITY.",
-          "ordinal": 4,
-          "enabled": false
-        },
-        {
-          "text": "PARACHUTING ACTIVITY IN THE VICINITY.",
-          "ordinal": 4,
-          "enabled": false
-        },
-        {
-          "text": "FOR START-UP REQUEST CONTACT CALVI TOWER 123.200.",
-          "ordinal": 6,
-          "enabled": false
-        },
-        {
-          "text": "FOR START-UP REQUEST CONTACT BASTIAROACH 123.825.",
-          "ordinal": 7,
-          "enabled": false
-        },
-        {
-          "text": "FOR START-UP REQUEST CONTACT MARSEILLE CONTROL 123.900.",
-          "ordinal": 8,
           "enabled": false
         }
       ],
       "notamDefinitions": [
         {
-          "text": "PAPI UNSERVICEABLE.",
+          "text": "FOR START-UP REQUEST CONTACT CALVI GROUND 121.705.",
           "ordinal": 1,
           "enabled": false
         },
         {
-          "text": "LOCDME UNSERVICEABLE.",
+          "text": "FOR START-UP REQUEST CONTACT CALVI TOWER 123.200.",
           "ordinal": 2,
           "enabled": false
         },
         {
-          "text": "NDB CV UNSERVICEABLE.",
+          "text": "FOR START-UP REQUEST CONTACT BASTIA APPROACH 123.825.",
+          "ordinal": 3,
+          "enabled": false
+        },
+        {
+          "text": "FOR START-UP REQUEST CONTACT MARSEILLE CONTROL 123.900.",
           "ordinal": 3,
           "enabled": false
         }

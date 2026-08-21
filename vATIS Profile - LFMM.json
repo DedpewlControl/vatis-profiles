@@ -29032,24 +29032,9 @@
       "presets": [
         {
           "id": "136e7eaf-a742-4c57-a2d3-30e276c0838a",
-          "name": "[LFMD] RWY 17 | LOC A -> VPT A",
+          "name": "RWY 17 (LOC A / VPT A)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS CANNES INFORMATION [ATIS_CODE] RECORDED AT [TIME]. PROCEDURE LOC_A RWY17 FOLLOWED BY VPT A RWY17. RWY17 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "0cfdebad-a451-4653-99b1-ca5445d2bd9e",
-          "name": "[LFMD] RWY 17 | LOC B -> VPT A",
-          "airportConditions": "",
-          "template": "BONJOUR THIS IS CANNES INFORMATION [ATIS_CODE] RECORDED AT [TIME]. PROCEDURE LOC_B RWY17 FOLLOWED BY VPT A RWY17. RWY17 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS CANNES INFORMATION [ATIS_CODE] RECORDED AT [TIME]. PROCEDURE IN SERVICE LOC_A RWY17 FOLLOWED BY VPT_A RWY17. RWY17 IN USE. FOR HELICOPTERS EXPECT CONFIGURATION COPTER ^22. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -29062,9 +29047,9 @@
         },
         {
           "id": "4c792748-369a-47d4-9f1f-92d535301a19",
-          "name": "[LFMD] RWY 17 | RNP A -> VPT A",
+          "name": "RWY 17 (RNP A / VPT A)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS CANNES INFORMATION [ATIS_CODE] RECORDED AT [TIME]. PROCEDURE RNP_A RWY17 FOLLOWED BY VPT A RWY17. RWY17 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS CANNES INFORMATION [ATIS_CODE] RECORDED AT [TIME]. PROCEDURE IN SERVICE RNP_A RWY17 FOLLOWED BY VPT_A RWY17. RWY17 IN USE. FOR HELICOPTERS EXPECT CONFIGURATION COPTER ^22. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -29077,9 +29062,9 @@
         },
         {
           "id": "52317fee-73fd-41a4-b29d-eed497f23f16",
-          "name": "[LFMD] RWY 35 | RNP Z",
+          "name": "RWY 35 (RNP Z)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS CANNES INFORMATION [ATIS_CODE] RECORDED AT [TIME]. PROCEDURE RNP_Z RWY35. RWY35 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS CANNES INFORMATION [ATIS_CODE] RECORDED AT [TIME]. PROCEDURE IN SERVICE RNP_Z RWY35. RWY35 IN USE. FOR HELICOPTERS EXPECT CONFIGURATION COPTER ^22. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -29092,9 +29077,9 @@
         },
         {
           "id": "632f3756-c92d-44f0-8d97-674f3b22258b",
-          "name": "[LFMD] RWY 35 | RNP Y",
+          "name": "RWY 35 (RNP Y)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS CANNES INFORMATION [ATIS_CODE] RECORDED AT [TIME]. PROCEDURE RNP_Y RWY35. RWY35 IN USE. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS CANNES INFORMATION [ATIS_CODE] RECORDED AT [TIME]. PROCEDURE IN SERVICE RNP_Y RWY35. RWY35 IN USE. FOR HELICOPTERS EXPECT CONFIGURATION COPTER ^22. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -29113,9 +29098,14 @@
           "voice": "BON-JUR"
         },
         {
-          "variableName": "CANNES",
-          "text": "CANNES",
-          "voice": "CANNES"
+          "variableName": "RWY17",
+          "text": "RWY 17",
+          "voice": "RUNWAY ONE SEVEN"
+        },
+        {
+          "variableName": "RWY35",
+          "text": "RWY 35",
+          "voice": "RUNWAY TREE FIVE"
         },
         {
           "variableName": "LOC_A",
@@ -29133,65 +29123,34 @@
           "voice": "RNP ALPHA"
         },
         {
-          "variableName": "RNP_Z",
-          "text": "RNP Z",
-          "voice": "RNP ZULU"
-        },
-        {
           "variableName": "RNP_Y",
           "text": "RNP Y",
           "voice": "RNP YANKEE"
         },
         {
-          "variableName": "VPT_A",
-          "text": "VPT A",
-          "voice": "VPT ALPHA"
+          "variableName": "RNP_Z",
+          "text": "RNP Z",
+          "voice": "RNP ZULU"
         },
         {
-          "variableName": "LOCDME",
-          "text": "LOC/DME",
-          "voice": "LOCALIZER DME"
+          "variableName": "VPT_A",
+          "text": "VPT A",
+          "voice": "VPT A"
         }
       ],
       "airportConditionDefinitions": [
         {
-          "text": "R 225 ACTIVE.",
+          "text": "RUNWAY CONDITION 666.",
           "ordinal": 1,
           "enabled": false
         },
         {
-          "text": "AEROBATIC ACTIVITY IN THE VICINITY.",
+          "text": "RUNWAY CONDITION 555.",
           "ordinal": 2,
           "enabled": false
         }
       ],
-      "notamDefinitions": [
-        {
-          "text": "PAPI UNSERVICEABLE.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "LOCDME UNSERVICEABLE.",
-          "ordinal": 2,
-          "enabled": false
-        },
-        {
-          "text": "VOR AZR UNSERVICEABLE.",
-          "ordinal": 3,
-          "enabled": false
-        },
-        {
-          "text": "VOR STP UNSERVICEABLE.",
-          "ordinal": 4,
-          "enabled": false
-        },
-        {
-          "text": "VOR LUC UNSERVICEABLE.",
-          "ordinal": 5,
-          "enabled": false
-        }
-      ]
+      "notamDefinitions": []
     },
     {
       "id": "414849fe-f457-4f9c-a801-c4f0052ce7e6",

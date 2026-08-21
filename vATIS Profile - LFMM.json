@@ -1,6 +1,6 @@
 {
   "name": "LFMM Marseille FIR",
-  "id": "5250dda5-b2d3-496c-835e-8584b562b590",
+  "id": "f2238abe-157e-494b-8c7d-0b3cdb475c01",
   "updateUrl": "",
   "updateSerial": 2026051301,
   "stations": [
@@ -18750,7 +18750,7 @@
         },
         {
           "variableName": "CDM_ACTIVE",
-          "text": "CDM OPERATIONS ACTIVE. SUBMIT TOBT AT CDM.VATISM.FR.",
+          "text": "CDM OPERATIONS ACTIVE. SUBMIT TOBT AT CDM.VATISM.FR",
           "voice": "CDM OPERATIONS ACTIVE. SUBMIT TARGET OFF BLOCK TIME AT CDM DOT VATSIM DOT FR"
         },
         {
@@ -35127,12 +35127,10 @@
       },
       "presets": [
         {
-          "id": "7ca4644e-b41e-4c45-afe4-0c4724f3d782",
+          "id": "8f1a3639-bc62-4ba9-8c06-188ea99fa849",
           "ordinal": 1,
-          "name": "[LFMN - D-ATIS] DEP RWY 04R / ARR RWY 04L | RNP A -> VPT A",
-          "airportConditions": "04L 666\r\n04R 666",
-          "notams": "",
-          "template": "LFMN ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT RNP_A THEN VPT_A\r\nRWY ^04L\r\nARR RWY ^04L /DEP RWY ^04R\r\n/SID 8A, 8B\r\n/RSCD :\r\n[ARPT_COND]\r\n[TL]\r\n/OPS INFOS :\r\n[NOTAMS]\r\nBIRD ACTIVITY REPORTED\r\nHEL TFC ABV THE SEA MAX\r\n500 FT\r\nA1 B1 C1 ARE HLDG\r\nPOINTS OF AN ACTIVE RWY\r\n[WIND]\r\n[VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n/ PHENOMENA : NIL\r\n[CLOSING]",
+          "name": "--- Standard Configurations ---",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -35144,63 +35142,12 @@
           }
         },
         {
-          "id": "09af3568-1392-4865-b406-edf498dfaa7b",
+          "id": "7ca4644e-b41e-4c45-afe4-0c4724f3d782",
           "ordinal": 2,
-          "name": "[LFMN - D-ATIS] DEP RWY 04R / ARR RWY 04L | ILS Z",
-          "airportConditions": "04L 666\r\n04R 666",
+          "name": "DEP RWY 04R / ARR RWY 04L (RNP A / VPT A)",
+          "airportConditions": "",
           "notams": "",
-          "template": "LFMN ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT ILS_Z\r\nRWY ^04L\r\nARR RWY ^04L /DEP RWY ^04R\r\n/SID 8A, 8B\r\n/RSCD :\r\n[ARPT_COND]\r\n[TL]\r\n/OPS INFOS :\r\n[NOTAMS]\r\nBIRD ACTIVITY REPORTED\r\nHEL TFC ABV THE SEA MAX\r\n500 FT\r\nA1 B1 C1 ARE HLDG\r\nPOINTS OF AN ACTIVE RWY\r\n[WIND]\r\n[VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n/ PHENOMENA : NIL\r\n[CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "98d6f4b2-c3ee-4363-9427-67b279a900eb",
-          "ordinal": 3,
-          "name": "[LFMN - D-ATIS] DEP RWY 04R / ARR RWY 04L | RNP Z",
-          "airportConditions": "04L 666\r\n04R 666",
-          "notams": "",
-          "template": "LFMN ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT RNP_Z\r\nRWY ^04L\r\nARR RWY ^04L /DEP RWY ^04R\r\n/SID 8A, 8B\r\n/RSCD :\r\n[ARPT_COND]\r\n[TL]\r\n/OPS INFOS :\r\n[NOTAMS]\r\nBIRD ACTIVITY REPORTED\r\nHEL TFC ABV THE SEA MAX\r\n500 FT\r\nA1 B1 C1 ARE HLDG\r\nPOINTS OF AN ACTIVE RWY\r\n[WIND]\r\n[VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n/ PHENOMENA : NIL\r\n[CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "4839a771-0d7b-44c0-89e2-ea3bdbf4dc90",
-          "ordinal": 4,
-          "name": "[LFMN - D-ATIS] DEP RWY 04L / ARR RWY 04L | RNP A -> VPT A",
-          "airportConditions": "04L 666",
-          "notams": "",
-          "template": "LFMN ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT RNP_A THEN VPT_A\r\nRWY ^04L\r\nARR RWY ^04L /DEP RWY ^04L\r\n/SID 8A, 8B\r\n/RSCD :\r\n[ARPT_COND]\r\n[TL]\r\n/OPS INFOS :\r\n[NOTAMS]\r\nBIRD ACTIVITY REPORTED\r\nHEL TFC ABV THE SEA MAX\r\n500 FT\r\nA1 B1 C1 ARE HLDG\r\nPOINTS OF AN ACTIVE RWY\r\n[WIND]\r\n[VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n/ PHENOMENA : NIL\r\n[CLOSING]",
-          "externalGenerator": {
-            "enabled": false,
-            "textUrl": "",
-            "voiceUrl": "",
-            "arrival": "",
-            "departure": "",
-            "approaches": "",
-            "remarks": ""
-          }
-        },
-        {
-          "id": "7e84ae43-85a2-41e7-9e0d-91e8f7fcf606",
-          "ordinal": 4,
-          "name": "[LFMN - D-ATIS] DEP RWY 04L / ARR RWY 04L | ILS Z",
-          "airportConditions": "04L 666",
-          "notams": "",
-          "template": "LFMN ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT ILS_Z\r\nRWY ^04L\r\nARR RWY ^04L /DEP RWY ^04L\r\n/SID 8A, 8B\r\n/RSCD :\r\n[ARPT_COND]\r\n[TL]\r\n/OPS INFOS :\r\n[NOTAMS]\r\nBIRD ACTIVITY REPORTED\r\nHEL TFC ABV THE SEA MAX\r\n500 FT\r\nA1 B1 C1 ARE HLDG\r\nPOINTS OF AN ACTIVE RWY\r\n[WIND]\r\n[VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n/ PHENOMENA : NIL\r\n[CLOSING]",
+          "template": "LFMN ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT RNP_A THEN VPT_A\r\nRWY04L\r\nARR RWY04L DEP RWY04R\r\nSID 8A, 8B\r\nRSCD\r\n[ARPT_COND]\r\n[TL]\r\nOPS INFOS\r\n[NOTAMS]\r\nBIRD ACTIVITY REPORTED\r\nHEL TFC ABV THE SEA MAX\r\n500 FT\r\nA1 B1 C1 ARE HLDG\r\nPOINTS OF AN ACTIVE RWY\r\n[WIND]\r\n[VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\nPHENOMENA : NIL\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -35213,11 +35160,60 @@
         },
         {
           "id": "92eb1375-c61c-46fb-baee-5f4e97b133e6",
-          "ordinal": 6,
-          "name": "[LFMN - D-ATIS] DEP RWY 22L / ARR RWY 22R | RNP D -> VPT D",
-          "airportConditions": "22L 666\r\n22R 666",
+          "ordinal": 2,
+          "name": "DEP RWY 22L / ARR RWY 22R (RNP D / VPT D)",
+          "airportConditions": "",
           "notams": "",
-          "template": "LFMN ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT RNP_D THEN VPT_D\r\nRWY ^22R\r\nRNP_Z ON RQST\r\nARR RWY ^22R /DEP RWY ^22L\r\n/SID 8X, 8Y\r\n/RSCD :\r\n[ARPT_COND]\r\n[TL]\r\n/OPS INFOS :\r\n[NOTAMS]\r\nBIRD ACTIVITY REPORTED\r\nHEL TFC ABV THE SEA MAX\r\n500 FT\r\nH1 G1 ARE HLDG\r\nPOINTS OF AN ACTIVE RWY\r\n[WIND]\r\n[VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n/ PHENOMENA : NIL\r\n[CLOSING]",
+          "template": "LFMN ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT RNP_D THEN VPT_D\r\nRWY22R\r\nRNP_Z ON RQST\r\nARR RWY22R DEP RWY22L\r\nSID 8X, 8Y\r\nRSCD\r\n[ARPT_COND]\r\n[TL]\r\nOPS\r\n[NOTAMS]\r\nBIRD ACTIVITY REPORTED\r\nHEL TFC ABV THE SEA MAX\r\n500 FT\r\nH1 G1 ARE HLDG\r\nPOINTS OF AN ACTIVE RWY\r\n[WIND]\r\n[VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\nPHENOMENA : NIL\r\n[CLOSING]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "ee2e00ba-5fca-42ed-906e-b210c61c19c4",
+          "ordinal": 4,
+          "name": "--- Non Standard Configurations ---",
+          "template": "IF YOU SEE THIS. YOU HAVE SELECTED THE WRONG PROFILE! ",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "09af3568-1392-4865-b406-edf498dfaa7b",
+          "ordinal": 5,
+          "name": "DEP RWY 04R / ARR RWY 04L (ILS Z)",
+          "airportConditions": "",
+          "notams": "",
+          "template": "LFMN ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT ILS_Z\r\nRWY04L\r\nARR RWY04L DEP RWY04R\r\nSID 8A, 8B\r\nRSCD\r\n[ARPT_COND]\r\n[TL]\r\nOPS\r\n[NOTAMS]\r\nBIRD ACTIVITY REPORTED\r\nHEL TFC ABV THE SEA MAX\r\n500 FT\r\nA1 B1 C1 ARE HLDG\r\nPOINTS OF AN ACTIVE RWY\r\n[WIND]\r\n[VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\nPHENOMENA : NIL\r\n[CLOSING]",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
+          "id": "98d6f4b2-c3ee-4363-9427-67b279a900eb",
+          "ordinal": 6,
+          "name": "DEP RWY 04R / ARR RWY 04L (RNP Z)",
+          "airportConditions": "",
+          "notams": "",
+          "template": "LFMN ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT RNP_Z\r\nRWY04L\r\nARR RWY04L DEP RWY04R\r\nSID 8A, 8B\r\nRSCD\r\n[ARPT_COND]\r\n[TL]\r\nOPS\r\n[NOTAMS]\r\nBIRD ACTIVITY REPORTED\r\nHEL TFC ABV THE SEA MAX\r\n500 FT\r\nA1 B1 C1 ARE HLDG\r\nPOINTS OF AN ACTIVE RWY\r\n[WIND]\r\n[VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\nPHENOMENA : NIL\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -35230,11 +35226,11 @@
         },
         {
           "id": "3e87cc73-4d83-48d4-a515-0ca0e675192b",
-          "ordinal": 7,
-          "name": "[LFMN - D-ATIS] DEP RWY 22R / ARR RWY 22R | RNP D -> VPT D",
-          "airportConditions": "22R 666",
+          "ordinal": 9,
+          "name": "DEP RWY 22L / ARR RWY 22R (RNP Z)",
+          "airportConditions": "",
           "notams": "",
-          "template": "LFMN ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT RNP_D THEN VPT_D\r\nRWY ^22R\r\nRNP_Z ON RQST\r\nARR RWY ^22R /DEP RWY ^22R\r\n/SID 8X, 8Y\r\n/RSCD :\r\n[ARPT_COND]\r\n[TL]\r\n/OPS INFOS :\r\n[NOTAMS]\r\nBIRD ACTIVITY REPORTED\r\nHEL TFC ABV THE SEA MAX\r\n500 FT\r\nH1 G1 ARE HLDG\r\nPOINTS OF AN ACTIVE RWY\r\n[WIND]\r\n[VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n/ PHENOMENA : NIL\r\n[CLOSING]",
+          "template": "LFMN ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT RNP_Z\r\nRWY 22R\r\nARR RWY22R DEP RWY22L\r\nSID 8X, 8Y\r\nRSCD\r\n[ARPT_COND]\r\n[TL]\r\nOPS\r\n[NOTAMS]\r\nBIRD ACTIVITY REPORTED\r\nHEL TFC ABV THE SEA MAX\r\n500 FT\r\nH1 G1 ARE HLDG\r\nPOINTS OF AN ACTIVE RWY\r\n[WIND]\r\n[VIS]\r\n[PRESENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\nPHENOMENA : NIL\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -35253,11 +35249,6 @@
           "voice": "BON-JUR"
         },
         {
-          "variableName": "NICE",
-          "text": "NICE",
-          "voice": "NICE"
-        },
-        {
           "variableName": "ILS_Z",
           "text": "ILS Z",
           "voice": "ILS ZULU"
@@ -35266,6 +35257,21 @@
           "variableName": "ILS_Y",
           "text": "ILS Y",
           "voice": "ILS YANKEE"
+        },
+        {
+          "variableName": "RNP_A",
+          "text": "RNP A",
+          "voice": "RNP ALPHA"
+        },
+        {
+          "variableName": "RNP_D",
+          "text": "RNP D",
+          "voice": "RNP DELTA"
+        },
+        {
+          "variableName": "RNP_X",
+          "text": "RNP X",
+          "voice": "RNP XRAY"
         },
         {
           "variableName": "RNP_Z",
@@ -35288,34 +35294,14 @@
           "voice": "VPT BRAVO"
         },
         {
-          "variableName": "VOR_A",
-          "text": "VOR A",
-          "voice": "VOR ALPHA"
+          "variableName": "VPT_D",
+          "text": "VPT D",
+          "voice": "VPT DELTA"
         },
         {
-          "variableName": "ILS_X",
-          "text": "ILS X",
-          "voice": "ILS XRAY"
-        },
-        {
-          "variableName": "RNP_X",
-          "text": "RNP X",
-          "voice": "RNP XRAY"
-        },
-        {
-          "variableName": "RNP_W",
-          "text": "RNP W",
-          "voice": "RNP WHISKEY"
-        },
-        {
-          "variableName": "TOBT",
-          "text": "TOBT",
-          "voice": "TARGET OFF BLOCK TIME"
-        },
-        {
-          "variableName": "CDMURL",
-          "text": "CDM.VATSIM.FR",
-          "voice": "CDM DOT VATSIM DOR FR"
+          "variableName": "VOR_B",
+          "text": "VOR B",
+          "voice": "VOR BRAVO"
         },
         {
           "variableName": "HEL",
@@ -35339,91 +35325,101 @@
         },
         {
           "variableName": "RSCD",
-          "text": "RSCD",
+          "text": "/RSCD",
           "voice": "RUNWAY SURFACE CONDITION"
         },
         {
           "variableName": "DEP",
-          "text": "DEP",
+          "text": "/DEP",
           "voice": "DEPARTURE"
         },
         {
           "variableName": "ARR",
-          "text": "ARR",
+          "text": "/ARR",
           "voice": "ARRIVAL"
         },
         {
-          "variableName": "7A",
-          "text": "7A",
-          "voice": "SEVEN ALPHA"
+          "variableName": "8A",
+          "text": "8A",
+          "voice": "EIGHT ALPHA"
         },
         {
-          "variableName": "7B",
-          "text": "7B",
-          "voice": "SEVEN BRAVO"
+          "variableName": "8B",
+          "text": "8B",
+          "voice": "EIGHT BRAVO"
         },
         {
-          "variableName": "7X",
-          "text": "7X",
-          "voice": "SEVEN XRAY"
+          "variableName": "8X",
+          "text": "8X",
+          "voice": "EIGHT XRAY"
         },
         {
-          "variableName": "7Y",
-          "text": "7Y",
-          "voice": "SEVEN YANKEE"
+          "variableName": "8Y",
+          "text": "8Y",
+          "voice": "EIGHT YANKEE"
         },
         {
-          "variableName": "RNP_A",
-          "text": "RNP A",
-          "voice": "RNP ALPHA"
+          "variableName": "LVP_ENFORCE",
+          "text": "LOW VISIBILITY PROCEDURES ENFORCE.",
+          "voice": "LOW VISIBILITY PROCEDURES ENFORCE"
         },
         {
-          "variableName": "RNP_D",
-          "text": "RNP D",
-          "voice": "RNP DELTA"
+          "variableName": "PDC_ACTIVE",
+          "text": "DATALINK CLEARANCE AVAILABLE LFMN",
+          "voice": "DATALINK CLEARANCE AVAILABLE LFMN"
         },
         {
-          "variableName": "LOCDME",
-          "text": "LOC/DME",
-          "voice": "LOCALIZER DME"
+          "variableName": "CDM_ACTIVE",
+          "text": "CDM OPERATIONS ACTIVE. SUBMIT TOBT AT CDM.VATISM.FR",
+          "voice": "CDM OPERATIONS ACTIVE. SUBMIT TARGET OFF BLOCK TIME AT CDM DOT VATSIM DOT FR"
+        },
+        {
+          "variableName": "OPS",
+          "text": "/OPS INFOS :",
+          "voice": "OPS INFORMATION"
+        },
+        {
+          "variableName": "PHENOMENA",
+          "text": "/ PHENOMENA ",
+          "voice": "PHENOMENA"
         }
       ],
       "airportConditionDefinitions": [
         {
-          "text": "R106 ACTIVE.",
+          "text": "04L 666 DRY\r\n04R 666 DRY",
           "ordinal": 1,
           "enabled": false
         },
         {
-          "text": "A-CDM IN USE. SEND YOUR TOBT AT CDMURL.",
+          "text": "04L 555 WET\r\n04R 555 WET",
           "ordinal": 2,
+          "enabled": false
+        },
+        {
+          "text": "22L 666 DRY\r\n22R 666 DRY",
+          "ordinal": 3,
+          "enabled": false
+        },
+        {
+          "text": "22L 555 WET\r\n22R 555 WET",
+          "ordinal": 4,
           "enabled": false
         }
       ],
       "notamDefinitions": [
         {
-          "text": "PAPI ^04L/^22R UNSERVICEABLE.",
+          "text": "LVP_ENFORCE",
           "ordinal": 1,
           "enabled": false
         },
         {
-          "text": "PAPI ^04R/^22L UNSERVICEABLE.",
+          "text": "PDC_ACTIVE",
           "ordinal": 2,
           "enabled": false
         },
         {
-          "text": "LOCDME UNSERVICEABLE.",
+          "text": "CDM_ACTIVE",
           "ordinal": 3,
-          "enabled": false
-        },
-        {
-          "text": "ILS UNSERVICEABLE.",
-          "ordinal": 4,
-          "enabled": false
-        },
-        {
-          "text": "VOR AZR UNSERVICEABLE.",
-          "ordinal": 5,
           "enabled": false
         }
       ]

@@ -39732,9 +39732,9 @@
       "presets": [
         {
           "id": "0b41bac6-a97e-4831-b0b6-3ef85c0663c5",
-          "name": "[LFMT] RWY 12L | RNP",
+          "name": "RWY 12L (RNP)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS MONTPELLIER INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP RUNWAY 12L. RUNWAY IN USE 12L AND 12R. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS MONTPELLIER INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP RWY12L. RWY IN USE ^12L AND ^12R. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -39747,9 +39747,9 @@
         },
         {
           "id": "976440f9-0e21-41e6-998c-dab918f1b780",
-          "name": "[LFMT] RWY 12L | VOR Z",
+          "name": "RWY 12L (VOR Z)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS MONTPELLIER INFORMATION [ATIS_CODE] RECORDED AT [TIME]. VOR_Z RUNWAY 12L. RUNWAY IN USE 12L AND 12R. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS MONTPELLIER INFORMATION [ATIS_CODE] RECORDED AT [TIME]. VOR_Z RWY12L. RWY IN USE ^12L AND ^12R. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -39762,9 +39762,9 @@
         },
         {
           "id": "8c838fe5-4cd3-4191-a498-c579c133bab9",
-          "name": "[LFMT] RWY 12L | VOR Y",
+          "name": "RWY 12L (VOR Y)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS MONTPELLIER INFORMATION [ATIS_CODE] RECORDED AT [TIME]. VOR_Y RUNWAY 12L. RUNWAY IN USE 12L AND 12R. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS MONTPELLIER INFORMATION [ATIS_CODE] RECORDED AT [TIME]. VOR_Y RWY12L. RWY IN USE ^12L AND ^12R. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -39777,9 +39777,9 @@
         },
         {
           "id": "97a3b315-15b0-4ad3-8a84-820c88199e73",
-          "name": "[LFMT] RWY 30R | ILS Z",
+          "name": "RWY 30R (ILS Z)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS MONTPELLIER INFORMATION [ATIS_CODE] RECORDED AT [TIME]. ILS_Z RUNWAY 30R. RUNWAY IN USE 30L AND 30R. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS MONTPELLIER INFORMATION [ATIS_CODE] RECORDED AT [TIME]. ILS_Z RWY30R. RWY IN USE ^30L AND ^30R. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -39792,9 +39792,9 @@
         },
         {
           "id": "54b0d645-7ed5-4c7e-ada3-5a2eb9e5b017",
-          "name": "[LFMT] RWY 30R | ILS Y",
+          "name": "RWY 30R (ILS Y)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS MONTPELLIER INFORMATION [ATIS_CODE] RECORDED AT [TIME]. ILS_Y RUNWAY 30R. RUNWAY IN USE 30L AND 30R. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS MONTPELLIER INFORMATION [ATIS_CODE] RECORDED AT [TIME]. ILS_Y RWY30R. RWY IN USE ^30L AND ^30R. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -39807,9 +39807,9 @@
         },
         {
           "id": "1a942e10-33bd-44a3-95f7-885d6ba96055",
-          "name": "[LFMT] RWY 30R | RNP",
+          "name": "RWY 30R (RNP)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS MONTPELLIER INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP RUNWAY 30R. RUNWAY IN USE 30L AND 30R. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS MONTPELLIER INFORMATION [ATIS_CODE] RECORDED AT [TIME]. RNP RWY30R. RWY IN USE ^30L AND ^30R. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -39822,9 +39822,9 @@
         },
         {
           "id": "3fe064a7-4703-4023-8118-bba29bbb641b",
-          "name": "[LFMT] RWY 30R | VOR",
+          "name": "RWY 30R (VOR)",
           "airportConditions": "",
-          "template": "BONJOUR THIS IS MONTPELLIER INFORMATION [ATIS_CODE] RECORDED AT [TIME]. VOR RUNWAY 30R. RUNWAY IN USE 30L AND 30R. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
+          "template": "BONJOUR THIS IS MONTPELLIER INFORMATION [ATIS_CODE] RECORDED AT [TIME]. VORDME RWY30R. RWY IN USE ^30L AND ^30R. [ARPT_COND] [TL] [WIND] [RVR] [VIS] [PRESENT_WX] [CLOUDS] [TEMP] [DEW] [PRESSURE] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -39843,29 +39843,24 @@
           "voice": "BON-JUR"
         },
         {
-          "variableName": "MONTPELLIER",
-          "text": "MONTPELLIER",
-          "voice": "MONTPELLIER"
+          "variableName": "RWY12L",
+          "text": "RWY 12L",
+          "voice": "RUNWAY ONE TWO LEFT"
         },
         {
-          "variableName": "RNP_Z",
-          "text": "RNP Z",
-          "voice": "RNP ZULU"
+          "variableName": "RWY12R",
+          "text": "RWY 12R",
+          "voice": "RUNWAY ONE TWO RIGHT"
         },
         {
-          "variableName": "RNP_Y",
-          "text": "RNP Y",
-          "voice": "RNP YANKEE"
+          "variableName": "RWY30L",
+          "text": "RWY 30L",
+          "voice": "RUNWAY TREE ZERO LEFT"
         },
         {
-          "variableName": "RNP_X",
-          "text": "RNP X",
-          "voice": "RNP XRAY"
-        },
-        {
-          "variableName": "VOR_Z",
-          "text": "VOR Z",
-          "voice": "VOR ZULU"
+          "variableName": "RWY30R",
+          "text": "RWY 30R",
+          "voice": "RUNWAY TREE ZERO RIGHT"
         },
         {
           "variableName": "VOR_Y",
@@ -39873,9 +39868,9 @@
           "voice": "VOR YANKEE"
         },
         {
-          "variableName": "ILS_Z",
-          "text": "ILS Z",
-          "voice": "ILS ZULU"
+          "variableName": "VOR_Z",
+          "text": "VOR Z",
+          "voice": "VOR ZULU"
         },
         {
           "variableName": "ILS_Y",
@@ -39883,55 +39878,29 @@
           "voice": "ILS YANKEE"
         },
         {
-          "variableName": "LOCDME",
-          "text": "LOC/DME",
-          "voice": "LOCALIZER DME"
+          "variableName": "ILS_Z",
+          "text": "ILS Z",
+          "voice": "ILS ZULU"
+        },
+        {
+          "variableName": "VORDME",
+          "text": "VOR/DME",
+          "voice": "VOR DME"
         }
       ],
       "airportConditionDefinitions": [
         {
-          "text": "R 109 C ACTIVE.",
+          "text": "RUNWAY CONDITION 666.",
           "ordinal": 1,
           "enabled": false
         },
         {
-          "text": "R 108 E1 ACTIVE.",
+          "text": "RUNWAY CONDITION 555.",
           "ordinal": 2,
-          "enabled": false
-        },
-        {
-          "text": "AEROBATIC ACTIVITY IN THE VICINITY.",
-          "ordinal": 3,
           "enabled": false
         }
       ],
-      "notamDefinitions": [
-        {
-          "text": "PAPI UNSERVICEABLE.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "LOCDME UNSERVICEABLE.",
-          "ordinal": 2,
-          "enabled": false
-        },
-        {
-          "text": "ILS UNSERVICEABLE.",
-          "ordinal": 3,
-          "enabled": false
-        },
-        {
-          "text": "VOR FJR UNSERVICEABLE.",
-          "ordinal": 4,
-          "enabled": false
-        },
-        {
-          "text": "NDB FG UNSERVICEABLE.",
-          "ordinal": 5,
-          "enabled": false
-        }
-      ]
+      "notamDefinitions": []
     },
     {
       "id": "47218f32-4772-4de1-9da9-7b0b5bf8e63b",

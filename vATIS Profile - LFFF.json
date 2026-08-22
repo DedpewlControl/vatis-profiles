@@ -1,6 +1,6 @@
 {
   "name": "LFFF Paris FIR",
-  "id": "5a2003f2-d9f2-4154-b113-0498f07e7541",
+  "id": "4bceecc9-3b1c-43b6-9219-c6275031cced",
   "updateUrl": "",
   "updateSerial": 2026082001,
   "stations": [
@@ -10746,6 +10746,11 @@
           "variableName": "ARR",
           "text": "ARR",
           "voice": "ARRIVAL"
+        },
+        {
+          "variableName": "LFPB",
+          "text": "LFPB",
+          "voice": "PARIS LE BOURGET"
         }
       ],
       "airportConditionDefinitions": [
@@ -13079,6 +13084,11 @@
           "variableName": "ARR",
           "text": "ARR",
           "voice": "ARRIVAL"
+        },
+        {
+          "variableName": "LFPG",
+          "text": "LFPG",
+          "voice": "PARIS CHARLES DE GAULLE"
         }
       ],
       "airportConditionDefinitions": [
@@ -19567,7 +19577,7 @@
           "name": "DEP RWY 20 | ARR RWY 25 (IPOW / ILS Y)",
           "airportConditions": "",
           "notams": "",
-          "template": "LFPO ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT ILS_Y RWY25\r\nARR RWY25 DEP RWY20 SID 2S\r\nRSCD\r\n[ARPT_COND]\r\n[TL]\r\nOPS\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\nPHENOMENA : NIL\r\n[PRESENT_WX]\r\n[CLOSING]",
+          "template": "LFPO ATIS [ATIS_CODE]\r\n[TIME]\r\nEXPECT ILS_Y RWY25\r\nARR RWY25 DEP RWY20 SID 2B\r\nRSCD\r\n[ARPT_COND]\r\n[TL]\r\nOPS\r\n[NOTAMS]\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\nPHENOMENA : NIL\r\n[PRESENT_WX]\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -19684,6 +19694,11 @@
           "variableName": "PHENOMENA",
           "text": "/PHENOMENA",
           "voice": "PHENOMENA"
+        },
+        {
+          "variableName": "LFPO",
+          "text": "LFPO",
+          "voice": "PARIS ORLY"
         }
       ],
       "airportConditionDefinitions": [

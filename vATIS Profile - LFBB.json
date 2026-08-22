@@ -2002,18 +2002,7 @@
           "voice": "RUNWAY TWO NINER"
         }
       ],
-      "airportConditionDefinitions": [
-        {
-          "text": "RUNWAY CONDITION 666.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "RUNWAY CONDITION 555.",
-          "ordinal": 2,
-          "enabled": false
-        }
-      ],
+      "airportConditionDefinitions": [],
       "notamDefinitions": []
     },
     {
@@ -4219,18 +4208,7 @@
           "voice": "DATALINK CLEARANCE AVAILABLE LFBD"
         }
       ],
-      "airportConditionDefinitions": [
-        {
-          "text": "RUNWAY CONDITION 666.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "RUNWAY CONDITION 555.",
-          "ordinal": 2,
-          "enabled": false
-        }
-      ],
+      "airportConditionDefinitions": [],
       "notamDefinitions": [
         {
           "text": "LVP_ENFORCE",
@@ -6274,18 +6252,7 @@
           "voice": "RUNWAY TWO SEVEN"
         }
       ],
-      "airportConditionDefinitions": [
-        {
-          "text": "RUNWAY CONDITION 666.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "RUNWAY CONDITION 555.",
-          "ordinal": 2,
-          "enabled": false
-        }
-      ],
+      "airportConditionDefinitions": [],
       "notamDefinitions": []
     },
     {
@@ -8360,18 +8327,7 @@
           "voice": "NDB ZULU"
         }
       ],
-      "airportConditionDefinitions": [
-        {
-          "text": "RUNWAY CONDITION 666.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "RUNWAY CONDITION 555.",
-          "ordinal": 2,
-          "enabled": false
-        }
-      ],
+      "airportConditionDefinitions": [],
       "notamDefinitions": []
     },
     {
@@ -10429,18 +10385,7 @@
           "voice": "VOR ZULU"
         }
       ],
-      "airportConditionDefinitions": [
-        {
-          "text": "RUNWAY CONDITION 666.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "RUNWAY CONDITION 555.",
-          "ordinal": 2,
-          "enabled": false
-        }
-      ],
+      "airportConditionDefinitions": [],
       "notamDefinitions": []
     },
     {
@@ -12503,18 +12448,7 @@
           "voice": "LOW VISIBILITY PROCEDURES ENFORCE"
         }
       ],
-      "airportConditionDefinitions": [
-        {
-          "text": "RUNWAY CONDITION 666.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "RUNWAY CONDITION 555.",
-          "ordinal": 2,
-          "enabled": false
-        }
-      ],
+      "airportConditionDefinitions": [],
       "notamDefinitions": [
         {
           "text": "LVP_ENFORCE",
@@ -14876,18 +14810,7 @@
           "voice": "SEVEN HOTEL"
         }
       ],
-      "airportConditionDefinitions": [
-        {
-          "text": "RUNWAY CONDITION 666.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "RUNWAY CONDITION 555.",
-          "ordinal": 2,
-          "enabled": false
-        }
-      ],
+      "airportConditionDefinitions": [],
       "notamDefinitions": [
         {
           "text": "LVP_ENFORCE",
@@ -19122,18 +19045,7 @@
           "voice": "RUNWAY 30"
         }
       ],
-      "airportConditionDefinitions": [
-        {
-          "text": "RUNWAY CONDITION 666.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "RUNWAY CONDITION 555.",
-          "ordinal": 2,
-          "enabled": false
-        }
-      ],
+      "airportConditionDefinitions": [],
       "notamDefinitions": []
     },
     {
@@ -21235,18 +21147,7 @@
           "voice": "ILS ZULU"
         }
       ],
-      "airportConditionDefinitions": [
-        {
-          "text": "RUNWAY CONDITION 666.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "RUNWAY CONDITION 555.",
-          "ordinal": 2,
-          "enabled": false
-        }
-      ],
+      "airportConditionDefinitions": [],
       "notamDefinitions": []
     },
     {
@@ -23235,18 +23136,7 @@
           "voice": "BON-JUR"
         }
       ],
-      "airportConditionDefinitions": [
-        {
-          "text": "RUNWAY CONDITION 666.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "RUNWAY CONDITION 555.",
-          "ordinal": 2,
-          "enabled": false
-        }
-      ],
+      "airportConditionDefinitions": [],
       "notamDefinitions": [
         {
           "text": "LVP_ENFORCE",
@@ -25359,18 +25249,7 @@
           "voice": "VOR DME"
         }
       ],
-      "airportConditionDefinitions": [
-        {
-          "text": "RUNWAY CONDITION 666.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "RUNWAY CONDITION 555.",
-          "ordinal": 2,
-          "enabled": false
-        }
-      ],
+      "airportConditionDefinitions": [],
       "notamDefinitions": []
     },
     {
@@ -27365,18 +27244,7 @@
           "voice": "RUNWAY 2"
         }
       ],
-      "airportConditionDefinitions": [
-        {
-          "text": "RUNWAY CONDITION 666.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "RUNWAY CONDITION 555.",
-          "ordinal": 2,
-          "enabled": false
-        }
-      ],
+      "airportConditionDefinitions": [],
       "notamDefinitions": [
         {
           "text": "LVP_ENFORCE",
@@ -29391,18 +29259,7 @@
           "voice": "RUNWAY 27"
         }
       ],
-      "airportConditionDefinitions": [
-        {
-          "text": "RUNWAY CONDITION 666.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "RUNWAY CONDITION 555.",
-          "ordinal": 2,
-          "enabled": false
-        }
-      ],
+      "airportConditionDefinitions": [],
       "notamDefinitions": [
         {
           "text": "LVP_ENFORCE",

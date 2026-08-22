@@ -2030,18 +2030,7 @@
           "voice": "RUNWAY TREE ONE"
         }
       ],
-      "airportConditionDefinitions": [
-        {
-          "text": "RUNWAY CONDITION 666.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "RUNWAY CONDITION 555.",
-          "ordinal": 2,
-          "enabled": false
-        }
-      ],
+      "airportConditionDefinitions": [],
       "notamDefinitions": []
     },
     {
@@ -4159,18 +4148,7 @@
           "voice": "TWO ROMEO"
         }
       ],
-      "airportConditionDefinitions": [
-        {
-          "text": "RUNWAY CONDITION 666.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "RUNWAY CONDITION 555.",
-          "ordinal": 2,
-          "enabled": false
-        }
-      ],
+      "airportConditionDefinitions": [],
       "notamDefinitions": []
     },
     {
@@ -6230,18 +6208,7 @@
           "voice": "RNP YANKEE"
         }
       ],
-      "airportConditionDefinitions": [
-        {
-          "text": "RUNWAY CONDITION 666.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "RUNWAY CONDITION 555.",
-          "ordinal": 2,
-          "enabled": false
-        }
-      ],
+      "airportConditionDefinitions": [],
       "notamDefinitions": [
         {
           "text": "FOR START-UP REQUEST CONTACT CALVI GROUND 121.705.",
@@ -8324,18 +8291,7 @@
           "voice": "RUNWAY TWO TREE"
         }
       ],
-      "airportConditionDefinitions": [
-        {
-          "text": "RUNWAY CONDITION 666.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "RUNWAY CONDITION 555.",
-          "ordinal": 2,
-          "enabled": false
-        }
-      ],
+      "airportConditionDefinitions": [],
       "notamDefinitions": []
     },
     {
@@ -10442,18 +10398,7 @@
           "voice": "VPT BRAVO"
         }
       ],
-      "airportConditionDefinitions": [
-        {
-          "text": "RUNWAY CONDITION 666.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "RUNWAY CONDITION 555.",
-          "ordinal": 2,
-          "enabled": false
-        }
-      ],
+      "airportConditionDefinitions": [],
       "notamDefinitions": []
     },
     {
@@ -14594,18 +14539,7 @@
           "voice": "LOW VISIBILITY PROCEDURES ENFORCE"
         }
       ],
-      "airportConditionDefinitions": [
-        {
-          "text": "RUNWAY CONDITION 666.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "RUNWAY CONDITION 555.",
-          "ordinal": 2,
-          "enabled": false
-        }
-      ],
+      "airportConditionDefinitions": [],
       "notamDefinitions": [
         {
           "text": "LVP_ENFORCE",
@@ -16609,18 +16543,7 @@
           "voice": "RUNWAY TWO TWO"
         }
       ],
-      "airportConditionDefinitions": [
-        {
-          "text": "RUNWAY CONDITION 666.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "RUNWAY CONDITION 555.",
-          "ordinal": 2,
-          "enabled": false
-        }
-      ],
+      "airportConditionDefinitions": [],
       "notamDefinitions": []
     },
     {
@@ -20932,18 +20855,7 @@
           "voice": "ILS ZULU"
         }
       ],
-      "airportConditionDefinitions": [
-        {
-          "text": "RUNWAY CONDITION 666.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "RUNWAY CONDITION 555.",
-          "ordinal": 2,
-          "enabled": false
-        }
-      ],
+      "airportConditionDefinitions": [],
       "notamDefinitions": []
     },
     {
@@ -22954,18 +22866,7 @@
           "voice": "RUNWAY TWO SEVEN"
         }
       ],
-      "airportConditionDefinitions": [
-        {
-          "text": "RUNWAY CONDITION 666.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "RUNWAY CONDITION 555.",
-          "ordinal": 2,
-          "enabled": false
-        }
-      ],
+      "airportConditionDefinitions": [],
       "notamDefinitions": []
     },
     {
@@ -24946,18 +24847,7 @@
           "voice": "RUNWAY TREE FOUR"
         }
       ],
-      "airportConditionDefinitions": [
-        {
-          "text": "RUNWAY CONDITION 666.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "RUNWAY CONDITION 555.",
-          "ordinal": 2,
-          "enabled": false
-        }
-      ],
+      "airportConditionDefinitions": [],
       "notamDefinitions": []
     },
     {
@@ -26938,18 +26828,7 @@
           "voice": "RUNWAY TREE TWO"
         }
       ],
-      "airportConditionDefinitions": [
-        {
-          "text": "RUNWAY CONDITION 666.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "RUNWAY CONDITION 555.",
-          "ordinal": 2,
-          "enabled": false
-        }
-      ],
+      "airportConditionDefinitions": [],
       "notamDefinitions": []
     },
     {
@@ -28990,18 +28869,7 @@
           "voice": "VPT A"
         }
       ],
-      "airportConditionDefinitions": [
-        {
-          "text": "RUNWAY CONDITION 666.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "RUNWAY CONDITION 555.",
-          "ordinal": 2,
-          "enabled": false
-        }
-      ],
+      "airportConditionDefinitions": [],
       "notamDefinitions": []
     },
     {
@@ -30982,18 +30850,7 @@
           "voice": "RUNWAY TREE FIVE"
         }
       ],
-      "airportConditionDefinitions": [
-        {
-          "text": "RUNWAY CONDITION 666.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "RUNWAY CONDITION 555.",
-          "ordinal": 2,
-          "enabled": false
-        }
-      ],
+      "airportConditionDefinitions": [],
       "notamDefinitions": []
     },
     {
@@ -33119,18 +32976,7 @@
           "voice": "CDM OPERATIONS ACTIVE. SUBMIT TARGET OFF BLOCK TIME AT CDM DOT VATSIM DOT FR"
         }
       ],
-      "airportConditionDefinitions": [
-        {
-          "text": "RUNWAY CONDITION 666.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "RUNWAY CONDITION 555.",
-          "ordinal": 2,
-          "enabled": false
-        }
-      ],
+      "airportConditionDefinitions": [],
       "notamDefinitions": [
         {
           "text": "LVP_ENFORCE",
@@ -37457,18 +37303,7 @@
           "voice": "RNP ZULU"
         }
       ],
-      "airportConditionDefinitions": [
-        {
-          "text": "RUNWAY CONDITION 666.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "RUNWAY CONDITION 555.",
-          "ordinal": 2,
-          "enabled": false
-        }
-      ],
+      "airportConditionDefinitions": [],
       "notamDefinitions": []
     },
     {
@@ -39559,18 +39394,7 @@
           "voice": "VOR DME"
         }
       ],
-      "airportConditionDefinitions": [
-        {
-          "text": "RUNWAY CONDITION 666.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "RUNWAY CONDITION 555.",
-          "ordinal": 2,
-          "enabled": false
-        }
-      ],
+      "airportConditionDefinitions": [],
       "notamDefinitions": []
     },
     {
@@ -41581,18 +41405,7 @@
           "voice": "RUNWAY TWO SEVEN"
         }
       ],
-      "airportConditionDefinitions": [
-        {
-          "text": "RUNWAY CONDITION 666.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "RUNWAY CONDITION 555.",
-          "ordinal": 2,
-          "enabled": false
-        }
-      ],
+      "airportConditionDefinitions": [],
       "notamDefinitions": []
     },
     {
@@ -43618,18 +43431,7 @@
           "voice": "RNP ZULU"
         }
       ],
-      "airportConditionDefinitions": [
-        {
-          "text": "RUNWAY CONDITION 666.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "RUNWAY CONDITION 555.",
-          "ordinal": 2,
-          "enabled": false
-        }
-      ],
+      "airportConditionDefinitions": [],
       "notamDefinitions": []
     },
     {
@@ -45635,18 +45437,7 @@
           "voice": "ILS ZULU"
         }
       ],
-      "airportConditionDefinitions": [
-        {
-          "text": "RUNWAY CONDITION 666.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "RUNWAY CONDITION 555.",
-          "ordinal": 2,
-          "enabled": false
-        }
-      ],
+      "airportConditionDefinitions": [],
       "notamDefinitions": []
     },
     {
@@ -47704,18 +47495,7 @@
           "voice": "RUNWAY TREE SIX"
         }
       ],
-      "airportConditionDefinitions": [
-        {
-          "text": "RUNWAY CONDITION 666.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "RUNWAY CONDITION 555.",
-          "ordinal": 2,
-          "enabled": false
-        }
-      ],
+      "airportConditionDefinitions": [],
       "notamDefinitions": []
     }
   ],

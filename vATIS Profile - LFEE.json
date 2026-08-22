@@ -2076,18 +2076,7 @@
           "voice": "NDB ZULU"
         }
       ],
-      "airportConditionDefinitions": [
-        {
-          "text": "RUNWAY CONDITION 666.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "RUNWAY CONDITION 555.",
-          "ordinal": 2,
-          "enabled": false
-        }
-      ],
+      "airportConditionDefinitions": [],
       "notamDefinitions": []
     },
     {
@@ -4157,18 +4146,7 @@
           "voice": "RNP ZULU"
         }
       ],
-      "airportConditionDefinitions": [
-        {
-          "text": "RUNWAY CONDITION 666.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "RUNWAY CONDITION 555.",
-          "ordinal": 2,
-          "enabled": false
-        }
-      ],
+      "airportConditionDefinitions": [],
       "notamDefinitions": []
     },
     {
@@ -6314,18 +6292,7 @@
           "voice": "LOW VISIBILITY PROCEDURES ENFORCE"
         }
       ],
-      "airportConditionDefinitions": [
-        {
-          "text": "RUNWAY CONDITION 666.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "RUNWAY CONDITION 555.",
-          "ordinal": 2,
-          "enabled": false
-        }
-      ],
+      "airportConditionDefinitions": [],
       "notamDefinitions": [
         {
           "text": "LVP_ENFORCE",
@@ -8565,18 +8532,7 @@
           "voice": "DATALINK CLEARANCE AVAILABLE LFSB"
         }
       ],
-      "airportConditionDefinitions": [
-        {
-          "text": "RUNWAY CONDITION 666.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "RUNWAY CONDITION 555.",
-          "ordinal": 2,
-          "enabled": false
-        }
-      ],
+      "airportConditionDefinitions": [],
       "notamDefinitions": [
         {
           "text": "LVP_ENFORCE",
@@ -10679,18 +10635,7 @@
           "voice": "LOW VISIBILITY PROCEDURES ENFORCE"
         }
       ],
-      "airportConditionDefinitions": [
-        {
-          "text": "RUNWAY CONDITION 666.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "RUNWAY CONDITION 555.",
-          "ordinal": 2,
-          "enabled": false
-        }
-      ],
+      "airportConditionDefinitions": [],
       "notamDefinitions": [
         {
           "text": "LVP_ENFORCE",

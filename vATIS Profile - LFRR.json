@@ -2054,18 +2054,7 @@
           "voice": "VOR DME"
         }
       ],
-      "airportConditionDefinitions": [
-        {
-          "text": "RUNWAY CONDITION 666.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "RUNWAY CONDITION 555.",
-          "ordinal": 2,
-          "enabled": false
-        }
-      ],
+      "airportConditionDefinitions": [],
       "notamDefinitions": []
     },
     {
@@ -4172,18 +4161,7 @@
           "voice": "VOR DME"
         }
       ],
-      "airportConditionDefinitions": [
-        {
-          "text": "RUNWAY CONDITION 666.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "RUNWAY CONDITION 555.",
-          "ordinal": 2,
-          "enabled": false
-        }
-      ],
+      "airportConditionDefinitions": [],
       "notamDefinitions": []
     },
     {
@@ -6302,18 +6280,7 @@
           "voice": "VOR DME"
         }
       ],
-      "airportConditionDefinitions": [
-        {
-          "text": "RUNWAY CONDITION 666.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "RUNWAY CONDITION 555.",
-          "ordinal": 2,
-          "enabled": false
-        }
-      ],
+      "airportConditionDefinitions": [],
       "notamDefinitions": []
     },
     {
@@ -8361,18 +8328,7 @@
           "voice": "RUNWAY TREE ZERO"
         }
       ],
-      "airportConditionDefinitions": [
-        {
-          "text": "RUNWAY CONDITION 666.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "RUNWAY CONDITION 555.",
-          "ordinal": 2,
-          "enabled": false
-        }
-      ],
+      "airportConditionDefinitions": [],
       "notamDefinitions": []
     },
     {
@@ -10442,18 +10398,7 @@
           "voice": "VOR DME"
         }
       ],
-      "airportConditionDefinitions": [
-        {
-          "text": "RUNWAY CONDITION 666.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "RUNWAY CONDITION 555.",
-          "ordinal": 2,
-          "enabled": false
-        }
-      ],
+      "airportConditionDefinitions": [],
       "notamDefinitions": []
     },
     {
@@ -12565,18 +12510,7 @@
           "voice": "LOW VISIBILITY PROCEDURES ENFORCE"
         }
       ],
-      "airportConditionDefinitions": [
-        {
-          "text": "RUNWAY CONDITION 666.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "RUNWAY CONDITION 555.",
-          "ordinal": 2,
-          "enabled": false
-        }
-      ],
+      "airportConditionDefinitions": [],
       "notamDefinitions": [
         {
           "text": "LVP_ENFORCE",
@@ -14684,18 +14618,7 @@
           "voice": "LOW VISIBILITY PROCEDURES ENFORCE"
         }
       ],
-      "airportConditionDefinitions": [
-        {
-          "text": "RUNWAY CONDITION 666.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "RUNWAY CONDITION 555.",
-          "ordinal": 2,
-          "enabled": false
-        }
-      ],
+      "airportConditionDefinitions": [],
       "notamDefinitions": [
         {
           "text": "LVP_ENFORCE",

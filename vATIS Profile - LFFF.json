@@ -2032,18 +2032,7 @@
           "voice": "RUNWAY TREE ONE"
         }
       ],
-      "airportConditionDefinitions": [
-        {
-          "text": "RUNWAY CONDITION 666.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "RUNWAY CONDITION 555.",
-          "ordinal": 2,
-          "enabled": false
-        }
-      ],
+      "airportConditionDefinitions": [],
       "notamDefinitions": []
     },
     {
@@ -4285,18 +4274,7 @@
           "voice": "LOW VISIBILITY PROCEDURES ENFORCE"
         }
       ],
-      "airportConditionDefinitions": [
-        {
-          "text": "RUNWAY CONDITION 666.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "RUNWAY CONDITION 555.",
-          "ordinal": 2,
-          "enabled": false
-        }
-      ],
+      "airportConditionDefinitions": [],
       "notamDefinitions": [
         {
           "text": "LVP_ENFORCE",
@@ -6438,18 +6416,7 @@
           "voice": "LOW VISIBILITY PROCEDURES ENFORCE"
         }
       ],
-      "airportConditionDefinitions": [
-        {
-          "text": "RUNWAY CONDITION 666.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "RUNWAY CONDITION 555.",
-          "ordinal": 2,
-          "enabled": false
-        }
-      ],
+      "airportConditionDefinitions": [],
       "notamDefinitions": [
         {
           "text": "LVP_ENFORCE",
@@ -8535,18 +8502,7 @@
           "voice": "VOR DME"
         }
       ],
-      "airportConditionDefinitions": [
-        {
-          "text": "RUNWAY CONDITION 666.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "RUNWAY CONDITION 555.",
-          "ordinal": 2,
-          "enabled": false
-        }
-      ],
+      "airportConditionDefinitions": [],
       "notamDefinitions": []
     },
     {
@@ -15251,18 +15207,7 @@
           "voice": "CDM OPERATIONS ACTIVE. SUBMIT TARGET OFF BLOCK TIME AT CDM DOT VATSIM DOT FR"
         }
       ],
-      "airportConditionDefinitions": [
-        {
-          "text": "RUNWAY CONDITION 666.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "RUNWAY CONDITION 555.",
-          "ordinal": 2,
-          "enabled": false
-        }
-      ],
+      "airportConditionDefinitions": [],
       "notamDefinitions": []
     },
     {
@@ -21951,18 +21896,7 @@
           "voice": "LOW VISIBILITY PROCEDURES ENFORCE"
         }
       ],
-      "airportConditionDefinitions": [
-        {
-          "text": "RUNWAY CONDITION 666.",
-          "ordinal": 1,
-          "enabled": false
-        },
-        {
-          "text": "RUNWAY CONDITION 555.",
-          "ordinal": 2,
-          "enabled": false
-        }
-      ],
+      "airportConditionDefinitions": [],
       "notamDefinitions": [
         {
           "text": "LVP_ENFORCE",
